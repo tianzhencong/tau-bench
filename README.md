@@ -119,6 +119,26 @@ python run.py --agent-strategy tool-calling --env retail --model gpt-4o --model-
 
 This strategy uses a subsequent LLM verification step to check if the user simulator's response is satisfactory. If not, the user simulator will be prompted to reflect on its response and generate a new response.
 
+## MCP server
+
+We expose τ-bench environments via the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) so that compatible agents can interact with tasks through standardized tools.
+
+1. Install the package in editable mode (`pip install -e .`) to ensure the `tau-bench-mcp` entrypoint is available.
+2. Launch the server. For stdio transport (useful when embedding inside an MCP client):
+
+   ```bash
+   tau-bench-mcp --transport stdio
+   ```
+
+   To host the server over SSE or HTTP, provide the transport, host, and port:
+
+   ```bash
+   tau-bench-mcp --transport sse --host 0.0.0.0 --port 8000
+   ```
+
+3. The server exposes tools such as `create_environment`, `step_environment`, `reset_environment`, `describe_environment`, `list_environments`, `get_environment_history`, and `close_environment`.
+4. Each environment response includes the available domain tools as JSON schemas. When responding to the simulated user, call the `respond` action and include `###STOP###` in the message to trigger scoring.
+
 ## Auto error identification
 
 Often times, it is difficult and time consuming to manually identify specific error locations in trajectories as they can be long and the constraints can be complex. We have provided an auto error identification tool that can do the following:
