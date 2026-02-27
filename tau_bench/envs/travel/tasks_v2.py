@@ -340,4 +340,335 @@ VARIATIONS = [
     ),
 ]
 
-TASKS = SEED_TASKS + VARIATIONS
+VARIATIONS_2 = [
+    # Var2-0 (F1: payment split voucher+points+cc)
+    Task(
+        user_id="T10149",
+        instruction="You are Michael Perez, born 1983-05-05. Book a Dubai package for yourself only (DOB 1983-05-05). Business flight, deluxe hotel, include activity. No protection. Pay: $250 voucher, 2000 points ($1000), credit card 3340 for rest. Search Dubai packages first. Calculate exact split.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Michael", "last_name": "Perez", "dob": "1983-05-05"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10149"}),
+            Action(name="search_packages", kwargs={"destination": "Dubai"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG030"}),
+            Action(name="get_payment_summary", kwargs={"client_id": "T10149"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-1 (F1: voucher exceeds total)
+    Task(
+        user_id="T10130",
+        instruction="Your email is chen.young19@mail.com. Book the cheapest Marrakech package for yourself only. Economy everything, skip activity, no protection. Pay with your $750 voucher. How much excess is wasted?",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "chen.young19@mail.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10130"}),
+            Action(name="search_packages", kwargs={"destination": "Marrakech"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG038"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-2 (F1: points-only)
+    Task(
+        user_id="T10114",
+        instruction="You are Anthony Taylor, born 1976-04-11. You have 15000 points ($7500). Book a New York 3-night package for yourself only. Economy everything, include activities. With protection. Pay entirely with points. How many points?",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Anthony", "last_name": "Taylor", "dob": "1976-04-11"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10114"}),
+            Action(name="search_packages", kwargs={"destination": "New York"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG026"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-3 (F1: triple split exact math)
+    Task(
+        user_id="T10157",
+        instruction="Your email is jessica.williams74@inbox.com. Book a Cancun 7-night package for 2 (yourself DOB 1990-06-13, friend Amy Williams DOB 1992-11-20). Premium economy, deluxe hotel, sedan car. Include activities. With protection. Pay: $500 voucher, credit card 7870 for rest. Calculate exact total and cc amount.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "jessica.williams74@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10157"}),
+            Action(name="search_packages", kwargs={"destination": "Cancun"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG028"}),
+            Action(name="get_payment_summary", kwargs={"client_id": "T10157"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-4 (F1: modify payment with voucher+points)
+    Task(
+        user_id="T10188",
+        instruction="You are David Moore, born 1965-05-01. For booking BK00354 (Cancun, $7150), change payment to: $250 voucher, 2000 points ($1000), credit card 4511 for $5900. Confirm the exact split.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "David", "last_name": "Moore", "dob": "1965-05-01"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10188"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00354"}),
+            Action(name="get_payment_summary", kwargs={"client_id": "T10188"}),
+            Action(name="calculate", kwargs={"expression": "7150 - 250 - 1000"}),
+            Action(name="modify_booking_payment", kwargs={"booking_id": "BK00354", "new_payment_methods": [{"payment_id": "voucher_T10188_0", "amount": 250}, {"payment_id": "cc_T10188_1813", "amount": 5900}], "use_points": 2000}),
+        ],
+        outputs=["5900"],
+    ),
+    # Var2-5 (F2: search+compare+cheapest+book)
+    Task(
+        user_id="T10130",
+        instruction="You are Chen Young, born 1973-08-26. Search Kyoto packages. Compare prices. Book the cheapest for yourself only. Economy everything, include activities. With protection. Pay with 3000 points ($1500) and credit card 9180 for rest.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Chen", "last_name": "Young", "dob": "1973-08-26"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10130"}),
+            Action(name="search_packages", kwargs={"destination": "Kyoto"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG020"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG040"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-6 (F2: search by duration + book)
+    Task(
+        user_id="T10102",
+        instruction="Your email is sandra.rodriguez47@inbox.com. You want a 7-night trip. Search packages. Find one in Asia with car rental. Book for 2 travelers (yourself DOB 1992-08-09, partner Tom Rodriguez DOB 1990-12-01). Business flight, suite hotel. No protection. Credit card 3662.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "sandra.rodriguez47@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10102"}),
+            Action(name="search_packages", kwargs={"min_duration": 7}),
+        ],
+        outputs=[],
+    ),
+    # Var2-7 (F2: search by component)
+    Task(
+        user_id="T10165",
+        instruction="You are Liam Thomas, born 1968-04-27. You want a trip with activities in Hawaii or Bali. Search packages with activity components in both. Which has more activity options? Tell me the details.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Liam", "last_name": "Thomas", "dob": "1968-04-27"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10165"}),
+            Action(name="search_packages_by_component", kwargs={"component_type": "activity", "destination": "Hawaii"}),
+            Action(name="search_packages_by_component", kwargs={"component_type": "activity", "destination": "Bali"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG009"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG007"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-8 (F3: multi-booking scan, cancel without protection)
+    Task(
+        user_id="T10157",
+        instruction="Your email is jessica.williams74@inbox.com. Check all confirmed bookings. Cancel any WITHOUT trip protection. Tell me which you cancelled and the total amount.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "jessica.williams74@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10157"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00023"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00055"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00023", "reason": "no trip protection"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-9 (F3: scan bookings, downgrade expensive ones)
+    Task(
+        user_id="T10102",
+        instruction="You are Sandra Rodriguez, born 1992-08-09. Check all confirmed bookings. For any over $5000, downgrade hotel to standard. Tell me which changed and savings. Credit card 3662.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Sandra", "last_name": "Rodriguez", "dob": "1992-08-09"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10102"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00101"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00166"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00247"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG004"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG040"}),
+            Action(name="modify_booking_options", kwargs={"booking_id": "BK00166", "changes": [{"component_id": "PKG004_H", "new_option": "standard"}], "payment_id": "cc_T10102_2845"}),
+            Action(name="modify_booking_options", kwargs={"booking_id": "BK00247", "changes": [{"component_id": "PKG040_H", "new_option": "standard"}], "payment_id": "cc_T10102_2845"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-10 (F3: scan by region, skip activities)
+    Task(
+        user_id="T10165",
+        instruction="Your email is liam.thomas35@inbox.com. Check all confirmed bookings. For any in Asia (Tokyo, Kyoto, Bangkok), skip all premium activities to save. What's the total savings? Credit card 2376.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "liam.thomas35@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10165"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00129"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00195"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG022"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-11 (F4: cancel+rebook cheaper)
+    Task(
+        user_id="T10188",
+        instruction="You are David Moore, born 1965-05-01. Cancel Cancun BK00354 ($7150, too pricey). Search for a cheaper Cancun package. Book cheapest for yourself only, economy everything. No protection. Credit card 4511. How much saved?",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "David", "last_name": "Moore", "dob": "1965-05-01"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10188"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00354"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00354", "reason": "too expensive"}),
+            Action(name="search_packages", kwargs={"destination": "Cancun"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG008"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-12 (F4: cancel+rebook different dest with voucher)
+    Task(
+        user_id="T10192",
+        instruction="Your email is chen.johnson97@inbox.com. Cancel Marrakech BK00189 ($5660). Rebook a Bali 10-night trip for yourself (DOB 1991-05-09). Economy, deluxe hotel. With protection. Pay $500 voucher + 1000 points ($500) + credit card 1578 for rest.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "chen.johnson97@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10192"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00189"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00189", "reason": "switching to Bali"}),
+            Action(name="search_packages", kwargs={"destination": "Bali"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG027"}),
+            Action(name="get_payment_summary", kwargs={"client_id": "T10192"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-13 (F4: cancel+rebook upgraded)
+    Task(
+        user_id="T10137",
+        instruction="You are Melissa Lopez, born 1979-10-19. Cancel Tokyo BK00281 ($1105). Rebook a Tokyo 14-night package with business flight, suite hotel. For yourself only. No protection. Use 5000 points ($2500) + credit card 2931 for rest. What's the cc amount?",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Melissa", "last_name": "Lopez", "dob": "1979-10-19"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10137"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00281"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00281", "reason": "upgrading"}),
+            Action(name="search_packages", kwargs={"destination": "Tokyo"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG002"}),
+            Action(name="get_payment_summary", kwargs={"client_id": "T10137"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-14 (F5: multi-component modify)
+    Task(
+        user_id="T10181",
+        instruction="Your email is andrew.hill20@inbox.com. For BK00198 (London, 4n), upgrade flight to business, hotel to suite, switch car from luxury to compact. Net change and new total? Credit card 8357.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "andrew.hill20@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10181"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00198"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG003"}),
+            Action(name="modify_booking_options", kwargs={"booking_id": "BK00198", "changes": [{"component_id": "PKG003_F", "new_option": "business"}, {"component_id": "PKG003_H", "new_option": "suite"}, {"component_id": "PKG003_C", "new_option": "compact"}], "payment_id": "cc_T10181_3415"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-15 (F5: downgrade multiple to save)
+    Task(
+        user_id="T10102",
+        instruction="You are Sandra Rodriguez, born 1992-08-09. For BK00166 (Rome, 14n, $6470), downgrade flight from business to economy, car from compact to compact (already), skip both premium activities. What's the new total? Credit card 3662.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Sandra", "last_name": "Rodriguez", "dob": "1992-08-09"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10102"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00166"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG004"}),
+            Action(name="modify_booking_options", kwargs={"booking_id": "BK00166", "changes": [{"component_id": "PKG004_F", "new_option": "economy"}, {"component_id": "PKG004_A1", "new_option": "skip"}, {"component_id": "PKG004_A2", "new_option": "skip"}], "payment_id": "cc_T10102_2845"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-16 (F5: change travelers + modify)
+    Task(
+        user_id="T10192",
+        instruction="Your email is chen.johnson97@inbox.com. For BK00156 (Bali, 4 travelers), replace 2nd/3rd/4th travelers with: Amy Johnson DOB 1993-02-14, Bob Johnson DOB 1995-08-30, Cara Johnson DOB 1997-12-05. Also upgrade flight to business. Credit card 1578.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "chen.johnson97@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10192"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00156"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG027"}),
+            Action(name="modify_booking_travelers", kwargs={"booking_id": "BK00156", "travelers": [{"first_name": "Chen", "last_name": "Johnson", "dob": "1991-05-09"}, {"first_name": "Amy", "last_name": "Johnson", "dob": "1993-02-14"}, {"first_name": "Bob", "last_name": "Johnson", "dob": "1995-08-30"}, {"first_name": "Cara", "last_name": "Johnson", "dob": "1997-12-05"}]}),
+            Action(name="modify_booking_options", kwargs={"booking_id": "BK00156", "changes": [{"component_id": "PKG027_F", "new_option": "business"}], "payment_id": "cc_T10192_7628"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-17 (POL: cancel with protection → full refund)
+    Task(
+        user_id="T10137",
+        instruction="Your email is melissa.lopez86@email.com. Cancel Bangkok BK00386 (starts July 14, has trip protection). You want full refund. Check if you qualify (protection + >24h before trip).",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "melissa.lopez86@email.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10137"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00386"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00386", "reason": "change of plans"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-18 (POL: add protection after booking → refuse)
+    Task(
+        user_id="T10165",
+        instruction="You are Liam Thomas, born 1968-04-27. Add trip protection to booking BK00195 (Tokyo, no protection). If not possible, what are your options?",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Liam", "last_name": "Thomas", "dob": "1968-04-27"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10165"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00195"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-19 (POL: gold member 50% guarantee)
+    Task(
+        user_id="T10114",
+        instruction="Your email is anthony.taylor95@inbox.com. Gold member. Cancel BK00095 (New York, $1715, no protection, starts June 10). As gold you get at least 50% refund. Confirm.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "anthony.taylor95@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10114"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00095"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00095", "reason": "change of plans"}),
+        ],
+        outputs=["857"],
+    ),
+    # Var2-20 (ADV: wrong info, corrects)
+    Task(
+        user_id="T10137",
+        instruction="You are Melissa Lopez, born 1979-10-19. You have a booking in Tokyo but say it's BK99999. When not found, ask agent to look up your account. You want the one in Tokyo with 4 travelers.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Melissa", "last_name": "Lopez", "dob": "1979-10-19"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10137"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00281"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-21 (ADV: cancel all → changes mind)
+    Task(
+        user_id="T10149",
+        instruction="Your email is michael.perez88@inbox.com. You're stressed and want to cancel everything. After agent checks, realize your Dubai trip BK00249 is for a conference. Only cancel BK00053 (Costa Rica).",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "michael.perez88@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10149"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00053"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00249"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00053", "reason": "change of plans"}),
+        ],
+        outputs=[],
+    ),
+    # Var2-22 (COMP: gold + past trip issues → points)
+    Task(
+        user_id="T10154",
+        instruction="You are Joshua Perez, born 1985-10-21. Gold member. Your Marrakech trip (BK00358) had 2 issues: hotel not as described and activity cancelled. 200 points per component. You want 400 points.",
+        actions=[
+            Action(name="find_client_by_name_dob", kwargs={"first_name": "Joshua", "last_name": "Perez", "dob": "1985-10-21"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10154"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00358"}),
+            Action(name="add_loyalty_points", kwargs={"client_id": "T10154", "points": 400}),
+        ],
+        outputs=["400"],
+    ),
+    # Var2-23 (COMP: standard → transfer)
+    Task(
+        user_id="T10157",
+        instruction="Your email is jessica.williams74@inbox.com. Standard tier. Your Rome trip BK00055 had terrible service. Want compensation. If can't, transfer to someone who can.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "jessica.williams74@inbox.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10157"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00055"}),
+            Action(name="transfer_to_human_agents", kwargs={"summary": "Standard tier client requesting compensation for bad Rome trip BK00055. Must transfer per policy."}),
+        ],
+        outputs=[],
+    ),
+    # Var2-24 (COMP: complex end-to-end)
+    Task(
+        user_id="T10130",
+        instruction="Your email is chen.young19@mail.com. Check all confirmed bookings. Cancel the Marrakech one (BK00323). Search Hawaii packages. Book the 3-night one for yourself (DOB 1973-08-26) and spouse (Lin Young DOB 1975-04-10). Economy, standard hotel, compact car. With protection. Pay: $750 voucher, 2000 points ($1000), credit card 9180 for rest.",
+        actions=[
+            Action(name="find_client_by_email", kwargs={"email": "chen.young19@mail.com"}),
+            Action(name="get_client_details", kwargs={"client_id": "T10130"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00002"}),
+            Action(name="get_booking_details", kwargs={"booking_id": "BK00323"}),
+            Action(name="cancel_booking", kwargs={"booking_id": "BK00323", "reason": "switching to Hawaii"}),
+            Action(name="search_packages", kwargs={"destination": "Hawaii"}),
+            Action(name="get_package_details", kwargs={"package_id": "PKG029"}),
+            Action(name="get_payment_summary", kwargs={"client_id": "T10130"}),
+        ],
+        outputs=[],
+    ),
+]
+
+TASKS = SEED_TASKS + VARIATIONS + VARIATIONS_2
