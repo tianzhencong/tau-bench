@@ -15,7 +15,6 @@ from .modify_account_settings import ModifyAccountSettings
 from .place_buy_order import PlaceBuyOrder
 from .place_sell_order import PlaceSellOrder
 from .search_securities import SearchSecurities
-from .think import Think
 from .transfer_funds import TransferFunds
 from .transfer_to_human_agents import TransferToHumanAgents
 
@@ -36,7 +35,6 @@ ALL_TOOLS = [
     PlaceBuyOrder,
     PlaceSellOrder,
     SearchSecurities,
-    Think,
     TransferFunds,
     TransferToHumanAgents,
 ]

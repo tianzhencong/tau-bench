@@ -14,7 +14,6 @@ from .modify_registration_courses import ModifyRegistrationCourses
 from .modify_registration_payment import ModifyRegistrationPayment
 from .search_courses_by_department import SearchCoursesByDepartment
 from .switch_sections import SwitchSections
-from .think import Think
 from .transfer_to_human_agents import TransferToHumanAgents
 
 
@@ -33,6 +32,5 @@ ALL_TOOLS = [
     ModifyRegistrationPayment,
     SearchCoursesByDepartment,
     SwitchSections,
-    Think,
     TransferToHumanAgents,
 ]
