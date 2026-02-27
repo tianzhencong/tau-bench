@@ -43,6 +43,16 @@ def get_env(
             user_provider=user_provider,
             task_index=task_index,
         )
+    elif env_name == "travel":
+        from tau_bench.envs.travel import MockTravelDomainEnv
+
+        return MockTravelDomainEnv(
+            user_strategy=user_strategy,
+            user_model=user_model,
+            task_split=task_split,
+            user_provider=user_provider,
+            task_index=task_index,
+        )
     elif env_name == "investment":
         from tau_bench.envs.investment import MockInvestmentDomainEnv
 

@@ -1,0 +1,4114 @@
+{
+  "PKG001": {
+    "package_id": "PKG001",
+    "destination": "Paris",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG001_F",
+        "type": "flight",
+        "description": "Round-trip flight to Paris",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG001_H",
+        "type": "hotel",
+        "description": "14-night hotel in Paris",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG001_C",
+        "type": "car",
+        "description": "14-day car rental in Paris",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 420,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 840,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1680,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG001_A1",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG001_A2",
+        "type": "activity",
+        "description": "Food tasting tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Food tasting tour (included)"
+          },
+          "premium": {
+            "price_modifier": 75,
+            "description": "Premium Food tasting tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -75,
+            "description": "Skip Food tasting tour (save $75)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 6
+  },
+  "PKG002": {
+    "package_id": "PKG002",
+    "destination": "Tokyo",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG002_F",
+        "type": "flight",
+        "description": "Round-trip flight to Tokyo",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG002_H",
+        "type": "hotel",
+        "description": "14-night hotel in Tokyo",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG002_C",
+        "type": "car",
+        "description": "14-day car rental in Tokyo",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 420,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 840,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1680,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG002_A1",
+        "type": "activity",
+        "description": "City walking tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "City walking tour (included)"
+          },
+          "premium": {
+            "price_modifier": 50,
+            "description": "Premium City walking tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -50,
+            "description": "Skip City walking tour (save $50)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 5
+  },
+  "PKG003": {
+    "package_id": "PKG003",
+    "destination": "London",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG003_F",
+        "type": "flight",
+        "description": "Round-trip flight to London",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG003_H",
+        "type": "hotel",
+        "description": "4-night hotel in London",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG003_C",
+        "type": "car",
+        "description": "4-day car rental in London",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG003_A1",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1500,
+    "available": 9
+  },
+  "PKG004": {
+    "package_id": "PKG004",
+    "destination": "Rome",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG004_F",
+        "type": "flight",
+        "description": "Round-trip flight to Rome",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG004_H",
+        "type": "hotel",
+        "description": "14-night hotel in Rome",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG004_C",
+        "type": "car",
+        "description": "14-day car rental in Rome",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 420,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 840,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1680,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG004_A1",
+        "type": "activity",
+        "description": "Hot air balloon",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hot air balloon (included)"
+          },
+          "premium": {
+            "price_modifier": 200,
+            "description": "Premium Hot air balloon with private guide"
+          },
+          "skip": {
+            "price_modifier": -200,
+            "description": "Skip Hot air balloon (save $200)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG004_A2",
+        "type": "activity",
+        "description": "Surfing lesson",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Surfing lesson (included)"
+          },
+          "premium": {
+            "price_modifier": 70,
+            "description": "Premium Surfing lesson with private guide"
+          },
+          "skip": {
+            "price_modifier": -70,
+            "description": "Skip Surfing lesson (save $70)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2800,
+    "available": 3
+  },
+  "PKG005": {
+    "package_id": "PKG005",
+    "destination": "Barcelona",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG005_F",
+        "type": "flight",
+        "description": "Round-trip flight to Barcelona",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG005_H",
+        "type": "hotel",
+        "description": "4-night hotel in Barcelona",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG005_C",
+        "type": "car",
+        "description": "4-day car rental in Barcelona",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG005_A1",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2800,
+    "available": 13
+  },
+  "PKG006": {
+    "package_id": "PKG006",
+    "destination": "New York",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG006_F",
+        "type": "flight",
+        "description": "Round-trip flight to New York",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG006_H",
+        "type": "hotel",
+        "description": "3-night hotel in New York",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG006_C",
+        "type": "car",
+        "description": "3-day car rental in New York",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 90,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 180,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 360,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG006_A1",
+        "type": "activity",
+        "description": "Surfing lesson",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Surfing lesson (included)"
+          },
+          "premium": {
+            "price_modifier": 70,
+            "description": "Premium Surfing lesson with private guide"
+          },
+          "skip": {
+            "price_modifier": -70,
+            "description": "Skip Surfing lesson (save $70)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG006_A2",
+        "type": "activity",
+        "description": "Sunset cruise",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Sunset cruise (included)"
+          },
+          "premium": {
+            "price_modifier": 110,
+            "description": "Premium Sunset cruise with private guide"
+          },
+          "skip": {
+            "price_modifier": -110,
+            "description": "Skip Sunset cruise (save $110)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 11
+  },
+  "PKG007": {
+    "package_id": "PKG007",
+    "destination": "Bali",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG007_F",
+        "type": "flight",
+        "description": "Round-trip flight to Bali",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG007_H",
+        "type": "hotel",
+        "description": "3-night hotel in Bali",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG007_C",
+        "type": "car",
+        "description": "3-day car rental in Bali",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 90,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 180,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 360,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG007_A1",
+        "type": "activity",
+        "description": "Museum pass",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Museum pass (included)"
+          },
+          "premium": {
+            "price_modifier": 40,
+            "description": "Premium Museum pass with private guide"
+          },
+          "skip": {
+            "price_modifier": -40,
+            "description": "Skip Museum pass (save $40)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG007_A2",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 3500,
+    "available": 12
+  },
+  "PKG008": {
+    "package_id": "PKG008",
+    "destination": "Cancun",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG008_F",
+        "type": "flight",
+        "description": "Round-trip flight to Cancun",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG008_H",
+        "type": "hotel",
+        "description": "14-night hotel in Cancun",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG008_C",
+        "type": "car",
+        "description": "14-day car rental in Cancun",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 420,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 840,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1680,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG008_A1",
+        "type": "activity",
+        "description": "City walking tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "City walking tour (included)"
+          },
+          "premium": {
+            "price_modifier": 50,
+            "description": "Premium City walking tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -50,
+            "description": "Skip City walking tour (save $50)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 10
+  },
+  "PKG009": {
+    "package_id": "PKG009",
+    "destination": "Hawaii",
+    "duration_nights": 5,
+    "components": [
+      {
+        "component_id": "PKG009_F",
+        "type": "flight",
+        "description": "Round-trip flight to Hawaii",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG009_H",
+        "type": "hotel",
+        "description": "5-night hotel in Hawaii",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 400,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG009_A1",
+        "type": "activity",
+        "description": "Hiking adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hiking adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 55,
+            "description": "Premium Hiking adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -55,
+            "description": "Skip Hiking adventure (save $55)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 11
+  },
+  "PKG010": {
+    "package_id": "PKG010",
+    "destination": "Dubai",
+    "duration_nights": 7,
+    "components": [
+      {
+        "component_id": "PKG010_F",
+        "type": "flight",
+        "description": "Round-trip flight to Dubai",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG010_H",
+        "type": "hotel",
+        "description": "7-night hotel in Dubai",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 560,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1400,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 3500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG010_C",
+        "type": "car",
+        "description": "7-day car rental in Dubai",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 210,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 420,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 840,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG010_A1",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG010_A2",
+        "type": "activity",
+        "description": "Zip-line adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Zip-line adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 95,
+            "description": "Premium Zip-line adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -95,
+            "description": "Skip Zip-line adventure (save $95)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 11
+  },
+  "PKG011": {
+    "package_id": "PKG011",
+    "destination": "Sydney",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG011_F",
+        "type": "flight",
+        "description": "Round-trip flight to Sydney",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG011_H",
+        "type": "hotel",
+        "description": "14-night hotel in Sydney",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG011_C",
+        "type": "car",
+        "description": "14-day car rental in Sydney",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 420,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 840,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1680,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG011_A1",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 10
+  },
+  "PKG012": {
+    "package_id": "PKG012",
+    "destination": "Reykjavik",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG012_F",
+        "type": "flight",
+        "description": "Round-trip flight to Reykjavik",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG012_H",
+        "type": "hotel",
+        "description": "4-night hotel in Reykjavik",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG012_C",
+        "type": "car",
+        "description": "4-day car rental in Reykjavik",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG012_A1",
+        "type": "activity",
+        "description": "Zip-line adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Zip-line adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 95,
+            "description": "Premium Zip-line adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -95,
+            "description": "Skip Zip-line adventure (save $95)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 3500,
+    "available": 13
+  },
+  "PKG013": {
+    "package_id": "PKG013",
+    "destination": "Bangkok",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG013_F",
+        "type": "flight",
+        "description": "Round-trip flight to Bangkok",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG013_H",
+        "type": "hotel",
+        "description": "3-night hotel in Bangkok",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG013_A1",
+        "type": "activity",
+        "description": "Hiking adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hiking adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 55,
+            "description": "Premium Hiking adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -55,
+            "description": "Skip Hiking adventure (save $55)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG013_A2",
+        "type": "activity",
+        "description": "Cooking class",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cooking class (included)"
+          },
+          "premium": {
+            "price_modifier": 65,
+            "description": "Premium Cooking class with private guide"
+          },
+          "skip": {
+            "price_modifier": -65,
+            "description": "Skip Cooking class (save $65)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1500,
+    "available": 5
+  },
+  "PKG014": {
+    "package_id": "PKG014",
+    "destination": "Maldives",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG014_F",
+        "type": "flight",
+        "description": "Round-trip flight to Maldives",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG014_H",
+        "type": "hotel",
+        "description": "4-night hotel in Maldives",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG014_C",
+        "type": "car",
+        "description": "4-day car rental in Maldives",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG014_A1",
+        "type": "activity",
+        "description": "Hiking adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hiking adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 55,
+            "description": "Premium Hiking adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -55,
+            "description": "Skip Hiking adventure (save $55)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG014_A2",
+        "type": "activity",
+        "description": "Temple tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Temple tour (included)"
+          },
+          "premium": {
+            "price_modifier": 45,
+            "description": "Premium Temple tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -45,
+            "description": "Skip Temple tour (save $45)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 17
+  },
+  "PKG015": {
+    "package_id": "PKG015",
+    "destination": "Swiss Alps",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG015_F",
+        "type": "flight",
+        "description": "Round-trip flight to Swiss Alps",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG015_H",
+        "type": "hotel",
+        "description": "4-night hotel in Swiss Alps",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG015_C",
+        "type": "car",
+        "description": "4-day car rental in Swiss Alps",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG015_A1",
+        "type": "activity",
+        "description": "Scuba diving",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Scuba diving (included)"
+          },
+          "premium": {
+            "price_modifier": 130,
+            "description": "Premium Scuba diving with private guide"
+          },
+          "skip": {
+            "price_modifier": -130,
+            "description": "Skip Scuba diving (save $130)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG015_A2",
+        "type": "activity",
+        "description": "Cultural show",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cultural show (included)"
+          },
+          "premium": {
+            "price_modifier": 60,
+            "description": "Premium Cultural show with private guide"
+          },
+          "skip": {
+            "price_modifier": -60,
+            "description": "Skip Cultural show (save $60)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1800,
+    "available": 16
+  },
+  "PKG016": {
+    "package_id": "PKG016",
+    "destination": "Santorini",
+    "duration_nights": 10,
+    "components": [
+      {
+        "component_id": "PKG016_F",
+        "type": "flight",
+        "description": "Round-trip flight to Santorini",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG016_H",
+        "type": "hotel",
+        "description": "10-night hotel in Santorini",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 800,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 5000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG016_C",
+        "type": "car",
+        "description": "10-day car rental in Santorini",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 300,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 600,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1200,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG016_A1",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2800,
+    "available": 18
+  },
+  "PKG017": {
+    "package_id": "PKG017",
+    "destination": "Costa Rica",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG017_F",
+        "type": "flight",
+        "description": "Round-trip flight to Costa Rica",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG017_H",
+        "type": "hotel",
+        "description": "3-night hotel in Costa Rica",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG017_A1",
+        "type": "activity",
+        "description": "Zip-line adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Zip-line adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 95,
+            "description": "Premium Zip-line adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -95,
+            "description": "Skip Zip-line adventure (save $95)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 800,
+    "available": 8
+  },
+  "PKG018": {
+    "package_id": "PKG018",
+    "destination": "Marrakech",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG018_F",
+        "type": "flight",
+        "description": "Round-trip flight to Marrakech",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG018_H",
+        "type": "hotel",
+        "description": "14-night hotel in Marrakech",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG018_C",
+        "type": "car",
+        "description": "14-day car rental in Marrakech",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 420,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 840,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1680,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG018_A1",
+        "type": "activity",
+        "description": "Hiking adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hiking adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 55,
+            "description": "Premium Hiking adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -55,
+            "description": "Skip Hiking adventure (save $55)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG018_A2",
+        "type": "activity",
+        "description": "Cultural show",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cultural show (included)"
+          },
+          "premium": {
+            "price_modifier": 60,
+            "description": "Premium Cultural show with private guide"
+          },
+          "skip": {
+            "price_modifier": -60,
+            "description": "Skip Cultural show (save $60)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2800,
+    "available": 17
+  },
+  "PKG019": {
+    "package_id": "PKG019",
+    "destination": "Patagonia",
+    "duration_nights": 10,
+    "components": [
+      {
+        "component_id": "PKG019_F",
+        "type": "flight",
+        "description": "Round-trip flight to Patagonia",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG019_H",
+        "type": "hotel",
+        "description": "10-night hotel in Patagonia",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 800,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 5000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG019_A1",
+        "type": "activity",
+        "description": "Zip-line adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Zip-line adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 95,
+            "description": "Premium Zip-line adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -95,
+            "description": "Skip Zip-line adventure (save $95)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1800,
+    "available": 6
+  },
+  "PKG020": {
+    "package_id": "PKG020",
+    "destination": "Kyoto",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG020_F",
+        "type": "flight",
+        "description": "Round-trip flight to Kyoto",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG020_H",
+        "type": "hotel",
+        "description": "14-night hotel in Kyoto",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG020_A1",
+        "type": "activity",
+        "description": "Museum pass",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Museum pass (included)"
+          },
+          "premium": {
+            "price_modifier": 40,
+            "description": "Premium Museum pass with private guide"
+          },
+          "skip": {
+            "price_modifier": -40,
+            "description": "Skip Museum pass (save $40)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG020_A2",
+        "type": "activity",
+        "description": "Cooking class",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cooking class (included)"
+          },
+          "premium": {
+            "price_modifier": 65,
+            "description": "Premium Cooking class with private guide"
+          },
+          "skip": {
+            "price_modifier": -65,
+            "description": "Skip Cooking class (save $65)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1800,
+    "available": 16
+  },
+  "PKG021": {
+    "package_id": "PKG021",
+    "destination": "Paris",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG021_F",
+        "type": "flight",
+        "description": "Round-trip flight to Paris",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG021_H",
+        "type": "hotel",
+        "description": "4-night hotel in Paris",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG021_C",
+        "type": "car",
+        "description": "4-day car rental in Paris",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG021_A1",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG021_A2",
+        "type": "activity",
+        "description": "Hot air balloon",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hot air balloon (included)"
+          },
+          "premium": {
+            "price_modifier": 200,
+            "description": "Premium Hot air balloon with private guide"
+          },
+          "skip": {
+            "price_modifier": -200,
+            "description": "Skip Hot air balloon (save $200)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 3500,
+    "available": 8
+  },
+  "PKG022": {
+    "package_id": "PKG022",
+    "destination": "Tokyo",
+    "duration_nights": 10,
+    "components": [
+      {
+        "component_id": "PKG022_F",
+        "type": "flight",
+        "description": "Round-trip flight to Tokyo",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG022_H",
+        "type": "hotel",
+        "description": "10-night hotel in Tokyo",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 800,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 5000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG022_A1",
+        "type": "activity",
+        "description": "Surfing lesson",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Surfing lesson (included)"
+          },
+          "premium": {
+            "price_modifier": 70,
+            "description": "Premium Surfing lesson with private guide"
+          },
+          "skip": {
+            "price_modifier": -70,
+            "description": "Skip Surfing lesson (save $70)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG022_A2",
+        "type": "activity",
+        "description": "Zip-line adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Zip-line adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 95,
+            "description": "Premium Zip-line adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -95,
+            "description": "Skip Zip-line adventure (save $95)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 19
+  },
+  "PKG023": {
+    "package_id": "PKG023",
+    "destination": "London",
+    "duration_nights": 10,
+    "components": [
+      {
+        "component_id": "PKG023_F",
+        "type": "flight",
+        "description": "Round-trip flight to London",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG023_H",
+        "type": "hotel",
+        "description": "10-night hotel in London",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 800,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 5000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG023_C",
+        "type": "car",
+        "description": "10-day car rental in London",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 300,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 600,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 1200,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG023_A1",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1500,
+    "available": 19
+  },
+  "PKG024": {
+    "package_id": "PKG024",
+    "destination": "Rome",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG024_F",
+        "type": "flight",
+        "description": "Round-trip flight to Rome",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG024_H",
+        "type": "hotel",
+        "description": "3-night hotel in Rome",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG024_C",
+        "type": "car",
+        "description": "3-day car rental in Rome",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 90,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 180,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 360,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG024_A1",
+        "type": "activity",
+        "description": "Temple tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Temple tour (included)"
+          },
+          "premium": {
+            "price_modifier": 45,
+            "description": "Premium Temple tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -45,
+            "description": "Skip Temple tour (save $45)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 14
+  },
+  "PKG025": {
+    "package_id": "PKG025",
+    "destination": "Barcelona",
+    "duration_nights": 5,
+    "components": [
+      {
+        "component_id": "PKG025_F",
+        "type": "flight",
+        "description": "Round-trip flight to Barcelona",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG025_H",
+        "type": "hotel",
+        "description": "5-night hotel in Barcelona",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 400,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG025_C",
+        "type": "car",
+        "description": "5-day car rental in Barcelona",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 150,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 300,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 600,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG025_A1",
+        "type": "activity",
+        "description": "Museum pass",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Museum pass (included)"
+          },
+          "premium": {
+            "price_modifier": 40,
+            "description": "Premium Museum pass with private guide"
+          },
+          "skip": {
+            "price_modifier": -40,
+            "description": "Skip Museum pass (save $40)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1500,
+    "available": 18
+  },
+  "PKG026": {
+    "package_id": "PKG026",
+    "destination": "New York",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG026_F",
+        "type": "flight",
+        "description": "Round-trip flight to New York",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG026_H",
+        "type": "hotel",
+        "description": "3-night hotel in New York",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG026_C",
+        "type": "car",
+        "description": "3-day car rental in New York",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 90,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 180,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 360,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG026_A1",
+        "type": "activity",
+        "description": "Wine tasting",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Wine tasting (included)"
+          },
+          "premium": {
+            "price_modifier": 85,
+            "description": "Premium Wine tasting with private guide"
+          },
+          "skip": {
+            "price_modifier": -85,
+            "description": "Skip Wine tasting (save $85)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG026_A2",
+        "type": "activity",
+        "description": "Food tasting tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Food tasting tour (included)"
+          },
+          "premium": {
+            "price_modifier": 75,
+            "description": "Premium Food tasting tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -75,
+            "description": "Skip Food tasting tour (save $75)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1200,
+    "available": 11
+  },
+  "PKG027": {
+    "package_id": "PKG027",
+    "destination": "Bali",
+    "duration_nights": 10,
+    "components": [
+      {
+        "component_id": "PKG027_F",
+        "type": "flight",
+        "description": "Round-trip flight to Bali",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG027_H",
+        "type": "hotel",
+        "description": "10-night hotel in Bali",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 800,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2000,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 5000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG027_A1",
+        "type": "activity",
+        "description": "Scuba diving",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Scuba diving (included)"
+          },
+          "premium": {
+            "price_modifier": 130,
+            "description": "Premium Scuba diving with private guide"
+          },
+          "skip": {
+            "price_modifier": -130,
+            "description": "Skip Scuba diving (save $130)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2800,
+    "available": 12
+  },
+  "PKG028": {
+    "package_id": "PKG028",
+    "destination": "Cancun",
+    "duration_nights": 7,
+    "components": [
+      {
+        "component_id": "PKG028_F",
+        "type": "flight",
+        "description": "Round-trip flight to Cancun",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG028_H",
+        "type": "hotel",
+        "description": "7-night hotel in Cancun",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 560,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1400,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 3500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG028_C",
+        "type": "car",
+        "description": "7-day car rental in Cancun",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 210,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 420,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 840,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG028_A1",
+        "type": "activity",
+        "description": "Museum pass",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Museum pass (included)"
+          },
+          "premium": {
+            "price_modifier": 40,
+            "description": "Premium Museum pass with private guide"
+          },
+          "skip": {
+            "price_modifier": -40,
+            "description": "Skip Museum pass (save $40)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG028_A2",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 10
+  },
+  "PKG029": {
+    "package_id": "PKG029",
+    "destination": "Hawaii",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG029_F",
+        "type": "flight",
+        "description": "Round-trip flight to Hawaii",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG029_H",
+        "type": "hotel",
+        "description": "3-night hotel in Hawaii",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG029_C",
+        "type": "car",
+        "description": "3-day car rental in Hawaii",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 90,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 180,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 360,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG029_A1",
+        "type": "activity",
+        "description": "Cultural show",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cultural show (included)"
+          },
+          "premium": {
+            "price_modifier": 60,
+            "description": "Premium Cultural show with private guide"
+          },
+          "skip": {
+            "price_modifier": -60,
+            "description": "Skip Cultural show (save $60)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 10
+  },
+  "PKG030": {
+    "package_id": "PKG030",
+    "destination": "Dubai",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG030_F",
+        "type": "flight",
+        "description": "Round-trip flight to Dubai",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG030_H",
+        "type": "hotel",
+        "description": "3-night hotel in Dubai",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG030_A1",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 5
+  },
+  "PKG031": {
+    "package_id": "PKG031",
+    "destination": "Sydney",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG031_F",
+        "type": "flight",
+        "description": "Round-trip flight to Sydney",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG031_H",
+        "type": "hotel",
+        "description": "3-night hotel in Sydney",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG031_C",
+        "type": "car",
+        "description": "3-day car rental in Sydney",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 90,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 180,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 360,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG031_A1",
+        "type": "activity",
+        "description": "Cooking class",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cooking class (included)"
+          },
+          "premium": {
+            "price_modifier": 65,
+            "description": "Premium Cooking class with private guide"
+          },
+          "skip": {
+            "price_modifier": -65,
+            "description": "Skip Cooking class (save $65)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 18
+  },
+  "PKG032": {
+    "package_id": "PKG032",
+    "destination": "Reykjavik",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG032_F",
+        "type": "flight",
+        "description": "Round-trip flight to Reykjavik",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG032_H",
+        "type": "hotel",
+        "description": "4-night hotel in Reykjavik",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG032_A1",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG032_A2",
+        "type": "activity",
+        "description": "Hot air balloon",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hot air balloon (included)"
+          },
+          "premium": {
+            "price_modifier": 200,
+            "description": "Premium Hot air balloon with private guide"
+          },
+          "skip": {
+            "price_modifier": -200,
+            "description": "Skip Hot air balloon (save $200)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1200,
+    "available": 18
+  },
+  "PKG033": {
+    "package_id": "PKG033",
+    "destination": "Bangkok",
+    "duration_nights": 7,
+    "components": [
+      {
+        "component_id": "PKG033_F",
+        "type": "flight",
+        "description": "Round-trip flight to Bangkok",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG033_H",
+        "type": "hotel",
+        "description": "7-night hotel in Bangkok",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 560,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1400,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 3500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG033_C",
+        "type": "car",
+        "description": "7-day car rental in Bangkok",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 210,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 420,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 840,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG033_A1",
+        "type": "activity",
+        "description": "Sunset cruise",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Sunset cruise (included)"
+          },
+          "premium": {
+            "price_modifier": 110,
+            "description": "Premium Sunset cruise with private guide"
+          },
+          "skip": {
+            "price_modifier": -110,
+            "description": "Skip Sunset cruise (save $110)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG033_A2",
+        "type": "activity",
+        "description": "Hiking adventure",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hiking adventure (included)"
+          },
+          "premium": {
+            "price_modifier": 55,
+            "description": "Premium Hiking adventure with private guide"
+          },
+          "skip": {
+            "price_modifier": -55,
+            "description": "Skip Hiking adventure (save $55)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1500,
+    "available": 16
+  },
+  "PKG034": {
+    "package_id": "PKG034",
+    "destination": "Maldives",
+    "duration_nights": 7,
+    "components": [
+      {
+        "component_id": "PKG034_F",
+        "type": "flight",
+        "description": "Round-trip flight to Maldives",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG034_H",
+        "type": "hotel",
+        "description": "7-night hotel in Maldives",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 560,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1400,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 3500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG034_C",
+        "type": "car",
+        "description": "7-day car rental in Maldives",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 210,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 420,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 840,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG034_A1",
+        "type": "activity",
+        "description": "City walking tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "City walking tour (included)"
+          },
+          "premium": {
+            "price_modifier": 50,
+            "description": "Premium City walking tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -50,
+            "description": "Skip City walking tour (save $50)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 800,
+    "available": 15
+  },
+  "PKG035": {
+    "package_id": "PKG035",
+    "destination": "Swiss Alps",
+    "duration_nights": 14,
+    "components": [
+      {
+        "component_id": "PKG035_F",
+        "type": "flight",
+        "description": "Round-trip flight to Swiss Alps",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG035_H",
+        "type": "hotel",
+        "description": "14-night hotel in Swiss Alps",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 1120,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 2800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 7000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG035_A1",
+        "type": "activity",
+        "description": "Snorkeling excursion",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Snorkeling excursion (included)"
+          },
+          "premium": {
+            "price_modifier": 90,
+            "description": "Premium Snorkeling excursion with private guide"
+          },
+          "skip": {
+            "price_modifier": -90,
+            "description": "Skip Snorkeling excursion (save $90)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 2200,
+    "available": 9
+  },
+  "PKG036": {
+    "package_id": "PKG036",
+    "destination": "Santorini",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG036_F",
+        "type": "flight",
+        "description": "Round-trip flight to Santorini",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG036_H",
+        "type": "hotel",
+        "description": "4-night hotel in Santorini",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG036_C",
+        "type": "car",
+        "description": "4-day car rental in Santorini",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG036_A1",
+        "type": "activity",
+        "description": "Cooking class",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Cooking class (included)"
+          },
+          "premium": {
+            "price_modifier": 65,
+            "description": "Premium Cooking class with private guide"
+          },
+          "skip": {
+            "price_modifier": -65,
+            "description": "Skip Cooking class (save $65)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 3500,
+    "available": 17
+  },
+  "PKG037": {
+    "package_id": "PKG037",
+    "destination": "Costa Rica",
+    "duration_nights": 4,
+    "components": [
+      {
+        "component_id": "PKG037_F",
+        "type": "flight",
+        "description": "Round-trip flight to Costa Rica",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG037_H",
+        "type": "hotel",
+        "description": "4-night hotel in Costa Rica",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 320,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 800,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 2000,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG037_C",
+        "type": "car",
+        "description": "4-day car rental in Costa Rica",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 120,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 240,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 480,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG037_A1",
+        "type": "activity",
+        "description": "City walking tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "City walking tour (included)"
+          },
+          "premium": {
+            "price_modifier": 50,
+            "description": "Premium City walking tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -50,
+            "description": "Skip City walking tour (save $50)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 20
+  },
+  "PKG038": {
+    "package_id": "PKG038",
+    "destination": "Marrakech",
+    "duration_nights": 3,
+    "components": [
+      {
+        "component_id": "PKG038_F",
+        "type": "flight",
+        "description": "Round-trip flight to Marrakech",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG038_H",
+        "type": "hotel",
+        "description": "3-night hotel in Marrakech",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 240,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 600,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 1500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG038_A1",
+        "type": "activity",
+        "description": "Food tasting tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Food tasting tour (included)"
+          },
+          "premium": {
+            "price_modifier": 75,
+            "description": "Premium Food tasting tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -75,
+            "description": "Skip Food tasting tour (save $75)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 1000,
+    "available": 16
+  },
+  "PKG039": {
+    "package_id": "PKG039",
+    "destination": "Patagonia",
+    "duration_nights": 7,
+    "components": [
+      {
+        "component_id": "PKG039_F",
+        "type": "flight",
+        "description": "Round-trip flight to Patagonia",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG039_H",
+        "type": "hotel",
+        "description": "7-night hotel in Patagonia",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 560,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1400,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 3500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG039_C",
+        "type": "car",
+        "description": "7-day car rental in Patagonia",
+        "options": {
+          "compact": {
+            "price_modifier": 0,
+            "description": "Compact car"
+          },
+          "sedan": {
+            "price_modifier": 210,
+            "description": "Mid-size sedan"
+          },
+          "suv": {
+            "price_modifier": 420,
+            "description": "Full-size SUV"
+          },
+          "luxury": {
+            "price_modifier": 840,
+            "description": "Luxury vehicle"
+          }
+        },
+        "default_option": "compact"
+      },
+      {
+        "component_id": "PKG039_A1",
+        "type": "activity",
+        "description": "Temple tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Temple tour (included)"
+          },
+          "premium": {
+            "price_modifier": 45,
+            "description": "Premium Temple tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -45,
+            "description": "Skip Temple tour (save $45)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG039_A2",
+        "type": "activity",
+        "description": "City walking tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "City walking tour (included)"
+          },
+          "premium": {
+            "price_modifier": 50,
+            "description": "Premium City walking tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -50,
+            "description": "Skip City walking tour (save $50)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 3500,
+    "available": 8
+  },
+  "PKG040": {
+    "package_id": "PKG040",
+    "destination": "Kyoto",
+    "duration_nights": 7,
+    "components": [
+      {
+        "component_id": "PKG040_F",
+        "type": "flight",
+        "description": "Round-trip flight to Kyoto",
+        "options": {
+          "economy": {
+            "price_modifier": 0,
+            "description": "Economy class flight"
+          },
+          "premium_economy": {
+            "price_modifier": 200,
+            "description": "Premium economy with extra legroom"
+          },
+          "business": {
+            "price_modifier": 600,
+            "description": "Business class flight"
+          },
+          "first_class": {
+            "price_modifier": 1500,
+            "description": "First class flight"
+          }
+        },
+        "default_option": "economy"
+      },
+      {
+        "component_id": "PKG040_H",
+        "type": "hotel",
+        "description": "7-night hotel in Kyoto",
+        "options": {
+          "standard": {
+            "price_modifier": 0,
+            "description": "Standard room"
+          },
+          "deluxe": {
+            "price_modifier": 560,
+            "description": "Deluxe room with city view"
+          },
+          "suite": {
+            "price_modifier": 1400,
+            "description": "Suite with living area"
+          },
+          "presidential": {
+            "price_modifier": 3500,
+            "description": "Presidential suite"
+          }
+        },
+        "default_option": "standard"
+      },
+      {
+        "component_id": "PKG040_A1",
+        "type": "activity",
+        "description": "Temple tour",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Temple tour (included)"
+          },
+          "premium": {
+            "price_modifier": 45,
+            "description": "Premium Temple tour with private guide"
+          },
+          "skip": {
+            "price_modifier": -45,
+            "description": "Skip Temple tour (save $45)"
+          }
+        },
+        "default_option": "included"
+      },
+      {
+        "component_id": "PKG040_A2",
+        "type": "activity",
+        "description": "Hot air balloon",
+        "options": {
+          "included": {
+            "price_modifier": 0,
+            "description": "Hot air balloon (included)"
+          },
+          "premium": {
+            "price_modifier": 200,
+            "description": "Premium Hot air balloon with private guide"
+          },
+          "skip": {
+            "price_modifier": -200,
+            "description": "Skip Hot air balloon (save $200)"
+          }
+        },
+        "default_option": "included"
+      }
+    ],
+    "base_price": 800,
+    "available": 17
+  }
+}

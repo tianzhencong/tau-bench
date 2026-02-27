@@ -1,0 +1,6891 @@
+{
+  "T10000": {
+    "client_id": "T10000",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Robinson"
+    },
+    "email": "christopher.robinson84@mail.com",
+    "dob": "1995-11-23",
+    "phone": "+1-714-973-9701",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10000_3536",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5861"
+      },
+      {
+        "payment_id": "cc2_T10000_1958",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6138"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00244",
+      "BK00289"
+    ]
+  },
+  "T10001": {
+    "client_id": "T10001",
+    "name": {
+      "first_name": "David",
+      "last_name": "Brown"
+    },
+    "email": "david.brown82@email.com",
+    "dob": "1992-02-28",
+    "phone": "+1-792-708-1651",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10001_2122",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "2113"
+      },
+      {
+        "payment_id": "voucher_T10001_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00017",
+      "BK00185",
+      "BK00199",
+      "BK00217",
+      "BK00307",
+      "BK00336"
+    ]
+  },
+  "T10002": {
+    "client_id": "T10002",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Garcia"
+    },
+    "email": "melissa.garcia19@email.com",
+    "dob": "1986-11-19",
+    "phone": "+1-669-736-2638",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10002_9565",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5272"
+      },
+      {
+        "payment_id": "cc2_T10002_6147",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5351"
+      },
+      {
+        "payment_id": "voucher_T10002_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10002_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10002_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00068",
+      "BK00149",
+      "BK00363"
+    ]
+  },
+  "T10003": {
+    "client_id": "T10003",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Torres"
+    },
+    "email": "robert.torres27@mail.com",
+    "dob": "1973-09-09",
+    "phone": "+1-318-209-3546",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10003_6718",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5002"
+      },
+      {
+        "payment_id": "cc2_T10003_3584",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9900"
+      },
+      {
+        "payment_id": "voucher_T10003_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10003_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00021",
+      "BK00082",
+      "BK00203",
+      "BK00265"
+    ]
+  },
+  "T10004": {
+    "client_id": "T10004",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Martin"
+    },
+    "email": "sarah.martin45@email.com",
+    "dob": "1998-04-23",
+    "phone": "+1-203-441-3143",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10004_4335",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "5325"
+      },
+      {
+        "payment_id": "voucher_T10004_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10004_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00164",
+      "BK00208"
+    ]
+  },
+  "T10005": {
+    "client_id": "T10005",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Moore"
+    },
+    "email": "raj.moore15@mail.com",
+    "dob": "1970-12-15",
+    "phone": "+1-573-915-1653",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10005_8007",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1158"
+      },
+      {
+        "payment_id": "cc2_T10005_3442",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7049"
+      },
+      {
+        "payment_id": "voucher_T10005_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00293",
+      "BK00376"
+    ]
+  },
+  "T10006": {
+    "client_id": "T10006",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "White"
+    },
+    "email": "zara.white32@mail.com",
+    "dob": "1973-11-08",
+    "phone": "+1-225-283-6442",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10006_2684",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7658"
+      },
+      {
+        "payment_id": "voucher_T10006_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00188",
+      "BK00340",
+      "BK00365",
+      "BK00389"
+    ]
+  },
+  "T10007": {
+    "client_id": "T10007",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Lewis"
+    },
+    "email": "emma.lewis54@mail.com",
+    "dob": "1975-05-06",
+    "phone": "+1-433-328-1387",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10007_2771",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1634"
+      },
+      {
+        "payment_id": "voucher_T10007_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": []
+  },
+  "T10008": {
+    "client_id": "T10008",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Wilson"
+    },
+    "email": "wei.wilson32@inbox.com",
+    "dob": "1985-06-09",
+    "phone": "+1-471-139-2776",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10008_5573",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9346"
+      },
+      {
+        "payment_id": "cc2_T10008_9785",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1452"
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00113",
+      "BK00151",
+      "BK00226"
+    ]
+  },
+  "T10009": {
+    "client_id": "T10009",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Robinson"
+    },
+    "email": "brian.robinson18@inbox.com",
+    "dob": "1982-12-26",
+    "phone": "+1-538-738-6143",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10009_8149",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9379"
+      },
+      {
+        "payment_id": "cc2_T10009_4114",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1727"
+      },
+      {
+        "payment_id": "voucher_T10009_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10009_1",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10009_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": []
+  },
+  "T10010": {
+    "client_id": "T10010",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Davis"
+    },
+    "email": "wei.davis95@mail.com",
+    "dob": "1979-09-10",
+    "phone": "+1-893-866-3851",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10010_7691",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7592"
+      },
+      {
+        "payment_id": "voucher_T10010_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00048",
+      "BK00107",
+      "BK00169",
+      "BK00206",
+      "BK00326"
+    ]
+  },
+  "T10011": {
+    "client_id": "T10011",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Hill"
+    },
+    "email": "melissa.hill96@email.com",
+    "dob": "1979-07-18",
+    "phone": "+1-723-584-3780",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10011_5978",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4443"
+      },
+      {
+        "payment_id": "voucher_T10011_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10011_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00134",
+      "BK00179"
+    ]
+  },
+  "T10012": {
+    "client_id": "T10012",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Garcia"
+    },
+    "email": "wei.garcia13@email.com",
+    "dob": "1978-09-22",
+    "phone": "+1-450-586-2193",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10012_6491",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4848"
+      },
+      {
+        "payment_id": "voucher_T10012_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00005",
+      "BK00171"
+    ]
+  },
+  "T10013": {
+    "client_id": "T10013",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Lewis"
+    },
+    "email": "michelle.lewis69@email.com",
+    "dob": "2000-10-07",
+    "phone": "+1-770-355-2988",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10013_7291",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7547"
+      },
+      {
+        "payment_id": "cc2_T10013_1090",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7965"
+      },
+      {
+        "payment_id": "voucher_T10013_0",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00099",
+      "BK00224",
+      "BK00397"
+    ]
+  },
+  "T10014": {
+    "client_id": "T10014",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Rodriguez"
+    },
+    "email": "michelle.rodriguez41@inbox.com",
+    "dob": "1989-11-17",
+    "phone": "+1-483-884-9540",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10014_6198",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9270"
+      },
+      {
+        "payment_id": "voucher_T10014_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10014_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10014_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00316"
+    ]
+  },
+  "T10015": {
+    "client_id": "T10015",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Baker"
+    },
+    "email": "sandra.baker98@email.com",
+    "dob": "1975-05-15",
+    "phone": "+1-923-319-2052",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10015_5681",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5451"
+      },
+      {
+        "payment_id": "cc2_T10015_9849",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3267"
+      },
+      {
+        "payment_id": "voucher_T10015_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00214",
+      "BK00296",
+      "BK00310"
+    ]
+  },
+  "T10016": {
+    "client_id": "T10016",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Lewis"
+    },
+    "email": "mark.lewis48@mail.com",
+    "dob": "1981-09-15",
+    "phone": "+1-629-651-9947",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10016_2020",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7883"
+      },
+      {
+        "payment_id": "cc2_T10016_1320",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8814"
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00114",
+      "BK00205",
+      "BK00274"
+    ]
+  },
+  "T10017": {
+    "client_id": "T10017",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Adams"
+    },
+    "email": "noah.adams85@inbox.com",
+    "dob": "1974-08-08",
+    "phone": "+1-878-127-2375",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10017_8140",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1475"
+      },
+      {
+        "payment_id": "cc2_T10017_7624",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8657"
+      },
+      {
+        "payment_id": "voucher_T10017_0",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00313",
+      "BK00334"
+    ]
+  },
+  "T10018": {
+    "client_id": "T10018",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Robinson"
+    },
+    "email": "mei.robinson70@email.com",
+    "dob": "1968-08-06",
+    "phone": "+1-967-652-1853",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10018_5262",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6363"
+      },
+      {
+        "payment_id": "cc2_T10018_6355",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7211"
+      },
+      {
+        "payment_id": "voucher_T10018_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10018_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": []
+  },
+  "T10019": {
+    "client_id": "T10019",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Thomas"
+    },
+    "email": "matthew.thomas95@email.com",
+    "dob": "1964-11-02",
+    "phone": "+1-777-323-8619",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10019_5051",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1333"
+      },
+      {
+        "payment_id": "voucher_T10019_0",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00342",
+      "BK00394"
+    ]
+  },
+  "T10020": {
+    "client_id": "T10020",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Moore"
+    },
+    "email": "omar.moore99@mail.com",
+    "dob": "1983-03-20",
+    "phone": "+1-900-714-2983",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10020_2876",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6096"
+      },
+      {
+        "payment_id": "cc2_T10020_1420",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7149"
+      },
+      {
+        "payment_id": "voucher_T10020_0",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10020_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10020_2",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00056"
+    ]
+  },
+  "T10021": {
+    "client_id": "T10021",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Hill"
+    },
+    "email": "emma.hill72@email.com",
+    "dob": "1962-06-18",
+    "phone": "+1-643-470-8532",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10021_7071",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9289"
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00035",
+      "BK00219",
+      "BK00388"
+    ]
+  },
+  "T10022": {
+    "client_id": "T10022",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Martinez"
+    },
+    "email": "fatima.martinez21@mail.com",
+    "dob": "1987-03-24",
+    "phone": "+1-661-349-8613",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10022_5425",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9817"
+      },
+      {
+        "payment_id": "voucher_T10022_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10022_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10022_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00058",
+      "BK00252"
+    ]
+  },
+  "T10023": {
+    "client_id": "T10023",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Nelson"
+    },
+    "email": "kevin.nelson40@inbox.com",
+    "dob": "1984-06-01",
+    "phone": "+1-616-600-4937",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10023_6325",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8988"
+      },
+      {
+        "payment_id": "cc2_T10023_5232",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5581"
+      },
+      {
+        "payment_id": "voucher_T10023_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10023_1",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00242"
+    ]
+  },
+  "T10024": {
+    "client_id": "T10024",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Allen"
+    },
+    "email": "omar.allen57@mail.com",
+    "dob": "1991-08-26",
+    "phone": "+1-766-643-6632",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10024_2524",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4630"
+      },
+      {
+        "payment_id": "voucher_T10024_0",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00098"
+    ]
+  },
+  "T10025": {
+    "client_id": "T10025",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Nguyen"
+    },
+    "email": "donna.nguyen71@mail.com",
+    "dob": "1981-06-23",
+    "phone": "+1-941-703-9595",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10025_5438",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5118"
+      },
+      {
+        "payment_id": "cc2_T10025_4155",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2958"
+      },
+      {
+        "payment_id": "voucher_T10025_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00159",
+      "BK00243",
+      "BK00312",
+      "BK00320"
+    ]
+  },
+  "T10026": {
+    "client_id": "T10026",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Martin"
+    },
+    "email": "brian.martin80@mail.com",
+    "dob": "1966-04-10",
+    "phone": "+1-914-229-9042",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10026_6912",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5952"
+      },
+      {
+        "payment_id": "cc2_T10026_9751",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5494"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00018",
+      "BK00031",
+      "BK00045"
+    ]
+  },
+  "T10027": {
+    "client_id": "T10027",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Smith"
+    },
+    "email": "michael.smith61@mail.com",
+    "dob": "1996-05-16",
+    "phone": "+1-275-690-1878",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10027_8216",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4020"
+      },
+      {
+        "payment_id": "voucher_T10027_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10027_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00015",
+      "BK00125",
+      "BK00138",
+      "BK00309",
+      "BK00370",
+      "BK00399"
+    ]
+  },
+  "T10028": {
+    "client_id": "T10028",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Martinez"
+    },
+    "email": "elizabeth.martinez66@mail.com",
+    "dob": "1996-05-03",
+    "phone": "+1-802-539-6003",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10028_2940",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "7818"
+      },
+      {
+        "payment_id": "voucher_T10028_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00084",
+      "BK00335",
+      "BK00372"
+    ]
+  },
+  "T10029": {
+    "client_id": "T10029",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Nelson"
+    },
+    "email": "kevin.nelson10@mail.com",
+    "dob": "1963-10-24",
+    "phone": "+1-661-805-8699",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10029_4404",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "4457"
+      },
+      {
+        "payment_id": "cc2_T10029_2330",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4929"
+      },
+      {
+        "payment_id": "voucher_T10029_0",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00136",
+      "BK00270"
+    ]
+  },
+  "T10030": {
+    "client_id": "T10030",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Williams"
+    },
+    "email": "christopher.williams79@email.com",
+    "dob": "1974-05-23",
+    "phone": "+1-863-252-5352",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10030_8438",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4824"
+      },
+      {
+        "payment_id": "voucher_T10030_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00121",
+      "BK00127",
+      "BK00259",
+      "BK00276"
+    ]
+  },
+  "T10031": {
+    "client_id": "T10031",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Martinez"
+    },
+    "email": "olivia.martinez79@mail.com",
+    "dob": "1964-01-06",
+    "phone": "+1-648-182-1653",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10031_5728",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3037"
+      },
+      {
+        "payment_id": "voucher_T10031_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10031_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00192",
+      "BK00283"
+    ]
+  },
+  "T10032": {
+    "client_id": "T10032",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Robinson"
+    },
+    "email": "mia.robinson76@inbox.com",
+    "dob": "1980-10-09",
+    "phone": "+1-652-384-3973",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10032_2496",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1339"
+      },
+      {
+        "payment_id": "voucher_T10032_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10032_1",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00228",
+      "BK00262"
+    ]
+  },
+  "T10033": {
+    "client_id": "T10033",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Robinson"
+    },
+    "email": "amanda.robinson14@mail.com",
+    "dob": "2000-08-03",
+    "phone": "+1-290-422-5135",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10033_6700",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6460"
+      },
+      {
+        "payment_id": "cc2_T10033_2713",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6403"
+      },
+      {
+        "payment_id": "voucher_T10033_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10033_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10033_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00251",
+      "BK00257"
+    ]
+  },
+  "T10034": {
+    "client_id": "T10034",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Davis"
+    },
+    "email": "daniel.davis26@mail.com",
+    "dob": "1985-09-27",
+    "phone": "+1-648-815-8941",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10034_9889",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7770"
+      },
+      {
+        "payment_id": "cc2_T10034_9494",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9167"
+      },
+      {
+        "payment_id": "voucher_T10034_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10034_1",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10034_2",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00042",
+      "BK00183"
+    ]
+  },
+  "T10035": {
+    "client_id": "T10035",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Johnson"
+    },
+    "email": "linda.johnson24@mail.com",
+    "dob": "2000-10-26",
+    "phone": "+1-320-763-3522",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10035_3594",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1224"
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": []
+  },
+  "T10036": {
+    "client_id": "T10036",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Carter"
+    },
+    "email": "sandra.carter63@mail.com",
+    "dob": "1978-09-23",
+    "phone": "+1-719-373-1042",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10036_7807",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8736"
+      },
+      {
+        "payment_id": "cc2_T10036_3369",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4122"
+      },
+      {
+        "payment_id": "voucher_T10036_0",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00170",
+      "BK00286",
+      "BK00295"
+    ]
+  },
+  "T10037": {
+    "client_id": "T10037",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Lee"
+    },
+    "email": "christopher.lee34@inbox.com",
+    "dob": "1997-10-22",
+    "phone": "+1-444-685-7274",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10037_3434",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9824"
+      },
+      {
+        "payment_id": "voucher_T10037_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10037_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00390"
+    ]
+  },
+  "T10038": {
+    "client_id": "T10038",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Lewis"
+    },
+    "email": "joseph.lewis74@inbox.com",
+    "dob": "1962-06-24",
+    "phone": "+1-539-990-2644",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10038_7246",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3492"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00010",
+      "BK00278"
+    ]
+  },
+  "T10039": {
+    "client_id": "T10039",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Walker"
+    },
+    "email": "ethan.walker96@inbox.com",
+    "dob": "1966-09-15",
+    "phone": "+1-589-424-8994",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10039_3361",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3529"
+      },
+      {
+        "payment_id": "cc2_T10039_5342",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7512"
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00089"
+    ]
+  },
+  "T10040": {
+    "client_id": "T10040",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Torres"
+    },
+    "email": "ethan.torres66@email.com",
+    "dob": "1962-10-03",
+    "phone": "+1-910-406-1474",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10040_5708",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2480"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": []
+  },
+  "T10041": {
+    "client_id": "T10041",
+    "name": {
+      "first_name": "John",
+      "last_name": "Perez"
+    },
+    "email": "john.perez20@inbox.com",
+    "dob": "1963-05-12",
+    "phone": "+1-591-734-4945",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10041_8056",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5000"
+      },
+      {
+        "payment_id": "voucher_T10041_0",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00197",
+      "BK00272"
+    ]
+  },
+  "T10042": {
+    "client_id": "T10042",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Green"
+    },
+    "email": "sandra.green54@inbox.com",
+    "dob": "1969-04-15",
+    "phone": "+1-506-754-7951",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10042_5161",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5183"
+      },
+      {
+        "payment_id": "voucher_T10042_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10042_1",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10042_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00071",
+      "BK00153"
+    ]
+  },
+  "T10043": {
+    "client_id": "T10043",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Moore"
+    },
+    "email": "omar.moore45@email.com",
+    "dob": "1989-05-07",
+    "phone": "+1-779-985-1803",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10043_8916",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4886"
+      },
+      {
+        "payment_id": "cc2_T10043_6881",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5837"
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00006",
+      "BK00049",
+      "BK00105",
+      "BK00255",
+      "BK00369"
+    ]
+  },
+  "T10044": {
+    "client_id": "T10044",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Adams"
+    },
+    "email": "hiroshi.adams49@mail.com",
+    "dob": "1991-05-25",
+    "phone": "+1-234-693-6977",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10044_6772",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4115"
+      },
+      {
+        "payment_id": "voucher_T10044_0",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00352"
+    ]
+  },
+  "T10045": {
+    "client_id": "T10045",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Rodriguez"
+    },
+    "email": "chen.rodriguez47@inbox.com",
+    "dob": "1965-05-11",
+    "phone": "+1-546-923-2886",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10045_7807",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4289"
+      },
+      {
+        "payment_id": "cc2_T10045_9837",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9697"
+      },
+      {
+        "payment_id": "voucher_T10045_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10045_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00062"
+    ]
+  },
+  "T10046": {
+    "client_id": "T10046",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Jones"
+    },
+    "email": "michelle.jones57@inbox.com",
+    "dob": "1969-04-28",
+    "phone": "+1-966-788-5295",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10046_7511",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "6992"
+      },
+      {
+        "payment_id": "cc2_T10046_7464",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5332"
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00036",
+      "BK00393"
+    ]
+  },
+  "T10047": {
+    "client_id": "T10047",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Sanchez"
+    },
+    "email": "amanda.sanchez99@mail.com",
+    "dob": "2000-06-04",
+    "phone": "+1-864-518-2911",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10047_4830",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1410"
+      },
+      {
+        "payment_id": "voucher_T10047_0",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10047_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00382"
+    ]
+  },
+  "T10048": {
+    "client_id": "T10048",
+    "name": {
+      "first_name": "William",
+      "last_name": "Williams"
+    },
+    "email": "william.williams88@mail.com",
+    "dob": "1962-05-16",
+    "phone": "+1-486-133-7070",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10048_2592",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9807"
+      },
+      {
+        "payment_id": "cc2_T10048_8432",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9850"
+      },
+      {
+        "payment_id": "voucher_T10048_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10048_1",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10048_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00133",
+      "BK00267"
+    ]
+  },
+  "T10049": {
+    "client_id": "T10049",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Walker"
+    },
+    "email": "susan.walker34@email.com",
+    "dob": "1988-04-28",
+    "phone": "+1-665-193-4475",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10049_2627",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "7018"
+      },
+      {
+        "payment_id": "voucher_T10049_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10049_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00090"
+    ]
+  },
+  "T10050": {
+    "client_id": "T10050",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Baker"
+    },
+    "email": "mei.baker28@email.com",
+    "dob": "1998-01-02",
+    "phone": "+1-753-356-3858",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10050_4990",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4362"
+      },
+      {
+        "payment_id": "cc2_T10050_4394",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4817"
+      },
+      {
+        "payment_id": "voucher_T10050_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10050_1",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": []
+  },
+  "T10051": {
+    "client_id": "T10051",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Rivera"
+    },
+    "email": "linda.rivera56@inbox.com",
+    "dob": "1961-03-01",
+    "phone": "+1-807-211-8405",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10051_4898",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "6304"
+      },
+      {
+        "payment_id": "cc2_T10051_5347",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3076"
+      },
+      {
+        "payment_id": "voucher_T10051_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10051_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10051_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00349"
+    ]
+  },
+  "T10052": {
+    "client_id": "T10052",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Thomas"
+    },
+    "email": "andrew.thomas71@mail.com",
+    "dob": "1999-01-24",
+    "phone": "+1-636-802-2768",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10052_9543",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8504"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00297",
+      "BK00350"
+    ]
+  },
+  "T10053": {
+    "client_id": "T10053",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Carter"
+    },
+    "email": "sandra.carter99@email.com",
+    "dob": "1988-02-03",
+    "phone": "+1-870-766-4522",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10053_3430",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3067"
+      },
+      {
+        "payment_id": "cc2_T10053_9984",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7240"
+      },
+      {
+        "payment_id": "voucher_T10053_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10053_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00091",
+      "BK00303"
+    ]
+  },
+  "T10054": {
+    "client_id": "T10054",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Walker"
+    },
+    "email": "donna.walker21@email.com",
+    "dob": "1974-07-11",
+    "phone": "+1-295-542-2582",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10054_7532",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2557"
+      },
+      {
+        "payment_id": "cc2_T10054_6120",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7132"
+      },
+      {
+        "payment_id": "voucher_T10054_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00218"
+    ]
+  },
+  "T10055": {
+    "client_id": "T10055",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Harris"
+    },
+    "email": "aisha.harris23@inbox.com",
+    "dob": "1968-09-02",
+    "phone": "+1-719-317-3535",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10055_6400",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "3002"
+      },
+      {
+        "payment_id": "voucher_T10055_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10055_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10055_2",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": []
+  },
+  "T10056": {
+    "client_id": "T10056",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Allen"
+    },
+    "email": "wei.allen44@inbox.com",
+    "dob": "1974-02-12",
+    "phone": "+1-980-416-6567",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10056_7022",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5564"
+      },
+      {
+        "payment_id": "voucher_T10056_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10056_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10056_2",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00096",
+      "BK00344",
+      "BK00346",
+      "BK00374"
+    ]
+  },
+  "T10057": {
+    "client_id": "T10057",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Smith"
+    },
+    "email": "matthew.smith77@email.com",
+    "dob": "1971-03-19",
+    "phone": "+1-585-529-8432",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10057_7566",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3324"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": []
+  },
+  "T10058": {
+    "client_id": "T10058",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Hernandez"
+    },
+    "email": "nancy.hernandez44@email.com",
+    "dob": "1983-05-24",
+    "phone": "+1-973-624-2864",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10058_2391",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3549"
+      },
+      {
+        "payment_id": "cc2_T10058_1815",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5458"
+      },
+      {
+        "payment_id": "voucher_T10058_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10058_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10058_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00074",
+      "BK00196"
+    ]
+  },
+  "T10059": {
+    "client_id": "T10059",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Robinson"
+    },
+    "email": "matthew.robinson27@mail.com",
+    "dob": "1967-05-22",
+    "phone": "+1-496-435-2965",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10059_8972",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "6053"
+      },
+      {
+        "payment_id": "cc2_T10059_7475",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1125"
+      },
+      {
+        "payment_id": "voucher_T10059_0",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00080",
+      "BK00097"
+    ]
+  },
+  "T10060": {
+    "client_id": "T10060",
+    "name": {
+      "first_name": "James",
+      "last_name": "King"
+    },
+    "email": "james.king65@email.com",
+    "dob": "1987-03-05",
+    "phone": "+1-670-179-6129",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10060_9725",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "4770"
+      },
+      {
+        "payment_id": "voucher_T10060_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10060_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00122"
+    ]
+  },
+  "T10061": {
+    "client_id": "T10061",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Robinson"
+    },
+    "email": "kevin.robinson21@mail.com",
+    "dob": "1996-07-23",
+    "phone": "+1-308-349-8138",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10061_7843",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2887"
+      },
+      {
+        "payment_id": "voucher_T10061_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10061_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00142",
+      "BK00216"
+    ]
+  },
+  "T10062": {
+    "client_id": "T10062",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Clark"
+    },
+    "email": "amanda.clark91@email.com",
+    "dob": "1993-02-13",
+    "phone": "+1-743-622-4176",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10062_6562",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6456"
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00029",
+      "BK00137",
+      "BK00314",
+      "BK00341"
+    ]
+  },
+  "T10063": {
+    "client_id": "T10063",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "White"
+    },
+    "email": "zara.white90@mail.com",
+    "dob": "1982-12-27",
+    "phone": "+1-675-872-8354",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10063_3419",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2684"
+      },
+      {
+        "payment_id": "cc2_T10063_4232",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3504"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00229"
+    ]
+  },
+  "T10064": {
+    "client_id": "T10064",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Hill"
+    },
+    "email": "yuki.hill74@email.com",
+    "dob": "2000-10-11",
+    "phone": "+1-517-572-8404",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10064_6179",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8205"
+      },
+      {
+        "payment_id": "cc2_T10064_8245",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5500"
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00298",
+      "BK00328",
+      "BK00400"
+    ]
+  },
+  "T10065": {
+    "client_id": "T10065",
+    "name": {
+      "first_name": "John",
+      "last_name": "Brown"
+    },
+    "email": "john.brown67@email.com",
+    "dob": "1983-05-03",
+    "phone": "+1-551-831-2381",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10065_2479",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9307"
+      },
+      {
+        "payment_id": "cc2_T10065_1672",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4084"
+      },
+      {
+        "payment_id": "voucher_T10065_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10065_1",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00355"
+    ]
+  },
+  "T10066": {
+    "client_id": "T10066",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Hall"
+    },
+    "email": "andrew.hall46@mail.com",
+    "dob": "1971-01-08",
+    "phone": "+1-618-893-6543",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10066_8172",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9586"
+      },
+      {
+        "payment_id": "voucher_T10066_0",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00225",
+      "BK00362"
+    ]
+  },
+  "T10067": {
+    "client_id": "T10067",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Adams"
+    },
+    "email": "yuki.adams20@inbox.com",
+    "dob": "1963-11-21",
+    "phone": "+1-879-244-6731",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10067_2079",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2548"
+      },
+      {
+        "payment_id": "voucher_T10067_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10067_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10067_2",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00044",
+      "BK00078"
+    ]
+  },
+  "T10068": {
+    "client_id": "T10068",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Hall"
+    },
+    "email": "karen.hall75@mail.com",
+    "dob": "1985-03-20",
+    "phone": "+1-218-471-6060",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10068_2388",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7171"
+      },
+      {
+        "payment_id": "voucher_T10068_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10068_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": []
+  },
+  "T10069": {
+    "client_id": "T10069",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Anderson"
+    },
+    "email": "barbara.anderson30@email.com",
+    "dob": "1981-08-07",
+    "phone": "+1-909-889-3712",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10069_3253",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2264"
+      },
+      {
+        "payment_id": "cc2_T10069_2657",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6517"
+      },
+      {
+        "payment_id": "voucher_T10069_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00391"
+    ]
+  },
+  "T10070": {
+    "client_id": "T10070",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Walker"
+    },
+    "email": "chen.walker34@mail.com",
+    "dob": "1962-07-12",
+    "phone": "+1-894-684-8218",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10070_4891",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5668"
+      },
+      {
+        "payment_id": "voucher_T10070_0",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10070_1",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10070_2",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00064",
+      "BK00193"
+    ]
+  },
+  "T10071": {
+    "client_id": "T10071",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Martin"
+    },
+    "email": "michelle.martin57@inbox.com",
+    "dob": "1984-09-17",
+    "phone": "+1-305-828-9452",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10071_3655",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3267"
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00026",
+      "BK00040",
+      "BK00154"
+    ]
+  },
+  "T10072": {
+    "client_id": "T10072",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Davis"
+    },
+    "email": "ava.davis60@inbox.com",
+    "dob": "1978-02-25",
+    "phone": "+1-582-341-7326",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10072_5469",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9410"
+      },
+      {
+        "payment_id": "cc2_T10072_8167",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4637"
+      },
+      {
+        "payment_id": "voucher_T10072_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10072_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10072_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00175"
+    ]
+  },
+  "T10073": {
+    "client_id": "T10073",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Harris"
+    },
+    "email": "jennifer.harris37@email.com",
+    "dob": "1974-01-11",
+    "phone": "+1-761-844-9647",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10073_6493",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3254"
+      },
+      {
+        "payment_id": "cc2_T10073_8740",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8685"
+      },
+      {
+        "payment_id": "voucher_T10073_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10073_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10073_2",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00022",
+      "BK00248"
+    ]
+  },
+  "T10074": {
+    "client_id": "T10074",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Davis"
+    },
+    "email": "donna.davis78@email.com",
+    "dob": "1978-04-10",
+    "phone": "+1-847-627-4963",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10074_1782",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7878"
+      },
+      {
+        "payment_id": "voucher_T10074_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10074_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10074_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": []
+  },
+  "T10075": {
+    "client_id": "T10075",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Martinez"
+    },
+    "email": "fatima.martinez70@email.com",
+    "dob": "1978-07-01",
+    "phone": "+1-850-496-7116",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10075_6780",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7825"
+      },
+      {
+        "payment_id": "cc2_T10075_2402",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2108"
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00268"
+    ]
+  },
+  "T10076": {
+    "client_id": "T10076",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Johnson"
+    },
+    "email": "thomas.johnson68@email.com",
+    "dob": "1982-02-12",
+    "phone": "+1-500-306-1717",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10076_2698",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "6447"
+      },
+      {
+        "payment_id": "cc2_T10076_6772",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3868"
+      },
+      {
+        "payment_id": "voucher_T10076_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10076_1",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10076_2",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00019",
+      "BK00077",
+      "BK00128",
+      "BK00238"
+    ]
+  },
+  "T10077": {
+    "client_id": "T10077",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Wilson"
+    },
+    "email": "emma.wilson44@email.com",
+    "dob": "1962-06-10",
+    "phone": "+1-576-547-7553",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10077_7524",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "8756"
+      },
+      {
+        "payment_id": "cc2_T10077_4131",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6848"
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": []
+  },
+  "T10078": {
+    "client_id": "T10078",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Walker"
+    },
+    "email": "aisha.walker20@mail.com",
+    "dob": "1984-06-06",
+    "phone": "+1-876-402-6021",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10078_9151",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9507"
+      },
+      {
+        "payment_id": "cc2_T10078_2353",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2293"
+      },
+      {
+        "payment_id": "voucher_T10078_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10078_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10078_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00104",
+      "BK00398"
+    ]
+  },
+  "T10079": {
+    "client_id": "T10079",
+    "name": {
+      "first_name": "Steven",
+      "last_name": "Adams"
+    },
+    "email": "steven.adams19@inbox.com",
+    "dob": "1987-03-23",
+    "phone": "+1-852-515-6952",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10079_6759",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1693"
+      },
+      {
+        "payment_id": "voucher_T10079_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10079_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00315"
+    ]
+  },
+  "T10080": {
+    "client_id": "T10080",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Campbell"
+    },
+    "email": "andrew.campbell29@inbox.com",
+    "dob": "1970-01-05",
+    "phone": "+1-660-479-7095",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10080_8179",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3068"
+      },
+      {
+        "payment_id": "cc2_T10080_7001",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7272"
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00061",
+      "BK00094",
+      "BK00264"
+    ]
+  },
+  "T10081": {
+    "client_id": "T10081",
+    "name": {
+      "first_name": "Steven",
+      "last_name": "Jones"
+    },
+    "email": "steven.jones67@email.com",
+    "dob": "1996-03-17",
+    "phone": "+1-826-392-9047",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10081_7521",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5566"
+      },
+      {
+        "payment_id": "cc2_T10081_2858",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4048"
+      },
+      {
+        "payment_id": "voucher_T10081_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10081_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10081_2",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00373"
+    ]
+  },
+  "T10082": {
+    "client_id": "T10082",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Davis"
+    },
+    "email": "richard.davis79@mail.com",
+    "dob": "1968-02-15",
+    "phone": "+1-507-971-3580",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10082_8292",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6236"
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00011",
+      "BK00124"
+    ]
+  },
+  "T10083": {
+    "client_id": "T10083",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Carter"
+    },
+    "email": "fatima.carter13@mail.com",
+    "dob": "2000-03-26",
+    "phone": "+1-767-686-7044",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10083_9335",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2988"
+      },
+      {
+        "payment_id": "voucher_T10083_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00201"
+    ]
+  },
+  "T10084": {
+    "client_id": "T10084",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Nguyen"
+    },
+    "email": "michelle.nguyen67@mail.com",
+    "dob": "1968-10-03",
+    "phone": "+1-896-629-6644",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10084_6067",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8842"
+      },
+      {
+        "payment_id": "voucher_T10084_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10084_1",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10084_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00239"
+    ]
+  },
+  "T10085": {
+    "client_id": "T10085",
+    "name": {
+      "first_name": "William",
+      "last_name": "Nguyen"
+    },
+    "email": "william.nguyen30@mail.com",
+    "dob": "2000-10-06",
+    "phone": "+1-926-330-6669",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10085_8088",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1907"
+      },
+      {
+        "payment_id": "voucher_T10085_0",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00375"
+    ]
+  },
+  "T10086": {
+    "client_id": "T10086",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Martin"
+    },
+    "email": "ashley.martin92@email.com",
+    "dob": "1965-05-07",
+    "phone": "+1-806-694-3526",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10086_5496",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5961"
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00085",
+      "BK00279",
+      "BK00379"
+    ]
+  },
+  "T10087": {
+    "client_id": "T10087",
+    "name": {
+      "first_name": "David",
+      "last_name": "Rivera"
+    },
+    "email": "david.rivera90@inbox.com",
+    "dob": "1999-12-20",
+    "phone": "+1-496-757-5949",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10087_1674",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2330"
+      },
+      {
+        "payment_id": "cc2_T10087_5336",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7825"
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00143",
+      "BK00317",
+      "BK00330"
+    ]
+  },
+  "T10088": {
+    "client_id": "T10088",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Taylor"
+    },
+    "email": "paul.taylor50@inbox.com",
+    "dob": "1985-05-15",
+    "phone": "+1-553-508-3142",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10088_1981",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8202"
+      },
+      {
+        "payment_id": "voucher_T10088_0",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10088_1",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10088_2",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00280"
+    ]
+  },
+  "T10089": {
+    "client_id": "T10089",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Harris"
+    },
+    "email": "sofia.harris59@inbox.com",
+    "dob": "1992-09-04",
+    "phone": "+1-628-354-3616",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10089_4960",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3007"
+      },
+      {
+        "payment_id": "cc2_T10089_5061",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2586"
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00141",
+      "BK00176",
+      "BK00212"
+    ]
+  },
+  "T10090": {
+    "client_id": "T10090",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Perez"
+    },
+    "email": "olivia.perez60@inbox.com",
+    "dob": "1996-12-11",
+    "phone": "+1-668-346-4524",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10090_3610",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9433"
+      },
+      {
+        "payment_id": "voucher_T10090_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10090_1",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00046",
+      "BK00130"
+    ]
+  },
+  "T10091": {
+    "client_id": "T10091",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "White"
+    },
+    "email": "amanda.white15@mail.com",
+    "dob": "1963-01-10",
+    "phone": "+1-252-683-4189",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10091_8710",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9793"
+      },
+      {
+        "payment_id": "cc2_T10091_2761",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3194"
+      },
+      {
+        "payment_id": "voucher_T10091_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10091_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00327"
+    ]
+  },
+  "T10092": {
+    "client_id": "T10092",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Nguyen"
+    },
+    "email": "betty.nguyen22@mail.com",
+    "dob": "1978-02-13",
+    "phone": "+1-582-913-6555",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10092_8378",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "5582"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": []
+  },
+  "T10093": {
+    "client_id": "T10093",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Harris"
+    },
+    "email": "kimberly.harris50@email.com",
+    "dob": "1969-04-20",
+    "phone": "+1-602-731-5902",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10093_7576",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1659"
+      },
+      {
+        "payment_id": "cc2_T10093_3245",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8761"
+      },
+      {
+        "payment_id": "voucher_T10093_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10093_1",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10093_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00067",
+      "BK00190"
+    ]
+  },
+  "T10094": {
+    "client_id": "T10094",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Thompson"
+    },
+    "email": "amanda.thompson70@mail.com",
+    "dob": "1992-09-18",
+    "phone": "+1-871-901-4728",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10094_5911",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1272"
+      },
+      {
+        "payment_id": "cc2_T10094_2795",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6040"
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00054",
+      "BK00339",
+      "BK00364"
+    ]
+  },
+  "T10095": {
+    "client_id": "T10095",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Brown"
+    },
+    "email": "chen.brown98@email.com",
+    "dob": "1997-08-06",
+    "phone": "+1-620-613-8726",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10095_7229",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4968"
+      },
+      {
+        "payment_id": "cc2_T10095_2800",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1310"
+      },
+      {
+        "payment_id": "voucher_T10095_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10095_1",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10095_2",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00288",
+      "BK00325"
+    ]
+  },
+  "T10096": {
+    "client_id": "T10096",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Brown"
+    },
+    "email": "ethan.brown53@inbox.com",
+    "dob": "1968-09-07",
+    "phone": "+1-562-792-5331",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10096_6325",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "8837"
+      },
+      {
+        "payment_id": "voucher_T10096_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10096_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00161",
+      "BK00181",
+      "BK00246"
+    ]
+  },
+  "T10097": {
+    "client_id": "T10097",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Allen"
+    },
+    "email": "melissa.allen71@mail.com",
+    "dob": "1972-04-09",
+    "phone": "+1-773-914-5480",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10097_5890",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5876"
+      },
+      {
+        "payment_id": "voucher_T10097_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00001",
+      "BK00106"
+    ]
+  },
+  "T10098": {
+    "client_id": "T10098",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Davis"
+    },
+    "email": "christopher.davis78@mail.com",
+    "dob": "1996-11-18",
+    "phone": "+1-775-812-5450",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10098_7464",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3399"
+      },
+      {
+        "payment_id": "cc2_T10098_5712",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6674"
+      },
+      {
+        "payment_id": "voucher_T10098_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10098_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10098_2",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00167"
+    ]
+  },
+  "T10099": {
+    "client_id": "T10099",
+    "name": {
+      "first_name": "William",
+      "last_name": "Miller"
+    },
+    "email": "william.miller10@inbox.com",
+    "dob": "1999-12-19",
+    "phone": "+1-361-516-8793",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10099_4972",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9700"
+      },
+      {
+        "payment_id": "cc2_T10099_4814",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2641"
+      },
+      {
+        "payment_id": "voucher_T10099_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10099_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10099_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00032",
+      "BK00182",
+      "BK00343"
+    ]
+  },
+  "T10100": {
+    "client_id": "T10100",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Hall"
+    },
+    "email": "paul.hall63@email.com",
+    "dob": "1972-05-11",
+    "phone": "+1-237-956-7504",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10100_1969",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4804"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00163",
+      "BK00186",
+      "BK00337"
+    ]
+  },
+  "T10101": {
+    "client_id": "T10101",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "King"
+    },
+    "email": "emma.king46@mail.com",
+    "dob": "1971-12-28",
+    "phone": "+1-856-656-9590",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10101_1613",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5888"
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": []
+  },
+  "T10102": {
+    "client_id": "T10102",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Rodriguez"
+    },
+    "email": "sandra.rodriguez47@inbox.com",
+    "dob": "1992-08-09",
+    "phone": "+1-890-875-4164",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10102_2845",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3662"
+      },
+      {
+        "payment_id": "voucher_T10102_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10102_1",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00101",
+      "BK00166",
+      "BK00221",
+      "BK00247",
+      "BK00258"
+    ]
+  },
+  "T10103": {
+    "client_id": "T10103",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Nelson"
+    },
+    "email": "barbara.nelson27@mail.com",
+    "dob": "2000-07-27",
+    "phone": "+1-531-354-1111",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10103_9442",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2421"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00041",
+      "BK00222",
+      "BK00236"
+    ]
+  },
+  "T10104": {
+    "client_id": "T10104",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Sanchez"
+    },
+    "email": "thomas.sanchez49@email.com",
+    "dob": "1975-08-25",
+    "phone": "+1-615-802-9233",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10104_6400",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1187"
+      },
+      {
+        "payment_id": "cc2_T10104_6890",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2017"
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00187",
+      "BK00294"
+    ]
+  },
+  "T10105": {
+    "client_id": "T10105",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "Carter"
+    },
+    "email": "priya.carter95@email.com",
+    "dob": "1979-12-04",
+    "phone": "+1-980-353-2341",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10105_5833",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4618"
+      },
+      {
+        "payment_id": "cc2_T10105_3188",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3509"
+      },
+      {
+        "payment_id": "voucher_T10105_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10105_1",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10105_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00111",
+      "BK00235",
+      "BK00366"
+    ]
+  },
+  "T10106": {
+    "client_id": "T10106",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Walker"
+    },
+    "email": "ashley.walker51@inbox.com",
+    "dob": "1993-12-12",
+    "phone": "+1-652-219-4365",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10106_2838",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9972"
+      },
+      {
+        "payment_id": "voucher_T10106_0",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00207",
+      "BK00361"
+    ]
+  },
+  "T10107": {
+    "client_id": "T10107",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Green"
+    },
+    "email": "fatima.green60@mail.com",
+    "dob": "1991-02-17",
+    "phone": "+1-203-863-4570",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10107_1911",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3161"
+      },
+      {
+        "payment_id": "voucher_T10107_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10107_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10107_2",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00194"
+    ]
+  },
+  "T10108": {
+    "client_id": "T10108",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Jones"
+    },
+    "email": "amanda.jones14@mail.com",
+    "dob": "1962-07-12",
+    "phone": "+1-618-284-3218",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10108_2044",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1987"
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00240",
+      "BK00359",
+      "BK00395"
+    ]
+  },
+  "T10109": {
+    "client_id": "T10109",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Hall"
+    },
+    "email": "lucas.hall32@inbox.com",
+    "dob": "1986-06-13",
+    "phone": "+1-602-641-3086",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10109_7184",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2314"
+      },
+      {
+        "payment_id": "voucher_T10109_0",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00345",
+      "BK00378"
+    ]
+  },
+  "T10110": {
+    "client_id": "T10110",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Thomas"
+    },
+    "email": "chen.thomas24@email.com",
+    "dob": "1960-01-10",
+    "phone": "+1-876-529-1256",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10110_9920",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9715"
+      },
+      {
+        "payment_id": "cc2_T10110_4762",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8546"
+      },
+      {
+        "payment_id": "voucher_T10110_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10110_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00306"
+    ]
+  },
+  "T10111": {
+    "client_id": "T10111",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Anderson"
+    },
+    "email": "jessica.anderson27@inbox.com",
+    "dob": "1964-02-20",
+    "phone": "+1-496-339-6224",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10111_8314",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1797"
+      },
+      {
+        "payment_id": "cc2_T10111_1724",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8191"
+      },
+      {
+        "payment_id": "voucher_T10111_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00146"
+    ]
+  },
+  "T10112": {
+    "client_id": "T10112",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Adams"
+    },
+    "email": "kevin.adams50@inbox.com",
+    "dob": "1980-04-10",
+    "phone": "+1-626-518-3444",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10112_9540",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7775"
+      },
+      {
+        "payment_id": "cc2_T10112_1998",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7999"
+      },
+      {
+        "payment_id": "voucher_T10112_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10112_1",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10112_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00086",
+      "BK00087",
+      "BK00275",
+      "BK00319"
+    ]
+  },
+  "T10113": {
+    "client_id": "T10113",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Sanchez"
+    },
+    "email": "karen.sanchez62@mail.com",
+    "dob": "1971-09-16",
+    "phone": "+1-770-642-3196",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10113_4692",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3365"
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00075",
+      "BK00076",
+      "BK00144",
+      "BK00351"
+    ]
+  },
+  "T10114": {
+    "client_id": "T10114",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Taylor"
+    },
+    "email": "anthony.taylor95@inbox.com",
+    "dob": "1976-04-11",
+    "phone": "+1-422-590-4422",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10114_2295",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7079"
+      },
+      {
+        "payment_id": "cc2_T10114_4120",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5398"
+      },
+      {
+        "payment_id": "voucher_T10114_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10114_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10114_2",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00012",
+      "BK00095"
+    ]
+  },
+  "T10115": {
+    "client_id": "T10115",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Thompson"
+    },
+    "email": "ethan.thompson80@mail.com",
+    "dob": "1979-01-07",
+    "phone": "+1-994-389-7236",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10115_2922",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "8846"
+      },
+      {
+        "payment_id": "voucher_T10115_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00069",
+      "BK00119"
+    ]
+  },
+  "T10116": {
+    "client_id": "T10116",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Torres"
+    },
+    "email": "michelle.torres82@email.com",
+    "dob": "1982-05-09",
+    "phone": "+1-959-249-1265",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10116_9401",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8635"
+      },
+      {
+        "payment_id": "cc2_T10116_8692",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4328"
+      },
+      {
+        "payment_id": "voucher_T10116_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10116_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00118",
+      "BK00150"
+    ]
+  },
+  "T10117": {
+    "client_id": "T10117",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Nguyen"
+    },
+    "email": "thomas.nguyen68@email.com",
+    "dob": "1997-10-24",
+    "phone": "+1-950-914-6770",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10117_5836",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4214"
+      },
+      {
+        "payment_id": "cc2_T10117_7223",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9180"
+      },
+      {
+        "payment_id": "voucher_T10117_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10117_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00300"
+    ]
+  },
+  "T10118": {
+    "client_id": "T10118",
+    "name": {
+      "first_name": "David",
+      "last_name": "Rodriguez"
+    },
+    "email": "david.rodriguez10@mail.com",
+    "dob": "1994-08-06",
+    "phone": "+1-340-962-4791",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10118_1962",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1554"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00117",
+      "BK00184",
+      "BK00261",
+      "BK00263"
+    ]
+  },
+  "T10119": {
+    "client_id": "T10119",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Carter"
+    },
+    "email": "robert.carter80@mail.com",
+    "dob": "1969-01-07",
+    "phone": "+1-212-117-9673",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10119_8471",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1990"
+      },
+      {
+        "payment_id": "voucher_T10119_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10119_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10119_2",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": []
+  },
+  "T10120": {
+    "client_id": "T10120",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Jackson"
+    },
+    "email": "chen.jackson89@inbox.com",
+    "dob": "1994-05-01",
+    "phone": "+1-458-934-6807",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10120_8054",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2753"
+      },
+      {
+        "payment_id": "voucher_T10120_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00140",
+      "BK00329"
+    ]
+  },
+  "T10121": {
+    "client_id": "T10121",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Clark"
+    },
+    "email": "sarah.clark91@email.com",
+    "dob": "1965-06-13",
+    "phone": "+1-919-275-2354",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10121_4984",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "4700"
+      },
+      {
+        "payment_id": "cc2_T10121_2320",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2531"
+      },
+      {
+        "payment_id": "voucher_T10121_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10121_1",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10121_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00083",
+      "BK00148",
+      "BK00157",
+      "BK00227",
+      "BK00285"
+    ]
+  },
+  "T10122": {
+    "client_id": "T10122",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Robinson"
+    },
+    "email": "sandra.robinson79@inbox.com",
+    "dob": "1981-10-28",
+    "phone": "+1-873-133-3938",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10122_9653",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4764"
+      },
+      {
+        "payment_id": "cc2_T10122_8790",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1762"
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": []
+  },
+  "T10123": {
+    "client_id": "T10123",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "Perez"
+    },
+    "email": "priya.perez74@inbox.com",
+    "dob": "1961-04-19",
+    "phone": "+1-554-154-2600",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10123_7525",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5903"
+      },
+      {
+        "payment_id": "cc2_T10123_4939",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9856"
+      },
+      {
+        "payment_id": "voucher_T10123_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10123_1",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00008",
+      "BK00060"
+    ]
+  },
+  "T10124": {
+    "client_id": "T10124",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Thomas"
+    },
+    "email": "donna.thomas58@mail.com",
+    "dob": "1964-06-20",
+    "phone": "+1-390-796-7227",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10124_7499",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1485"
+      },
+      {
+        "payment_id": "voucher_T10124_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10124_1",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10124_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": []
+  },
+  "T10125": {
+    "client_id": "T10125",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Nelson"
+    },
+    "email": "jennifer.nelson49@mail.com",
+    "dob": "1978-04-23",
+    "phone": "+1-568-879-5419",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10125_2344",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3526"
+      },
+      {
+        "payment_id": "cc2_T10125_3527",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6188"
+      },
+      {
+        "payment_id": "voucher_T10125_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10125_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00168",
+      "BK00356"
+    ]
+  },
+  "T10126": {
+    "client_id": "T10126",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Rodriguez"
+    },
+    "email": "michael.rodriguez20@inbox.com",
+    "dob": "1965-03-14",
+    "phone": "+1-772-348-9537",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10126_9395",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2692"
+      },
+      {
+        "payment_id": "cc2_T10126_6798",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6315"
+      },
+      {
+        "payment_id": "voucher_T10126_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10126_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10126_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00273"
+    ]
+  },
+  "T10127": {
+    "client_id": "T10127",
+    "name": {
+      "first_name": "David",
+      "last_name": "Campbell"
+    },
+    "email": "david.campbell42@email.com",
+    "dob": "1984-03-05",
+    "phone": "+1-938-740-9123",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10127_5933",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9079"
+      },
+      {
+        "payment_id": "cc2_T10127_3739",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5521"
+      },
+      {
+        "payment_id": "voucher_T10127_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10127_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10127_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00178",
+      "BK00231",
+      "BK00234",
+      "BK00331"
+    ]
+  },
+  "T10128": {
+    "client_id": "T10128",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Nelson"
+    },
+    "email": "brian.nelson51@inbox.com",
+    "dob": "1972-08-04",
+    "phone": "+1-911-305-8848",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10128_5991",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7483"
+      },
+      {
+        "payment_id": "cc2_T10128_7224",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8212"
+      },
+      {
+        "payment_id": "voucher_T10128_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10128_1",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00065"
+    ]
+  },
+  "T10129": {
+    "client_id": "T10129",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Lopez"
+    },
+    "email": "daniel.lopez35@inbox.com",
+    "dob": "1985-06-10",
+    "phone": "+1-758-284-1440",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10129_9044",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "4971"
+      },
+      {
+        "payment_id": "cc2_T10129_5592",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6980"
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00290"
+    ]
+  },
+  "T10130": {
+    "client_id": "T10130",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Young"
+    },
+    "email": "chen.young19@mail.com",
+    "dob": "1973-08-26",
+    "phone": "+1-812-590-7566",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10130_2133",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9180"
+      },
+      {
+        "payment_id": "cc2_T10130_5961",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5139"
+      },
+      {
+        "payment_id": "voucher_T10130_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00002",
+      "BK00223",
+      "BK00323"
+    ]
+  },
+  "T10131": {
+    "client_id": "T10131",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "Wright"
+    },
+    "email": "joshua.wright92@inbox.com",
+    "dob": "1986-09-02",
+    "phone": "+1-862-509-6432",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10131_9796",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "2392"
+      },
+      {
+        "payment_id": "cc2_T10131_5067",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3725"
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00030",
+      "BK00165",
+      "BK00202",
+      "BK00230"
+    ]
+  },
+  "T10132": {
+    "client_id": "T10132",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Robinson"
+    },
+    "email": "emma.robinson60@mail.com",
+    "dob": "1966-01-04",
+    "phone": "+1-990-795-9199",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10132_4637",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9499"
+      },
+      {
+        "payment_id": "voucher_T10132_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": []
+  },
+  "T10133": {
+    "client_id": "T10133",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "White"
+    },
+    "email": "elizabeth.white53@mail.com",
+    "dob": "1961-08-04",
+    "phone": "+1-411-633-8912",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10133_7815",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2901"
+      },
+      {
+        "payment_id": "voucher_T10133_0",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00003",
+      "BK00050",
+      "BK00292"
+    ]
+  },
+  "T10134": {
+    "client_id": "T10134",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Allen"
+    },
+    "email": "matthew.allen41@inbox.com",
+    "dob": "1966-08-24",
+    "phone": "+1-378-665-3623",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10134_8412",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2100"
+      },
+      {
+        "payment_id": "cc2_T10134_2885",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6620"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00115",
+      "BK00132",
+      "BK00324"
+    ]
+  },
+  "T10135": {
+    "client_id": "T10135",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Nguyen"
+    },
+    "email": "nancy.nguyen18@inbox.com",
+    "dob": "1987-08-08",
+    "phone": "+1-304-918-9796",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10135_4022",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8080"
+      },
+      {
+        "payment_id": "cc2_T10135_4232",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8037"
+      },
+      {
+        "payment_id": "voucher_T10135_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10135_1",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10135_2",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": []
+  },
+  "T10136": {
+    "client_id": "T10136",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Harris"
+    },
+    "email": "barbara.harris24@mail.com",
+    "dob": "1980-04-15",
+    "phone": "+1-560-965-8501",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10136_5298",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9019"
+      },
+      {
+        "payment_id": "voucher_T10136_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10136_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": []
+  },
+  "T10137": {
+    "client_id": "T10137",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Lopez"
+    },
+    "email": "melissa.lopez86@email.com",
+    "dob": "1979-10-19",
+    "phone": "+1-788-492-7931",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10137_3194",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2931"
+      },
+      {
+        "payment_id": "cc2_T10137_2916",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7116"
+      },
+      {
+        "payment_id": "voucher_T10137_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00281",
+      "BK00301",
+      "BK00386"
+    ]
+  },
+  "T10138": {
+    "client_id": "T10138",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "King"
+    },
+    "email": "barbara.king67@inbox.com",
+    "dob": "2000-09-23",
+    "phone": "+1-254-986-6882",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10138_3838",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "3733"
+      },
+      {
+        "payment_id": "voucher_T10138_0",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00088"
+    ]
+  },
+  "T10139": {
+    "client_id": "T10139",
+    "name": {
+      "first_name": "James",
+      "last_name": "King"
+    },
+    "email": "james.king20@inbox.com",
+    "dob": "1968-04-27",
+    "phone": "+1-231-914-4613",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10139_9281",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9109"
+      },
+      {
+        "payment_id": "voucher_T10139_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10139_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10139_2",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00025"
+    ]
+  },
+  "T10140": {
+    "client_id": "T10140",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Williams"
+    },
+    "email": "christopher.williams24@mail.com",
+    "dob": "1977-04-18",
+    "phone": "+1-993-656-7010",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10140_3755",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9115"
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00066",
+      "BK00073"
+    ]
+  },
+  "T10141": {
+    "client_id": "T10141",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "Williams"
+    },
+    "email": "joshua.williams40@email.com",
+    "dob": "1988-09-07",
+    "phone": "+1-955-702-6744",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10141_2677",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "5055"
+      },
+      {
+        "payment_id": "cc2_T10141_1528",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5305"
+      },
+      {
+        "payment_id": "voucher_T10141_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10141_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00024",
+      "BK00392"
+    ]
+  },
+  "T10142": {
+    "client_id": "T10142",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Carter"
+    },
+    "email": "ethan.carter47@mail.com",
+    "dob": "1999-11-14",
+    "phone": "+1-786-373-9428",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10142_3281",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4390"
+      },
+      {
+        "payment_id": "voucher_T10142_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10142_1",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00110",
+      "BK00116"
+    ]
+  },
+  "T10143": {
+    "client_id": "T10143",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Campbell"
+    },
+    "email": "zara.campbell51@email.com",
+    "dob": "1966-03-25",
+    "phone": "+1-979-963-7434",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10143_1971",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3078"
+      },
+      {
+        "payment_id": "voucher_T10143_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00237"
+    ]
+  },
+  "T10144": {
+    "client_id": "T10144",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Martinez"
+    },
+    "email": "sandra.martinez51@inbox.com",
+    "dob": "1996-11-09",
+    "phone": "+1-202-989-2526",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10144_7786",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8405"
+      },
+      {
+        "payment_id": "cc2_T10144_2525",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9447"
+      },
+      {
+        "payment_id": "voucher_T10144_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10144_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00120",
+      "BK00304"
+    ]
+  },
+  "T10145": {
+    "client_id": "T10145",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Young"
+    },
+    "email": "chen.young80@inbox.com",
+    "dob": "2000-11-23",
+    "phone": "+1-333-679-8951",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10145_2037",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "7516"
+      },
+      {
+        "payment_id": "cc2_T10145_8039",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9105"
+      },
+      {
+        "payment_id": "voucher_T10145_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10145_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00093",
+      "BK00332"
+    ]
+  },
+  "T10146": {
+    "client_id": "T10146",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Thompson"
+    },
+    "email": "emma.thompson10@mail.com",
+    "dob": "1963-01-04",
+    "phone": "+1-407-805-3161",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10146_8529",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3035"
+      },
+      {
+        "payment_id": "voucher_T10146_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": []
+  },
+  "T10147": {
+    "client_id": "T10147",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Hall"
+    },
+    "email": "mia.hall22@email.com",
+    "dob": "1979-03-28",
+    "phone": "+1-418-588-2276",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10147_2529",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "6905"
+      },
+      {
+        "payment_id": "cc2_T10147_7092",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1848"
+      },
+      {
+        "payment_id": "voucher_T10147_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10147_1",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10147_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00059",
+      "BK00135",
+      "BK00384"
+    ]
+  },
+  "T10148": {
+    "client_id": "T10148",
+    "name": {
+      "first_name": "William",
+      "last_name": "Green"
+    },
+    "email": "william.green59@email.com",
+    "dob": "1974-09-22",
+    "phone": "+1-948-925-2678",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10148_1152",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6629"
+      },
+      {
+        "payment_id": "voucher_T10148_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10148_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10148_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00037",
+      "BK00174"
+    ]
+  },
+  "T10149": {
+    "client_id": "T10149",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Perez"
+    },
+    "email": "michael.perez88@inbox.com",
+    "dob": "1983-05-05",
+    "phone": "+1-653-980-4559",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10149_3181",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "3340"
+      },
+      {
+        "payment_id": "cc2_T10149_1138",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8210"
+      },
+      {
+        "payment_id": "voucher_T10149_0",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10149_1",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00053",
+      "BK00249"
+    ]
+  },
+  "T10150": {
+    "client_id": "T10150",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Miller"
+    },
+    "email": "jennifer.miller80@inbox.com",
+    "dob": "1968-02-19",
+    "phone": "+1-814-838-5668",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10150_7291",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8035"
+      },
+      {
+        "payment_id": "cc2_T10150_3290",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5537"
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00348"
+    ]
+  },
+  "T10151": {
+    "client_id": "T10151",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Mitchell"
+    },
+    "email": "lucas.mitchell24@email.com",
+    "dob": "1961-11-10",
+    "phone": "+1-711-753-2163",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10151_9482",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "9348"
+      },
+      {
+        "payment_id": "cc2_T10151_7418",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1894"
+      },
+      {
+        "payment_id": "voucher_T10151_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00180"
+    ]
+  },
+  "T10152": {
+    "client_id": "T10152",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Smith"
+    },
+    "email": "ashley.smith43@email.com",
+    "dob": "1983-06-05",
+    "phone": "+1-240-161-7520",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10152_7895",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9951"
+      },
+      {
+        "payment_id": "voucher_T10152_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10152_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10152_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00172",
+      "BK00245"
+    ]
+  },
+  "T10153": {
+    "client_id": "T10153",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Martin"
+    },
+    "email": "andrew.martin20@inbox.com",
+    "dob": "2000-12-17",
+    "phone": "+1-408-927-3545",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10153_7939",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "7590"
+      },
+      {
+        "payment_id": "cc2_T10153_9791",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5546"
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00052",
+      "BK00210",
+      "BK00260",
+      "BK00322"
+    ]
+  },
+  "T10154": {
+    "client_id": "T10154",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "Perez"
+    },
+    "email": "joshua.perez21@mail.com",
+    "dob": "1985-10-21",
+    "phone": "+1-318-564-1901",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10154_2083",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8167"
+      },
+      {
+        "payment_id": "voucher_T10154_0",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00013",
+      "BK00109",
+      "BK00215",
+      "BK00287",
+      "BK00333",
+      "BK00358",
+      "BK00387"
+    ]
+  },
+  "T10155": {
+    "client_id": "T10155",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Rivera"
+    },
+    "email": "karen.rivera13@mail.com",
+    "dob": "1971-02-01",
+    "phone": "+1-639-378-9582",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10155_3248",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1185"
+      },
+      {
+        "payment_id": "cc2_T10155_6680",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3735"
+      },
+      {
+        "payment_id": "voucher_T10155_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10155_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00033",
+      "BK00353"
+    ]
+  },
+  "T10156": {
+    "client_id": "T10156",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Moore"
+    },
+    "email": "robert.moore75@email.com",
+    "dob": "1996-11-03",
+    "phone": "+1-245-979-1201",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10156_8457",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "6900"
+      },
+      {
+        "payment_id": "cc2_T10156_3734",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3577"
+      },
+      {
+        "payment_id": "voucher_T10156_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10156_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": []
+  },
+  "T10157": {
+    "client_id": "T10157",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Williams"
+    },
+    "email": "jessica.williams74@inbox.com",
+    "dob": "1990-06-13",
+    "phone": "+1-253-283-4656",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10157_3932",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7870"
+      },
+      {
+        "payment_id": "cc2_T10157_5067",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6241"
+      },
+      {
+        "payment_id": "voucher_T10157_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10157_1",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00023",
+      "BK00055",
+      "BK00139"
+    ]
+  },
+  "T10158": {
+    "client_id": "T10158",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Scott"
+    },
+    "email": "noah.scott48@inbox.com",
+    "dob": "1962-07-03",
+    "phone": "+1-837-348-8600",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10158_5625",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6362"
+      },
+      {
+        "payment_id": "cc2_T10158_8483",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7044"
+      },
+      {
+        "payment_id": "voucher_T10158_0",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00063",
+      "BK00079"
+    ]
+  },
+  "T10159": {
+    "client_id": "T10159",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Green"
+    },
+    "email": "betty.green79@mail.com",
+    "dob": "1991-04-24",
+    "phone": "+1-851-959-1157",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10159_5016",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1104"
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00126",
+      "BK00232",
+      "BK00321"
+    ]
+  },
+  "T10160": {
+    "client_id": "T10160",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Smith"
+    },
+    "email": "nancy.smith21@email.com",
+    "dob": "1984-12-24",
+    "phone": "+1-437-965-9515",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10160_2703",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9680"
+      },
+      {
+        "payment_id": "voucher_T10160_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10160_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10160_2",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00108",
+      "BK00308"
+    ]
+  },
+  "T10161": {
+    "client_id": "T10161",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Mitchell"
+    },
+    "email": "mark.mitchell40@mail.com",
+    "dob": "1983-08-24",
+    "phone": "+1-467-971-6161",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10161_2565",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "3187"
+      },
+      {
+        "payment_id": "voucher_T10161_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10161_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10161_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": []
+  },
+  "T10162": {
+    "client_id": "T10162",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "Clark"
+    },
+    "email": "priya.clark50@mail.com",
+    "dob": "1980-06-15",
+    "phone": "+1-323-648-6870",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10162_4827",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4321"
+      },
+      {
+        "payment_id": "cc2_T10162_2785",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2731"
+      },
+      {
+        "payment_id": "voucher_T10162_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00016",
+      "BK00209"
+    ]
+  },
+  "T10163": {
+    "client_id": "T10163",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Anderson"
+    },
+    "email": "lucas.anderson28@email.com",
+    "dob": "1988-05-15",
+    "phone": "+1-928-354-6828",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10163_2964",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3582"
+      },
+      {
+        "payment_id": "voucher_T10163_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10163_1",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": [
+      "BK00057"
+    ]
+  },
+  "T10164": {
+    "client_id": "T10164",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Wright"
+    },
+    "email": "emily.wright23@email.com",
+    "dob": "1963-11-10",
+    "phone": "+1-324-112-2010",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10164_3848",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7625"
+      },
+      {
+        "payment_id": "voucher_T10164_0",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": []
+  },
+  "T10165": {
+    "client_id": "T10165",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Thomas"
+    },
+    "email": "liam.thomas35@inbox.com",
+    "dob": "1968-04-27",
+    "phone": "+1-654-928-3110",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10165_7098",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "2376"
+      },
+      {
+        "payment_id": "voucher_T10165_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10165_1",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00129",
+      "BK00195",
+      "BK00291"
+    ]
+  },
+  "T10166": {
+    "client_id": "T10166",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Thompson"
+    },
+    "email": "jennifer.thompson32@mail.com",
+    "dob": "1967-01-15",
+    "phone": "+1-419-291-5505",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10166_3752",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "8096"
+      },
+      {
+        "payment_id": "voucher_T10166_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10166_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10166_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00070",
+      "BK00233"
+    ]
+  },
+  "T10167": {
+    "client_id": "T10167",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Walker"
+    },
+    "email": "sarah.walker27@mail.com",
+    "dob": "1969-01-20",
+    "phone": "+1-404-758-9614",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10167_5026",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "5835"
+      },
+      {
+        "payment_id": "voucher_T10167_0",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10167_1",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10167_2",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": []
+  },
+  "T10168": {
+    "client_id": "T10168",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Baker"
+    },
+    "email": "jessica.baker33@email.com",
+    "dob": "1994-01-13",
+    "phone": "+1-526-711-4588",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10168_6883",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9921"
+      },
+      {
+        "payment_id": "voucher_T10168_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10168_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00155",
+      "BK00385"
+    ]
+  },
+  "T10169": {
+    "client_id": "T10169",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Jackson"
+    },
+    "email": "mary.jackson83@mail.com",
+    "dob": "1963-08-17",
+    "phone": "+1-563-959-3846",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10169_4813",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2640"
+      },
+      {
+        "payment_id": "cc2_T10169_4951",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9743"
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00027",
+      "BK00028",
+      "BK00047"
+    ]
+  },
+  "T10170": {
+    "client_id": "T10170",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Taylor"
+    },
+    "email": "barbara.taylor79@mail.com",
+    "dob": "1997-06-26",
+    "phone": "+1-379-602-1621",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10170_6878",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1462"
+      },
+      {
+        "payment_id": "voucher_T10170_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10170_1",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00123",
+      "BK00371"
+    ]
+  },
+  "T10171": {
+    "client_id": "T10171",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Brown"
+    },
+    "email": "jennifer.brown12@email.com",
+    "dob": "1974-10-08",
+    "phone": "+1-800-821-3320",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10171_9625",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1011"
+      },
+      {
+        "payment_id": "cc2_T10171_4300",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6582"
+      },
+      {
+        "payment_id": "voucher_T10171_0",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00004",
+      "BK00102"
+    ]
+  },
+  "T10172": {
+    "client_id": "T10172",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Davis"
+    },
+    "email": "lucas.davis98@inbox.com",
+    "dob": "1993-06-03",
+    "phone": "+1-565-328-3872",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10172_7481",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "2655"
+      },
+      {
+        "payment_id": "cc2_T10172_6285",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3580"
+      },
+      {
+        "payment_id": "voucher_T10172_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10172_1",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10172_2",
+        "type": "travel_voucher",
+        "amount": 200
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00220",
+      "BK00284"
+    ]
+  },
+  "T10173": {
+    "client_id": "T10173",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Lee"
+    },
+    "email": "anthony.lee87@mail.com",
+    "dob": "1978-03-06",
+    "phone": "+1-826-326-2705",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10173_1029",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "7415"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00158",
+      "BK00200",
+      "BK00269",
+      "BK00347",
+      "BK00367"
+    ]
+  },
+  "T10174": {
+    "client_id": "T10174",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "King"
+    },
+    "email": "priya.king36@email.com",
+    "dob": "1969-06-24",
+    "phone": "+1-909-169-6742",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10174_4899",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6234"
+      },
+      {
+        "payment_id": "cc2_T10174_2453",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8317"
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00256",
+      "BK00302"
+    ]
+  },
+  "T10175": {
+    "client_id": "T10175",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Miller"
+    },
+    "email": "thomas.miller83@inbox.com",
+    "dob": "1960-01-13",
+    "phone": "+1-976-803-4695",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10175_7875",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7783"
+      },
+      {
+        "payment_id": "voucher_T10175_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10175_1",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10175_2",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00043",
+      "BK00103",
+      "BK00152",
+      "BK00160"
+    ]
+  },
+  "T10176": {
+    "client_id": "T10176",
+    "name": {
+      "first_name": "David",
+      "last_name": "Walker"
+    },
+    "email": "david.walker21@mail.com",
+    "dob": "1964-01-10",
+    "phone": "+1-808-728-8909",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10176_6221",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2715"
+      },
+      {
+        "payment_id": "cc2_T10176_3787",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3636"
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00007",
+      "BK00112",
+      "BK00213",
+      "BK00241"
+    ]
+  },
+  "T10177": {
+    "client_id": "T10177",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Johnson"
+    },
+    "email": "fatima.johnson22@email.com",
+    "dob": "1987-11-06",
+    "phone": "+1-602-685-9043",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10177_8113",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1877"
+      },
+      {
+        "payment_id": "cc2_T10177_4367",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7705"
+      },
+      {
+        "payment_id": "voucher_T10177_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10177_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00020",
+      "BK00038",
+      "BK00318",
+      "BK00381"
+    ]
+  },
+  "T10178": {
+    "client_id": "T10178",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Brown"
+    },
+    "email": "elizabeth.brown49@mail.com",
+    "dob": "1983-01-14",
+    "phone": "+1-682-600-5341",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10178_5825",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "8869"
+      },
+      {
+        "payment_id": "cc2_T10178_1421",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3798"
+      },
+      {
+        "payment_id": "voucher_T10178_0",
+        "type": "travel_voucher",
+        "amount": 150
+      },
+      {
+        "payment_id": "voucher_T10178_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00266",
+      "BK00338",
+      "BK00357",
+      "BK00360"
+    ]
+  },
+  "T10179": {
+    "client_id": "T10179",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Hall"
+    },
+    "email": "jennifer.hall38@mail.com",
+    "dob": "1994-07-06",
+    "phone": "+1-777-163-3476",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10179_7249",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4056"
+      },
+      {
+        "payment_id": "voucher_T10179_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10179_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00191",
+      "BK00396"
+    ]
+  },
+  "T10180": {
+    "client_id": "T10180",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Mitchell"
+    },
+    "email": "sofia.mitchell48@email.com",
+    "dob": "1966-02-22",
+    "phone": "+1-604-974-1568",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10180_9871",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4727"
+      },
+      {
+        "payment_id": "voucher_T10180_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10180_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10180_2",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": [
+      "BK00131",
+      "BK00147",
+      "BK00254"
+    ]
+  },
+  "T10181": {
+    "client_id": "T10181",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Hill"
+    },
+    "email": "andrew.hill20@inbox.com",
+    "dob": "1993-10-22",
+    "phone": "+1-645-306-3422",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10181_3415",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8357"
+      },
+      {
+        "payment_id": "cc2_T10181_3738",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4157"
+      },
+      {
+        "payment_id": "voucher_T10181_0",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00092",
+      "BK00198",
+      "BK00377"
+    ]
+  },
+  "T10182": {
+    "client_id": "T10182",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Adams"
+    },
+    "email": "liam.adams85@inbox.com",
+    "dob": "1976-06-24",
+    "phone": "+1-629-215-7790",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10182_2425",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7510"
+      },
+      {
+        "payment_id": "voucher_T10182_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10182_1",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00039",
+      "BK00250"
+    ]
+  },
+  "T10183": {
+    "client_id": "T10183",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Martinez"
+    },
+    "email": "elizabeth.martinez93@mail.com",
+    "dob": "1996-10-19",
+    "phone": "+1-785-723-8750",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10183_2730",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "2654"
+      },
+      {
+        "payment_id": "voucher_T10183_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10183_1",
+        "type": "travel_voucher",
+        "amount": 300
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00014",
+      "BK00271"
+    ]
+  },
+  "T10184": {
+    "client_id": "T10184",
+    "name": {
+      "first_name": "John",
+      "last_name": "Lopez"
+    },
+    "email": "john.lopez44@mail.com",
+    "dob": "1977-07-05",
+    "phone": "+1-220-445-5965",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10184_7581",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7484"
+      },
+      {
+        "payment_id": "voucher_T10184_0",
+        "type": "travel_voucher",
+        "amount": 250
+      },
+      {
+        "payment_id": "voucher_T10184_1",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": []
+  },
+  "T10185": {
+    "client_id": "T10185",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Jackson"
+    },
+    "email": "karen.jackson92@email.com",
+    "dob": "1991-12-22",
+    "phone": "+1-392-552-4463",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10185_4734",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5923"
+      },
+      {
+        "payment_id": "voucher_T10185_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10185_1",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10185_2",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00282",
+      "BK00299"
+    ]
+  },
+  "T10186": {
+    "client_id": "T10186",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Lewis"
+    },
+    "email": "hiroshi.lewis34@email.com",
+    "dob": "1991-09-28",
+    "phone": "+1-259-355-1541",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10186_1920",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "3604"
+      },
+      {
+        "payment_id": "cc2_T10186_9303",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3222"
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00034",
+      "BK00204",
+      "BK00305"
+    ]
+  },
+  "T10187": {
+    "client_id": "T10187",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Brown"
+    },
+    "email": "michelle.brown70@inbox.com",
+    "dob": "1983-12-07",
+    "phone": "+1-764-458-6640",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10187_7035",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9275"
+      },
+      {
+        "payment_id": "cc2_T10187_3029",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4963"
+      },
+      {
+        "payment_id": "voucher_T10187_0",
+        "type": "travel_voucher",
+        "amount": 1000
+      },
+      {
+        "payment_id": "voucher_T10187_1",
+        "type": "travel_voucher",
+        "amount": 1000
+      }
+    ],
+    "loyalty_points": 500,
+    "bookings": [
+      "BK00100",
+      "BK00368"
+    ]
+  },
+  "T10188": {
+    "client_id": "T10188",
+    "name": {
+      "first_name": "David",
+      "last_name": "Moore"
+    },
+    "email": "david.moore93@mail.com",
+    "dob": "1965-05-01",
+    "phone": "+1-725-120-1145",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10188_1813",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4511"
+      },
+      {
+        "payment_id": "voucher_T10188_0",
+        "type": "travel_voucher",
+        "amount": 250
+      }
+    ],
+    "loyalty_points": 2000,
+    "bookings": [
+      "BK00253",
+      "BK00354"
+    ]
+  },
+  "T10189": {
+    "client_id": "T10189",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Rodriguez"
+    },
+    "email": "paul.rodriguez68@mail.com",
+    "dob": "1971-10-26",
+    "phone": "+1-423-577-5950",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10189_4666",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6004"
+      },
+      {
+        "payment_id": "voucher_T10189_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10189_1",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 3000,
+    "bookings": []
+  },
+  "T10190": {
+    "client_id": "T10190",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Scott"
+    },
+    "email": "yuki.scott18@mail.com",
+    "dob": "1999-07-19",
+    "phone": "+1-483-755-6327",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10190_1120",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "7131"
+      },
+      {
+        "payment_id": "voucher_T10190_0",
+        "type": "travel_voucher",
+        "amount": 300
+      },
+      {
+        "payment_id": "voucher_T10190_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 8000,
+    "bookings": []
+  },
+  "T10191": {
+    "client_id": "T10191",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Jackson"
+    },
+    "email": "ethan.jackson61@inbox.com",
+    "dob": "1976-11-23",
+    "phone": "+1-527-797-3292",
+    "tier": "gold",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10191_5895",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3456"
+      },
+      {
+        "payment_id": "voucher_T10191_0",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 15000,
+    "bookings": [
+      "BK00072"
+    ]
+  },
+  "T10192": {
+    "client_id": "T10192",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Johnson"
+    },
+    "email": "chen.johnson97@inbox.com",
+    "dob": "1991-05-09",
+    "phone": "+1-853-903-8794",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10192_7628",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1578"
+      },
+      {
+        "payment_id": "voucher_T10192_0",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 1000,
+    "bookings": [
+      "BK00081",
+      "BK00156",
+      "BK00189",
+      "BK00311",
+      "BK00383"
+    ]
+  },
+  "T10193": {
+    "client_id": "T10193",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Rivera"
+    },
+    "email": "hiroshi.rivera38@mail.com",
+    "dob": "1982-09-10",
+    "phone": "+1-428-862-6031",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10193_3967",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2599"
+      },
+      {
+        "payment_id": "voucher_T10193_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10193_1",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00145"
+    ]
+  },
+  "T10194": {
+    "client_id": "T10194",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Thompson"
+    },
+    "email": "mark.thompson77@mail.com",
+    "dob": "1983-05-19",
+    "phone": "+1-623-155-3470",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10194_8598",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8709"
+      },
+      {
+        "payment_id": "cc2_T10194_2166",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4187"
+      }
+    ],
+    "loyalty_points": 5000,
+    "bookings": [
+      "BK00177"
+    ]
+  },
+  "T10195": {
+    "client_id": "T10195",
+    "name": {
+      "first_name": "William",
+      "last_name": "Wilson"
+    },
+    "email": "william.wilson10@mail.com",
+    "dob": "1981-07-19",
+    "phone": "+1-480-314-3762",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10195_3346",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3954"
+      },
+      {
+        "payment_id": "voucher_T10195_0",
+        "type": "travel_voucher",
+        "amount": 500
+      },
+      {
+        "payment_id": "voucher_T10195_1",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10195_2",
+        "type": "travel_voucher",
+        "amount": 500
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00173"
+    ]
+  },
+  "T10196": {
+    "client_id": "T10196",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Hernandez"
+    },
+    "email": "kevin.hernandez35@inbox.com",
+    "dob": "1991-02-05",
+    "phone": "+1-582-114-6279",
+    "tier": "silver",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10196_8105",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "8035"
+      },
+      {
+        "payment_id": "voucher_T10196_0",
+        "type": "travel_voucher",
+        "amount": 750
+      },
+      {
+        "payment_id": "voucher_T10196_1",
+        "type": "travel_voucher",
+        "amount": 100
+      },
+      {
+        "payment_id": "voucher_T10196_2",
+        "type": "travel_voucher",
+        "amount": 100
+      }
+    ],
+    "loyalty_points": 10000,
+    "bookings": [
+      "BK00009",
+      "BK00162",
+      "BK00277"
+    ]
+  },
+  "T10197": {
+    "client_id": "T10197",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Scott"
+    },
+    "email": "sofia.scott48@mail.com",
+    "dob": "1972-01-22",
+    "phone": "+1-666-845-9524",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10197_5076",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6641"
+      },
+      {
+        "payment_id": "cc2_T10197_2682",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9246"
+      },
+      {
+        "payment_id": "voucher_T10197_0",
+        "type": "travel_voucher",
+        "amount": 200
+      },
+      {
+        "payment_id": "voucher_T10197_1",
+        "type": "travel_voucher",
+        "amount": 150
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": []
+  },
+  "T10198": {
+    "client_id": "T10198",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Scott"
+    },
+    "email": "brian.scott39@email.com",
+    "dob": "1981-07-22",
+    "phone": "+1-944-234-4460",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10198_6615",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6885"
+      },
+      {
+        "payment_id": "voucher_T10198_0",
+        "type": "travel_voucher",
+        "amount": 750
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00051"
+    ]
+  },
+  "T10199": {
+    "client_id": "T10199",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Johnson"
+    },
+    "email": "chen.johnson16@inbox.com",
+    "dob": "1997-09-06",
+    "phone": "+1-318-526-8279",
+    "tier": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_T10199_7006",
+        "type": "credit_card",
+        "brand": "amex",
+        "last_four": "1612"
+      },
+      {
+        "payment_id": "cc2_T10199_5190",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1785"
+      }
+    ],
+    "loyalty_points": 0,
+    "bookings": [
+      "BK00211",
+      "BK00380"
+    ]
+  }
+}
