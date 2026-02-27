@@ -1,0 +1,162 @@
+{
+  "PROC001": {
+    "procedure_id": "PROC001",
+    "name": "Annual Physical Exam",
+    "department": "General Practice",
+    "duration_minutes": 30,
+    "base_cost": 150,
+    "requires_referral": false
+  },
+  "PROC002": {
+    "procedure_id": "PROC002",
+    "name": "Blood Work Panel",
+    "department": "General Practice",
+    "duration_minutes": 15,
+    "base_cost": 80,
+    "requires_referral": false
+  },
+  "PROC003": {
+    "procedure_id": "PROC003",
+    "name": "Cardiology Consultation",
+    "department": "Cardiology",
+    "duration_minutes": 45,
+    "base_cost": 300,
+    "requires_referral": true
+  },
+  "PROC004": {
+    "procedure_id": "PROC004",
+    "name": "Echocardiogram",
+    "department": "Cardiology",
+    "duration_minutes": 60,
+    "base_cost": 500,
+    "requires_referral": true
+  },
+  "PROC005": {
+    "procedure_id": "PROC005",
+    "name": "Stress Test",
+    "department": "Cardiology",
+    "duration_minutes": 90,
+    "base_cost": 750,
+    "requires_referral": true
+  },
+  "PROC006": {
+    "procedure_id": "PROC006",
+    "name": "Knee X-Ray",
+    "department": "Orthopedics",
+    "duration_minutes": 30,
+    "base_cost": 200,
+    "requires_referral": false
+  },
+  "PROC007": {
+    "procedure_id": "PROC007",
+    "name": "MRI Scan",
+    "department": "Orthopedics",
+    "duration_minutes": 60,
+    "base_cost": 800,
+    "requires_referral": true
+  },
+  "PROC008": {
+    "procedure_id": "PROC008",
+    "name": "Physical Therapy Session",
+    "department": "Orthopedics",
+    "duration_minutes": 45,
+    "base_cost": 120,
+    "requires_referral": true
+  },
+  "PROC009": {
+    "procedure_id": "PROC009",
+    "name": "Skin Cancer Screening",
+    "department": "Dermatology",
+    "duration_minutes": 30,
+    "base_cost": 180,
+    "requires_referral": false
+  },
+  "PROC010": {
+    "procedure_id": "PROC010",
+    "name": "Dermatology Consultation",
+    "department": "Dermatology",
+    "duration_minutes": 30,
+    "base_cost": 200,
+    "requires_referral": false
+  },
+  "PROC011": {
+    "procedure_id": "PROC011",
+    "name": "Neurology Consultation",
+    "department": "Neurology",
+    "duration_minutes": 45,
+    "base_cost": 350,
+    "requires_referral": true
+  },
+  "PROC012": {
+    "procedure_id": "PROC012",
+    "name": "EEG Test",
+    "department": "Neurology",
+    "duration_minutes": 60,
+    "base_cost": 600,
+    "requires_referral": true
+  },
+  "PROC013": {
+    "procedure_id": "PROC013",
+    "name": "Colonoscopy",
+    "department": "Gastroenterology",
+    "duration_minutes": 90,
+    "base_cost": 1200,
+    "requires_referral": true
+  },
+  "PROC014": {
+    "procedure_id": "PROC014",
+    "name": "GI Consultation",
+    "department": "Gastroenterology",
+    "duration_minutes": 30,
+    "base_cost": 250,
+    "requires_referral": true
+  },
+  "PROC015": {
+    "procedure_id": "PROC015",
+    "name": "Eye Exam",
+    "department": "Ophthalmology",
+    "duration_minutes": 30,
+    "base_cost": 120,
+    "requires_referral": false
+  },
+  "PROC016": {
+    "procedure_id": "PROC016",
+    "name": "LASIK Consultation",
+    "department": "Ophthalmology",
+    "duration_minutes": 45,
+    "base_cost": 400,
+    "requires_referral": true
+  },
+  "PROC017": {
+    "procedure_id": "PROC017",
+    "name": "Hearing Test",
+    "department": "ENT",
+    "duration_minutes": 30,
+    "base_cost": 150,
+    "requires_referral": false
+  },
+  "PROC018": {
+    "procedure_id": "PROC018",
+    "name": "Sinus Surgery Consultation",
+    "department": "ENT",
+    "duration_minutes": 45,
+    "base_cost": 350,
+    "requires_referral": true
+  },
+  "PROC019": {
+    "procedure_id": "PROC019",
+    "name": "Well-Child Visit",
+    "department": "Pediatrics",
+    "duration_minutes": 30,
+    "base_cost": 130,
+    "requires_referral": false
+  },
+  "PROC020": {
+    "procedure_id": "PROC020",
+    "name": "Psychiatric Evaluation",
+    "department": "Psychiatry",
+    "duration_minutes": 60,
+    "base_cost": 300,
+    "requires_referral": true
+  }
+}

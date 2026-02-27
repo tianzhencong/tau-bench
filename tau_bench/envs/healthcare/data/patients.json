@@ -1,0 +1,8743 @@
+{
+  "P10000": {
+    "patient_id": "P10000",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Robinson"
+    },
+    "email": "elizabeth.robinson50@inbox.com",
+    "dob": "1994-08-17",
+    "phone": "+1-441-429-8559",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10000_4808",
+        "type": "credit_card",
+        "last_four": "1965"
+      },
+      {
+        "payment_id": "hsa_P10000",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC014",
+      "PROC010"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Zara",
+          "last_name": "Robinson"
+        },
+        "dob": "2008-05-23",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Emma",
+          "last_name": "Robinson"
+        },
+        "dob": "2016-08-18",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00119",
+      "APT00311"
+    ]
+  },
+  "P10001": {
+    "patient_id": "P10001",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Wright"
+    },
+    "email": "aisha.wright80@mail.com",
+    "dob": "1987-09-28",
+    "phone": "+1-608-109-5861",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10001_2334",
+        "type": "credit_card",
+        "last_four": "2721"
+      },
+      {
+        "payment_id": "hsa_P10001",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC005",
+      "PROC001",
+      "PROC006"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Zara",
+          "last_name": "Wright"
+        },
+        "dob": "2009-01-14",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "David",
+          "last_name": "Wright"
+        },
+        "dob": "2018-09-16",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00185",
+      "APT00330"
+    ]
+  },
+  "P10002": {
+    "patient_id": "P10002",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Young"
+    },
+    "email": "linda.young42@mail.com",
+    "dob": "1973-12-22",
+    "phone": "+1-673-315-6409",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10002_9560",
+        "type": "credit_card",
+        "last_four": "6281"
+      },
+      {
+        "payment_id": "hsa_P10002",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC006",
+      "PROC005",
+      "PROC010",
+      "PROC017"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00118",
+      "APT00289",
+      "APT00385"
+    ]
+  },
+  "P10003": {
+    "patient_id": "P10003",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Chen"
+    },
+    "email": "lucas.chen89@mail.com",
+    "dob": "1963-03-17",
+    "phone": "+1-808-260-2093",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10003_8763",
+        "type": "credit_card",
+        "last_four": "1160"
+      },
+      {
+        "payment_id": "hsa_P10003",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC005"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10003_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Kevin",
+          "last_name": "Chen"
+        },
+        "dob": "2015-06-04",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00399"
+    ]
+  },
+  "P10004": {
+    "patient_id": "P10004",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Rivera"
+    },
+    "email": "matthew.rivera23@inbox.com",
+    "dob": "1990-04-12",
+    "phone": "+1-421-386-3921",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10004_1231",
+        "type": "credit_card",
+        "last_four": "4156"
+      },
+      {
+        "payment_id": "hsa_P10004",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC014",
+      "PROC019",
+      "PROC010",
+      "PROC012",
+      "PROC013",
+      "PROC015"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10004_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10004_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10004_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00083",
+      "APT00174",
+      "APT00237",
+      "APT00262"
+    ]
+  },
+  "P10005": {
+    "patient_id": "P10005",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Adams"
+    },
+    "email": "thomas.adams51@mail.com",
+    "dob": "1961-03-26",
+    "phone": "+1-712-878-2921",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10005_7274",
+        "type": "credit_card",
+        "last_four": "6409"
+      },
+      {
+        "payment_id": "hsa_P10005",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC020",
+      "PROC016",
+      "PROC007",
+      "PROC006",
+      "PROC001",
+      "PROC013"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10005_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Zara",
+          "last_name": "Adams"
+        },
+        "dob": "2008-06-03",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "William",
+          "last_name": "Adams"
+        },
+        "dob": "2016-08-14",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00308"
+    ]
+  },
+  "P10006": {
+    "patient_id": "P10006",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Green"
+    },
+    "email": "jessica.green72@inbox.com",
+    "dob": "1980-07-25",
+    "phone": "+1-456-801-2970",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10006_8773",
+        "type": "credit_card",
+        "last_four": "6816"
+      },
+      {
+        "payment_id": "hsa_P10006",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC003",
+      "PROC007",
+      "PROC006",
+      "PROC009"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00058",
+      "APT00198",
+      "APT00242"
+    ]
+  },
+  "P10007": {
+    "patient_id": "P10007",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Young"
+    },
+    "email": "amanda.young10@inbox.com",
+    "dob": "1996-06-06",
+    "phone": "+1-517-436-2541",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10007_6991",
+        "type": "credit_card",
+        "last_four": "8636"
+      },
+      {
+        "payment_id": "hsa_P10007",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC014",
+      "PROC007",
+      "PROC018",
+      "PROC019",
+      "PROC013"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10007_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10007_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10007_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00102"
+    ]
+  },
+  "P10008": {
+    "patient_id": "P10008",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Martin"
+    },
+    "email": "betty.martin70@inbox.com",
+    "dob": "1987-01-20",
+    "phone": "+1-847-565-9033",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10008_1549",
+        "type": "credit_card",
+        "last_four": "5504"
+      },
+      {
+        "payment_id": "hsa_P10008",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC002",
+      "PROC009",
+      "PROC019"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00004",
+      "APT00143"
+    ]
+  },
+  "P10009": {
+    "patient_id": "P10009",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Wright"
+    },
+    "email": "barbara.wright17@mail.com",
+    "dob": "2002-11-25",
+    "phone": "+1-299-978-9914",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10009_2702",
+        "type": "credit_card",
+        "last_four": "1625"
+      },
+      {
+        "payment_id": "hsa_P10009",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC005",
+      "PROC006",
+      "PROC020",
+      "PROC003"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10009_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00068"
+    ]
+  },
+  "P10010": {
+    "patient_id": "P10010",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Thomas"
+    },
+    "email": "sarah.thomas74@email.com",
+    "dob": "1996-10-24",
+    "phone": "+1-946-373-2375",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10010_6450",
+        "type": "credit_card",
+        "last_four": "6185"
+      },
+      {
+        "payment_id": "hsa_P10010",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC012",
+      "PROC017",
+      "PROC001",
+      "PROC013"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10010_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10010_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10010_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00026",
+      "APT00044",
+      "APT00069",
+      "APT00256"
+    ]
+  },
+  "P10011": {
+    "patient_id": "P10011",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Allen"
+    },
+    "email": "barbara.allen69@email.com",
+    "dob": "1957-05-20",
+    "phone": "+1-319-192-3990",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10011_9281",
+        "type": "credit_card",
+        "last_four": "7705"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC009",
+      "PROC018"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10011_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10011_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00080",
+      "APT00253",
+      "APT00290"
+    ]
+  },
+  "P10012": {
+    "patient_id": "P10012",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Garcia"
+    },
+    "email": "sofia.garcia58@inbox.com",
+    "dob": "1966-06-19",
+    "phone": "+1-493-282-5570",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10012_1329",
+        "type": "credit_card",
+        "last_four": "3774"
+      },
+      {
+        "payment_id": "hsa_P10012",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC012"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10012_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10012_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10012_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00027",
+      "APT00035",
+      "APT00053",
+      "APT00227"
+    ]
+  },
+  "P10013": {
+    "patient_id": "P10013",
+    "name": {
+      "first_name": "William",
+      "last_name": "Adams"
+    },
+    "email": "william.adams92@inbox.com",
+    "dob": "1975-07-08",
+    "phone": "+1-660-949-3793",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10013_4084",
+        "type": "credit_card",
+        "last_four": "5469"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC009",
+      "PROC015"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10013_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10013_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00203",
+      "APT00243"
+    ]
+  },
+  "P10014": {
+    "patient_id": "P10014",
+    "name": {
+      "first_name": "John",
+      "last_name": "Nelson"
+    },
+    "email": "john.nelson24@inbox.com",
+    "dob": "1979-03-18",
+    "phone": "+1-874-746-4054",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10014_4451",
+        "type": "credit_card",
+        "last_four": "8108"
+      },
+      {
+        "payment_id": "hsa_P10014",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC011"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Thomas",
+          "last_name": "Nelson"
+        },
+        "dob": "2011-08-09",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00062",
+      "APT00072",
+      "APT00111"
+    ]
+  },
+  "P10015": {
+    "patient_id": "P10015",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Rodriguez"
+    },
+    "email": "paul.rodriguez85@inbox.com",
+    "dob": "1984-10-11",
+    "phone": "+1-911-545-7542",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10015_7191",
+        "type": "credit_card",
+        "last_four": "1554"
+      },
+      {
+        "payment_id": "hsa_P10015",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC012",
+      "PROC001",
+      "PROC006",
+      "PROC014",
+      "PROC016"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10015_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10015_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10015_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Emma",
+          "last_name": "Rodriguez"
+        },
+        "dob": "2008-08-26",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00196",
+      "APT00245",
+      "APT00258"
+    ]
+  },
+  "P10016": {
+    "patient_id": "P10016",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Jackson"
+    },
+    "email": "paul.jackson44@inbox.com",
+    "dob": "1971-12-12",
+    "phone": "+1-610-707-1467",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10016_6535",
+        "type": "credit_card",
+        "last_four": "8906"
+      },
+      {
+        "payment_id": "hsa_P10016",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC002",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00003",
+      "APT00204",
+      "APT00238",
+      "APT00316"
+    ]
+  },
+  "P10017": {
+    "patient_id": "P10017",
+    "name": {
+      "first_name": "David",
+      "last_name": "Torres"
+    },
+    "email": "david.torres49@email.com",
+    "dob": "1965-05-20",
+    "phone": "+1-554-569-7487",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10017_9586",
+        "type": "credit_card",
+        "last_four": "4251"
+      },
+      {
+        "payment_id": "hsa_P10017",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC011"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00269",
+      "APT00361",
+      "APT00366"
+    ]
+  },
+  "P10018": {
+    "patient_id": "P10018",
+    "name": {
+      "first_name": "David",
+      "last_name": "King"
+    },
+    "email": "david.king10@mail.com",
+    "dob": "1955-11-05",
+    "phone": "+1-363-452-2636",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10018_3819",
+        "type": "credit_card",
+        "last_four": "5936"
+      },
+      {
+        "payment_id": "hsa_P10018",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Elizabeth",
+          "last_name": "King"
+        },
+        "dob": "2018-09-28",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00107"
+    ]
+  },
+  "P10019": {
+    "patient_id": "P10019",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Green"
+    },
+    "email": "paul.green51@mail.com",
+    "dob": "1998-07-23",
+    "phone": "+1-890-847-7956",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10019_8738",
+        "type": "credit_card",
+        "last_four": "7165"
+      },
+      {
+        "payment_id": "hsa_P10019",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC008",
+      "PROC004",
+      "PROC013",
+      "PROC005",
+      "PROC011"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10020": {
+    "patient_id": "P10020",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Robinson"
+    },
+    "email": "raj.robinson92@email.com",
+    "dob": "1989-02-12",
+    "phone": "+1-341-611-4079",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10020_1440",
+        "type": "credit_card",
+        "last_four": "4632"
+      },
+      {
+        "payment_id": "hsa_P10020",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC008",
+      "PROC012",
+      "PROC019",
+      "PROC011",
+      "PROC001",
+      "PROC010"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00343",
+      "APT00347"
+    ]
+  },
+  "P10021": {
+    "patient_id": "P10021",
+    "name": {
+      "first_name": "John",
+      "last_name": "Taylor"
+    },
+    "email": "john.taylor93@mail.com",
+    "dob": "1974-07-03",
+    "phone": "+1-212-264-6226",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10021_7292",
+        "type": "credit_card",
+        "last_four": "3947"
+      },
+      {
+        "payment_id": "hsa_P10021",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC010",
+      "PROC013"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Barbara",
+          "last_name": "Taylor"
+        },
+        "dob": "2010-07-22",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Michelle",
+          "last_name": "Taylor"
+        },
+        "dob": "2020-02-12",
+        "relationship": "child"
+      }
+    ],
+    "appointments": []
+  },
+  "P10022": {
+    "patient_id": "P10022",
+    "name": {
+      "first_name": "William",
+      "last_name": "Adams"
+    },
+    "email": "william.adams52@inbox.com",
+    "dob": "1987-07-22",
+    "phone": "+1-573-214-3930",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10022_1189",
+        "type": "credit_card",
+        "last_four": "8964"
+      },
+      {
+        "payment_id": "hsa_P10022",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC002",
+      "PROC010",
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10022_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10022_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10022_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00175",
+      "APT00394"
+    ]
+  },
+  "P10023": {
+    "patient_id": "P10023",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Hill"
+    },
+    "email": "donna.hill68@mail.com",
+    "dob": "2003-07-28",
+    "phone": "+1-251-713-7050",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10023_2310",
+        "type": "credit_card",
+        "last_four": "3463"
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC019",
+      "PROC009",
+      "PROC007",
+      "PROC017",
+      "PROC015"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10023_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10023_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00386",
+      "APT00393"
+    ]
+  },
+  "P10024": {
+    "patient_id": "P10024",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Young"
+    },
+    "email": "thomas.young55@inbox.com",
+    "dob": "1976-11-10",
+    "phone": "+1-237-644-7491",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10024_1385",
+        "type": "credit_card",
+        "last_four": "9892"
+      },
+      {
+        "payment_id": "hsa_P10024",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC012",
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10024_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10024_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00052"
+    ]
+  },
+  "P10025": {
+    "patient_id": "P10025",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Anderson"
+    },
+    "email": "jessica.anderson91@inbox.com",
+    "dob": "1960-09-04",
+    "phone": "+1-509-532-7565",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10025_3369",
+        "type": "credit_card",
+        "last_four": "9084"
+      },
+      {
+        "payment_id": "hsa_P10025",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC015",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Betty",
+          "last_name": "Anderson"
+        },
+        "dob": "2008-03-20",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Anthony",
+          "last_name": "Anderson"
+        },
+        "dob": "2016-12-03",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00021"
+    ]
+  },
+  "P10026": {
+    "patient_id": "P10026",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Anderson"
+    },
+    "email": "mary.anderson70@email.com",
+    "dob": "2002-05-24",
+    "phone": "+1-978-547-5502",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10026_2298",
+        "type": "credit_card",
+        "last_four": "8101"
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC009",
+      "PROC010",
+      "PROC017",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00125",
+      "APT00138"
+    ]
+  },
+  "P10027": {
+    "patient_id": "P10027",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Roberts"
+    },
+    "email": "lucas.roberts85@mail.com",
+    "dob": "2004-03-09",
+    "phone": "+1-850-709-6386",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10027_1749",
+        "type": "credit_card",
+        "last_four": "7531"
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC001",
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10027_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10027_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Michael",
+          "last_name": "Roberts"
+        },
+        "dob": "2011-04-01",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Joseph",
+          "last_name": "Roberts"
+        },
+        "dob": "2009-10-10",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00252",
+      "APT00257"
+    ]
+  },
+  "P10028": {
+    "patient_id": "P10028",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Lewis"
+    },
+    "email": "kevin.lewis94@inbox.com",
+    "dob": "1985-09-01",
+    "phone": "+1-280-746-8971",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10028_6580",
+        "type": "credit_card",
+        "last_four": "6237"
+      },
+      {
+        "payment_id": "hsa_P10028",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC015"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Fatima",
+          "last_name": "Lewis"
+        },
+        "dob": "2014-05-13",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00168",
+      "APT00309"
+    ]
+  },
+  "P10029": {
+    "patient_id": "P10029",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Sanchez"
+    },
+    "email": "amanda.sanchez82@mail.com",
+    "dob": "1960-04-24",
+    "phone": "+1-625-883-1383",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10029_7048",
+        "type": "credit_card",
+        "last_four": "5981"
+      },
+      {
+        "payment_id": "hsa_P10029",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC015",
+      "PROC001",
+      "PROC005"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00071",
+      "APT00104",
+      "APT00187"
+    ]
+  },
+  "P10030": {
+    "patient_id": "P10030",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Perez"
+    },
+    "email": "emma.perez55@email.com",
+    "dob": "1990-12-16",
+    "phone": "+1-628-713-5569",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10030_7148",
+        "type": "credit_card",
+        "last_four": "9807"
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC004",
+      "PROC020",
+      "PROC013",
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10030_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Noah",
+          "last_name": "Perez"
+        },
+        "dob": "2020-12-13",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00240",
+      "APT00264"
+    ]
+  },
+  "P10031": {
+    "patient_id": "P10031",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Clark"
+    },
+    "email": "daniel.clark32@mail.com",
+    "dob": "1995-02-22",
+    "phone": "+1-495-103-9727",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10031_6206",
+        "type": "credit_card",
+        "last_four": "9229"
+      },
+      {
+        "payment_id": "hsa_P10031",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC013"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10031_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10031_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00121",
+      "APT00314"
+    ]
+  },
+  "P10032": {
+    "patient_id": "P10032",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Harris"
+    },
+    "email": "ethan.harris74@email.com",
+    "dob": "2003-08-21",
+    "phone": "+1-813-684-7697",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10032_2610",
+        "type": "credit_card",
+        "last_four": "7280"
+      },
+      {
+        "payment_id": "hsa_P10032",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC014",
+      "PROC007",
+      "PROC001"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00059",
+      "APT00353"
+    ]
+  },
+  "P10033": {
+    "patient_id": "P10033",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "White"
+    },
+    "email": "mary.white40@email.com",
+    "dob": "1994-04-06",
+    "phone": "+1-683-829-4273",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10033_8731",
+        "type": "credit_card",
+        "last_four": "2490"
+      },
+      {
+        "payment_id": "hsa_P10033",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC020",
+      "PROC013",
+      "PROC018",
+      "PROC017",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00230",
+      "APT00377"
+    ]
+  },
+  "P10034": {
+    "patient_id": "P10034",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Rodriguez"
+    },
+    "email": "daniel.rodriguez52@email.com",
+    "dob": "1973-02-01",
+    "phone": "+1-450-573-2144",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10034_8555",
+        "type": "credit_card",
+        "last_four": "8523"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC006"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00015",
+      "APT00348"
+    ]
+  },
+  "P10035": {
+    "patient_id": "P10035",
+    "name": {
+      "first_name": "James",
+      "last_name": "Williams"
+    },
+    "email": "james.williams78@email.com",
+    "dob": "1998-11-14",
+    "phone": "+1-932-895-9751",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10035_9515",
+        "type": "credit_card",
+        "last_four": "8703"
+      },
+      {
+        "payment_id": "hsa_P10035",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00065",
+      "APT00112",
+      "APT00179",
+      "APT00267",
+      "APT00375"
+    ]
+  },
+  "P10036": {
+    "patient_id": "P10036",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Johnson"
+    },
+    "email": "aisha.johnson41@mail.com",
+    "dob": "1983-08-27",
+    "phone": "+1-415-370-2591",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10036_1979",
+        "type": "credit_card",
+        "last_four": "5799"
+      },
+      {
+        "payment_id": "hsa_P10036",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC002",
+      "PROC012",
+      "PROC013",
+      "PROC017",
+      "PROC015",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Emma",
+          "last_name": "Johnson"
+        },
+        "dob": "2017-02-24",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Betty",
+          "last_name": "Johnson"
+        },
+        "dob": "2014-11-11",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00109"
+    ]
+  },
+  "P10037": {
+    "patient_id": "P10037",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Campbell"
+    },
+    "email": "nancy.campbell27@email.com",
+    "dob": "1999-02-15",
+    "phone": "+1-734-395-1425",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10037_9053",
+        "type": "credit_card",
+        "last_four": "5009"
+      },
+      {
+        "payment_id": "hsa_P10037",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC010",
+      "PROC015"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10037_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10037_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00285",
+      "APT00381"
+    ]
+  },
+  "P10038": {
+    "patient_id": "P10038",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Clark"
+    },
+    "email": "joseph.clark84@email.com",
+    "dob": "1991-06-23",
+    "phone": "+1-465-472-9332",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10038_6024",
+        "type": "credit_card",
+        "last_four": "3593"
+      },
+      {
+        "payment_id": "hsa_P10038",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC015",
+      "PROC010",
+      "PROC005"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Mia",
+          "last_name": "Clark"
+        },
+        "dob": "2014-05-21",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Mary",
+          "last_name": "Clark"
+        },
+        "dob": "2011-10-10",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00022",
+      "APT00101",
+      "APT00216",
+      "APT00266"
+    ]
+  },
+  "P10039": {
+    "patient_id": "P10039",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Nguyen"
+    },
+    "email": "lucas.nguyen87@inbox.com",
+    "dob": "1980-08-20",
+    "phone": "+1-322-765-4226",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10039_6639",
+        "type": "credit_card",
+        "last_four": "3553"
+      },
+      {
+        "payment_id": "hsa_P10039",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC012",
+      "PROC013",
+      "PROC016",
+      "PROC006"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "James",
+          "last_name": "Nguyen"
+        },
+        "dob": "2018-02-11",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Karen",
+          "last_name": "Nguyen"
+        },
+        "dob": "2011-04-05",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00206",
+      "APT00357"
+    ]
+  },
+  "P10040": {
+    "patient_id": "P10040",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Scott"
+    },
+    "email": "matthew.scott44@inbox.com",
+    "dob": "1984-10-21",
+    "phone": "+1-747-966-9810",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10040_9587",
+        "type": "credit_card",
+        "last_four": "4741"
+      },
+      {
+        "payment_id": "hsa_P10040",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC002",
+      "PROC013"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00005",
+      "APT00283"
+    ]
+  },
+  "P10041": {
+    "patient_id": "P10041",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Garcia"
+    },
+    "email": "zara.garcia21@inbox.com",
+    "dob": "1958-08-19",
+    "phone": "+1-394-850-2043",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10041_5062",
+        "type": "credit_card",
+        "last_four": "5009"
+      },
+      {
+        "payment_id": "hsa_P10041",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC008",
+      "PROC020",
+      "PROC015",
+      "PROC006",
+      "PROC002"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00127"
+    ]
+  },
+  "P10042": {
+    "patient_id": "P10042",
+    "name": {
+      "first_name": "William",
+      "last_name": "Nguyen"
+    },
+    "email": "william.nguyen84@mail.com",
+    "dob": "1974-01-07",
+    "phone": "+1-314-837-8252",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10042_4996",
+        "type": "credit_card",
+        "last_four": "8819"
+      },
+      {
+        "payment_id": "hsa_P10042",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC002",
+      "PROC011",
+      "PROC003",
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10042_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10042_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Raj",
+          "last_name": "Nguyen"
+        },
+        "dob": "2015-05-19",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00208",
+      "APT00313"
+    ]
+  },
+  "P10043": {
+    "patient_id": "P10043",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Campbell"
+    },
+    "email": "noah.campbell48@mail.com",
+    "dob": "1967-10-26",
+    "phone": "+1-744-354-6589",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10043_8475",
+        "type": "credit_card",
+        "last_four": "1008"
+      },
+      {
+        "payment_id": "hsa_P10043",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC009",
+      "PROC016",
+      "PROC006",
+      "PROC011"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00136",
+      "APT00359",
+      "APT00360"
+    ]
+  },
+  "P10044": {
+    "patient_id": "P10044",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Carter"
+    },
+    "email": "sarah.carter96@mail.com",
+    "dob": "1990-09-10",
+    "phone": "+1-296-982-8261",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10044_8209",
+        "type": "credit_card",
+        "last_four": "2826"
+      },
+      {
+        "payment_id": "hsa_P10044",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC001",
+      "PROC011",
+      "PROC017"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10044_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00025",
+      "APT00382"
+    ]
+  },
+  "P10045": {
+    "patient_id": "P10045",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Rivera"
+    },
+    "email": "nancy.rivera70@email.com",
+    "dob": "1998-09-27",
+    "phone": "+1-901-407-4445",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10045_4171",
+        "type": "credit_card",
+        "last_four": "2781"
+      },
+      {
+        "payment_id": "hsa_P10045",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC010"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10046": {
+    "patient_id": "P10046",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Carter"
+    },
+    "email": "brian.carter44@email.com",
+    "dob": "1964-06-06",
+    "phone": "+1-469-583-5974",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10046_7491",
+        "type": "credit_card",
+        "last_four": "3814"
+      },
+      {
+        "payment_id": "hsa_P10046",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC006",
+      "PROC011",
+      "PROC017",
+      "PROC016"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00291"
+    ]
+  },
+  "P10047": {
+    "patient_id": "P10047",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Martinez"
+    },
+    "email": "betty.martinez45@email.com",
+    "dob": "1974-06-24",
+    "phone": "+1-921-307-4417",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10047_6166",
+        "type": "credit_card",
+        "last_four": "8368"
+      },
+      {
+        "payment_id": "hsa_P10047",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC013",
+      "PROC014",
+      "PROC001",
+      "PROC020"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10047_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10047_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00153"
+    ]
+  },
+  "P10048": {
+    "patient_id": "P10048",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Kim"
+    },
+    "email": "omar.kim66@mail.com",
+    "dob": "1971-05-27",
+    "phone": "+1-309-176-4983",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10048_1387",
+        "type": "credit_card",
+        "last_four": "6273"
+      },
+      {
+        "payment_id": "hsa_P10048",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC018",
+      "PROC020"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10049": {
+    "patient_id": "P10049",
+    "name": {
+      "first_name": "David",
+      "last_name": "White"
+    },
+    "email": "david.white46@email.com",
+    "dob": "2001-08-24",
+    "phone": "+1-683-237-2212",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10049_8698",
+        "type": "credit_card",
+        "last_four": "1753"
+      },
+      {
+        "payment_id": "hsa_P10049",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC016",
+      "PROC008",
+      "PROC009",
+      "PROC013",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10049_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10049_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10049_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00105",
+      "APT00167",
+      "APT00315"
+    ]
+  },
+  "P10050": {
+    "patient_id": "P10050",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Chen"
+    },
+    "email": "daniel.chen47@inbox.com",
+    "dob": "1981-03-28",
+    "phone": "+1-222-243-2114",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10050_5896",
+        "type": "credit_card",
+        "last_four": "4276"
+      },
+      {
+        "payment_id": "hsa_P10050",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC008",
+      "PROC011",
+      "PROC018"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00390"
+    ]
+  },
+  "P10051": {
+    "patient_id": "P10051",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Roberts"
+    },
+    "email": "zara.roberts43@mail.com",
+    "dob": "2000-12-11",
+    "phone": "+1-818-865-1379",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10051_6918",
+        "type": "credit_card",
+        "last_four": "8304"
+      },
+      {
+        "payment_id": "hsa_P10051",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC011"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10051_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10051_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00195"
+    ]
+  },
+  "P10052": {
+    "patient_id": "P10052",
+    "name": {
+      "first_name": "William",
+      "last_name": "Davis"
+    },
+    "email": "william.davis72@mail.com",
+    "dob": "1996-07-14",
+    "phone": "+1-788-441-2099",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10052_8968",
+        "type": "credit_card",
+        "last_four": "1786"
+      },
+      {
+        "payment_id": "hsa_P10052",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC012",
+      "PROC001",
+      "PROC014",
+      "PROC002"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10053": {
+    "patient_id": "P10053",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Jones"
+    },
+    "email": "lucas.jones29@inbox.com",
+    "dob": "1991-02-18",
+    "phone": "+1-538-174-3976",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10053_2840",
+        "type": "credit_card",
+        "last_four": "9712"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC015",
+      "PROC007",
+      "PROC003",
+      "PROC014"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00077",
+      "APT00226",
+      "APT00254",
+      "APT00279"
+    ]
+  },
+  "P10054": {
+    "patient_id": "P10054",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Adams"
+    },
+    "email": "yuki.adams84@inbox.com",
+    "dob": "1976-08-17",
+    "phone": "+1-986-434-9722",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10054_8084",
+        "type": "credit_card",
+        "last_four": "1351"
+      },
+      {
+        "payment_id": "hsa_P10054",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Daniel",
+          "last_name": "Adams"
+        },
+        "dob": "2014-03-09",
+        "relationship": "child"
+      }
+    ],
+    "appointments": []
+  },
+  "P10055": {
+    "patient_id": "P10055",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Campbell"
+    },
+    "email": "michelle.campbell79@mail.com",
+    "dob": "1997-04-25",
+    "phone": "+1-270-435-6166",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10055_6810",
+        "type": "credit_card",
+        "last_four": "3500"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10055_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00054",
+      "APT00194",
+      "APT00277",
+      "APT00369"
+    ]
+  },
+  "P10056": {
+    "patient_id": "P10056",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Mitchell"
+    },
+    "email": "joseph.mitchell36@mail.com",
+    "dob": "1968-04-10",
+    "phone": "+1-250-557-8185",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10056_7951",
+        "type": "credit_card",
+        "last_four": "5441"
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC012",
+      "PROC001",
+      "PROC005",
+      "PROC015",
+      "PROC004",
+      "PROC014"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00016",
+      "APT00163"
+    ]
+  },
+  "P10057": {
+    "patient_id": "P10057",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Thomas"
+    },
+    "email": "emily.thomas50@mail.com",
+    "dob": "1968-07-19",
+    "phone": "+1-395-315-2487",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10057_3042",
+        "type": "credit_card",
+        "last_four": "2521"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10057_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10057_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00047",
+      "APT00320"
+    ]
+  },
+  "P10058": {
+    "patient_id": "P10058",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Torres"
+    },
+    "email": "liam.torres45@inbox.com",
+    "dob": "1978-08-09",
+    "phone": "+1-862-431-1743",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10058_2834",
+        "type": "credit_card",
+        "last_four": "8486"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC014",
+      "PROC013",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10058_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10058_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Yuki",
+          "last_name": "Torres"
+        },
+        "dob": "2018-07-16",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00006",
+      "APT00186",
+      "APT00246",
+      "APT00350",
+      "APT00364"
+    ]
+  },
+  "P10059": {
+    "patient_id": "P10059",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Jackson"
+    },
+    "email": "elizabeth.jackson24@email.com",
+    "dob": "1966-10-01",
+    "phone": "+1-230-609-4343",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10059_9497",
+        "type": "credit_card",
+        "last_four": "3551"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC002",
+      "PROC020",
+      "PROC007",
+      "PROC010",
+      "PROC012",
+      "PROC017"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10059_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Lucas",
+          "last_name": "Jackson"
+        },
+        "dob": "2020-11-06",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00064",
+      "APT00116"
+    ]
+  },
+  "P10060": {
+    "patient_id": "P10060",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Robinson"
+    },
+    "email": "karen.robinson86@inbox.com",
+    "dob": "1995-06-27",
+    "phone": "+1-737-273-3591",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10060_6260",
+        "type": "credit_card",
+        "last_four": "1466"
+      },
+      {
+        "payment_id": "hsa_P10060",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC001",
+      "PROC016"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10060_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00178",
+      "APT00378"
+    ]
+  },
+  "P10061": {
+    "patient_id": "P10061",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Smith"
+    },
+    "email": "michael.smith70@mail.com",
+    "dob": "1977-04-03",
+    "phone": "+1-331-430-9847",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10061_2086",
+        "type": "credit_card",
+        "last_four": "2841"
+      },
+      {
+        "payment_id": "hsa_P10061",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC018",
+      "PROC015",
+      "PROC005"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10062": {
+    "patient_id": "P10062",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Hall"
+    },
+    "email": "betty.hall52@inbox.com",
+    "dob": "1997-12-04",
+    "phone": "+1-673-784-9518",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10062_9074",
+        "type": "credit_card",
+        "last_four": "4215"
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC005",
+      "PROC020",
+      "PROC008",
+      "PROC003"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Jessica",
+          "last_name": "Hall"
+        },
+        "dob": "2011-05-06",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": []
+  },
+  "P10063": {
+    "patient_id": "P10063",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Adams"
+    },
+    "email": "ashley.adams11@inbox.com",
+    "dob": "1972-03-11",
+    "phone": "+1-692-595-6634",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10063_7140",
+        "type": "credit_card",
+        "last_four": "3379"
+      },
+      {
+        "payment_id": "hsa_P10063",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC013",
+      "PROC002",
+      "PROC007",
+      "PROC006",
+      "PROC001"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10063_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00211",
+      "APT00214"
+    ]
+  },
+  "P10064": {
+    "patient_id": "P10064",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Rivera"
+    },
+    "email": "richard.rivera33@mail.com",
+    "dob": "1991-07-15",
+    "phone": "+1-549-926-8984",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10064_8425",
+        "type": "credit_card",
+        "last_four": "5305"
+      },
+      {
+        "payment_id": "hsa_P10064",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR032",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00270",
+      "APT00354"
+    ]
+  },
+  "P10065": {
+    "patient_id": "P10065",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Green"
+    },
+    "email": "noah.green75@email.com",
+    "dob": "1984-11-04",
+    "phone": "+1-345-960-4634",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10065_6609",
+        "type": "credit_card",
+        "last_four": "9504"
+      },
+      {
+        "payment_id": "hsa_P10065",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC012",
+      "PROC014",
+      "PROC001",
+      "PROC005",
+      "PROC004",
+      "PROC016"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "William",
+          "last_name": "Green"
+        },
+        "dob": "2013-05-15",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Amanda",
+          "last_name": "Green"
+        },
+        "dob": "2009-09-06",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00355"
+    ]
+  },
+  "P10066": {
+    "patient_id": "P10066",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Johnson"
+    },
+    "email": "noah.johnson29@inbox.com",
+    "dob": "1967-12-24",
+    "phone": "+1-824-534-4312",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10066_9611",
+        "type": "credit_card",
+        "last_four": "3486"
+      },
+      {
+        "payment_id": "hsa_P10066",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC018",
+      "PROC012",
+      "PROC020",
+      "PROC008",
+      "PROC006",
+      "PROC016"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10066_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10066_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10066_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00037",
+      "APT00200",
+      "APT00287",
+      "APT00317"
+    ]
+  },
+  "P10067": {
+    "patient_id": "P10067",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Brown"
+    },
+    "email": "sarah.brown71@email.com",
+    "dob": "1980-05-13",
+    "phone": "+1-982-926-4972",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10067_7901",
+        "type": "credit_card",
+        "last_four": "8807"
+      },
+      {
+        "payment_id": "hsa_P10067",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10067_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10067_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Patricia",
+          "last_name": "Brown"
+        },
+        "dob": "2020-07-05",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00122",
+      "APT00197",
+      "APT00301"
+    ]
+  },
+  "P10068": {
+    "patient_id": "P10068",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Wilson"
+    },
+    "email": "emily.wilson84@inbox.com",
+    "dob": "1996-07-13",
+    "phone": "+1-355-310-8264",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10068_4168",
+        "type": "credit_card",
+        "last_four": "5072"
+      },
+      {
+        "payment_id": "hsa_P10068",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10068_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10068_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00030",
+      "APT00278"
+    ]
+  },
+  "P10069": {
+    "patient_id": "P10069",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Carter"
+    },
+    "email": "elizabeth.carter53@mail.com",
+    "dob": "1972-06-01",
+    "phone": "+1-241-490-5185",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10069_2921",
+        "type": "credit_card",
+        "last_four": "9529"
+      },
+      {
+        "payment_id": "hsa_P10069",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC020",
+      "PROC016",
+      "PROC008",
+      "PROC015",
+      "PROC010",
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10069_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10069_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10069_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00319"
+    ]
+  },
+  "P10070": {
+    "patient_id": "P10070",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Rivera"
+    },
+    "email": "linda.rivera42@inbox.com",
+    "dob": "1984-07-19",
+    "phone": "+1-720-436-7875",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10070_8983",
+        "type": "credit_card",
+        "last_four": "5769"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Ethan",
+          "last_name": "Rivera"
+        },
+        "dob": "2019-07-14",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Wei",
+          "last_name": "Rivera"
+        },
+        "dob": "2009-05-27",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00018",
+      "APT00048"
+    ]
+  },
+  "P10071": {
+    "patient_id": "P10071",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Martin"
+    },
+    "email": "omar.martin95@mail.com",
+    "dob": "1977-02-01",
+    "phone": "+1-243-716-2766",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10071_8955",
+        "type": "credit_card",
+        "last_four": "4977"
+      },
+      {
+        "payment_id": "hsa_P10071",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC019"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10071_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10071_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00221",
+      "APT00391"
+    ]
+  },
+  "P10072": {
+    "patient_id": "P10072",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Campbell"
+    },
+    "email": "melissa.campbell90@inbox.com",
+    "dob": "1961-10-04",
+    "phone": "+1-996-542-1420",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10072_4909",
+        "type": "credit_card",
+        "last_four": "6909"
+      },
+      {
+        "payment_id": "hsa_P10072",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC013",
+      "PROC002",
+      "PROC012",
+      "PROC015",
+      "PROC017",
+      "PROC010"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00124",
+      "APT00251"
+    ]
+  },
+  "P10073": {
+    "patient_id": "P10073",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Adams"
+    },
+    "email": "susan.adams30@email.com",
+    "dob": "1966-01-21",
+    "phone": "+1-771-889-9966",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10073_2618",
+        "type": "credit_card",
+        "last_four": "5788"
+      },
+      {
+        "payment_id": "hsa_P10073",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC015",
+      "PROC009",
+      "PROC012",
+      "PROC018",
+      "PROC017"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Daniel",
+          "last_name": "Adams"
+        },
+        "dob": "2015-12-21",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00248"
+    ]
+  },
+  "P10074": {
+    "patient_id": "P10074",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "White"
+    },
+    "email": "yuki.white49@email.com",
+    "dob": "2002-07-25",
+    "phone": "+1-939-192-7652",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10074_3818",
+        "type": "credit_card",
+        "last_four": "9189"
+      },
+      {
+        "payment_id": "hsa_P10074",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC012",
+      "PROC018"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00023",
+      "APT00049"
+    ]
+  },
+  "P10075": {
+    "patient_id": "P10075",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Hall"
+    },
+    "email": "daniel.hall51@email.com",
+    "dob": "1986-11-06",
+    "phone": "+1-314-294-6087",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10075_7270",
+        "type": "credit_card",
+        "last_four": "4312"
+      },
+      {
+        "payment_id": "hsa_P10075",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC011",
+      "PROC015"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00232",
+      "APT00341"
+    ]
+  },
+  "P10076": {
+    "patient_id": "P10076",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Roberts"
+    },
+    "email": "andrew.roberts78@mail.com",
+    "dob": "1996-09-10",
+    "phone": "+1-606-236-7311",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10076_9818",
+        "type": "credit_card",
+        "last_four": "3914"
+      },
+      {
+        "payment_id": "hsa_P10076",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC003"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10076_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10076_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10076_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00079",
+      "APT00181",
+      "APT00261"
+    ]
+  },
+  "P10077": {
+    "patient_id": "P10077",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Perez"
+    },
+    "email": "michael.perez38@email.com",
+    "dob": "1994-10-03",
+    "phone": "+1-431-550-4538",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10077_4683",
+        "type": "credit_card",
+        "last_four": "8250"
+      },
+      {
+        "payment_id": "hsa_P10077",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC018"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10077_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10077_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00078",
+      "APT00224"
+    ]
+  },
+  "P10078": {
+    "patient_id": "P10078",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Smith"
+    },
+    "email": "elizabeth.smith56@mail.com",
+    "dob": "1973-04-01",
+    "phone": "+1-641-479-6972",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10078_8917",
+        "type": "credit_card",
+        "last_four": "8191"
+      },
+      {
+        "payment_id": "hsa_P10078",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC006",
+      "PROC017",
+      "PROC013"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00250"
+    ]
+  },
+  "P10079": {
+    "patient_id": "P10079",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "White"
+    },
+    "email": "jessica.white83@email.com",
+    "dob": "1989-06-03",
+    "phone": "+1-671-733-8174",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10079_3203",
+        "type": "credit_card",
+        "last_four": "6270"
+      },
+      {
+        "payment_id": "hsa_P10079",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC018",
+      "PROC019",
+      "PROC005",
+      "PROC004",
+      "PROC016",
+      "PROC009"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10079_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10079_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10079_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00031",
+      "APT00042",
+      "APT00302",
+      "APT00323",
+      "APT00334",
+      "APT00389"
+    ]
+  },
+  "P10080": {
+    "patient_id": "P10080",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Nelson"
+    },
+    "email": "sandra.nelson27@mail.com",
+    "dob": "1982-02-06",
+    "phone": "+1-420-777-8407",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10080_8347",
+        "type": "credit_card",
+        "last_four": "1942"
+      },
+      {
+        "payment_id": "hsa_P10080",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC005",
+      "PROC003",
+      "PROC012",
+      "PROC019",
+      "PROC009",
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10080_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10080_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10080_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10081": {
+    "patient_id": "P10081",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Hill"
+    },
+    "email": "karen.hill19@inbox.com",
+    "dob": "1999-11-10",
+    "phone": "+1-265-642-7778",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10081_4810",
+        "type": "credit_card",
+        "last_four": "9322"
+      },
+      {
+        "payment_id": "hsa_P10081",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC018",
+      "PROC019",
+      "PROC011",
+      "PROC001",
+      "PROC002",
+      "PROC012"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00183",
+      "APT00247",
+      "APT00387"
+    ]
+  },
+  "P10082": {
+    "patient_id": "P10082",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Wilson"
+    },
+    "email": "sofia.wilson58@inbox.com",
+    "dob": "2001-04-08",
+    "phone": "+1-685-241-6624",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10082_3938",
+        "type": "credit_card",
+        "last_four": "3969"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC004",
+      "PROC011",
+      "PROC003",
+      "PROC020",
+      "PROC013"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00074",
+      "APT00395"
+    ]
+  },
+  "P10083": {
+    "patient_id": "P10083",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Miller"
+    },
+    "email": "barbara.miller22@inbox.com",
+    "dob": "1974-06-06",
+    "phone": "+1-463-120-1997",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10083_8051",
+        "type": "credit_card",
+        "last_four": "5128"
+      },
+      {
+        "payment_id": "hsa_P10083",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC009"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10083_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00056",
+      "APT00241"
+    ]
+  },
+  "P10084": {
+    "patient_id": "P10084",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Brown"
+    },
+    "email": "amanda.brown83@email.com",
+    "dob": "1998-06-04",
+    "phone": "+1-651-823-3908",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10084_1028",
+        "type": "credit_card",
+        "last_four": "9669"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC013",
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10084_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10084_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10084_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Barbara",
+          "last_name": "Brown"
+        },
+        "dob": "2016-04-12",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Zara",
+          "last_name": "Brown"
+        },
+        "dob": "2018-03-20",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": []
+  },
+  "P10085": {
+    "patient_id": "P10085",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Martinez"
+    },
+    "email": "andrew.martinez73@email.com",
+    "dob": "1983-01-20",
+    "phone": "+1-817-258-6527",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10085_9807",
+        "type": "credit_card",
+        "last_four": "2970"
+      },
+      {
+        "payment_id": "hsa_P10085",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC004",
+      "PROC012"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00060",
+      "APT00067",
+      "APT00260",
+      "APT00339"
+    ]
+  },
+  "P10086": {
+    "patient_id": "P10086",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Mitchell"
+    },
+    "email": "michelle.mitchell77@inbox.com",
+    "dob": "1990-07-26",
+    "phone": "+1-788-819-9715",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10086_2906",
+        "type": "credit_card",
+        "last_four": "2072"
+      },
+      {
+        "payment_id": "hsa_P10086",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC005",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "John",
+          "last_name": "Mitchell"
+        },
+        "dob": "2013-01-16",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Mia",
+          "last_name": "Mitchell"
+        },
+        "dob": "2016-02-22",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00100",
+      "APT00303"
+    ]
+  },
+  "P10087": {
+    "patient_id": "P10087",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Robinson"
+    },
+    "email": "ashley.robinson71@inbox.com",
+    "dob": "2003-09-21",
+    "phone": "+1-598-413-9152",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10087_5629",
+        "type": "credit_card",
+        "last_four": "6248"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC007",
+      "PROC010",
+      "PROC014",
+      "PROC013",
+      "PROC018",
+      "PROC020"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10087_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00028",
+      "APT00075",
+      "APT00162",
+      "APT00188"
+    ]
+  },
+  "P10088": {
+    "patient_id": "P10088",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Perez"
+    },
+    "email": "olivia.perez78@email.com",
+    "dob": "2004-11-23",
+    "phone": "+1-248-410-7306",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10088_9643",
+        "type": "credit_card",
+        "last_four": "1682"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC019",
+      "PROC020"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00117"
+    ]
+  },
+  "P10089": {
+    "patient_id": "P10089",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Sanchez"
+    },
+    "email": "richard.sanchez15@mail.com",
+    "dob": "1989-01-27",
+    "phone": "+1-410-805-2905",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10089_8107",
+        "type": "credit_card",
+        "last_four": "9329"
+      },
+      {
+        "payment_id": "hsa_P10089",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC012",
+      "PROC002",
+      "PROC007",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10089_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Sandra",
+          "last_name": "Sanchez"
+        },
+        "dob": "2011-10-21",
+        "relationship": "child"
+      }
+    ],
+    "appointments": []
+  },
+  "P10090": {
+    "patient_id": "P10090",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Smith"
+    },
+    "email": "christopher.smith90@mail.com",
+    "dob": "1970-11-27",
+    "phone": "+1-409-999-5466",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10090_6419",
+        "type": "credit_card",
+        "last_four": "3900"
+      },
+      {
+        "payment_id": "hsa_P10090",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC013",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10090_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10090_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10090_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00158"
+    ]
+  },
+  "P10091": {
+    "patient_id": "P10091",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Roberts"
+    },
+    "email": "mark.roberts38@email.com",
+    "dob": "1955-07-27",
+    "phone": "+1-852-217-2888",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10091_7178",
+        "type": "credit_card",
+        "last_four": "5556"
+      },
+      {
+        "payment_id": "hsa_P10091",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC016",
+      "PROC009",
+      "PROC001",
+      "PROC013",
+      "PROC002",
+      "PROC012"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00147",
+      "APT00288"
+    ]
+  },
+  "P10092": {
+    "patient_id": "P10092",
+    "name": {
+      "first_name": "David",
+      "last_name": "Scott"
+    },
+    "email": "david.scott35@email.com",
+    "dob": "1959-03-18",
+    "phone": "+1-768-966-9158",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10092_3742",
+        "type": "credit_card",
+        "last_four": "5202"
+      },
+      {
+        "payment_id": "hsa_P10092",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC018",
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10092_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10092_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10092_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00154",
+      "APT00249"
+    ]
+  },
+  "P10093": {
+    "patient_id": "P10093",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Rodriguez"
+    },
+    "email": "richard.rodriguez66@inbox.com",
+    "dob": "1988-01-16",
+    "phone": "+1-987-142-9251",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10093_2791",
+        "type": "credit_card",
+        "last_four": "2825"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC013",
+      "PROC006",
+      "PROC003",
+      "PROC018",
+      "PROC008",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00170"
+    ]
+  },
+  "P10094": {
+    "patient_id": "P10094",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Thomas"
+    },
+    "email": "noah.thomas47@inbox.com",
+    "dob": "2004-04-24",
+    "phone": "+1-265-330-4014",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10094_1716",
+        "type": "credit_card",
+        "last_four": "1232"
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC009",
+      "PROC006",
+      "PROC012",
+      "PROC015",
+      "PROC007",
+      "PROC017"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00284",
+      "APT00337"
+    ]
+  },
+  "P10095": {
+    "patient_id": "P10095",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Thomas"
+    },
+    "email": "wei.thomas78@email.com",
+    "dob": "1976-11-24",
+    "phone": "+1-833-837-3783",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10095_1414",
+        "type": "credit_card",
+        "last_four": "8217"
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC017",
+      "PROC010",
+      "PROC018",
+      "PROC006"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10095_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10095_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10096": {
+    "patient_id": "P10096",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "White"
+    },
+    "email": "sofia.white19@email.com",
+    "dob": "1978-01-05",
+    "phone": "+1-864-943-8805",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10096_4828",
+        "type": "credit_card",
+        "last_four": "1096"
+      },
+      {
+        "payment_id": "hsa_P10096",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC002",
+      "PROC013",
+      "PROC004",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00029",
+      "APT00046",
+      "APT00332"
+    ]
+  },
+  "P10097": {
+    "patient_id": "P10097",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Campbell"
+    },
+    "email": "brian.campbell56@email.com",
+    "dob": "1979-05-22",
+    "phone": "+1-347-393-3856",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10097_7336",
+        "type": "credit_card",
+        "last_four": "8367"
+      },
+      {
+        "payment_id": "hsa_P10097",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC016",
+      "PROC009",
+      "PROC012",
+      "PROC015",
+      "PROC020"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00326"
+    ]
+  },
+  "P10098": {
+    "patient_id": "P10098",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Martin"
+    },
+    "email": "anthony.martin55@email.com",
+    "dob": "1965-06-24",
+    "phone": "+1-615-531-7844",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10098_8073",
+        "type": "credit_card",
+        "last_four": "5912"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC014",
+      "PROC018",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10099": {
+    "patient_id": "P10099",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Chen"
+    },
+    "email": "michelle.chen94@inbox.com",
+    "dob": "1983-08-13",
+    "phone": "+1-572-574-9981",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10099_6956",
+        "type": "credit_card",
+        "last_four": "6534"
+      },
+      {
+        "payment_id": "hsa_P10099",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC017"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10099_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10100": {
+    "patient_id": "P10100",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Walker"
+    },
+    "email": "zara.walker65@email.com",
+    "dob": "1978-11-10",
+    "phone": "+1-653-124-4382",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10100_7436",
+        "type": "credit_card",
+        "last_four": "3315"
+      },
+      {
+        "payment_id": "hsa_P10100",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC015",
+      "PROC010",
+      "PROC014",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10100_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10100_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00137"
+    ]
+  },
+  "P10101": {
+    "patient_id": "P10101",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Adams"
+    },
+    "email": "anthony.adams72@mail.com",
+    "dob": "1997-03-09",
+    "phone": "+1-825-881-9693",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10101_3553",
+        "type": "credit_card",
+        "last_four": "7584"
+      },
+      {
+        "payment_id": "hsa_P10101",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10101_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00070",
+      "APT00091",
+      "APT00123",
+      "APT00140",
+      "APT00274",
+      "APT00307",
+      "APT00346"
+    ]
+  },
+  "P10102": {
+    "patient_id": "P10102",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Rivera"
+    },
+    "email": "lucas.rivera18@mail.com",
+    "dob": "1957-11-04",
+    "phone": "+1-838-423-8317",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10102_2070",
+        "type": "credit_card",
+        "last_four": "2404"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC002",
+      "PROC011",
+      "PROC003",
+      "PROC019",
+      "PROC012",
+      "PROC004"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00255",
+      "APT00342"
+    ]
+  },
+  "P10103": {
+    "patient_id": "P10103",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Harris"
+    },
+    "email": "paul.harris94@email.com",
+    "dob": "2000-03-10",
+    "phone": "+1-655-199-1645",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10103_2662",
+        "type": "credit_card",
+        "last_four": "3618"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC004",
+      "PROC018",
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10103_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10103_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10103_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00009",
+      "APT00265",
+      "APT00292"
+    ]
+  },
+  "P10104": {
+    "patient_id": "P10104",
+    "name": {
+      "first_name": "William",
+      "last_name": "Lewis"
+    },
+    "email": "william.lewis18@email.com",
+    "dob": "1985-07-16",
+    "phone": "+1-338-739-5916",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10104_1326",
+        "type": "credit_card",
+        "last_four": "6937"
+      },
+      {
+        "payment_id": "hsa_P10104",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC001",
+      "PROC016",
+      "PROC012"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00055",
+      "APT00098",
+      "APT00310"
+    ]
+  },
+  "P10105": {
+    "patient_id": "P10105",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Robinson"
+    },
+    "email": "fatima.robinson43@mail.com",
+    "dob": "1964-02-26",
+    "phone": "+1-643-445-1662",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10105_4229",
+        "type": "credit_card",
+        "last_four": "6254"
+      },
+      {
+        "payment_id": "hsa_P10105",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC020",
+      "PROC016"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10105_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10105_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10105_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Ashley",
+          "last_name": "Robinson"
+        },
+        "dob": "2008-08-11",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Patricia",
+          "last_name": "Robinson"
+        },
+        "dob": "2018-04-23",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00192",
+      "APT00333"
+    ]
+  },
+  "P10106": {
+    "patient_id": "P10106",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Mitchell"
+    },
+    "email": "sarah.mitchell98@inbox.com",
+    "dob": "1984-11-03",
+    "phone": "+1-476-813-7146",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10106_1514",
+        "type": "credit_card",
+        "last_four": "3140"
+      },
+      {
+        "payment_id": "hsa_P10106",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC019",
+      "PROC001",
+      "PROC010",
+      "PROC013",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00061",
+      "APT00268"
+    ]
+  },
+  "P10107": {
+    "patient_id": "P10107",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Clark"
+    },
+    "email": "nancy.clark24@email.com",
+    "dob": "1987-07-14",
+    "phone": "+1-331-925-2753",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10107_6605",
+        "type": "credit_card",
+        "last_four": "3168"
+      },
+      {
+        "payment_id": "hsa_P10107",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC007",
+      "PROC016",
+      "PROC010",
+      "PROC009"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10107_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10107_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00041",
+      "APT00328",
+      "APT00338",
+      "APT00397"
+    ]
+  },
+  "P10108": {
+    "patient_id": "P10108",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Jones"
+    },
+    "email": "jessica.jones89@email.com",
+    "dob": "1966-06-03",
+    "phone": "+1-359-696-8549",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10108_4882",
+        "type": "credit_card",
+        "last_four": "2431"
+      },
+      {
+        "payment_id": "hsa_P10108",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00321",
+      "APT00327"
+    ]
+  },
+  "P10109": {
+    "patient_id": "P10109",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Harris"
+    },
+    "email": "wei.harris70@email.com",
+    "dob": "2005-11-04",
+    "phone": "+1-925-607-4048",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10109_2998",
+        "type": "credit_card",
+        "last_four": "1920"
+      },
+      {
+        "payment_id": "hsa_P10109",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC003"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10109_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10109_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10109_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Anthony",
+          "last_name": "Harris"
+        },
+        "dob": "2013-11-17",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00099",
+      "APT00130",
+      "APT00207",
+      "APT00263"
+    ]
+  },
+  "P10110": {
+    "patient_id": "P10110",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Perez"
+    },
+    "email": "paul.perez83@email.com",
+    "dob": "2001-11-19",
+    "phone": "+1-916-226-2241",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10110_2003",
+        "type": "credit_card",
+        "last_four": "8250"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10110_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10111": {
+    "patient_id": "P10111",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Anderson"
+    },
+    "email": "richard.anderson97@mail.com",
+    "dob": "1975-04-06",
+    "phone": "+1-488-872-3642",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10111_5861",
+        "type": "credit_card",
+        "last_four": "7754"
+      },
+      {
+        "payment_id": "hsa_P10111",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC014"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10111_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10111_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00383"
+    ]
+  },
+  "P10112": {
+    "patient_id": "P10112",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Brown"
+    },
+    "email": "robert.brown56@inbox.com",
+    "dob": "1959-08-12",
+    "phone": "+1-897-720-2079",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10112_1989",
+        "type": "credit_card",
+        "last_four": "8046"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00358"
+    ]
+  },
+  "P10113": {
+    "patient_id": "P10113",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Martin"
+    },
+    "email": "brian.martin61@mail.com",
+    "dob": "2001-06-15",
+    "phone": "+1-675-563-3501",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10113_8871",
+        "type": "credit_card",
+        "last_four": "7069"
+      },
+      {
+        "payment_id": "hsa_P10113",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC016",
+      "PROC011",
+      "PROC018",
+      "PROC007",
+      "PROC008",
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10113_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10113_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10113_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00008"
+    ]
+  },
+  "P10114": {
+    "patient_id": "P10114",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Lewis"
+    },
+    "email": "elizabeth.lewis29@mail.com",
+    "dob": "1981-01-28",
+    "phone": "+1-545-302-1355",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10114_6189",
+        "type": "credit_card",
+        "last_four": "7249"
+      },
+      {
+        "payment_id": "hsa_P10114",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC012",
+      "PROC001",
+      "PROC014"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Susan",
+          "last_name": "Lewis"
+        },
+        "dob": "2009-01-13",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00280"
+    ]
+  },
+  "P10115": {
+    "patient_id": "P10115",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Robinson"
+    },
+    "email": "sandra.robinson71@inbox.com",
+    "dob": "1965-05-27",
+    "phone": "+1-496-244-4852",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10115_5549",
+        "type": "credit_card",
+        "last_four": "4731"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC016",
+      "PROC014",
+      "PROC019",
+      "PROC006"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10115_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10115_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10115_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00007",
+      "APT00259"
+    ]
+  },
+  "P10116": {
+    "patient_id": "P10116",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Scott"
+    },
+    "email": "ashley.scott70@email.com",
+    "dob": "1968-07-16",
+    "phone": "+1-218-557-7062",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10116_6046",
+        "type": "credit_card",
+        "last_four": "3598"
+      },
+      {
+        "payment_id": "hsa_P10116",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC020",
+      "PROC014",
+      "PROC004",
+      "PROC005",
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10116_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10116_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00171",
+      "APT00199",
+      "APT00371"
+    ]
+  },
+  "P10117": {
+    "patient_id": "P10117",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Jackson"
+    },
+    "email": "mark.jackson83@email.com",
+    "dob": "1968-06-23",
+    "phone": "+1-925-707-4883",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10117_6120",
+        "type": "credit_card",
+        "last_four": "8801"
+      },
+      {
+        "payment_id": "hsa_P10117",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC011",
+      "PROC019",
+      "PROC020",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00222",
+      "APT00282"
+    ]
+  },
+  "P10118": {
+    "patient_id": "P10118",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Jackson"
+    },
+    "email": "ava.jackson38@inbox.com",
+    "dob": "1986-10-16",
+    "phone": "+1-203-435-6835",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10118_6135",
+        "type": "credit_card",
+        "last_four": "9371"
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC005",
+      "PROC011",
+      "PROC003",
+      "PROC017",
+      "PROC016",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Noah",
+          "last_name": "Jackson"
+        },
+        "dob": "2011-05-23",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Betty",
+          "last_name": "Jackson"
+        },
+        "dob": "2020-01-16",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00126",
+      "APT00275"
+    ]
+  },
+  "P10119": {
+    "patient_id": "P10119",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Hall"
+    },
+    "email": "ava.hall74@mail.com",
+    "dob": "1985-09-05",
+    "phone": "+1-454-909-7160",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10119_5468",
+        "type": "credit_card",
+        "last_four": "6243"
+      },
+      {
+        "payment_id": "hsa_P10119",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC018",
+      "PROC007",
+      "PROC019",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10119_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10120": {
+    "patient_id": "P10120",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Roberts"
+    },
+    "email": "donna.roberts23@mail.com",
+    "dob": "1955-05-09",
+    "phone": "+1-666-382-4240",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10120_3360",
+        "type": "credit_card",
+        "last_four": "5851"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC014",
+      "PROC003",
+      "PROC012",
+      "PROC015",
+      "PROC005"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10120_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10120_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10121": {
+    "patient_id": "P10121",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Baker"
+    },
+    "email": "aisha.baker50@inbox.com",
+    "dob": "1984-05-06",
+    "phone": "+1-584-663-1417",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10121_3105",
+        "type": "credit_card",
+        "last_four": "6288"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10122": {
+    "patient_id": "P10122",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Young"
+    },
+    "email": "wei.young27@email.com",
+    "dob": "1996-06-13",
+    "phone": "+1-304-635-3676",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10122_6351",
+        "type": "credit_card",
+        "last_four": "1565"
+      },
+      {
+        "payment_id": "hsa_P10122",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC019",
+      "PROC020"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10122_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10122_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10122_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00148"
+    ]
+  },
+  "P10123": {
+    "patient_id": "P10123",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Jackson"
+    },
+    "email": "aisha.jackson80@email.com",
+    "dob": "1960-06-12",
+    "phone": "+1-412-559-3606",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10123_2329",
+        "type": "credit_card",
+        "last_four": "7760"
+      },
+      {
+        "payment_id": "hsa_P10123",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC013",
+      "PROC018",
+      "PROC002"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00388"
+    ]
+  },
+  "P10124": {
+    "patient_id": "P10124",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Martin"
+    },
+    "email": "linda.martin27@inbox.com",
+    "dob": "1969-04-02",
+    "phone": "+1-527-430-7349",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10124_1396",
+        "type": "credit_card",
+        "last_four": "1859"
+      },
+      {
+        "payment_id": "hsa_P10124",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC002",
+      "PROC020",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10125": {
+    "patient_id": "P10125",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Rivera"
+    },
+    "email": "emma.rivera57@inbox.com",
+    "dob": "1997-07-01",
+    "phone": "+1-368-506-4486",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10125_5745",
+        "type": "credit_card",
+        "last_four": "9064"
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC003",
+      "PROC002",
+      "PROC007",
+      "PROC019"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10125_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10125_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10125_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00215"
+    ]
+  },
+  "P10126": {
+    "patient_id": "P10126",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Hill"
+    },
+    "email": "elizabeth.hill67@email.com",
+    "dob": "1955-11-24",
+    "phone": "+1-656-717-9385",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10126_5610",
+        "type": "credit_card",
+        "last_four": "5352"
+      },
+      {
+        "payment_id": "hsa_P10126",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC013",
+      "PROC006",
+      "PROC007",
+      "PROC009"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10126_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10126_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00110"
+    ]
+  },
+  "P10127": {
+    "patient_id": "P10127",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Robinson"
+    },
+    "email": "noah.robinson96@email.com",
+    "dob": "1968-03-04",
+    "phone": "+1-807-937-5970",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10127_7348",
+        "type": "credit_card",
+        "last_four": "2748"
+      },
+      {
+        "payment_id": "hsa_P10127",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC019"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00134",
+      "APT00151",
+      "APT00191"
+    ]
+  },
+  "P10128": {
+    "patient_id": "P10128",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "King"
+    },
+    "email": "betty.king95@email.com",
+    "dob": "1958-11-21",
+    "phone": "+1-279-731-2757",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10128_5134",
+        "type": "credit_card",
+        "last_four": "4552"
+      },
+      {
+        "payment_id": "hsa_P10128",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC001",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Sofia",
+          "last_name": "King"
+        },
+        "dob": "2013-08-13",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Sandra",
+          "last_name": "King"
+        },
+        "dob": "2015-09-20",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00305",
+      "APT00344"
+    ]
+  },
+  "P10129": {
+    "patient_id": "P10129",
+    "name": {
+      "first_name": "James",
+      "last_name": "Johnson"
+    },
+    "email": "james.johnson57@email.com",
+    "dob": "1994-01-28",
+    "phone": "+1-486-527-1366",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10129_5493",
+        "type": "credit_card",
+        "last_four": "1000"
+      },
+      {
+        "payment_id": "hsa_P10129",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC019",
+      "PROC006",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10129_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00164",
+      "APT00336"
+    ]
+  },
+  "P10130": {
+    "patient_id": "P10130",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Williams"
+    },
+    "email": "karen.williams14@mail.com",
+    "dob": "1962-05-05",
+    "phone": "+1-642-950-8630",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10130_8486",
+        "type": "credit_card",
+        "last_four": "4353"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC006",
+      "PROC001",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10130_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Robert",
+          "last_name": "Williams"
+        },
+        "dob": "2019-12-05",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Robert",
+          "last_name": "Williams"
+        },
+        "dob": "2014-11-13",
+        "relationship": "child"
+      }
+    ],
+    "appointments": []
+  },
+  "P10131": {
+    "patient_id": "P10131",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Anderson"
+    },
+    "email": "mark.anderson16@mail.com",
+    "dob": "1955-10-02",
+    "phone": "+1-572-190-7017",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10131_2032",
+        "type": "credit_card",
+        "last_four": "5601"
+      },
+      {
+        "payment_id": "hsa_P10131",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC016",
+      "PROC007",
+      "PROC009",
+      "PROC001",
+      "PROC018"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Liam",
+          "last_name": "Anderson"
+        },
+        "dob": "2008-11-02",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Amanda",
+          "last_name": "Anderson"
+        },
+        "dob": "2019-08-26",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00103",
+      "APT00120"
+    ]
+  },
+  "P10132": {
+    "patient_id": "P10132",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Wright"
+    },
+    "email": "michelle.wright62@mail.com",
+    "dob": "1989-03-12",
+    "phone": "+1-642-188-5148",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10132_7082",
+        "type": "credit_card",
+        "last_four": "9859"
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC012",
+      "PROC014",
+      "PROC006",
+      "PROC013",
+      "PROC020"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10132_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10132_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00012",
+      "APT00380"
+    ]
+  },
+  "P10133": {
+    "patient_id": "P10133",
+    "name": {
+      "first_name": "William",
+      "last_name": "Harris"
+    },
+    "email": "william.harris36@inbox.com",
+    "dob": "1977-11-15",
+    "phone": "+1-605-183-7864",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10133_9834",
+        "type": "credit_card",
+        "last_four": "3691"
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC005",
+      "PROC011",
+      "PROC018",
+      "PROC006"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00169",
+      "APT00190",
+      "APT00396"
+    ]
+  },
+  "P10134": {
+    "patient_id": "P10134",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Torres"
+    },
+    "email": "linda.torres60@inbox.com",
+    "dob": "1989-01-17",
+    "phone": "+1-872-939-7435",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10134_1066",
+        "type": "credit_card",
+        "last_four": "5173"
+      },
+      {
+        "payment_id": "hsa_P10134",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC008",
+      "PROC011",
+      "PROC016",
+      "PROC004",
+      "PROC019"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00014",
+      "APT00063",
+      "APT00157",
+      "APT00173"
+    ]
+  },
+  "P10135": {
+    "patient_id": "P10135",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Adams"
+    },
+    "email": "joseph.adams19@inbox.com",
+    "dob": "1977-12-14",
+    "phone": "+1-513-347-7653",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10135_2743",
+        "type": "credit_card",
+        "last_four": "4699"
+      },
+      {
+        "payment_id": "hsa_P10135",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00106",
+      "APT00176",
+      "APT00331",
+      "APT00400"
+    ]
+  },
+  "P10136": {
+    "patient_id": "P10136",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Taylor"
+    },
+    "email": "karen.taylor64@mail.com",
+    "dob": "1989-11-04",
+    "phone": "+1-877-512-1173",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10136_4129",
+        "type": "credit_card",
+        "last_four": "1385"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC004",
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10136_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10136_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10136_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00011",
+      "APT00115",
+      "APT00150",
+      "APT00159",
+      "APT00368",
+      "APT00398"
+    ]
+  },
+  "P10137": {
+    "patient_id": "P10137",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Baker"
+    },
+    "email": "chen.baker59@inbox.com",
+    "dob": "1974-06-13",
+    "phone": "+1-988-200-7925",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10137_4415",
+        "type": "credit_card",
+        "last_four": "5977"
+      },
+      {
+        "payment_id": "hsa_P10137",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC020",
+      "PROC019",
+      "PROC002",
+      "PROC016",
+      "PROC018"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10137_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10137_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00086",
+      "APT00233",
+      "APT00335"
+    ]
+  },
+  "P10138": {
+    "patient_id": "P10138",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Nelson"
+    },
+    "email": "chen.nelson53@email.com",
+    "dob": "1994-06-22",
+    "phone": "+1-818-580-1562",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10138_1447",
+        "type": "credit_card",
+        "last_four": "7225"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC003",
+      "PROC016",
+      "PROC009",
+      "PROC020",
+      "PROC017",
+      "PROC004"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00318"
+    ]
+  },
+  "P10139": {
+    "patient_id": "P10139",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Thompson"
+    },
+    "email": "daniel.thompson59@inbox.com",
+    "dob": "1990-12-28",
+    "phone": "+1-869-841-1798",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10139_4548",
+        "type": "credit_card",
+        "last_four": "7727"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC005",
+      "PROC019",
+      "PROC001",
+      "PROC017",
+      "PROC015"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10139_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00129",
+      "APT00142",
+      "APT00363"
+    ]
+  },
+  "P10140": {
+    "patient_id": "P10140",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Nelson"
+    },
+    "email": "thomas.nelson19@email.com",
+    "dob": "1962-12-17",
+    "phone": "+1-693-597-5080",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10140_3849",
+        "type": "credit_card",
+        "last_four": "8401"
+      },
+      {
+        "payment_id": "hsa_P10140",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10140_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10140_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00096",
+      "APT00379"
+    ]
+  },
+  "P10141": {
+    "patient_id": "P10141",
+    "name": {
+      "first_name": "James",
+      "last_name": "Lewis"
+    },
+    "email": "james.lewis24@email.com",
+    "dob": "2004-12-26",
+    "phone": "+1-368-242-3162",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10141_3893",
+        "type": "credit_card",
+        "last_four": "7172"
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC008"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10141_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10141_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10141_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00057",
+      "APT00085",
+      "APT00297"
+    ]
+  },
+  "P10142": {
+    "patient_id": "P10142",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Baker"
+    },
+    "email": "lucas.baker95@email.com",
+    "dob": "1991-01-15",
+    "phone": "+1-656-775-9944",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10142_7007",
+        "type": "credit_card",
+        "last_four": "8044"
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC018",
+      "PROC004",
+      "PROC014",
+      "PROC016",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10142_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10142_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10142_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Paul",
+          "last_name": "Baker"
+        },
+        "dob": "2014-09-08",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Linda",
+          "last_name": "Baker"
+        },
+        "dob": "2008-03-03",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00036",
+      "APT00209",
+      "APT00235",
+      "APT00244",
+      "APT00276",
+      "APT00312"
+    ]
+  },
+  "P10143": {
+    "patient_id": "P10143",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Green"
+    },
+    "email": "betty.green84@inbox.com",
+    "dob": "1971-08-03",
+    "phone": "+1-209-410-3245",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10143_4039",
+        "type": "credit_card",
+        "last_four": "7770"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10143_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Andrew",
+          "last_name": "Green"
+        },
+        "dob": "2020-01-04",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00090",
+      "APT00094"
+    ]
+  },
+  "P10144": {
+    "patient_id": "P10144",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Jackson"
+    },
+    "email": "daniel.jackson71@inbox.com",
+    "dob": "1985-04-07",
+    "phone": "+1-274-679-3698",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10144_8778",
+        "type": "credit_card",
+        "last_four": "8836"
+      },
+      {
+        "payment_id": "hsa_P10144",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10144_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10144_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10144_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Mia",
+          "last_name": "Jackson"
+        },
+        "dob": "2016-03-28",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00082",
+      "APT00087",
+      "APT00205"
+    ]
+  },
+  "P10145": {
+    "patient_id": "P10145",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Rivera"
+    },
+    "email": "jessica.rivera92@inbox.com",
+    "dob": "2003-07-27",
+    "phone": "+1-361-347-9540",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10145_6926",
+        "type": "credit_card",
+        "last_four": "4692"
+      },
+      {
+        "payment_id": "hsa_P10145",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC002",
+      "PROC014",
+      "PROC020"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Emily",
+          "last_name": "Rivera"
+        },
+        "dob": "2015-10-27",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Lucas",
+          "last_name": "Rivera"
+        },
+        "dob": "2010-08-20",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": []
+  },
+  "P10146": {
+    "patient_id": "P10146",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Scott"
+    },
+    "email": "christopher.scott70@inbox.com",
+    "dob": "2004-02-14",
+    "phone": "+1-699-495-3248",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10146_1506",
+        "type": "credit_card",
+        "last_four": "7837"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC005",
+      "PROC002",
+      "PROC012",
+      "PROC009",
+      "PROC013"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10146_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10146_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10146_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00040",
+      "APT00076",
+      "APT00160",
+      "APT00201",
+      "APT00213"
+    ]
+  },
+  "P10147": {
+    "patient_id": "P10147",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Harris"
+    },
+    "email": "paul.harris51@email.com",
+    "dob": "1960-12-16",
+    "phone": "+1-779-295-6710",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10147_9728",
+        "type": "credit_card",
+        "last_four": "9470"
+      },
+      {
+        "payment_id": "hsa_P10147",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC009",
+      "PROC020"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10148": {
+    "patient_id": "P10148",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Thomas"
+    },
+    "email": "karen.thomas33@inbox.com",
+    "dob": "1976-09-22",
+    "phone": "+1-708-483-5024",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10148_5563",
+        "type": "credit_card",
+        "last_four": "5323"
+      },
+      {
+        "payment_id": "hsa_P10148",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC007",
+      "PROC005",
+      "PROC010",
+      "PROC020",
+      "PROC012"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Melissa",
+          "last_name": "Thomas"
+        },
+        "dob": "2016-03-04",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Wei",
+          "last_name": "Thomas"
+        },
+        "dob": "2011-04-20",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00010",
+      "APT00296",
+      "APT00329"
+    ]
+  },
+  "P10149": {
+    "patient_id": "P10149",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Wright"
+    },
+    "email": "emily.wright75@inbox.com",
+    "dob": "2000-05-19",
+    "phone": "+1-630-303-5353",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10149_9804",
+        "type": "credit_card",
+        "last_four": "6593"
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC003",
+      "PROC009",
+      "PROC004",
+      "PROC013"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Liam",
+          "last_name": "Wright"
+        },
+        "dob": "2012-08-15",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": []
+  },
+  "P10150": {
+    "patient_id": "P10150",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Young"
+    },
+    "email": "patricia.young26@email.com",
+    "dob": "1995-08-20",
+    "phone": "+1-960-803-7934",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10150_8804",
+        "type": "credit_card",
+        "last_four": "8162"
+      },
+      {
+        "payment_id": "hsa_P10150",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10150_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Sarah",
+          "last_name": "Young"
+        },
+        "dob": "2009-09-18",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00295",
+      "APT00351"
+    ]
+  },
+  "P10151": {
+    "patient_id": "P10151",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Williams"
+    },
+    "email": "susan.williams29@email.com",
+    "dob": "1997-10-02",
+    "phone": "+1-766-698-6189",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10151_2825",
+        "type": "credit_card",
+        "last_four": "6531"
+      },
+      {
+        "payment_id": "hsa_P10151",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC014",
+      "PROC008"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10151_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10151_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10151_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00293"
+    ]
+  },
+  "P10152": {
+    "patient_id": "P10152",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Moore"
+    },
+    "email": "emma.moore67@email.com",
+    "dob": "1965-07-07",
+    "phone": "+1-437-202-2343",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10152_1285",
+        "type": "credit_card",
+        "last_four": "3627"
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC016",
+      "PROC004",
+      "PROC019",
+      "PROC008",
+      "PROC014",
+      "PROC018"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10152_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10152_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10152_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Omar",
+          "last_name": "Moore"
+        },
+        "dob": "2012-07-19",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": []
+  },
+  "P10153": {
+    "patient_id": "P10153",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Kim"
+    },
+    "email": "mark.kim59@mail.com",
+    "dob": "1983-08-05",
+    "phone": "+1-821-310-7110",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10153_7299",
+        "type": "credit_card",
+        "last_four": "7228"
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC016"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10153_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10153_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10153_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00084",
+      "APT00144"
+    ]
+  },
+  "P10154": {
+    "patient_id": "P10154",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Kim"
+    },
+    "email": "elizabeth.kim58@inbox.com",
+    "dob": "1959-10-27",
+    "phone": "+1-680-124-4998",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10154_7187",
+        "type": "credit_card",
+        "last_four": "3758"
+      },
+      {
+        "payment_id": "hsa_P10154",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10154_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10154_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00033",
+      "APT00066",
+      "APT00114"
+    ]
+  },
+  "P10155": {
+    "patient_id": "P10155",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Roberts"
+    },
+    "email": "yuki.roberts31@email.com",
+    "dob": "1959-08-23",
+    "phone": "+1-799-760-9473",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10155_1358",
+        "type": "credit_card",
+        "last_four": "7371"
+      },
+      {
+        "payment_id": "hsa_P10155",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC013",
+      "PROC001"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10155_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10155_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10155_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Sarah",
+          "last_name": "Roberts"
+        },
+        "dob": "2013-05-16",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00013",
+      "APT00073",
+      "APT00145",
+      "APT00229",
+      "APT00273"
+    ]
+  },
+  "P10156": {
+    "patient_id": "P10156",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Nguyen"
+    },
+    "email": "raj.nguyen31@inbox.com",
+    "dob": "1967-01-13",
+    "phone": "+1-268-337-2511",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10156_1786",
+        "type": "credit_card",
+        "last_four": "4745"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Steven",
+          "last_name": "Nguyen"
+        },
+        "dob": "2010-05-05",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Sarah",
+          "last_name": "Nguyen"
+        },
+        "dob": "2010-04-14",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00166",
+      "APT00225"
+    ]
+  },
+  "P10157": {
+    "patient_id": "P10157",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Brown"
+    },
+    "email": "mei.brown19@email.com",
+    "dob": "1991-11-26",
+    "phone": "+1-991-203-5408",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10157_3882",
+        "type": "credit_card",
+        "last_four": "5722"
+      },
+      {
+        "payment_id": "hsa_P10157",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC006",
+      "PROC008",
+      "PROC001"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00184"
+    ]
+  },
+  "P10158": {
+    "patient_id": "P10158",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Anderson"
+    },
+    "email": "ava.anderson17@mail.com",
+    "dob": "1989-02-25",
+    "phone": "+1-338-271-1792",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10158_7044",
+        "type": "credit_card",
+        "last_four": "3931"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC001"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10158_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00088",
+      "APT00322"
+    ]
+  },
+  "P10159": {
+    "patient_id": "P10159",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Martinez"
+    },
+    "email": "paul.martinez92@inbox.com",
+    "dob": "1963-04-28",
+    "phone": "+1-562-905-7638",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10159_7016",
+        "type": "credit_card",
+        "last_four": "5575"
+      },
+      {
+        "payment_id": "hsa_P10159",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC006",
+      "PROC004",
+      "PROC008"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10159_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10159_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10159_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Ashley",
+          "last_name": "Martinez"
+        },
+        "dob": "2020-08-22",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Amanda",
+          "last_name": "Martinez"
+        },
+        "dob": "2016-12-13",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00034",
+      "APT00372"
+    ]
+  },
+  "P10160": {
+    "patient_id": "P10160",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Martin"
+    },
+    "email": "emma.martin24@inbox.com",
+    "dob": "1988-07-06",
+    "phone": "+1-622-491-7159",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10160_9187",
+        "type": "credit_card",
+        "last_four": "3068"
+      },
+      {
+        "payment_id": "hsa_P10160",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC003"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00032",
+      "APT00113",
+      "APT00128",
+      "APT00146"
+    ]
+  },
+  "P10161": {
+    "patient_id": "P10161",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Clark"
+    },
+    "email": "karen.clark42@mail.com",
+    "dob": "1956-06-16",
+    "phone": "+1-608-577-8621",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10161_1262",
+        "type": "credit_card",
+        "last_four": "4531"
+      },
+      {
+        "payment_id": "hsa_P10161",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC019",
+      "PROC005",
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10161_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00043",
+      "APT00108",
+      "APT00384"
+    ]
+  },
+  "P10162": {
+    "patient_id": "P10162",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Taylor"
+    },
+    "email": "betty.taylor55@inbox.com",
+    "dob": "1984-03-14",
+    "phone": "+1-764-588-1663",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10162_5020",
+        "type": "credit_card",
+        "last_four": "3384"
+      },
+      {
+        "payment_id": "hsa_P10162",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC012",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10162_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10162_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00352"
+    ]
+  },
+  "P10163": {
+    "patient_id": "P10163",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Wright"
+    },
+    "email": "zara.wright90@inbox.com",
+    "dob": "1959-06-11",
+    "phone": "+1-580-124-8345",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10163_6084",
+        "type": "credit_card",
+        "last_four": "9302"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10163_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10163_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10163_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00220",
+      "APT00300"
+    ]
+  },
+  "P10164": {
+    "patient_id": "P10164",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Harris"
+    },
+    "email": "emily.harris80@inbox.com",
+    "dob": "1994-08-12",
+    "phone": "+1-966-679-9289",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10164_6350",
+        "type": "credit_card",
+        "last_four": "5668"
+      },
+      {
+        "payment_id": "hsa_P10164",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC017",
+      "PROC019",
+      "PROC004",
+      "PROC015",
+      "PROC016",
+      "PROC007"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10165": {
+    "patient_id": "P10165",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Martinez"
+    },
+    "email": "robert.martinez34@mail.com",
+    "dob": "1979-06-22",
+    "phone": "+1-355-537-9962",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10165_8206",
+        "type": "credit_card",
+        "last_four": "5376"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC007",
+      "PROC003",
+      "PROC013",
+      "PROC009",
+      "PROC018",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10165_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10165_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00165",
+      "APT00210"
+    ]
+  },
+  "P10166": {
+    "patient_id": "P10166",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Martin"
+    },
+    "email": "brian.martin43@inbox.com",
+    "dob": "1968-01-03",
+    "phone": "+1-771-661-6416",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10166_1613",
+        "type": "credit_card",
+        "last_four": "5350"
+      },
+      {
+        "payment_id": "hsa_P10166",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC003",
+      "PROC008",
+      "PROC015",
+      "PROC006",
+      "PROC016",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10166_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10166_PROC016",
+        "procedure_id": "PROC016",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00139",
+      "APT00370"
+    ]
+  },
+  "P10167": {
+    "patient_id": "P10167",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Mitchell"
+    },
+    "email": "wei.mitchell61@email.com",
+    "dob": "1975-09-05",
+    "phone": "+1-805-407-5221",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10167_9520",
+        "type": "credit_card",
+        "last_four": "5570"
+      },
+      {
+        "payment_id": "hsa_P10167",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC001"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10167_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10167_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10168": {
+    "patient_id": "P10168",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Martinez"
+    },
+    "email": "michael.martinez61@mail.com",
+    "dob": "1990-04-28",
+    "phone": "+1-780-439-5900",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10168_4587",
+        "type": "credit_card",
+        "last_four": "5075"
+      },
+      {
+        "payment_id": "hsa_P10168",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR032",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00299",
+      "APT00324"
+    ]
+  },
+  "P10169": {
+    "patient_id": "P10169",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Jackson"
+    },
+    "email": "jennifer.jackson61@mail.com",
+    "dob": "1965-10-16",
+    "phone": "+1-440-393-4985",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10169_2086",
+        "type": "credit_card",
+        "last_four": "6143"
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC014",
+      "PROC005",
+      "PROC020"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10169_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Sandra",
+          "last_name": "Jackson"
+        },
+        "dob": "2015-07-19",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00001",
+      "APT00095",
+      "APT00097",
+      "APT00281",
+      "APT00286"
+    ]
+  },
+  "P10170": {
+    "patient_id": "P10170",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Wilson"
+    },
+    "email": "mei.wilson27@mail.com",
+    "dob": "1976-03-20",
+    "phone": "+1-575-795-6853",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10170_7174",
+        "type": "credit_card",
+        "last_four": "2357"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Sandra",
+          "last_name": "Wilson"
+        },
+        "dob": "2009-12-21",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Patricia",
+          "last_name": "Wilson"
+        },
+        "dob": "2008-08-06",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00019",
+      "APT00081",
+      "APT00236",
+      "APT00272"
+    ]
+  },
+  "P10171": {
+    "patient_id": "P10171",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Adams"
+    },
+    "email": "omar.adams60@mail.com",
+    "dob": "1960-01-06",
+    "phone": "+1-310-373-5774",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10171_6409",
+        "type": "credit_card",
+        "last_four": "2637"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00024",
+      "APT00093",
+      "APT00182",
+      "APT00367"
+    ]
+  },
+  "P10172": {
+    "patient_id": "P10172",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Nguyen"
+    },
+    "email": "mei.nguyen95@email.com",
+    "dob": "1959-10-10",
+    "phone": "+1-911-584-8413",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10172_2064",
+        "type": "credit_card",
+        "last_four": "8574"
+      },
+      {
+        "payment_id": "hsa_P10172",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC017"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10172_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10172_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10172_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00039",
+      "APT00155"
+    ]
+  },
+  "P10173": {
+    "patient_id": "P10173",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Torres"
+    },
+    "email": "matthew.torres19@mail.com",
+    "dob": "1974-05-21",
+    "phone": "+1-988-440-6242",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10173_7571",
+        "type": "credit_card",
+        "last_four": "7848"
+      },
+      {
+        "payment_id": "hsa_P10173",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC010",
+      "PROC011",
+      "PROC007",
+      "PROC008",
+      "PROC015",
+      "PROC003"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Elizabeth",
+          "last_name": "Torres"
+        },
+        "dob": "2009-08-05",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00325"
+    ]
+  },
+  "P10174": {
+    "patient_id": "P10174",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Jackson"
+    },
+    "email": "melissa.jackson42@mail.com",
+    "dob": "2000-08-14",
+    "phone": "+1-391-932-9152",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10174_3008",
+        "type": "credit_card",
+        "last_four": "5956"
+      },
+      {
+        "payment_id": "hsa_P10174",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC002",
+      "PROC012",
+      "PROC006"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10174_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10174_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00045",
+      "APT00131",
+      "APT00133"
+    ]
+  },
+  "P10175": {
+    "patient_id": "P10175",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Mitchell"
+    },
+    "email": "michelle.mitchell14@email.com",
+    "dob": "1980-12-28",
+    "phone": "+1-846-469-6619",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10175_8366",
+        "type": "credit_card",
+        "last_four": "3177"
+      },
+      {
+        "payment_id": "hsa_P10175",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC014",
+      "PROC011",
+      "PROC006",
+      "PROC001",
+      "PROC018"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Elizabeth",
+          "last_name": "Mitchell"
+        },
+        "dob": "2008-03-08",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Sarah",
+          "last_name": "Mitchell"
+        },
+        "dob": "2011-12-06",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00161",
+      "APT00219",
+      "APT00228"
+    ]
+  },
+  "P10176": {
+    "patient_id": "P10176",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Hall"
+    },
+    "email": "liam.hall77@inbox.com",
+    "dob": "1978-06-01",
+    "phone": "+1-827-726-4222",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10176_8910",
+        "type": "credit_card",
+        "last_four": "9209"
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC011"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00392"
+    ]
+  },
+  "P10177": {
+    "patient_id": "P10177",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Chen"
+    },
+    "email": "donna.chen63@mail.com",
+    "dob": "1957-08-24",
+    "phone": "+1-823-685-4783",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10177_9964",
+        "type": "credit_card",
+        "last_four": "5754"
+      },
+      {
+        "payment_id": "hsa_P10177",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR030",
+    "medical_history": [],
+    "referrals": [
+      {
+        "referral_id": "REF_P10177_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00239",
+      "APT00340"
+    ]
+  },
+  "P10178": {
+    "patient_id": "P10178",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Nelson"
+    },
+    "email": "daniel.nelson65@email.com",
+    "dob": "1969-08-09",
+    "phone": "+1-277-921-5483",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10178_1634",
+        "type": "credit_card",
+        "last_four": "4759"
+      },
+      {
+        "payment_id": "hsa_P10178",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC009",
+      "PROC001",
+      "PROC017"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10178_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00306"
+    ]
+  },
+  "P10179": {
+    "patient_id": "P10179",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Hill"
+    },
+    "email": "kevin.hill52@email.com",
+    "dob": "1981-01-17",
+    "phone": "+1-758-771-4281",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10179_6016",
+        "type": "credit_card",
+        "last_four": "1838"
+      },
+      {
+        "payment_id": "hsa_P10179",
+        "type": "hsa",
+        "balance": 500
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC018",
+      "PROC010",
+      "PROC004",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00374"
+    ]
+  },
+  "P10180": {
+    "patient_id": "P10180",
+    "name": {
+      "first_name": "James",
+      "last_name": "Carter"
+    },
+    "email": "james.carter19@email.com",
+    "dob": "1982-02-11",
+    "phone": "+1-324-973-1054",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10180_5023",
+        "type": "credit_card",
+        "last_four": "8862"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC009"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10180_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10180_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Susan",
+          "last_name": "Carter"
+        },
+        "dob": "2019-03-12",
+        "relationship": "child"
+      },
+      {
+        "name": {
+          "first_name": "Emma",
+          "last_name": "Carter"
+        },
+        "dob": "2012-05-18",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00193"
+    ]
+  },
+  "P10181": {
+    "patient_id": "P10181",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Jones"
+    },
+    "email": "jessica.jones34@inbox.com",
+    "dob": "2004-05-06",
+    "phone": "+1-456-842-1298",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10181_8393",
+        "type": "credit_card",
+        "last_four": "6530"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC004",
+      "PROC016",
+      "PROC009",
+      "PROC003"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10181_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00051"
+    ]
+  },
+  "P10182": {
+    "patient_id": "P10182",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Garcia"
+    },
+    "email": "mei.garcia39@inbox.com",
+    "dob": "1959-03-05",
+    "phone": "+1-999-606-8501",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10182_3627",
+        "type": "credit_card",
+        "last_four": "9553"
+      },
+      {
+        "payment_id": "hsa_P10182",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC012",
+      "PROC001",
+      "PROC011"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Susan",
+          "last_name": "Garcia"
+        },
+        "dob": "2010-04-20",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Noah",
+          "last_name": "Garcia"
+        },
+        "dob": "2017-12-23",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00362"
+    ]
+  },
+  "P10183": {
+    "patient_id": "P10183",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "White"
+    },
+    "email": "anthony.white85@email.com",
+    "dob": "1996-06-07",
+    "phone": "+1-684-606-6582",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10183_1596",
+        "type": "credit_card",
+        "last_four": "8420"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC012",
+      "PROC001",
+      "PROC020",
+      "PROC011"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10183_PROC011",
+        "procedure_id": "PROC011",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Raj",
+          "last_name": "White"
+        },
+        "dob": "2016-09-25",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00038",
+      "APT00212",
+      "APT00271",
+      "APT00365"
+    ]
+  },
+  "P10184": {
+    "patient_id": "P10184",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Hall"
+    },
+    "email": "linda.hall29@mail.com",
+    "dob": "1957-11-11",
+    "phone": "+1-548-970-7750",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10184_6112",
+        "type": "credit_card",
+        "last_four": "9799"
+      },
+      {
+        "payment_id": "hsa_P10184",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC002",
+      "PROC004"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10184_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10184_PROC005",
+        "procedure_id": "PROC005",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00017"
+    ]
+  },
+  "P10185": {
+    "patient_id": "P10185",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Nguyen"
+    },
+    "email": "robert.nguyen87@inbox.com",
+    "dob": "1978-02-16",
+    "phone": "+1-302-471-2857",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10185_5912",
+        "type": "credit_card",
+        "last_four": "7666"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC011",
+      "PROC006"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00002",
+      "APT00217",
+      "APT00231",
+      "APT00294",
+      "APT00298"
+    ]
+  },
+  "P10186": {
+    "patient_id": "P10186",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Martin"
+    },
+    "email": "michael.martin94@mail.com",
+    "dob": "2004-06-11",
+    "phone": "+1-302-513-1667",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10186_3992",
+        "type": "credit_card",
+        "last_four": "4478"
+      },
+      {
+        "payment_id": "hsa_P10186",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10186_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10186_PROC004",
+        "procedure_id": "PROC004",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10186_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00172",
+      "APT00349",
+      "APT00376"
+    ]
+  },
+  "P10187": {
+    "patient_id": "P10187",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Walker"
+    },
+    "email": "karen.walker90@email.com",
+    "dob": "1960-11-11",
+    "phone": "+1-681-323-3075",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10187_1852",
+        "type": "credit_card",
+        "last_four": "3242"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC001",
+      "PROC004",
+      "PROC016",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10187_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10187_PROC014",
+        "procedure_id": "PROC014",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Jennifer",
+          "last_name": "Walker"
+        },
+        "dob": "2013-03-06",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00177"
+    ]
+  },
+  "P10188": {
+    "patient_id": "P10188",
+    "name": {
+      "first_name": "David",
+      "last_name": "Carter"
+    },
+    "email": "david.carter61@inbox.com",
+    "dob": "1987-04-14",
+    "phone": "+1-621-692-5713",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10188_9568",
+        "type": "credit_card",
+        "last_four": "5477"
+      },
+      {
+        "payment_id": "hsa_P10188",
+        "type": "hsa",
+        "balance": 1000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC018",
+      "PROC008",
+      "PROC002"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10188_PROC018",
+        "procedure_id": "PROC018",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10188_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10188_PROC007",
+        "procedure_id": "PROC007",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00189"
+    ]
+  },
+  "P10189": {
+    "patient_id": "P10189",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Jackson"
+    },
+    "email": "sarah.jackson84@email.com",
+    "dob": "1994-02-23",
+    "phone": "+1-887-354-3170",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10189_5177",
+        "type": "credit_card",
+        "last_four": "9153"
+      }
+    ],
+    "deductible_met_this_year": 0,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC019",
+      "PROC007",
+      "PROC009"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00356"
+    ]
+  },
+  "P10190": {
+    "patient_id": "P10190",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Williams"
+    },
+    "email": "aisha.williams11@mail.com",
+    "dob": "1969-04-24",
+    "phone": "+1-309-449-4380",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10190_2182",
+        "type": "credit_card",
+        "last_four": "7467"
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC004",
+      "PROC019"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10190_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00020"
+    ]
+  },
+  "P10191": {
+    "patient_id": "P10191",
+    "name": {
+      "first_name": "Steven",
+      "last_name": "Martinez"
+    },
+    "email": "steven.martinez10@mail.com",
+    "dob": "1964-12-21",
+    "phone": "+1-674-262-2006",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10191_3019",
+        "type": "credit_card",
+        "last_four": "7041"
+      },
+      {
+        "payment_id": "hsa_P10191",
+        "type": "hsa",
+        "balance": 200
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC017",
+      "PROC009",
+      "PROC015"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Richard",
+          "last_name": "Martinez"
+        },
+        "dob": "2018-11-08",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Sandra",
+          "last_name": "Martinez"
+        },
+        "dob": "2012-07-02",
+        "relationship": "spouse"
+      }
+    ],
+    "appointments": [
+      "APT00092",
+      "APT00152",
+      "APT00156"
+    ]
+  },
+  "P10192": {
+    "patient_id": "P10192",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Brown"
+    },
+    "email": "olivia.brown54@mail.com",
+    "dob": "2002-08-17",
+    "phone": "+1-859-329-8362",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10192_4339",
+        "type": "credit_card",
+        "last_four": "7773"
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC010"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10192_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10192_PROC013",
+        "procedure_id": "PROC013",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00132"
+    ]
+  },
+  "P10193": {
+    "patient_id": "P10193",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Roberts"
+    },
+    "email": "richard.roberts80@inbox.com",
+    "dob": "1972-08-13",
+    "phone": "+1-857-248-2799",
+    "insurance_plan": "standard",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10193_3628",
+        "type": "credit_card",
+        "last_four": "8870"
+      }
+    ],
+    "deductible_met_this_year": 2000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC001"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": []
+  },
+  "P10194": {
+    "patient_id": "P10194",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Chen"
+    },
+    "email": "sarah.chen95@inbox.com",
+    "dob": "1978-09-09",
+    "phone": "+1-828-688-9682",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10194_2619",
+        "type": "credit_card",
+        "last_four": "5453"
+      },
+      {
+        "payment_id": "hsa_P10194",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 800,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC013",
+      "PROC001",
+      "PROC003",
+      "PROC004",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00218",
+      "APT00304",
+      "APT00345"
+    ]
+  },
+  "P10195": {
+    "patient_id": "P10195",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Rivera"
+    },
+    "email": "barbara.rivera90@mail.com",
+    "dob": "1986-09-01",
+    "phone": "+1-885-962-6847",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10195_1320",
+        "type": "credit_card",
+        "last_four": "6363"
+      },
+      {
+        "payment_id": "hsa_P10195",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1500,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC011",
+      "PROC001",
+      "PROC016",
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10195_PROC008",
+        "procedure_id": "PROC008",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10195_PROC012",
+        "procedure_id": "PROC012",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "referral_id": "REF_P10195_PROC020",
+        "procedure_id": "PROC020",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [],
+    "appointments": [
+      "APT00050",
+      "APT00135",
+      "APT00234",
+      "APT00373"
+    ]
+  },
+  "P10196": {
+    "patient_id": "P10196",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Lewis"
+    },
+    "email": "michael.lewis39@mail.com",
+    "dob": "1985-10-07",
+    "phone": "+1-244-309-8652",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10196_6320",
+        "type": "credit_card",
+        "last_four": "1750"
+      },
+      {
+        "payment_id": "hsa_P10196",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 1000,
+    "primary_care_doctor": "DR033",
+    "medical_history": [
+      "PROC016",
+      "PROC008"
+    ],
+    "referrals": [],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Chen",
+          "last_name": "Lewis"
+        },
+        "dob": "2009-02-19",
+        "relationship": "child"
+      }
+    ],
+    "appointments": []
+  },
+  "P10197": {
+    "patient_id": "P10197",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Hill"
+    },
+    "email": "mark.hill21@mail.com",
+    "dob": "2002-02-04",
+    "phone": "+1-812-649-4951",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10197_9987",
+        "type": "credit_card",
+        "last_four": "8229"
+      },
+      {
+        "payment_id": "hsa_P10197",
+        "type": "hsa",
+        "balance": 1500
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR032",
+    "medical_history": [
+      "PROC007"
+    ],
+    "referrals": [
+      {
+        "referral_id": "REF_P10197_PROC003",
+        "procedure_id": "PROC003",
+        "valid_until": "2024-12-31"
+      }
+    ],
+    "dependents": [
+      {
+        "name": {
+          "first_name": "Linda",
+          "last_name": "Hill"
+        },
+        "dob": "2012-11-19",
+        "relationship": "spouse"
+      },
+      {
+        "name": {
+          "first_name": "Susan",
+          "last_name": "Hill"
+        },
+        "dob": "2009-06-08",
+        "relationship": "child"
+      }
+    ],
+    "appointments": [
+      "APT00141",
+      "APT00180"
+    ]
+  },
+  "P10198": {
+    "patient_id": "P10198",
+    "name": {
+      "first_name": "John",
+      "last_name": "Wright"
+    },
+    "email": "john.wright54@mail.com",
+    "dob": "1999-05-18",
+    "phone": "+1-971-563-3691",
+    "insurance_plan": "basic",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10198_1104",
+        "type": "credit_card",
+        "last_four": "9020"
+      },
+      {
+        "payment_id": "hsa_P10198",
+        "type": "hsa",
+        "balance": 2000
+      }
+    ],
+    "deductible_met_this_year": 500,
+    "primary_care_doctor": "DR030",
+    "medical_history": [
+      "PROC014",
+      "PROC011",
+      "PROC004",
+      "PROC003",
+      "PROC008",
+      "PROC015"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00202"
+    ]
+  },
+  "P10199": {
+    "patient_id": "P10199",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Miller"
+    },
+    "email": "mary.miller35@email.com",
+    "dob": "1995-10-01",
+    "phone": "+1-502-571-2003",
+    "insurance_plan": "premium",
+    "payment_methods": [
+      {
+        "payment_id": "cc_P10199_5509",
+        "type": "credit_card",
+        "last_four": "4154"
+      }
+    ],
+    "deductible_met_this_year": 200,
+    "primary_care_doctor": "DR031",
+    "medical_history": [
+      "PROC002"
+    ],
+    "referrals": [],
+    "dependents": [],
+    "appointments": [
+      "APT00089",
+      "APT00149",
+      "APT00223"
+    ]
+  }
+}
