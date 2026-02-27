@@ -1,0 +1,3081 @@
+{
+  "C10000": {
+    "client_id": "C10000",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Davis"
+    },
+    "email": "raj.davis39@email.com",
+    "dob": "1956-12-09",
+    "phone": "+1-589-384-8428",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10000"
+    ]
+  },
+  "C10001": {
+    "client_id": "C10001",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Zhang"
+    },
+    "email": "raj.zhang48@inbox.com",
+    "dob": "1978-03-12",
+    "phone": "+1-719-723-4258",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10001",
+      "IRA10002"
+    ]
+  },
+  "C10002": {
+    "client_id": "C10002",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Harris"
+    },
+    "email": "elizabeth.harris65@mail.com",
+    "dob": "1965-09-25",
+    "phone": "+1-633-520-8651",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10003",
+      "IRA10004",
+      "SAV10005"
+    ]
+  },
+  "C10003": {
+    "client_id": "C10003",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Roberts"
+    },
+    "email": "liam.roberts40@mail.com",
+    "dob": "1958-11-21",
+    "phone": "+1-322-683-5033",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10006",
+      "SAV10007"
+    ]
+  },
+  "C10004": {
+    "client_id": "C10004",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Adams"
+    },
+    "email": "amanda.adams89@mail.com",
+    "dob": "1957-10-03",
+    "phone": "+1-295-938-4848",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10008",
+      "IRA10009",
+      "SAV10010"
+    ]
+  },
+  "C10005": {
+    "client_id": "C10005",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Lee"
+    },
+    "email": "yuki.lee95@inbox.com",
+    "dob": "1969-04-05",
+    "phone": "+1-614-841-3704",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10011",
+      "IRA10012",
+      "SAV10013"
+    ]
+  },
+  "C10006": {
+    "client_id": "C10006",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Young"
+    },
+    "email": "noah.young98@email.com",
+    "dob": "1963-10-18",
+    "phone": "+1-396-321-8933",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10014",
+      "IRA10015",
+      "SAV10016"
+    ]
+  },
+  "C10007": {
+    "client_id": "C10007",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Roberts"
+    },
+    "email": "sarah.roberts92@email.com",
+    "dob": "1992-09-20",
+    "phone": "+1-472-946-3330",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10017",
+      "IRA10018",
+      "SAV10019"
+    ]
+  },
+  "C10008": {
+    "client_id": "C10008",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Brown"
+    },
+    "email": "robert.brown40@inbox.com",
+    "dob": "1965-05-20",
+    "phone": "+1-592-339-7730",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10020",
+      "IRA10021"
+    ]
+  },
+  "C10009": {
+    "client_id": "C10009",
+    "name": {
+      "first_name": "John",
+      "last_name": "Perez"
+    },
+    "email": "john.perez81@mail.com",
+    "dob": "1985-12-26",
+    "phone": "+1-292-909-7464",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10022",
+      "IRA10023"
+    ]
+  },
+  "C10010": {
+    "client_id": "C10010",
+    "name": {
+      "first_name": "James",
+      "last_name": "Moore"
+    },
+    "email": "james.moore94@inbox.com",
+    "dob": "1989-02-15",
+    "phone": "+1-473-129-3955",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10024",
+      "IRA10025"
+    ]
+  },
+  "C10011": {
+    "client_id": "C10011",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Mitchell"
+    },
+    "email": "sarah.mitchell19@mail.com",
+    "dob": "1974-06-12",
+    "phone": "+1-789-539-7626",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10026",
+      "SAV10027"
+    ]
+  },
+  "C10012": {
+    "client_id": "C10012",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Baker"
+    },
+    "email": "fatima.baker29@mail.com",
+    "dob": "1981-05-04",
+    "phone": "+1-269-580-8245",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10028"
+    ]
+  },
+  "C10013": {
+    "client_id": "C10013",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Lee"
+    },
+    "email": "raj.lee35@inbox.com",
+    "dob": "1972-10-02",
+    "phone": "+1-341-993-5096",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10029",
+      "IRA10030"
+    ]
+  },
+  "C10014": {
+    "client_id": "C10014",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Hall"
+    },
+    "email": "patricia.hall92@mail.com",
+    "dob": "1985-06-18",
+    "phone": "+1-570-492-1530",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10031",
+      "IRA10032",
+      "SAV10033"
+    ]
+  },
+  "C10015": {
+    "client_id": "C10015",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Martinez"
+    },
+    "email": "brian.martinez23@mail.com",
+    "dob": "1998-08-12",
+    "phone": "+1-337-370-6992",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10034",
+      "IRA10035",
+      "SAV10036"
+    ]
+  },
+  "C10016": {
+    "client_id": "C10016",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Clark"
+    },
+    "email": "hiroshi.clark37@email.com",
+    "dob": "1978-01-13",
+    "phone": "+1-751-377-5450",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10037",
+      "IRA10038"
+    ]
+  },
+  "C10017": {
+    "client_id": "C10017",
+    "name": {
+      "first_name": "William",
+      "last_name": "Miller"
+    },
+    "email": "william.miller33@email.com",
+    "dob": "1994-12-19",
+    "phone": "+1-688-431-5064",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10039",
+      "IRA10040",
+      "SAV10041"
+    ]
+  },
+  "C10018": {
+    "client_id": "C10018",
+    "name": {
+      "first_name": "James",
+      "last_name": "Moore"
+    },
+    "email": "james.moore45@email.com",
+    "dob": "1979-04-15",
+    "phone": "+1-942-883-2848",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10042",
+      "IRA10043",
+      "SAV10044"
+    ]
+  },
+  "C10019": {
+    "client_id": "C10019",
+    "name": {
+      "first_name": "John",
+      "last_name": "Li"
+    },
+    "email": "john.li25@inbox.com",
+    "dob": "1997-07-20",
+    "phone": "+1-972-590-4974",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10045",
+      "IRA10046"
+    ]
+  },
+  "C10020": {
+    "client_id": "C10020",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Adams"
+    },
+    "email": "omar.adams20@inbox.com",
+    "dob": "2000-04-13",
+    "phone": "+1-865-877-1519",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10047",
+      "SAV10048"
+    ]
+  },
+  "C10021": {
+    "client_id": "C10021",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Clark"
+    },
+    "email": "jennifer.clark75@mail.com",
+    "dob": "1979-07-18",
+    "phone": "+1-305-126-2468",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10049",
+      "IRA10050",
+      "SAV10051"
+    ]
+  },
+  "C10022": {
+    "client_id": "C10022",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Nguyen"
+    },
+    "email": "matthew.nguyen48@inbox.com",
+    "dob": "1960-10-20",
+    "phone": "+1-804-186-3194",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10052",
+      "IRA10053"
+    ]
+  },
+  "C10023": {
+    "client_id": "C10023",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Davis"
+    },
+    "email": "daniel.davis21@inbox.com",
+    "dob": "1970-05-04",
+    "phone": "+1-669-750-6869",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10054",
+      "IRA10055",
+      "SAV10056"
+    ]
+  },
+  "C10024": {
+    "client_id": "C10024",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Jones"
+    },
+    "email": "olivia.jones12@inbox.com",
+    "dob": "1989-07-07",
+    "phone": "+1-269-114-5295",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10057"
+    ]
+  },
+  "C10025": {
+    "client_id": "C10025",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Williams"
+    },
+    "email": "susan.williams19@email.com",
+    "dob": "1958-07-17",
+    "phone": "+1-339-898-2785",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10058",
+      "IRA10059",
+      "SAV10060"
+    ]
+  },
+  "C10026": {
+    "client_id": "C10026",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Miller"
+    },
+    "email": "elizabeth.miller99@mail.com",
+    "dob": "1965-08-15",
+    "phone": "+1-805-128-6761",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10061",
+      "IRA10062",
+      "SAV10063"
+    ]
+  },
+  "C10027": {
+    "client_id": "C10027",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Hill"
+    },
+    "email": "kevin.hill65@inbox.com",
+    "dob": "1964-10-07",
+    "phone": "+1-368-721-8113",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10064",
+      "IRA10065"
+    ]
+  },
+  "C10028": {
+    "client_id": "C10028",
+    "name": {
+      "first_name": "David",
+      "last_name": "Brown"
+    },
+    "email": "david.brown22@email.com",
+    "dob": "1961-06-07",
+    "phone": "+1-776-898-2654",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10066",
+      "IRA10067",
+      "SAV10068"
+    ]
+  },
+  "C10029": {
+    "client_id": "C10029",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Martin"
+    },
+    "email": "sofia.martin94@mail.com",
+    "dob": "1989-06-14",
+    "phone": "+1-774-762-5631",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10069",
+      "IRA10070",
+      "SAV10071"
+    ]
+  },
+  "C10030": {
+    "client_id": "C10030",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Campbell"
+    },
+    "email": "karen.campbell64@mail.com",
+    "dob": "1961-08-03",
+    "phone": "+1-639-588-7280",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10072",
+      "IRA10073",
+      "SAV10074"
+    ]
+  },
+  "C10031": {
+    "client_id": "C10031",
+    "name": {
+      "first_name": "James",
+      "last_name": "Williams"
+    },
+    "email": "james.williams98@mail.com",
+    "dob": "1989-04-24",
+    "phone": "+1-538-340-1044",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10075",
+      "IRA10076",
+      "SAV10077"
+    ]
+  },
+  "C10032": {
+    "client_id": "C10032",
+    "name": {
+      "first_name": "James",
+      "last_name": "Rivera"
+    },
+    "email": "james.rivera52@inbox.com",
+    "dob": "1960-02-27",
+    "phone": "+1-985-734-8751",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10078"
+    ]
+  },
+  "C10033": {
+    "client_id": "C10033",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Rivera"
+    },
+    "email": "fatima.rivera74@email.com",
+    "dob": "1978-12-15",
+    "phone": "+1-710-104-9689",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10079",
+      "SAV10080"
+    ]
+  },
+  "C10034": {
+    "client_id": "C10034",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Brown"
+    },
+    "email": "aisha.brown75@email.com",
+    "dob": "1990-07-27",
+    "phone": "+1-586-141-8020",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10081",
+      "SAV10082"
+    ]
+  },
+  "C10035": {
+    "client_id": "C10035",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Nguyen"
+    },
+    "email": "sarah.nguyen47@inbox.com",
+    "dob": "1971-03-06",
+    "phone": "+1-347-405-7113",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10083"
+    ]
+  },
+  "C10036": {
+    "client_id": "C10036",
+    "name": {
+      "first_name": "James",
+      "last_name": "Nguyen"
+    },
+    "email": "james.nguyen60@mail.com",
+    "dob": "1990-03-04",
+    "phone": "+1-714-110-4913",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10084",
+      "IRA10085",
+      "SAV10086"
+    ]
+  },
+  "C10037": {
+    "client_id": "C10037",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Li"
+    },
+    "email": "olivia.li77@mail.com",
+    "dob": "1994-11-06",
+    "phone": "+1-434-921-8899",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10087",
+      "IRA10088",
+      "SAV10089"
+    ]
+  },
+  "C10038": {
+    "client_id": "C10038",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Patel"
+    },
+    "email": "sofia.patel94@email.com",
+    "dob": "1979-06-19",
+    "phone": "+1-965-335-8317",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10090"
+    ]
+  },
+  "C10039": {
+    "client_id": "C10039",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Mitchell"
+    },
+    "email": "sofia.mitchell83@mail.com",
+    "dob": "1965-02-07",
+    "phone": "+1-387-864-4115",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10091",
+      "IRA10092",
+      "SAV10093"
+    ]
+  },
+  "C10040": {
+    "client_id": "C10040",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Kim"
+    },
+    "email": "sandra.kim51@mail.com",
+    "dob": "1967-04-24",
+    "phone": "+1-678-991-9856",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10094",
+      "IRA10095"
+    ]
+  },
+  "C10041": {
+    "client_id": "C10041",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Jackson"
+    },
+    "email": "zara.jackson34@mail.com",
+    "dob": "1990-08-05",
+    "phone": "+1-590-948-1206",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10096",
+      "IRA10097",
+      "SAV10098"
+    ]
+  },
+  "C10042": {
+    "client_id": "C10042",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Patel"
+    },
+    "email": "linda.patel98@mail.com",
+    "dob": "2000-04-13",
+    "phone": "+1-566-841-3207",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10099",
+      "SAV10100"
+    ]
+  },
+  "C10043": {
+    "client_id": "C10043",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Williams"
+    },
+    "email": "thomas.williams17@inbox.com",
+    "dob": "1986-12-15",
+    "phone": "+1-472-641-1666",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10101"
+    ]
+  },
+  "C10044": {
+    "client_id": "C10044",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Jones"
+    },
+    "email": "chen.jones51@inbox.com",
+    "dob": "1974-02-07",
+    "phone": "+1-446-676-9939",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10102",
+      "SAV10103"
+    ]
+  },
+  "C10045": {
+    "client_id": "C10045",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Sanchez"
+    },
+    "email": "susan.sanchez20@email.com",
+    "dob": "1990-12-09",
+    "phone": "+1-957-155-4982",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10104",
+      "IRA10105",
+      "SAV10106"
+    ]
+  },
+  "C10046": {
+    "client_id": "C10046",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Martinez"
+    },
+    "email": "melissa.martinez62@mail.com",
+    "dob": "1973-01-11",
+    "phone": "+1-510-553-5485",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10107",
+      "IRA10108"
+    ]
+  },
+  "C10047": {
+    "client_id": "C10047",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Patel"
+    },
+    "email": "elizabeth.patel13@email.com",
+    "dob": "1967-02-05",
+    "phone": "+1-664-704-4308",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10109",
+      "IRA10110",
+      "SAV10111"
+    ]
+  },
+  "C10048": {
+    "client_id": "C10048",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Young"
+    },
+    "email": "ava.young62@inbox.com",
+    "dob": "1960-05-11",
+    "phone": "+1-257-955-9537",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10112",
+      "SAV10113"
+    ]
+  },
+  "C10049": {
+    "client_id": "C10049",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Hill"
+    },
+    "email": "karen.hill23@inbox.com",
+    "dob": "1998-06-18",
+    "phone": "+1-984-774-6119",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10114",
+      "IRA10115"
+    ]
+  },
+  "C10050": {
+    "client_id": "C10050",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Hill"
+    },
+    "email": "mary.hill89@email.com",
+    "dob": "1974-11-07",
+    "phone": "+1-761-262-8903",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10116",
+      "IRA10117",
+      "SAV10118"
+    ]
+  },
+  "C10051": {
+    "client_id": "C10051",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Jones"
+    },
+    "email": "anthony.jones52@mail.com",
+    "dob": "1976-04-27",
+    "phone": "+1-561-917-5827",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10119",
+      "IRA10120",
+      "SAV10121"
+    ]
+  },
+  "C10052": {
+    "client_id": "C10052",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Hernandez"
+    },
+    "email": "christopher.hernandez58@inbox.com",
+    "dob": "1957-12-20",
+    "phone": "+1-982-763-4027",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10122",
+      "IRA10123",
+      "SAV10124"
+    ]
+  },
+  "C10053": {
+    "client_id": "C10053",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Davis"
+    },
+    "email": "ethan.davis67@email.com",
+    "dob": "1999-03-09",
+    "phone": "+1-237-447-1918",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10125",
+      "IRA10126",
+      "SAV10127"
+    ]
+  },
+  "C10054": {
+    "client_id": "C10054",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Singh"
+    },
+    "email": "nancy.singh44@email.com",
+    "dob": "1957-07-04",
+    "phone": "+1-543-230-1525",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10128",
+      "IRA10129"
+    ]
+  },
+  "C10055": {
+    "client_id": "C10055",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Hill"
+    },
+    "email": "omar.hill50@mail.com",
+    "dob": "1958-05-05",
+    "phone": "+1-351-481-8347",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10130",
+      "IRA10131",
+      "SAV10132"
+    ]
+  },
+  "C10056": {
+    "client_id": "C10056",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "Hernandez"
+    },
+    "email": "joshua.hernandez27@mail.com",
+    "dob": "1989-05-04",
+    "phone": "+1-367-154-5467",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10133",
+      "IRA10134"
+    ]
+  },
+  "C10057": {
+    "client_id": "C10057",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Lewis"
+    },
+    "email": "betty.lewis98@email.com",
+    "dob": "1995-06-02",
+    "phone": "+1-904-332-6036",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10135",
+      "SAV10136"
+    ]
+  },
+  "C10058": {
+    "client_id": "C10058",
+    "name": {
+      "first_name": "William",
+      "last_name": "Anderson"
+    },
+    "email": "william.anderson98@inbox.com",
+    "dob": "1963-02-14",
+    "phone": "+1-304-859-3764",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10137",
+      "IRA10138",
+      "SAV10139"
+    ]
+  },
+  "C10059": {
+    "client_id": "C10059",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Harris"
+    },
+    "email": "robert.harris89@inbox.com",
+    "dob": "1967-06-07",
+    "phone": "+1-664-787-9971",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10140",
+      "IRA10141",
+      "SAV10142"
+    ]
+  },
+  "C10060": {
+    "client_id": "C10060",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Johnson"
+    },
+    "email": "barbara.johnson30@mail.com",
+    "dob": "1995-12-17",
+    "phone": "+1-846-424-7656",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10143",
+      "IRA10144"
+    ]
+  },
+  "C10061": {
+    "client_id": "C10061",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Williams"
+    },
+    "email": "sofia.williams58@mail.com",
+    "dob": "1972-02-27",
+    "phone": "+1-604-787-7076",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10145",
+      "IRA10146",
+      "SAV10147"
+    ]
+  },
+  "C10062": {
+    "client_id": "C10062",
+    "name": {
+      "first_name": "William",
+      "last_name": "Nguyen"
+    },
+    "email": "william.nguyen52@email.com",
+    "dob": "1957-10-06",
+    "phone": "+1-491-797-2998",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10148"
+    ]
+  },
+  "C10063": {
+    "client_id": "C10063",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Harris"
+    },
+    "email": "emily.harris62@email.com",
+    "dob": "1992-02-27",
+    "phone": "+1-675-776-5151",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10149",
+      "IRA10150",
+      "SAV10151"
+    ]
+  },
+  "C10064": {
+    "client_id": "C10064",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Moore"
+    },
+    "email": "matthew.moore60@email.com",
+    "dob": "1992-02-25",
+    "phone": "+1-541-108-2682",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10152",
+      "IRA10153",
+      "SAV10154"
+    ]
+  },
+  "C10065": {
+    "client_id": "C10065",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Carter"
+    },
+    "email": "raj.carter62@mail.com",
+    "dob": "1982-07-28",
+    "phone": "+1-728-913-6927",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10155",
+      "SAV10156"
+    ]
+  },
+  "C10066": {
+    "client_id": "C10066",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Walker"
+    },
+    "email": "mary.walker84@inbox.com",
+    "dob": "1964-01-23",
+    "phone": "+1-931-742-9737",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10157",
+      "IRA10158",
+      "SAV10159"
+    ]
+  },
+  "C10067": {
+    "client_id": "C10067",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Adams"
+    },
+    "email": "olivia.adams76@email.com",
+    "dob": "1969-06-10",
+    "phone": "+1-968-587-9235",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10160",
+      "IRA10161"
+    ]
+  },
+  "C10068": {
+    "client_id": "C10068",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Johnson"
+    },
+    "email": "ethan.johnson74@mail.com",
+    "dob": "1962-11-18",
+    "phone": "+1-317-375-1993",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10162",
+      "SAV10163"
+    ]
+  },
+  "C10069": {
+    "client_id": "C10069",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Young"
+    },
+    "email": "daniel.young51@mail.com",
+    "dob": "1990-07-03",
+    "phone": "+1-415-570-6381",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10164",
+      "IRA10165",
+      "SAV10166"
+    ]
+  },
+  "C10070": {
+    "client_id": "C10070",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Mitchell"
+    },
+    "email": "mary.mitchell98@email.com",
+    "dob": "1963-11-01",
+    "phone": "+1-330-163-8240",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10167",
+      "IRA10168",
+      "SAV10169"
+    ]
+  },
+  "C10071": {
+    "client_id": "C10071",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Lee"
+    },
+    "email": "patricia.lee84@inbox.com",
+    "dob": "1994-11-14",
+    "phone": "+1-543-730-5909",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10170",
+      "IRA10171",
+      "SAV10172"
+    ]
+  },
+  "C10072": {
+    "client_id": "C10072",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Thompson"
+    },
+    "email": "mark.thompson39@email.com",
+    "dob": "1965-02-15",
+    "phone": "+1-321-173-6902",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10173",
+      "IRA10174"
+    ]
+  },
+  "C10073": {
+    "client_id": "C10073",
+    "name": {
+      "first_name": "John",
+      "last_name": "Torres"
+    },
+    "email": "john.torres21@mail.com",
+    "dob": "1967-06-07",
+    "phone": "+1-861-567-6681",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10175",
+      "IRA10176",
+      "SAV10177"
+    ]
+  },
+  "C10074": {
+    "client_id": "C10074",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Zhang"
+    },
+    "email": "omar.zhang34@email.com",
+    "dob": "2000-05-13",
+    "phone": "+1-849-244-4345",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10178",
+      "IRA10179",
+      "SAV10180"
+    ]
+  },
+  "C10075": {
+    "client_id": "C10075",
+    "name": {
+      "first_name": "William",
+      "last_name": "Garcia"
+    },
+    "email": "william.garcia93@mail.com",
+    "dob": "1966-10-18",
+    "phone": "+1-634-853-5043",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10181",
+      "IRA10182"
+    ]
+  },
+  "C10076": {
+    "client_id": "C10076",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Allen"
+    },
+    "email": "jessica.allen10@mail.com",
+    "dob": "1957-06-21",
+    "phone": "+1-915-511-3275",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10183"
+    ]
+  },
+  "C10077": {
+    "client_id": "C10077",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Adams"
+    },
+    "email": "mary.adams68@mail.com",
+    "dob": "1962-09-09",
+    "phone": "+1-348-935-5863",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10184",
+      "IRA10185",
+      "SAV10186"
+    ]
+  },
+  "C10078": {
+    "client_id": "C10078",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Thomas"
+    },
+    "email": "noah.thomas50@inbox.com",
+    "dob": "1986-11-15",
+    "phone": "+1-560-720-9818",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10187",
+      "IRA10188",
+      "SAV10189"
+    ]
+  },
+  "C10079": {
+    "client_id": "C10079",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Anderson"
+    },
+    "email": "andrew.anderson25@email.com",
+    "dob": "1999-02-22",
+    "phone": "+1-739-845-6022",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10190"
+    ]
+  },
+  "C10080": {
+    "client_id": "C10080",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Wang"
+    },
+    "email": "amanda.wang61@inbox.com",
+    "dob": "1986-02-17",
+    "phone": "+1-943-859-7370",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10191",
+      "IRA10192"
+    ]
+  },
+  "C10081": {
+    "client_id": "C10081",
+    "name": {
+      "first_name": "William",
+      "last_name": "Davis"
+    },
+    "email": "william.davis74@email.com",
+    "dob": "1961-01-05",
+    "phone": "+1-370-713-5491",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10193",
+      "IRA10194",
+      "SAV10195"
+    ]
+  },
+  "C10082": {
+    "client_id": "C10082",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Rodriguez"
+    },
+    "email": "omar.rodriguez43@inbox.com",
+    "dob": "1973-01-19",
+    "phone": "+1-278-907-1035",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10196",
+      "IRA10197"
+    ]
+  },
+  "C10083": {
+    "client_id": "C10083",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Martinez"
+    },
+    "email": "liam.martinez61@inbox.com",
+    "dob": "1996-03-11",
+    "phone": "+1-257-324-7427",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10198",
+      "IRA10199"
+    ]
+  },
+  "C10084": {
+    "client_id": "C10084",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Wang"
+    },
+    "email": "barbara.wang60@mail.com",
+    "dob": "1990-10-27",
+    "phone": "+1-404-511-6385",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10200"
+    ]
+  },
+  "C10085": {
+    "client_id": "C10085",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Perez"
+    },
+    "email": "robert.perez23@email.com",
+    "dob": "1976-10-16",
+    "phone": "+1-865-116-7738",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10201"
+    ]
+  },
+  "C10086": {
+    "client_id": "C10086",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "King"
+    },
+    "email": "michael.king25@email.com",
+    "dob": "1994-09-04",
+    "phone": "+1-820-130-9781",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10202",
+      "IRA10203",
+      "SAV10204"
+    ]
+  },
+  "C10087": {
+    "client_id": "C10087",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Scott"
+    },
+    "email": "mary.scott94@mail.com",
+    "dob": "1987-03-07",
+    "phone": "+1-580-248-6151",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10205",
+      "IRA10206",
+      "SAV10207"
+    ]
+  },
+  "C10088": {
+    "client_id": "C10088",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Smith"
+    },
+    "email": "linda.smith65@email.com",
+    "dob": "1975-12-01",
+    "phone": "+1-374-190-4131",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10208",
+      "IRA10209"
+    ]
+  },
+  "C10089": {
+    "client_id": "C10089",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Li"
+    },
+    "email": "chen.li83@mail.com",
+    "dob": "1978-09-01",
+    "phone": "+1-444-167-9718",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10210",
+      "IRA10211",
+      "SAV10212"
+    ]
+  },
+  "C10090": {
+    "client_id": "C10090",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Jackson"
+    },
+    "email": "michael.jackson45@inbox.com",
+    "dob": "1969-10-23",
+    "phone": "+1-895-657-8360",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10213",
+      "SAV10214"
+    ]
+  },
+  "C10091": {
+    "client_id": "C10091",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Scott"
+    },
+    "email": "ava.scott10@mail.com",
+    "dob": "1966-05-22",
+    "phone": "+1-838-804-4288",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10215",
+      "IRA10216"
+    ]
+  },
+  "C10092": {
+    "client_id": "C10092",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Jones"
+    },
+    "email": "linda.jones23@mail.com",
+    "dob": "1955-03-20",
+    "phone": "+1-895-587-6302",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10217",
+      "SAV10218"
+    ]
+  },
+  "C10093": {
+    "client_id": "C10093",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Thomas"
+    },
+    "email": "hiroshi.thomas80@mail.com",
+    "dob": "1970-02-06",
+    "phone": "+1-869-350-9631",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10219",
+      "IRA10220"
+    ]
+  },
+  "C10094": {
+    "client_id": "C10094",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Jackson"
+    },
+    "email": "ethan.jackson45@mail.com",
+    "dob": "1975-12-18",
+    "phone": "+1-475-775-5104",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10221",
+      "IRA10222",
+      "SAV10223"
+    ]
+  },
+  "C10095": {
+    "client_id": "C10095",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Hall"
+    },
+    "email": "sofia.hall24@inbox.com",
+    "dob": "1993-01-04",
+    "phone": "+1-446-555-7716",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10224",
+      "IRA10225",
+      "SAV10226"
+    ]
+  },
+  "C10096": {
+    "client_id": "C10096",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Garcia"
+    },
+    "email": "betty.garcia32@email.com",
+    "dob": "1977-09-17",
+    "phone": "+1-242-933-4451",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10227",
+      "IRA10228",
+      "SAV10229"
+    ]
+  },
+  "C10097": {
+    "client_id": "C10097",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Scott"
+    },
+    "email": "donna.scott95@email.com",
+    "dob": "1972-10-20",
+    "phone": "+1-562-922-2295",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10230"
+    ]
+  },
+  "C10098": {
+    "client_id": "C10098",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Singh"
+    },
+    "email": "aisha.singh88@inbox.com",
+    "dob": "1969-12-03",
+    "phone": "+1-537-232-9843",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10231",
+      "IRA10232"
+    ]
+  },
+  "C10099": {
+    "client_id": "C10099",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Roberts"
+    },
+    "email": "mary.roberts70@inbox.com",
+    "dob": "1956-07-03",
+    "phone": "+1-940-959-4808",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10233",
+      "IRA10234",
+      "SAV10235"
+    ]
+  },
+  "C10100": {
+    "client_id": "C10100",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Patel"
+    },
+    "email": "patricia.patel87@email.com",
+    "dob": "1986-05-14",
+    "phone": "+1-370-748-5550",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10236",
+      "SAV10237"
+    ]
+  },
+  "C10101": {
+    "client_id": "C10101",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Martinez"
+    },
+    "email": "fatima.martinez43@email.com",
+    "dob": "1982-09-15",
+    "phone": "+1-678-367-1515",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10238",
+      "IRA10239",
+      "SAV10240"
+    ]
+  },
+  "C10102": {
+    "client_id": "C10102",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Davis"
+    },
+    "email": "zara.davis76@email.com",
+    "dob": "1988-11-21",
+    "phone": "+1-676-925-2353",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10241",
+      "IRA10242",
+      "SAV10243"
+    ]
+  },
+  "C10103": {
+    "client_id": "C10103",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Campbell"
+    },
+    "email": "matthew.campbell81@mail.com",
+    "dob": "1961-11-28",
+    "phone": "+1-285-312-9676",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10244",
+      "IRA10245"
+    ]
+  },
+  "C10104": {
+    "client_id": "C10104",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Lee"
+    },
+    "email": "betty.lee82@inbox.com",
+    "dob": "1973-06-15",
+    "phone": "+1-683-800-2490",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10246",
+      "IRA10247",
+      "SAV10248"
+    ]
+  },
+  "C10105": {
+    "client_id": "C10105",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Johnson"
+    },
+    "email": "betty.johnson37@inbox.com",
+    "dob": "1993-11-13",
+    "phone": "+1-510-251-1197",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10249",
+      "SAV10250"
+    ]
+  },
+  "C10106": {
+    "client_id": "C10106",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Harris"
+    },
+    "email": "thomas.harris44@mail.com",
+    "dob": "1987-12-28",
+    "phone": "+1-846-280-6384",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10251",
+      "SAV10252"
+    ]
+  },
+  "C10107": {
+    "client_id": "C10107",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Allen"
+    },
+    "email": "andrew.allen43@mail.com",
+    "dob": "1987-05-21",
+    "phone": "+1-818-865-1379",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10253",
+      "IRA10254",
+      "SAV10255"
+    ]
+  },
+  "C10108": {
+    "client_id": "C10108",
+    "name": {
+      "first_name": "William",
+      "last_name": "Davis"
+    },
+    "email": "william.davis95@email.com",
+    "dob": "1996-07-14",
+    "phone": "+1-573-212-3660",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10256",
+      "IRA10257"
+    ]
+  },
+  "C10109": {
+    "client_id": "C10109",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "King"
+    },
+    "email": "mary.king61@mail.com",
+    "dob": "1968-05-13",
+    "phone": "+1-599-634-7901",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10258",
+      "IRA10259",
+      "SAV10260"
+    ]
+  },
+  "C10110": {
+    "client_id": "C10110",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Allen"
+    },
+    "email": "ethan.allen98@mail.com",
+    "dob": "1984-06-05",
+    "phone": "+1-976-398-4680",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10261",
+      "IRA10262"
+    ]
+  },
+  "C10111": {
+    "client_id": "C10111",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Miller"
+    },
+    "email": "ashley.miller12@inbox.com",
+    "dob": "1960-12-20",
+    "phone": "+1-694-958-8191",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10263",
+      "IRA10264",
+      "SAV10265"
+    ]
+  },
+  "C10112": {
+    "client_id": "C10112",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Nguyen"
+    },
+    "email": "mark.nguyen13@inbox.com",
+    "dob": "1990-10-07",
+    "phone": "+1-706-846-2957",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10266",
+      "IRA10267"
+    ]
+  },
+  "C10113": {
+    "client_id": "C10113",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Garcia"
+    },
+    "email": "nancy.garcia77@email.com",
+    "dob": "1961-07-19",
+    "phone": "+1-392-191-6031",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10268"
+    ]
+  },
+  "C10114": {
+    "client_id": "C10114",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Green"
+    },
+    "email": "ethan.green90@email.com",
+    "dob": "1991-09-06",
+    "phone": "+1-777-658-2211",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10269",
+      "IRA10270"
+    ]
+  },
+  "C10115": {
+    "client_id": "C10115",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Hall"
+    },
+    "email": "mary.hall41@inbox.com",
+    "dob": "1985-10-21",
+    "phone": "+1-333-880-8973",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10271",
+      "IRA10272",
+      "SAV10273"
+    ]
+  },
+  "C10116": {
+    "client_id": "C10116",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Nelson"
+    },
+    "email": "daniel.nelson35@inbox.com",
+    "dob": "1994-09-24",
+    "phone": "+1-283-290-2502",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10274",
+      "IRA10275"
+    ]
+  },
+  "C10117": {
+    "client_id": "C10117",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Garcia"
+    },
+    "email": "fatima.garcia29@mail.com",
+    "dob": "1955-07-26",
+    "phone": "+1-545-302-1355",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10276",
+      "IRA10277",
+      "SAV10278"
+    ]
+  },
+  "C10118": {
+    "client_id": "C10118",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Clark"
+    },
+    "email": "sandra.clark91@email.com",
+    "dob": "1965-05-27",
+    "phone": "+1-535-464-8906",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10279",
+      "SAV10280"
+    ]
+  },
+  "C10119": {
+    "client_id": "C10119",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Martinez"
+    },
+    "email": "kimberly.martinez33@mail.com",
+    "dob": "1972-06-16",
+    "phone": "+1-411-611-7366",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10281",
+      "IRA10282",
+      "SAV10283"
+    ]
+  },
+  "C10120": {
+    "client_id": "C10120",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Perez"
+    },
+    "email": "chen.perez65@inbox.com",
+    "dob": "1984-07-20",
+    "phone": "+1-919-600-4793",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10284"
+    ]
+  },
+  "C10121": {
+    "client_id": "C10121",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Kim"
+    },
+    "email": "fatima.kim71@inbox.com",
+    "dob": "1958-05-12",
+    "phone": "+1-829-707-1686",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10285",
+      "IRA10286",
+      "SAV10287"
+    ]
+  },
+  "C10122": {
+    "client_id": "C10122",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "King"
+    },
+    "email": "yuki.king99@mail.com",
+    "dob": "1957-08-11",
+    "phone": "+1-221-825-9604",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10288",
+      "IRA10289",
+      "SAV10290"
+    ]
+  },
+  "C10123": {
+    "client_id": "C10123",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Mitchell"
+    },
+    "email": "ethan.mitchell70@inbox.com",
+    "dob": "1978-11-18",
+    "phone": "+1-699-495-3248",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10291",
+      "IRA10292"
+    ]
+  },
+  "C10124": {
+    "client_id": "C10124",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Thompson"
+    },
+    "email": "paul.thompson57@email.com",
+    "dob": "1960-12-16",
+    "phone": "+1-920-179-7187",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10293",
+      "IRA10294"
+    ]
+  },
+  "C10125": {
+    "client_id": "C10125",
+    "name": {
+      "first_name": "David",
+      "last_name": "Singh"
+    },
+    "email": "david.singh35@inbox.com",
+    "dob": "1980-04-07",
+    "phone": "+1-929-178-2103",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10295",
+      "SAV10296"
+    ]
+  },
+  "C10126": {
+    "client_id": "C10126",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "Miller"
+    },
+    "email": "priya.miller60@email.com",
+    "dob": "1972-03-18",
+    "phone": "+1-242-145-5962",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10297",
+      "IRA10298",
+      "SAV10299"
+    ]
+  },
+  "C10127": {
+    "client_id": "C10127",
+    "name": {
+      "first_name": "James",
+      "last_name": "Rodriguez"
+    },
+    "email": "james.rodriguez88@inbox.com",
+    "dob": "1967-07-19",
+    "phone": "+1-273-951-5660",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10300",
+      "IRA10301",
+      "SAV10302"
+    ]
+  },
+  "C10128": {
+    "client_id": "C10128",
+    "name": {
+      "first_name": "William",
+      "last_name": "Jones"
+    },
+    "email": "william.jones15@mail.com",
+    "dob": "1984-10-28",
+    "phone": "+1-936-705-9964",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10303",
+      "IRA10304",
+      "SAV10305"
+    ]
+  },
+  "C10129": {
+    "client_id": "C10129",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Torres"
+    },
+    "email": "christopher.torres49@inbox.com",
+    "dob": "1984-01-10",
+    "phone": "+1-908-661-2123",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10306",
+      "IRA10307",
+      "SAV10308"
+    ]
+  },
+  "C10130": {
+    "client_id": "C10130",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Martinez"
+    },
+    "email": "robert.martinez98@inbox.com",
+    "dob": "1962-01-08",
+    "phone": "+1-504-665-5874",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10309",
+      "SAV10310"
+    ]
+  },
+  "C10131": {
+    "client_id": "C10131",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Clark"
+    },
+    "email": "michael.clark10@email.com",
+    "dob": "1957-05-14",
+    "phone": "+1-220-435-7876",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10311",
+      "IRA10312"
+    ]
+  },
+  "C10132": {
+    "client_id": "C10132",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Thompson"
+    },
+    "email": "kevin.thompson79@email.com",
+    "dob": "1955-08-07",
+    "phone": "+1-873-875-1104",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10313",
+      "IRA10314",
+      "SAV10315"
+    ]
+  },
+  "C10133": {
+    "client_id": "C10133",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Zhang"
+    },
+    "email": "zara.zhang22@mail.com",
+    "dob": "1986-04-26",
+    "phone": "+1-751-763-7087",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10316",
+      "IRA10317",
+      "SAV10318"
+    ]
+  },
+  "C10134": {
+    "client_id": "C10134",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Singh"
+    },
+    "email": "patricia.singh53@email.com",
+    "dob": "1995-12-20",
+    "phone": "+1-496-803-1942",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10319",
+      "IRA10320"
+    ]
+  },
+  "C10135": {
+    "client_id": "C10135",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Martin"
+    },
+    "email": "olivia.martin19@mail.com",
+    "dob": "1970-04-07",
+    "phone": "+1-963-317-2637",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10321",
+      "IRA10322",
+      "SAV10323"
+    ]
+  },
+  "C10136": {
+    "client_id": "C10136",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Patel"
+    },
+    "email": "barbara.patel83@mail.com",
+    "dob": "1968-05-11",
+    "phone": "+1-999-772-5856",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10324",
+      "IRA10325"
+    ]
+  },
+  "C10137": {
+    "client_id": "C10137",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Nguyen"
+    },
+    "email": "noah.nguyen19@inbox.com",
+    "dob": "1996-10-25",
+    "phone": "+1-529-155-8424",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10326",
+      "IRA10327",
+      "SAV10328"
+    ]
+  },
+  "C10138": {
+    "client_id": "C10138",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Patel"
+    },
+    "email": "mark.patel50@mail.com",
+    "dob": "1966-11-17",
+    "phone": "+1-229-446-4750",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10329",
+      "SAV10330"
+    ]
+  },
+  "C10139": {
+    "client_id": "C10139",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Chen"
+    },
+    "email": "kevin.chen44@mail.com",
+    "dob": "1983-12-01",
+    "phone": "+1-386-636-7441",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10331",
+      "IRA10332"
+    ]
+  },
+  "C10140": {
+    "client_id": "C10140",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Green"
+    },
+    "email": "michelle.green76@email.com",
+    "dob": "1980-04-05",
+    "phone": "+1-848-748-7974",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10333",
+      "IRA10334",
+      "SAV10335"
+    ]
+  },
+  "C10141": {
+    "client_id": "C10141",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Kim"
+    },
+    "email": "kimberly.kim92@mail.com",
+    "dob": "1966-11-04",
+    "phone": "+1-379-164-8490",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10336",
+      "IRA10337"
+    ]
+  },
+  "C10142": {
+    "client_id": "C10142",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Anderson"
+    },
+    "email": "yuki.anderson75@email.com",
+    "dob": "1967-08-26",
+    "phone": "+1-258-726-4216",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10338",
+      "IRA10339",
+      "SAV10340"
+    ]
+  },
+  "C10143": {
+    "client_id": "C10143",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Smith"
+    },
+    "email": "mia.smith73@email.com",
+    "dob": "1991-07-16",
+    "phone": "+1-994-199-4749",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10341",
+      "IRA10342",
+      "SAV10343"
+    ]
+  },
+  "C10144": {
+    "client_id": "C10144",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Davis"
+    },
+    "email": "michelle.davis15@mail.com",
+    "dob": "1964-05-07",
+    "phone": "+1-663-204-5038",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10344",
+      "IRA10345",
+      "SAV10346"
+    ]
+  },
+  "C10145": {
+    "client_id": "C10145",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Young"
+    },
+    "email": "patricia.young95@inbox.com",
+    "dob": "2000-04-11",
+    "phone": "+1-267-424-3820",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10347",
+      "IRA10348",
+      "SAV10349"
+    ]
+  },
+  "C10146": {
+    "client_id": "C10146",
+    "name": {
+      "first_name": "John",
+      "last_name": "Moore"
+    },
+    "email": "john.moore74@email.com",
+    "dob": "1994-10-17",
+    "phone": "+1-674-843-7424",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10350",
+      "SAV10351"
+    ]
+  },
+  "C10147": {
+    "client_id": "C10147",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Rivera"
+    },
+    "email": "amanda.rivera23@email.com",
+    "dob": "1985-11-21",
+    "phone": "+1-534-737-4026",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10352",
+      "IRA10353",
+      "SAV10354"
+    ]
+  },
+  "C10148": {
+    "client_id": "C10148",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Clark"
+    },
+    "email": "mia.clark91@email.com",
+    "dob": "1995-07-09",
+    "phone": "+1-988-528-6513",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10355",
+      "IRA10356"
+    ]
+  },
+  "C10149": {
+    "client_id": "C10149",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Martin"
+    },
+    "email": "omar.martin99@inbox.com",
+    "dob": "1958-02-13",
+    "phone": "+1-958-206-9432",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10357",
+      "IRA10358",
+      "SAV10359"
+    ]
+  },
+  "C10150": {
+    "client_id": "C10150",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Carter"
+    },
+    "email": "robert.carter85@mail.com",
+    "dob": "1980-08-16",
+    "phone": "+1-366-633-4857",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10360"
+    ]
+  },
+  "C10151": {
+    "client_id": "C10151",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Hill"
+    },
+    "email": "jessica.hill21@inbox.com",
+    "dob": "1961-03-04",
+    "phone": "+1-965-241-8999",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10361",
+      "IRA10362",
+      "SAV10363"
+    ]
+  },
+  "C10152": {
+    "client_id": "C10152",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Sanchez"
+    },
+    "email": "christopher.sanchez76@inbox.com",
+    "dob": "1993-03-26",
+    "phone": "+1-729-287-3636",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10364",
+      "IRA10365",
+      "SAV10366"
+    ]
+  },
+  "C10153": {
+    "client_id": "C10153",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Moore"
+    },
+    "email": "omar.moore69@mail.com",
+    "dob": "2000-08-08",
+    "phone": "+1-418-902-6897",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10367",
+      "IRA10368",
+      "SAV10369"
+    ]
+  },
+  "C10154": {
+    "client_id": "C10154",
+    "name": {
+      "first_name": "Steven",
+      "last_name": "Moore"
+    },
+    "email": "steven.moore22@email.com",
+    "dob": "1988-04-11",
+    "phone": "+1-869-444-3855",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10370",
+      "IRA10371",
+      "SAV10372"
+    ]
+  },
+  "C10155": {
+    "client_id": "C10155",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "White"
+    },
+    "email": "joshua.white33@email.com",
+    "dob": "1977-04-12",
+    "phone": "+1-375-707-7938",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10373",
+      "IRA10374",
+      "SAV10375"
+    ]
+  },
+  "C10156": {
+    "client_id": "C10156",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Hernandez"
+    },
+    "email": "karen.hernandez16@mail.com",
+    "dob": "1980-01-08",
+    "phone": "+1-931-812-3445",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10376",
+      "IRA10377",
+      "SAV10378"
+    ]
+  },
+  "C10157": {
+    "client_id": "C10157",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Rodriguez"
+    },
+    "email": "joseph.rodriguez48@inbox.com",
+    "dob": "1963-12-15",
+    "phone": "+1-237-551-8069",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10379"
+    ]
+  },
+  "C10158": {
+    "client_id": "C10158",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Wilson"
+    },
+    "email": "emily.wilson57@inbox.com",
+    "dob": "1998-05-20",
+    "phone": "+1-590-506-5949",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10380",
+      "SAV10381"
+    ]
+  },
+  "C10159": {
+    "client_id": "C10159",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Walker"
+    },
+    "email": "olivia.walker93@inbox.com",
+    "dob": "1966-02-28",
+    "phone": "+1-710-149-2842",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10382",
+      "IRA10383",
+      "SAV10384"
+    ]
+  },
+  "C10160": {
+    "client_id": "C10160",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Wilson"
+    },
+    "email": "sandra.wilson98@email.com",
+    "dob": "1996-03-28",
+    "phone": "+1-345-265-9328",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10385"
+    ]
+  },
+  "C10161": {
+    "client_id": "C10161",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Baker"
+    },
+    "email": "mary.baker21@email.com",
+    "dob": "1961-10-10",
+    "phone": "+1-514-175-4306",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10386",
+      "IRA10387",
+      "SAV10388"
+    ]
+  },
+  "C10162": {
+    "client_id": "C10162",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Taylor"
+    },
+    "email": "kevin.taylor55@mail.com",
+    "dob": "2000-07-20",
+    "phone": "+1-915-325-8704",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10389",
+      "SAV10390"
+    ]
+  },
+  "C10163": {
+    "client_id": "C10163",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Williams"
+    },
+    "email": "richard.williams58@email.com",
+    "dob": "1992-12-13",
+    "phone": "+1-351-840-4660",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10391",
+      "IRA10392"
+    ]
+  },
+  "C10164": {
+    "client_id": "C10164",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Brown"
+    },
+    "email": "kevin.brown56@email.com",
+    "dob": "1956-03-24",
+    "phone": "+1-367-265-5592",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10393",
+      "IRA10394",
+      "SAV10395"
+    ]
+  },
+  "C10165": {
+    "client_id": "C10165",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Clark"
+    },
+    "email": "donna.clark67@inbox.com",
+    "dob": "1976-03-15",
+    "phone": "+1-987-178-4052",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10396",
+      "SAV10397"
+    ]
+  },
+  "C10166": {
+    "client_id": "C10166",
+    "name": {
+      "first_name": "Michael",
+      "last_name": "Rodriguez"
+    },
+    "email": "michael.rodriguez19@mail.com",
+    "dob": "1960-02-02",
+    "phone": "+1-987-520-4577",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10398",
+      "IRA10399",
+      "SAV10400"
+    ]
+  },
+  "C10167": {
+    "client_id": "C10167",
+    "name": {
+      "first_name": "John",
+      "last_name": "Martinez"
+    },
+    "email": "john.martinez85@inbox.com",
+    "dob": "1992-06-11",
+    "phone": "+1-808-727-5549",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10401",
+      "IRA10402",
+      "SAV10403"
+    ]
+  },
+  "C10168": {
+    "client_id": "C10168",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Mitchell"
+    },
+    "email": "kevin.mitchell69@inbox.com",
+    "dob": "1988-02-21",
+    "phone": "+1-655-519-2913",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10404",
+      "IRA10405"
+    ]
+  },
+  "C10169": {
+    "client_id": "C10169",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Wright"
+    },
+    "email": "michelle.wright30@mail.com",
+    "dob": "1999-02-12",
+    "phone": "+1-342-569-1640",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10406"
+    ]
+  },
+  "C10170": {
+    "client_id": "C10170",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Clark"
+    },
+    "email": "emily.clark12@inbox.com",
+    "dob": "1973-09-20",
+    "phone": "+1-321-643-8734",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10407",
+      "IRA10408"
+    ]
+  },
+  "C10171": {
+    "client_id": "C10171",
+    "name": {
+      "first_name": "David",
+      "last_name": "Lewis"
+    },
+    "email": "david.lewis68@email.com",
+    "dob": "1996-01-01",
+    "phone": "+1-466-396-4328",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10409"
+    ]
+  },
+  "C10172": {
+    "client_id": "C10172",
+    "name": {
+      "first_name": "John",
+      "last_name": "Thompson"
+    },
+    "email": "john.thompson54@inbox.com",
+    "dob": "1969-08-17",
+    "phone": "+1-329-630-2821",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10410",
+      "IRA10411",
+      "SAV10412"
+    ]
+  },
+  "C10173": {
+    "client_id": "C10173",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Green"
+    },
+    "email": "noah.green79@mail.com",
+    "dob": "1958-03-05",
+    "phone": "+1-969-961-8048",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10413",
+      "IRA10414"
+    ]
+  },
+  "C10174": {
+    "client_id": "C10174",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Harris"
+    },
+    "email": "jennifer.harris78@mail.com",
+    "dob": "1995-05-15",
+    "phone": "+1-828-621-8443",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10415",
+      "IRA10416",
+      "SAV10417"
+    ]
+  },
+  "C10175": {
+    "client_id": "C10175",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Jackson"
+    },
+    "email": "hiroshi.jackson27@email.com",
+    "dob": "1975-06-04",
+    "phone": "+1-784-469-4220",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10418",
+      "IRA10419",
+      "SAV10420"
+    ]
+  },
+  "C10176": {
+    "client_id": "C10176",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Torres"
+    },
+    "email": "mark.torres75@inbox.com",
+    "dob": "1992-01-01",
+    "phone": "+1-631-229-4504",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10421",
+      "IRA10422",
+      "SAV10423"
+    ]
+  },
+  "C10177": {
+    "client_id": "C10177",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Sanchez"
+    },
+    "email": "michelle.sanchez84@inbox.com",
+    "dob": "1958-01-17",
+    "phone": "+1-744-891-8533",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10424",
+      "IRA10425"
+    ]
+  },
+  "C10178": {
+    "client_id": "C10178",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Carter"
+    },
+    "email": "aisha.carter82@inbox.com",
+    "dob": "1994-01-13",
+    "phone": "+1-842-537-2124",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10426",
+      "IRA10427",
+      "SAV10428"
+    ]
+  },
+  "C10179": {
+    "client_id": "C10179",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Garcia"
+    },
+    "email": "matthew.garcia55@email.com",
+    "dob": "1963-01-21",
+    "phone": "+1-565-362-3819",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10429"
+    ]
+  },
+  "C10180": {
+    "client_id": "C10180",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Clark"
+    },
+    "email": "mary.clark25@inbox.com",
+    "dob": "1997-12-09",
+    "phone": "+1-402-596-6551",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10430",
+      "IRA10431",
+      "SAV10432"
+    ]
+  },
+  "C10181": {
+    "client_id": "C10181",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Thomas"
+    },
+    "email": "noah.thomas48@email.com",
+    "dob": "1957-08-14",
+    "phone": "+1-659-526-8022",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10433",
+      "IRA10434",
+      "SAV10435"
+    ]
+  },
+  "C10182": {
+    "client_id": "C10182",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Rodriguez"
+    },
+    "email": "thomas.rodriguez11@email.com",
+    "dob": "1955-08-21",
+    "phone": "+1-798-977-3935",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10436"
+    ]
+  },
+  "C10183": {
+    "client_id": "C10183",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Johnson"
+    },
+    "email": "barbara.johnson82@email.com",
+    "dob": "1966-12-14",
+    "phone": "+1-658-450-2602",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10437",
+      "IRA10438"
+    ]
+  },
+  "C10184": {
+    "client_id": "C10184",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Rodriguez"
+    },
+    "email": "amanda.rodriguez34@inbox.com",
+    "dob": "1966-07-15",
+    "phone": "+1-978-357-3953",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10439",
+      "IRA10440",
+      "SAV10441"
+    ]
+  },
+  "C10185": {
+    "client_id": "C10185",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Smith"
+    },
+    "email": "mei.smith26@mail.com",
+    "dob": "1960-03-26",
+    "phone": "+1-488-323-9613",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10442",
+      "SAV10443"
+    ]
+  },
+  "C10186": {
+    "client_id": "C10186",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "White"
+    },
+    "email": "fatima.white31@mail.com",
+    "dob": "1955-01-19",
+    "phone": "+1-773-324-8295",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10444",
+      "IRA10445",
+      "SAV10446"
+    ]
+  },
+  "C10187": {
+    "client_id": "C10187",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Jackson"
+    },
+    "email": "karen.jackson44@mail.com",
+    "dob": "1972-02-25",
+    "phone": "+1-806-621-5024",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10447",
+      "IRA10448",
+      "SAV10449"
+    ]
+  },
+  "C10188": {
+    "client_id": "C10188",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Johnson"
+    },
+    "email": "susan.johnson86@inbox.com",
+    "dob": "1980-08-21",
+    "phone": "+1-219-215-5624",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10450",
+      "SAV10451"
+    ]
+  },
+  "C10189": {
+    "client_id": "C10189",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Patel"
+    },
+    "email": "matthew.patel94@inbox.com",
+    "dob": "1991-10-14",
+    "phone": "+1-547-678-4012",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10452",
+      "IRA10453",
+      "SAV10454"
+    ]
+  },
+  "C10190": {
+    "client_id": "C10190",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Hall"
+    },
+    "email": "mei.hall33@inbox.com",
+    "dob": "1984-11-09",
+    "phone": "+1-472-683-8394",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10455",
+      "SAV10456"
+    ]
+  },
+  "C10191": {
+    "client_id": "C10191",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Wang"
+    },
+    "email": "emily.wang11@email.com",
+    "dob": "2000-01-08",
+    "phone": "+1-204-168-5744",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10457",
+      "IRA10458",
+      "SAV10459"
+    ]
+  },
+  "C10192": {
+    "client_id": "C10192",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Brown"
+    },
+    "email": "karen.brown30@mail.com",
+    "dob": "1996-11-23",
+    "phone": "+1-430-174-4181",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10460",
+      "SAV10461"
+    ]
+  },
+  "C10193": {
+    "client_id": "C10193",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Rivera"
+    },
+    "email": "paul.rivera31@inbox.com",
+    "dob": "1994-06-28",
+    "phone": "+1-807-455-2285",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10462",
+      "IRA10463"
+    ]
+  },
+  "C10194": {
+    "client_id": "C10194",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "White"
+    },
+    "email": "sarah.white81@mail.com",
+    "dob": "1979-04-09",
+    "phone": "+1-206-321-7361",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10464",
+      "IRA10465",
+      "SAV10466"
+    ]
+  },
+  "C10195": {
+    "client_id": "C10195",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Clark"
+    },
+    "email": "ashley.clark20@inbox.com",
+    "dob": "1958-06-27",
+    "phone": "+1-737-752-9708",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10467",
+      "IRA10468",
+      "SAV10469"
+    ]
+  },
+  "C10196": {
+    "client_id": "C10196",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Robinson"
+    },
+    "email": "emily.robinson77@email.com",
+    "dob": "1974-12-13",
+    "phone": "+1-822-109-8917",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10470",
+      "IRA10471"
+    ]
+  },
+  "C10197": {
+    "client_id": "C10197",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Wang"
+    },
+    "email": "nancy.wang77@inbox.com",
+    "dob": "1975-02-11",
+    "phone": "+1-511-609-5918",
+    "tier": "standard",
+    "account_ids": [
+      "BRK10472",
+      "IRA10473"
+    ]
+  },
+  "C10198": {
+    "client_id": "C10198",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Wang"
+    },
+    "email": "barbara.wang70@inbox.com",
+    "dob": "1995-03-11",
+    "phone": "+1-696-988-8978",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10474",
+      "IRA10475"
+    ]
+  },
+  "C10199": {
+    "client_id": "C10199",
+    "name": {
+      "first_name": "William",
+      "last_name": "Zhang"
+    },
+    "email": "william.zhang61@email.com",
+    "dob": "1972-06-05",
+    "phone": "+1-804-318-2416",
+    "tier": "premium",
+    "account_ids": [
+      "BRK10476",
+      "IRA10477",
+      "SAV10478"
+    ]
+  }
+}

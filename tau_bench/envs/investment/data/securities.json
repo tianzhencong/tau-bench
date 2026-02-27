@@ -1,0 +1,242 @@
+{
+  "AAPL": {
+    "security_id": "AAPL",
+    "name": "Apple Inc.",
+    "type": "stock",
+    "sector": "Technology",
+    "current_price": 178.5,
+    "status": "active"
+  },
+  "MSFT": {
+    "security_id": "MSFT",
+    "name": "Microsoft Corp.",
+    "type": "stock",
+    "sector": "Technology",
+    "current_price": 374.2,
+    "status": "active"
+  },
+  "GOOGL": {
+    "security_id": "GOOGL",
+    "name": "Alphabet Inc.",
+    "type": "stock",
+    "sector": "Technology",
+    "current_price": 141.8,
+    "status": "active"
+  },
+  "AMZN": {
+    "security_id": "AMZN",
+    "name": "Amazon.com Inc.",
+    "type": "stock",
+    "sector": "Technology",
+    "current_price": 186.5,
+    "status": "active"
+  },
+  "NVDA": {
+    "security_id": "NVDA",
+    "name": "NVIDIA Corp.",
+    "type": "stock",
+    "sector": "Technology",
+    "current_price": 484.0,
+    "status": "active"
+  },
+  "TSLA": {
+    "security_id": "TSLA",
+    "name": "Tesla Inc.",
+    "type": "stock",
+    "sector": "Automotive",
+    "current_price": 255.7,
+    "status": "active"
+  },
+  "JPM": {
+    "security_id": "JPM",
+    "name": "JPMorgan Chase",
+    "type": "stock",
+    "sector": "Finance",
+    "current_price": 150.3,
+    "status": "active"
+  },
+  "V": {
+    "security_id": "V",
+    "name": "Visa Inc.",
+    "type": "stock",
+    "sector": "Finance",
+    "current_price": 260.4,
+    "status": "active"
+  },
+  "JNJ": {
+    "security_id": "JNJ",
+    "name": "Johnson & Johnson",
+    "type": "stock",
+    "sector": "Healthcare",
+    "current_price": 156.8,
+    "status": "active"
+  },
+  "PG": {
+    "security_id": "PG",
+    "name": "Procter & Gamble",
+    "type": "stock",
+    "sector": "Consumer",
+    "current_price": 153.2,
+    "status": "active"
+  },
+  "UNH": {
+    "security_id": "UNH",
+    "name": "UnitedHealth Group",
+    "type": "stock",
+    "sector": "Healthcare",
+    "current_price": 545.6,
+    "status": "active"
+  },
+  "MA": {
+    "security_id": "MA",
+    "name": "Mastercard Inc.",
+    "type": "stock",
+    "sector": "Finance",
+    "current_price": 412.3,
+    "status": "active"
+  },
+  "DIS": {
+    "security_id": "DIS",
+    "name": "Walt Disney Co.",
+    "type": "stock",
+    "sector": "Entertainment",
+    "current_price": 84.5,
+    "status": "active"
+  },
+  "NFLX": {
+    "security_id": "NFLX",
+    "name": "Netflix Inc.",
+    "type": "stock",
+    "sector": "Entertainment",
+    "current_price": 485.2,
+    "status": "active"
+  },
+  "KO": {
+    "security_id": "KO",
+    "name": "Coca-Cola Co.",
+    "type": "stock",
+    "sector": "Consumer",
+    "current_price": 57.8,
+    "status": "active"
+  },
+  "SPY": {
+    "security_id": "SPY",
+    "name": "SPDR S&P 500 ETF",
+    "type": "etf",
+    "sector": "Broad Market",
+    "current_price": 455.8,
+    "status": "active"
+  },
+  "QQQ": {
+    "security_id": "QQQ",
+    "name": "Invesco QQQ Trust",
+    "type": "etf",
+    "sector": "Technology",
+    "current_price": 385.9,
+    "status": "active"
+  },
+  "VTI": {
+    "security_id": "VTI",
+    "name": "Vanguard Total Stock Market ETF",
+    "type": "etf",
+    "sector": "Broad Market",
+    "current_price": 228.4,
+    "status": "active"
+  },
+  "BND": {
+    "security_id": "BND",
+    "name": "Vanguard Total Bond Market ETF",
+    "type": "etf",
+    "sector": "Bonds",
+    "current_price": 72.3,
+    "status": "active"
+  },
+  "GLD": {
+    "security_id": "GLD",
+    "name": "SPDR Gold Shares",
+    "type": "etf",
+    "sector": "Commodities",
+    "current_price": 183.5,
+    "status": "active"
+  },
+  "AGG": {
+    "security_id": "AGG",
+    "name": "iShares Core US Aggregate Bond",
+    "type": "etf",
+    "sector": "Bonds",
+    "current_price": 97.6,
+    "status": "active"
+  },
+  "XOM": {
+    "security_id": "XOM",
+    "name": "Exxon Mobil Corp.",
+    "type": "stock",
+    "sector": "Energy",
+    "current_price": 107.2,
+    "status": "active"
+  },
+  "CVX": {
+    "security_id": "CVX",
+    "name": "Chevron Corp.",
+    "type": "stock",
+    "sector": "Energy",
+    "current_price": 154.8,
+    "status": "active"
+  },
+  "BOND01": {
+    "security_id": "BOND01",
+    "name": "US Treasury 10Y Bond",
+    "type": "bond",
+    "sector": "Government",
+    "current_price": 95.5,
+    "status": "active"
+  },
+  "BOND02": {
+    "security_id": "BOND02",
+    "name": "Corporate Bond Fund AAA",
+    "type": "bond",
+    "sector": "Corporate",
+    "current_price": 102.3,
+    "status": "active"
+  },
+  "BOND03": {
+    "security_id": "BOND03",
+    "name": "Municipal Bond Fund",
+    "type": "bond",
+    "sector": "Municipal",
+    "current_price": 98.7,
+    "status": "active"
+  },
+  "HALT01": {
+    "security_id": "HALT01",
+    "name": "Suspended Trading Inc.",
+    "type": "stock",
+    "sector": "Technology",
+    "current_price": 12.5,
+    "status": "halted"
+  },
+  "DLIST01": {
+    "security_id": "DLIST01",
+    "name": "Delisted Corp.",
+    "type": "stock",
+    "sector": "Finance",
+    "current_price": 0.5,
+    "status": "delisted"
+  },
+  "VFUND1": {
+    "security_id": "VFUND1",
+    "name": "Vanguard Growth Fund",
+    "type": "mutual_fund",
+    "sector": "Growth",
+    "current_price": 145.2,
+    "status": "active"
+  },
+  "FIDX1": {
+    "security_id": "FIDX1",
+    "name": "Fidelity 500 Index Fund",
+    "type": "mutual_fund",
+    "sector": "Broad Market",
+    "current_price": 178.9,
+    "status": "active"
+  }
+}

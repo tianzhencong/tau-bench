@@ -1,0 +1,2558 @@
+{
+  "ENGR201": {
+    "course_id": "ENGR201",
+    "name": "Thermodynamics",
+    "department": "Engineering",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "ENGR201-001": {
+        "section_id": "ENGR201-001",
+        "instructor": "Dr. Sarah Thomas",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Health Sciences 427",
+        "capacity": 50,
+        "enrolled": 41,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "ENGR201-002": {
+        "section_id": "ENGR201-002",
+        "instructor": "Dr. James Kim",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Science 406",
+        "capacity": 35,
+        "enrolled": 35,
+        "available": false,
+        "tuition_per_credit": 150
+      },
+      "ENGR201-003": {
+        "section_id": "ENGR201-003",
+        "instructor": "Dr. Lisa Martinez",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Health Sciences 222",
+        "capacity": 25,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "EDUC111": {
+    "course_id": "EDUC111",
+    "name": "Educational Psychology",
+    "department": "Education",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "EDUC111-001": {
+        "section_id": "EDUC111-001",
+        "instructor": "Dr. Omar Johnson",
+        "days": "MW",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Engineering 165",
+        "capacity": 40,
+        "enrolled": 30,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "EDUC111-002": {
+        "section_id": "EDUC111-002",
+        "instructor": "Dr. Maria Chen",
+        "days": "TTh",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Business 376",
+        "capacity": 30,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "PHIL120": {
+    "course_id": "PHIL120",
+    "name": "Intro to Philosophy",
+    "department": "Philosophy",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "PHIL120-001": {
+        "section_id": "PHIL120-001",
+        "instructor": "Dr. Sarah Brown",
+        "days": "TTh",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Business 132",
+        "capacity": 35,
+        "enrolled": 20,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PHIL120-002": {
+        "section_id": "PHIL120-002",
+        "instructor": "Dr. Maria Brown",
+        "days": "TTh",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Science 136",
+        "capacity": 25,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "PHIL120-003": {
+        "section_id": "PHIL120-003",
+        "instructor": "Dr. Lisa Johnson",
+        "days": "MWF",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Business 242",
+        "capacity": 40,
+        "enrolled": 31,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PHIL120-004": {
+        "section_id": "PHIL120-004",
+        "instructor": "Dr. Priya Martinez",
+        "days": "TTh",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Technology 224",
+        "capacity": 40,
+        "enrolled": 38,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "PHIL120-005": {
+        "section_id": "PHIL120-005",
+        "instructor": "Dr. Chen Chen",
+        "days": "MWF",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Fine Arts 316",
+        "capacity": 40,
+        "enrolled": 39,
+        "available": true,
+        "tuition_per_credit": 250
+      }
+    }
+  },
+  "BIO201": {
+    "course_id": "BIO201",
+    "name": "Genetics",
+    "department": "Biology",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "BIO201-001": {
+        "section_id": "BIO201-001",
+        "instructor": "Dr. Raj Garcia",
+        "days": "MWF",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Liberal Arts 227",
+        "capacity": 30,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "BIO201-002": {
+        "section_id": "BIO201-002",
+        "instructor": "Dr. Michael Williams",
+        "days": "MWF",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Health Sciences 336",
+        "capacity": 30,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "MATH100": {
+    "course_id": "MATH100",
+    "name": "Calculus I",
+    "department": "Mathematics",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "MATH100-001": {
+        "section_id": "MATH100-001",
+        "instructor": "Dr. William Thomas",
+        "days": "MWF",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Science 147",
+        "capacity": 30,
+        "enrolled": 20,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "MATH100-002": {
+        "section_id": "MATH100-002",
+        "instructor": "Dr. Emily Thomas",
+        "days": "MWF",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Main Hall 130",
+        "capacity": 30,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "POLS120": {
+    "course_id": "POLS120",
+    "name": "American Government",
+    "department": "Political Science",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "POLS120-001": {
+        "section_id": "POLS120-001",
+        "instructor": "Dr. Jennifer Jones",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Main Hall 456",
+        "capacity": 50,
+        "enrolled": 50,
+        "available": false,
+        "tuition_per_credit": 150
+      },
+      "POLS120-002": {
+        "section_id": "POLS120-002",
+        "instructor": "Dr. Emily Smith",
+        "days": "TTh",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Science 482",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "POLS120-003": {
+        "section_id": "POLS120-003",
+        "instructor": "Dr. William Martinez",
+        "days": "TTh",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Engineering 129",
+        "capacity": 50,
+        "enrolled": 37,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "POLS120-004": {
+        "section_id": "POLS120-004",
+        "instructor": "Dr. Maria Johnson",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Business 306",
+        "capacity": 25,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "STAT200": {
+    "course_id": "STAT200",
+    "name": "Regression Analysis",
+    "department": "Statistics",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "STAT200-001": {
+        "section_id": "STAT200-001",
+        "instructor": "Dr. Michael Wilson",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Fine Arts 233",
+        "capacity": 30,
+        "enrolled": 25,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "STAT200-002": {
+        "section_id": "STAT200-002",
+        "instructor": "Dr. James Wilson",
+        "days": "MW",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Health Sciences 334",
+        "capacity": 35,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "PHYS101": {
+    "course_id": "PHYS101",
+    "name": "Mechanics",
+    "department": "Physics",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "PHYS101-001": {
+        "section_id": "PHYS101-001",
+        "instructor": "Dr. Emily Kim",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Health Sciences 167",
+        "capacity": 35,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "PHYS101-002": {
+        "section_id": "PHYS101-002",
+        "instructor": "Dr. James Patel",
+        "days": "MW",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Health Sciences 413",
+        "capacity": 50,
+        "enrolled": 35,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "CS201": {
+    "course_id": "CS201",
+    "name": "Data Structures",
+    "department": "Computer Science",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "CS201-001": {
+        "section_id": "CS201-001",
+        "instructor": "Dr. Priya Williams",
+        "days": "MW",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Health Sciences 159",
+        "capacity": 25,
+        "enrolled": 14,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "CS201-002": {
+        "section_id": "CS201-002",
+        "instructor": "Dr. Emily Taylor",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Fine Arts 204",
+        "capacity": 35,
+        "enrolled": 35,
+        "available": false,
+        "tuition_per_credit": 175
+      },
+      "CS201-003": {
+        "section_id": "CS201-003",
+        "instructor": "Dr. Sarah Wilson",
+        "days": "F",
+        "start_time": "08:00",
+        "end_time": "08:50",
+        "room": "Main Hall 241",
+        "capacity": 25,
+        "enrolled": 10,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "CS201-004": {
+        "section_id": "CS201-004",
+        "instructor": "Dr. Chen Jones",
+        "days": "F",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Engineering 479",
+        "capacity": 40,
+        "enrolled": 38,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "PSYC300": {
+    "course_id": "PSYC300",
+    "name": "Social Psychology",
+    "department": "Psychology",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "PSYC300-001": {
+        "section_id": "PSYC300-001",
+        "instructor": "Dr. Raj Martinez",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Engineering 379",
+        "capacity": 25,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PSYC300-002": {
+        "section_id": "PSYC300-002",
+        "instructor": "Dr. Michael Williams",
+        "days": "TTh",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Science 257",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 175
+      }
+    }
+  },
+  "ECON110": {
+    "course_id": "ECON110",
+    "name": "Microeconomics",
+    "department": "Economics",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "ECON110-001": {
+        "section_id": "ECON110-001",
+        "instructor": "Dr. Lisa Anderson",
+        "days": "MW",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Main Hall 417",
+        "capacity": 30,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "ECON110-002": {
+        "section_id": "ECON110-002",
+        "instructor": "Dr. Yuki Williams",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Main Hall 112",
+        "capacity": 30,
+        "enrolled": 25,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "ECON110-003": {
+        "section_id": "ECON110-003",
+        "instructor": "Dr. Chen Thomas",
+        "days": "MWF",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Business 236",
+        "capacity": 30,
+        "enrolled": 18,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "ECON200": {
+    "course_id": "ECON200",
+    "name": "Macroeconomics",
+    "department": "Economics",
+    "credits": 3,
+    "prerequisites": [
+      "ECON110"
+    ],
+    "sections": {
+      "ECON200-001": {
+        "section_id": "ECON200-001",
+        "instructor": "Dr. Priya Patel",
+        "days": "TTh",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Fine Arts 256",
+        "capacity": 30,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "ECON200-002": {
+        "section_id": "ECON200-002",
+        "instructor": "Dr. Michael Garcia",
+        "days": "MW",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Health Sciences 135",
+        "capacity": 35,
+        "enrolled": 31,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "ECON200-003": {
+        "section_id": "ECON200-003",
+        "instructor": "Dr. Chen Thomas",
+        "days": "TTh",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Fine Arts 114",
+        "capacity": 25,
+        "enrolled": 18,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "PSYC120": {
+    "course_id": "PSYC120",
+    "name": "Intro to Psychology",
+    "department": "Psychology",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "PSYC120-001": {
+        "section_id": "PSYC120-001",
+        "instructor": "Dr. Maria Chen",
+        "days": "MWF",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Fine Arts 473",
+        "capacity": 35,
+        "enrolled": 33,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PSYC120-002": {
+        "section_id": "PSYC120-002",
+        "instructor": "Dr. Michael Martinez",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Business 230",
+        "capacity": 25,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "PSYC120-003": {
+        "section_id": "PSYC120-003",
+        "instructor": "Dr. Yuki Kim",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Business 286",
+        "capacity": 40,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "PSYC120-004": {
+        "section_id": "PSYC120-004",
+        "instructor": "Dr. Lisa Wilson",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Liberal Arts 468",
+        "capacity": 35,
+        "enrolled": 29,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "BIO110": {
+    "course_id": "BIO110",
+    "name": "Cell Biology",
+    "department": "Biology",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "BIO110-001": {
+        "section_id": "BIO110-001",
+        "instructor": "Dr. David Kim",
+        "days": "MWF",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Engineering 198",
+        "capacity": 40,
+        "enrolled": 37,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "BIO110-002": {
+        "section_id": "BIO110-002",
+        "instructor": "Dr. James Lee",
+        "days": "MW",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Health Sciences 307",
+        "capacity": 50,
+        "enrolled": 35,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "BIO110-003": {
+        "section_id": "BIO110-003",
+        "instructor": "Dr. Michael Anderson",
+        "days": "MW",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Fine Arts 338",
+        "capacity": 40,
+        "enrolled": 39,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "BIO110-004": {
+        "section_id": "BIO110-004",
+        "instructor": "Dr. Jennifer Anderson",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Engineering 437",
+        "capacity": 25,
+        "enrolled": 19,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "MATH521": {
+    "course_id": "MATH521",
+    "name": "Probability",
+    "department": "Mathematics",
+    "credits": 4,
+    "prerequisites": [
+      "MATH100"
+    ],
+    "sections": {
+      "MATH521-001": {
+        "section_id": "MATH521-001",
+        "instructor": "Dr. Emily Wilson",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Health Sciences 215",
+        "capacity": 30,
+        "enrolled": 19,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "MATH521-002": {
+        "section_id": "MATH521-002",
+        "instructor": "Dr. Jennifer Lee",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Liberal Arts 333",
+        "capacity": 40,
+        "enrolled": 31,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "STAT111": {
+    "course_id": "STAT111",
+    "name": "Intro to Statistics",
+    "department": "Statistics",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "STAT111-001": {
+        "section_id": "STAT111-001",
+        "instructor": "Dr. James Wilson",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Science 484",
+        "capacity": 25,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "STAT111-002": {
+        "section_id": "STAT111-002",
+        "instructor": "Dr. Raj Kim",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Technology 125",
+        "capacity": 50,
+        "enrolled": 42,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "STAT111-003": {
+        "section_id": "STAT111-003",
+        "instructor": "Dr. James Anderson",
+        "days": "MWF",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Technology 441",
+        "capacity": 50,
+        "enrolled": 45,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "STAT111-004": {
+        "section_id": "STAT111-004",
+        "instructor": "Dr. Omar Taylor",
+        "days": "MWF",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Main Hall 380",
+        "capacity": 40,
+        "enrolled": 30,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "STAT111-005": {
+        "section_id": "STAT111-005",
+        "instructor": "Dr. Jennifer Jones",
+        "days": "F",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Business 426",
+        "capacity": 35,
+        "enrolled": 35,
+        "available": false,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "CS120": {
+    "course_id": "CS120",
+    "name": "Intro to Programming",
+    "department": "Computer Science",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "CS120-001": {
+        "section_id": "CS120-001",
+        "instructor": "Dr. Raj Jones",
+        "days": "MWF",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Business 239",
+        "capacity": 35,
+        "enrolled": 30,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "CS120-002": {
+        "section_id": "CS120-002",
+        "instructor": "Dr. James Brown",
+        "days": "MWF",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Main Hall 455",
+        "capacity": 30,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "CS120-003": {
+        "section_id": "CS120-003",
+        "instructor": "Dr. Lisa Kim",
+        "days": "MWF",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Technology 312",
+        "capacity": 25,
+        "enrolled": 16,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "CS120-004": {
+        "section_id": "CS120-004",
+        "instructor": "Dr. Yuki Lee",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Science 491",
+        "capacity": 50,
+        "enrolled": 47,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "MUS120": {
+    "course_id": "MUS120",
+    "name": "Music Theory",
+    "department": "Music",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "MUS120-001": {
+        "section_id": "MUS120-001",
+        "instructor": "Dr. Michael Thomas",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Main Hall 375",
+        "capacity": 50,
+        "enrolled": 42,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "MUS120-002": {
+        "section_id": "MUS120-002",
+        "instructor": "Dr. Michael Patel",
+        "days": "TTh",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Science 299",
+        "capacity": 35,
+        "enrolled": 32,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "MUS120-003": {
+        "section_id": "MUS120-003",
+        "instructor": "Dr. Jennifer Martinez",
+        "days": "TTh",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Engineering 418",
+        "capacity": 50,
+        "enrolled": 35,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "MUS120-004": {
+        "section_id": "MUS120-004",
+        "instructor": "Dr. Chen Smith",
+        "days": "TTh",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Liberal Arts 429",
+        "capacity": 40,
+        "enrolled": 29,
+        "available": true,
+        "tuition_per_credit": 250
+      }
+    }
+  },
+  "ENGR100": {
+    "course_id": "ENGR100",
+    "name": "Engineering Design",
+    "department": "Engineering",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "ENGR100-001": {
+        "section_id": "ENGR100-001",
+        "instructor": "Dr. Michael Garcia",
+        "days": "MWF",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Business 332",
+        "capacity": 35,
+        "enrolled": 30,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "ENGR100-002": {
+        "section_id": "ENGR100-002",
+        "instructor": "Dr. Omar Chen",
+        "days": "MWF",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Health Sciences 141",
+        "capacity": 40,
+        "enrolled": 25,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "ENGR100-003": {
+        "section_id": "ENGR100-003",
+        "instructor": "Dr. Lisa Brown",
+        "days": "TTh",
+        "start_time": "08:00",
+        "end_time": "08:50",
+        "room": "Liberal Arts 499",
+        "capacity": 25,
+        "enrolled": 10,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "SOC111": {
+    "course_id": "SOC111",
+    "name": "Intro to Sociology",
+    "department": "Sociology",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "SOC111-001": {
+        "section_id": "SOC111-001",
+        "instructor": "Dr. Emily Williams",
+        "days": "TTh",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Technology 442",
+        "capacity": 25,
+        "enrolled": 16,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "SOC111-002": {
+        "section_id": "SOC111-002",
+        "instructor": "Dr. Yuki Garcia",
+        "days": "MW",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Engineering 410",
+        "capacity": 50,
+        "enrolled": 38,
+        "available": true,
+        "tuition_per_credit": 250
+      }
+    }
+  },
+  "HIST221": {
+    "course_id": "HIST221",
+    "name": "US History",
+    "department": "History",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "HIST221-001": {
+        "section_id": "HIST221-001",
+        "instructor": "Dr. Robert Martinez",
+        "days": "MWF",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Health Sciences 394",
+        "capacity": 40,
+        "enrolled": 37,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "HIST221-002": {
+        "section_id": "HIST221-002",
+        "instructor": "Dr. Maria Taylor",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Business 152",
+        "capacity": 35,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "HIST221-003": {
+        "section_id": "HIST221-003",
+        "instructor": "Dr. Robert Garcia",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Main Hall 438",
+        "capacity": 35,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "HIST221-004": {
+        "section_id": "HIST221-004",
+        "instructor": "Dr. Robert Thomas",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Main Hall 350",
+        "capacity": 25,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 175
+      }
+    }
+  },
+  "ENG320": {
+    "course_id": "ENG320",
+    "name": "Creative Writing",
+    "department": "English",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "ENG320-001": {
+        "section_id": "ENG320-001",
+        "instructor": "Dr. Raj Kim",
+        "days": "MWF",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Health Sciences 415",
+        "capacity": 50,
+        "enrolled": 50,
+        "available": false,
+        "tuition_per_credit": 200
+      },
+      "ENG320-002": {
+        "section_id": "ENG320-002",
+        "instructor": "Dr. Raj Lee",
+        "days": "MWF",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Health Sciences 265",
+        "capacity": 30,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "ENG320-003": {
+        "section_id": "ENG320-003",
+        "instructor": "Dr. Yuki Patel",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Main Hall 272",
+        "capacity": 25,
+        "enrolled": 25,
+        "available": false,
+        "tuition_per_credit": 250
+      }
+    }
+  },
+  "PHYS221": {
+    "course_id": "PHYS221",
+    "name": "Electricity & Magnetism",
+    "department": "Physics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS101"
+    ],
+    "sections": {
+      "PHYS221-001": {
+        "section_id": "PHYS221-001",
+        "instructor": "Dr. Yuki Jones",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Fine Arts 243",
+        "capacity": 50,
+        "enrolled": 43,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PHYS221-002": {
+        "section_id": "PHYS221-002",
+        "instructor": "Dr. Emily Johnson",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Business 468",
+        "capacity": 40,
+        "enrolled": 40,
+        "available": false,
+        "tuition_per_credit": 200
+      },
+      "PHYS221-003": {
+        "section_id": "PHYS221-003",
+        "instructor": "Dr. Raj Patel",
+        "days": "F",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Technology 329",
+        "capacity": 25,
+        "enrolled": 12,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "PHYS221-004": {
+        "section_id": "PHYS221-004",
+        "instructor": "Dr. Raj Brown",
+        "days": "TTh",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Health Sciences 439",
+        "capacity": 50,
+        "enrolled": 46,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PHYS221-005": {
+        "section_id": "PHYS221-005",
+        "instructor": "Dr. Lisa Chen",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Fine Arts 280",
+        "capacity": 40,
+        "enrolled": 33,
+        "available": true,
+        "tuition_per_credit": 175
+      }
+    }
+  },
+  "CS300": {
+    "course_id": "CS300",
+    "name": "Algorithms",
+    "department": "Computer Science",
+    "credits": 3,
+    "prerequisites": [
+      "CS120"
+    ],
+    "sections": {
+      "CS300-001": {
+        "section_id": "CS300-001",
+        "instructor": "Dr. Lisa Johnson",
+        "days": "MW",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Engineering 198",
+        "capacity": 30,
+        "enrolled": 30,
+        "available": false,
+        "tuition_per_credit": 175
+      },
+      "CS300-002": {
+        "section_id": "CS300-002",
+        "instructor": "Dr. Yuki Kim",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Health Sciences 151",
+        "capacity": 30,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "BIO301": {
+    "course_id": "BIO301",
+    "name": "Ecology",
+    "department": "Biology",
+    "credits": 3,
+    "prerequisites": [
+      "BIO110"
+    ],
+    "sections": {
+      "BIO301-001": {
+        "section_id": "BIO301-001",
+        "instructor": "Dr. William Williams",
+        "days": "MWF",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Health Sciences 123",
+        "capacity": 25,
+        "enrolled": 19,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "BIO301-002": {
+        "section_id": "BIO301-002",
+        "instructor": "Dr. Omar Anderson",
+        "days": "TTh",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Technology 152",
+        "capacity": 25,
+        "enrolled": 19,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "BIO301-003": {
+        "section_id": "BIO301-003",
+        "instructor": "Dr. Lisa Williams",
+        "days": "MWF",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Science 229",
+        "capacity": 40,
+        "enrolled": 28,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "BIO301-004": {
+        "section_id": "BIO301-004",
+        "instructor": "Dr. Jennifer Johnson",
+        "days": "MWF",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Science 177",
+        "capacity": 30,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "PHYS300": {
+    "course_id": "PHYS300",
+    "name": "Quantum Physics",
+    "department": "Physics",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS101"
+    ],
+    "sections": {
+      "PHYS300-001": {
+        "section_id": "PHYS300-001",
+        "instructor": "Dr. Yuki Lee",
+        "days": "TTh",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Business 497",
+        "capacity": 50,
+        "enrolled": 47,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PHYS300-002": {
+        "section_id": "PHYS300-002",
+        "instructor": "Dr. Omar Lee",
+        "days": "MWF",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Main Hall 256",
+        "capacity": 50,
+        "enrolled": 36,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PHYS300-003": {
+        "section_id": "PHYS300-003",
+        "instructor": "Dr. Yuki Brown",
+        "days": "MW",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Business 235",
+        "capacity": 25,
+        "enrolled": 15,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "PHYS300-004": {
+        "section_id": "PHYS300-004",
+        "instructor": "Dr. Sarah Williams",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Science 309",
+        "capacity": 40,
+        "enrolled": 40,
+        "available": false,
+        "tuition_per_credit": 175
+      },
+      "PHYS300-005": {
+        "section_id": "PHYS300-005",
+        "instructor": "Dr. David Taylor",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Health Sciences 459",
+        "capacity": 40,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "ENG201": {
+    "course_id": "ENG201",
+    "name": "American Literature",
+    "department": "English",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "ENG201-001": {
+        "section_id": "ENG201-001",
+        "instructor": "Dr. Chen Lee",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Business 317",
+        "capacity": 25,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "ENG201-002": {
+        "section_id": "ENG201-002",
+        "instructor": "Dr. David Thomas",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Engineering 136",
+        "capacity": 25,
+        "enrolled": 15,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "ENG201-003": {
+        "section_id": "ENG201-003",
+        "instructor": "Dr. Raj Thomas",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Health Sciences 324",
+        "capacity": 25,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "ENG201-004": {
+        "section_id": "ENG201-004",
+        "instructor": "Dr. Michael Jones",
+        "days": "MW",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Technology 324",
+        "capacity": 25,
+        "enrolled": 11,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "PHIL201": {
+    "course_id": "PHIL201",
+    "name": "Ethics",
+    "department": "Philosophy",
+    "credits": 3,
+    "prerequisites": [
+      "PHIL120"
+    ],
+    "sections": {
+      "PHIL201-001": {
+        "section_id": "PHIL201-001",
+        "instructor": "Dr. Chen Thomas",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Science 491",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "PHIL201-002": {
+        "section_id": "PHIL201-002",
+        "instructor": "Dr. Jennifer Kim",
+        "days": "F",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Technology 242",
+        "capacity": 30,
+        "enrolled": 28,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "BUS301": {
+    "course_id": "BUS301",
+    "name": "Accounting",
+    "department": "Business",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "BUS301-001": {
+        "section_id": "BUS301-001",
+        "instructor": "Dr. Michael Garcia",
+        "days": "MWF",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Fine Arts 443",
+        "capacity": 25,
+        "enrolled": 15,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "BUS301-002": {
+        "section_id": "BUS301-002",
+        "instructor": "Dr. Jennifer Jones",
+        "days": "MWF",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Main Hall 489",
+        "capacity": 50,
+        "enrolled": 36,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "ENG111": {
+    "course_id": "ENG111",
+    "name": "English Composition",
+    "department": "English",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "ENG111-001": {
+        "section_id": "ENG111-001",
+        "instructor": "Dr. Sarah Anderson",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Main Hall 363",
+        "capacity": 25,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "ENG111-002": {
+        "section_id": "ENG111-002",
+        "instructor": "Dr. William Garcia",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Technology 420",
+        "capacity": 40,
+        "enrolled": 26,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "ENG111-003": {
+        "section_id": "ENG111-003",
+        "instructor": "Dr. James Martinez",
+        "days": "MW",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Health Sciences 324",
+        "capacity": 40,
+        "enrolled": 28,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "ENG111-004": {
+        "section_id": "ENG111-004",
+        "instructor": "Dr. Yuki Brown",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Engineering 259",
+        "capacity": 50,
+        "enrolled": 35,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "CS520": {
+    "course_id": "CS520",
+    "name": "Operating Systems",
+    "department": "Computer Science",
+    "credits": 4,
+    "prerequisites": [
+      "CS120"
+    ],
+    "sections": {
+      "CS520-001": {
+        "section_id": "CS520-001",
+        "instructor": "Dr. Sarah Patel",
+        "days": "F",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Liberal Arts 431",
+        "capacity": 30,
+        "enrolled": 30,
+        "available": false,
+        "tuition_per_credit": 225
+      },
+      "CS520-002": {
+        "section_id": "CS520-002",
+        "instructor": "Dr. Raj Jones",
+        "days": "MW",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Main Hall 347",
+        "capacity": 40,
+        "enrolled": 32,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "CS520-003": {
+        "section_id": "CS520-003",
+        "instructor": "Dr. Michael Brown",
+        "days": "TTh",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Engineering 135",
+        "capacity": 35,
+        "enrolled": 33,
+        "available": true,
+        "tuition_per_credit": 175
+      }
+    }
+  },
+  "MATH200": {
+    "course_id": "MATH200",
+    "name": "Calculus II",
+    "department": "Mathematics",
+    "credits": 4,
+    "prerequisites": [
+      "MATH100"
+    ],
+    "sections": {
+      "MATH200-001": {
+        "section_id": "MATH200-001",
+        "instructor": "Dr. David Thomas",
+        "days": "MW",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Technology 176",
+        "capacity": 40,
+        "enrolled": 40,
+        "available": false,
+        "tuition_per_credit": 175
+      },
+      "MATH200-002": {
+        "section_id": "MATH200-002",
+        "instructor": "Dr. Yuki Kim",
+        "days": "MW",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Main Hall 333",
+        "capacity": 35,
+        "enrolled": 26,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "CS400": {
+    "course_id": "CS400",
+    "name": "Databases",
+    "department": "Computer Science",
+    "credits": 3,
+    "prerequisites": [
+      "CS120"
+    ],
+    "sections": {
+      "CS400-001": {
+        "section_id": "CS400-001",
+        "instructor": "Dr. Michael Smith",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Fine Arts 481",
+        "capacity": 40,
+        "enrolled": 37,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "CS400-002": {
+        "section_id": "CS400-002",
+        "instructor": "Dr. Omar Wilson",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Engineering 353",
+        "capacity": 25,
+        "enrolled": 14,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "CS400-003": {
+        "section_id": "CS400-003",
+        "instructor": "Dr. Omar Johnson",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Technology 151",
+        "capacity": 50,
+        "enrolled": 49,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "CS621": {
+    "course_id": "CS621",
+    "name": "Machine Learning",
+    "department": "Computer Science",
+    "credits": 3,
+    "prerequisites": [
+      "CS120"
+    ],
+    "sections": {
+      "CS621-001": {
+        "section_id": "CS621-001",
+        "instructor": "Dr. Yuki Jones",
+        "days": "MWF",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Fine Arts 419",
+        "capacity": 40,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "CS621-002": {
+        "section_id": "CS621-002",
+        "instructor": "Dr. Chen Thomas",
+        "days": "MW",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Main Hall 262",
+        "capacity": 40,
+        "enrolled": 26,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "CS621-003": {
+        "section_id": "CS621-003",
+        "instructor": "Dr. Chen Wilson",
+        "days": "MWF",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Health Sciences 216",
+        "capacity": 25,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "BUS111": {
+    "course_id": "BUS111",
+    "name": "Principles of Management",
+    "department": "Business",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "BUS111-001": {
+        "section_id": "BUS111-001",
+        "instructor": "Dr. David Martinez",
+        "days": "TTh",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Science 123",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "BUS111-002": {
+        "section_id": "BUS111-002",
+        "instructor": "Dr. Michael Williams",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Business 371",
+        "capacity": 40,
+        "enrolled": 30,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "BUS111-003": {
+        "section_id": "BUS111-003",
+        "instructor": "Dr. Maria Thomas",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Main Hall 417",
+        "capacity": 30,
+        "enrolled": 30,
+        "available": false,
+        "tuition_per_credit": 200
+      },
+      "BUS111-004": {
+        "section_id": "BUS111-004",
+        "instructor": "Dr. Jennifer Wilson",
+        "days": "TTh",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Health Sciences 335",
+        "capacity": 35,
+        "enrolled": 20,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "BUS111-005": {
+        "section_id": "BUS111-005",
+        "instructor": "Dr. David Wilson",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Engineering 137",
+        "capacity": 40,
+        "enrolled": 36,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "BUS211": {
+    "course_id": "BUS211",
+    "name": "Marketing",
+    "department": "Business",
+    "credits": 3,
+    "prerequisites": [
+      "BUS111"
+    ],
+    "sections": {
+      "BUS211-001": {
+        "section_id": "BUS211-001",
+        "instructor": "Dr. David Brown",
+        "days": "MWF",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Main Hall 347",
+        "capacity": 25,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "BUS211-002": {
+        "section_id": "BUS211-002",
+        "instructor": "Dr. Maria Jones",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Health Sciences 111",
+        "capacity": 40,
+        "enrolled": 33,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "BUS211-003": {
+        "section_id": "BUS211-003",
+        "instructor": "Dr. Chen Anderson",
+        "days": "TTh",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Science 410",
+        "capacity": 40,
+        "enrolled": 34,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "BUS211-004": {
+        "section_id": "BUS211-004",
+        "instructor": "Dr. Maria Anderson",
+        "days": "F",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Fine Arts 212",
+        "capacity": 30,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "LING121": {
+    "course_id": "LING121",
+    "name": "Intro to Linguistics",
+    "department": "Linguistics",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "LING121-001": {
+        "section_id": "LING121-001",
+        "instructor": "Dr. Robert Jones",
+        "days": "MW",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Technology 117",
+        "capacity": 50,
+        "enrolled": 46,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "LING121-002": {
+        "section_id": "LING121-002",
+        "instructor": "Dr. Priya Jones",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Fine Arts 482",
+        "capacity": 40,
+        "enrolled": 30,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "CHEM121": {
+    "course_id": "CHEM121",
+    "name": "General Chemistry",
+    "department": "Chemistry",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "CHEM121-001": {
+        "section_id": "CHEM121-001",
+        "instructor": "Dr. Priya Jones",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Engineering 231",
+        "capacity": 40,
+        "enrolled": 34,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "CHEM121-002": {
+        "section_id": "CHEM121-002",
+        "instructor": "Dr. Yuki Johnson",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Technology 138",
+        "capacity": 30,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "CHEM121-003": {
+        "section_id": "CHEM121-003",
+        "instructor": "Dr. Chen Chen",
+        "days": "MW",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Fine Arts 146",
+        "capacity": 40,
+        "enrolled": 25,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "CHEM121-004": {
+        "section_id": "CHEM121-004",
+        "instructor": "Dr. Jennifer Garcia",
+        "days": "TTh",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Health Sciences 399",
+        "capacity": 40,
+        "enrolled": 36,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "HIST110": {
+    "course_id": "HIST110",
+    "name": "World History",
+    "department": "History",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "HIST110-001": {
+        "section_id": "HIST110-001",
+        "instructor": "Dr. Priya Kim",
+        "days": "MWF",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Fine Arts 412",
+        "capacity": 30,
+        "enrolled": 17,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "HIST110-002": {
+        "section_id": "HIST110-002",
+        "instructor": "Dr. Priya Taylor",
+        "days": "F",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Health Sciences 432",
+        "capacity": 40,
+        "enrolled": 28,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "HIST110-003": {
+        "section_id": "HIST110-003",
+        "instructor": "Dr. David Patel",
+        "days": "MWF",
+        "start_time": "08:00",
+        "end_time": "08:50",
+        "room": "Liberal Arts 149",
+        "capacity": 30,
+        "enrolled": 19,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "HIST110-004": {
+        "section_id": "HIST110-004",
+        "instructor": "Dr. Chen Taylor",
+        "days": "MWF",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Main Hall 400",
+        "capacity": 30,
+        "enrolled": 28,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "HIST110-005": {
+        "section_id": "HIST110-005",
+        "instructor": "Dr. Jennifer Lee",
+        "days": "MWF",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Main Hall 243",
+        "capacity": 25,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 150
+      }
+    }
+  },
+  "HIST321": {
+    "course_id": "HIST321",
+    "name": "Modern Europe",
+    "department": "History",
+    "credits": 4,
+    "prerequisites": [
+      "HIST110"
+    ],
+    "sections": {
+      "HIST321-001": {
+        "section_id": "HIST321-001",
+        "instructor": "Dr. Sarah Wilson",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Fine Arts 378",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "HIST321-002": {
+        "section_id": "HIST321-002",
+        "instructor": "Dr. Sarah Thomas",
+        "days": "MW",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Technology 146",
+        "capacity": 30,
+        "enrolled": 15,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "HIST321-003": {
+        "section_id": "HIST321-003",
+        "instructor": "Dr. James Anderson",
+        "days": "F",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Business 135",
+        "capacity": 50,
+        "enrolled": 41,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "POLS221": {
+    "course_id": "POLS221",
+    "name": "International Relations",
+    "department": "Political Science",
+    "credits": 3,
+    "prerequisites": [
+      "POLS120"
+    ],
+    "sections": {
+      "POLS221-001": {
+        "section_id": "POLS221-001",
+        "instructor": "Dr. Yuki Martinez",
+        "days": "F",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Science 241",
+        "capacity": 30,
+        "enrolled": 19,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "POLS221-002": {
+        "section_id": "POLS221-002",
+        "instructor": "Dr. James Johnson",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Science 167",
+        "capacity": 25,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "POLS221-003": {
+        "section_id": "POLS221-003",
+        "instructor": "Dr. Maria Garcia",
+        "days": "F",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Science 189",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "POLS221-004": {
+        "section_id": "POLS221-004",
+        "instructor": "Dr. William Johnson",
+        "days": "MW",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Liberal Arts 343",
+        "capacity": 40,
+        "enrolled": 36,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "PSYC220": {
+    "course_id": "PSYC220",
+    "name": "Cognitive Psychology",
+    "department": "Psychology",
+    "credits": 4,
+    "prerequisites": [
+      "PSYC120"
+    ],
+    "sections": {
+      "PSYC220-001": {
+        "section_id": "PSYC220-001",
+        "instructor": "Dr. Maria Smith",
+        "days": "TTh",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Health Sciences 334",
+        "capacity": 25,
+        "enrolled": 11,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PSYC220-002": {
+        "section_id": "PSYC220-002",
+        "instructor": "Dr. Michael Wilson",
+        "days": "F",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Liberal Arts 351",
+        "capacity": 40,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "PSYC220-003": {
+        "section_id": "PSYC220-003",
+        "instructor": "Dr. James Johnson",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Engineering 240",
+        "capacity": 50,
+        "enrolled": 45,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PSYC220-004": {
+        "section_id": "PSYC220-004",
+        "instructor": "Dr. David Patel",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Main Hall 150",
+        "capacity": 25,
+        "enrolled": 16,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "PSYC220-005": {
+        "section_id": "PSYC220-005",
+        "instructor": "Dr. Emily Chen",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Fine Arts 332",
+        "capacity": 40,
+        "enrolled": 38,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  },
+  "MUS220": {
+    "course_id": "MUS220",
+    "name": "Music History",
+    "department": "Music",
+    "credits": 3,
+    "prerequisites": [
+      "MUS120"
+    ],
+    "sections": {
+      "MUS220-001": {
+        "section_id": "MUS220-001",
+        "instructor": "Dr. David Garcia",
+        "days": "MW",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Engineering 451",
+        "capacity": 40,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "MUS220-002": {
+        "section_id": "MUS220-002",
+        "instructor": "Dr. Sarah Chen",
+        "days": "F",
+        "start_time": "09:00",
+        "end_time": "09:50",
+        "room": "Liberal Arts 481",
+        "capacity": 35,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "MUS220-003": {
+        "section_id": "MUS220-003",
+        "instructor": "Dr. William Kim",
+        "days": "MWF",
+        "start_time": "08:00",
+        "end_time": "09:15",
+        "room": "Fine Arts 443",
+        "capacity": 25,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "MUS220-004": {
+        "section_id": "MUS220-004",
+        "instructor": "Dr. Yuki Chen",
+        "days": "F",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Science 247",
+        "capacity": 50,
+        "enrolled": 44,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "MUS220-005": {
+        "section_id": "MUS220-005",
+        "instructor": "Dr. Emily Williams",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Technology 214",
+        "capacity": 25,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 250
+      }
+    }
+  },
+  "NURS101": {
+    "course_id": "NURS101",
+    "name": "Fundamentals of Nursing",
+    "department": "Nursing",
+    "credits": 4,
+    "prerequisites": [],
+    "sections": {
+      "NURS101-001": {
+        "section_id": "NURS101-001",
+        "instructor": "Dr. David Lee",
+        "days": "MWF",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Business 319",
+        "capacity": 50,
+        "enrolled": 35,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "NURS101-002": {
+        "section_id": "NURS101-002",
+        "instructor": "Dr. Raj Jones",
+        "days": "MW",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Science 192",
+        "capacity": 35,
+        "enrolled": 29,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "NURS101-003": {
+        "section_id": "NURS101-003",
+        "instructor": "Dr. James Thomas",
+        "days": "MW",
+        "start_time": "08:00",
+        "end_time": "08:50",
+        "room": "Engineering 389",
+        "capacity": 40,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "NURS101-004": {
+        "section_id": "NURS101-004",
+        "instructor": "Dr. Robert Johnson",
+        "days": "MW",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Business 292",
+        "capacity": 40,
+        "enrolled": 39,
+        "available": true,
+        "tuition_per_credit": 175
+      }
+    }
+  },
+  "ART110": {
+    "course_id": "ART110",
+    "name": "Drawing Fundamentals",
+    "department": "Art",
+    "credits": 3,
+    "prerequisites": [],
+    "sections": {
+      "ART110-001": {
+        "section_id": "ART110-001",
+        "instructor": "Dr. Lisa Anderson",
+        "days": "MW",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Liberal Arts 126",
+        "capacity": 30,
+        "enrolled": 20,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "ART110-002": {
+        "section_id": "ART110-002",
+        "instructor": "Dr. Chen Johnson",
+        "days": "TTh",
+        "start_time": "08:00",
+        "end_time": "08:50",
+        "room": "Health Sciences 326",
+        "capacity": 40,
+        "enrolled": 40,
+        "available": false,
+        "tuition_per_credit": 200
+      },
+      "ART110-003": {
+        "section_id": "ART110-003",
+        "instructor": "Dr. David Brown",
+        "days": "MWF",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Liberal Arts 276",
+        "capacity": 40,
+        "enrolled": 28,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "ART110-004": {
+        "section_id": "ART110-004",
+        "instructor": "Dr. Maria Patel",
+        "days": "MW",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Health Sciences 123",
+        "capacity": 30,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "ART221": {
+    "course_id": "ART221",
+    "name": "Art History",
+    "department": "Art",
+    "credits": 3,
+    "prerequisites": [
+      "ART110"
+    ],
+    "sections": {
+      "ART221-001": {
+        "section_id": "ART221-001",
+        "instructor": "Dr. Yuki Williams",
+        "days": "MW",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "room": "Health Sciences 248",
+        "capacity": 35,
+        "enrolled": 23,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "ART221-002": {
+        "section_id": "ART221-002",
+        "instructor": "Dr. Michael Williams",
+        "days": "MWF",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Engineering 294",
+        "capacity": 50,
+        "enrolled": 42,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "ART221-003": {
+        "section_id": "ART221-003",
+        "instructor": "Dr. Chen Anderson",
+        "days": "TTh",
+        "start_time": "14:30",
+        "end_time": "15:45",
+        "room": "Fine Arts 136",
+        "capacity": 40,
+        "enrolled": 26,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "CHEM211": {
+    "course_id": "CHEM211",
+    "name": "Organic Chemistry",
+    "department": "Chemistry",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM121"
+    ],
+    "sections": {
+      "CHEM211-001": {
+        "section_id": "CHEM211-001",
+        "instructor": "Dr. Maria Chen",
+        "days": "F",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Main Hall 463",
+        "capacity": 40,
+        "enrolled": 34,
+        "available": true,
+        "tuition_per_credit": 150
+      },
+      "CHEM211-002": {
+        "section_id": "CHEM211-002",
+        "instructor": "Dr. Lisa Williams",
+        "days": "MWF",
+        "start_time": "08:00",
+        "end_time": "08:50",
+        "room": "Technology 453",
+        "capacity": 35,
+        "enrolled": 22,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "MATH300": {
+    "course_id": "MATH300",
+    "name": "Linear Algebra",
+    "department": "Mathematics",
+    "credits": 3,
+    "prerequisites": [
+      "MATH100"
+    ],
+    "sections": {
+      "MATH300-001": {
+        "section_id": "MATH300-001",
+        "instructor": "Dr. William Johnson",
+        "days": "TTh",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Main Hall 258",
+        "capacity": 35,
+        "enrolled": 27,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "MATH300-002": {
+        "section_id": "MATH300-002",
+        "instructor": "Dr. Sarah Kim",
+        "days": "F",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Liberal Arts 371",
+        "capacity": 50,
+        "enrolled": 41,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "MATH300-003": {
+        "section_id": "MATH300-003",
+        "instructor": "Dr. Raj Thomas",
+        "days": "MW",
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "room": "Engineering 220",
+        "capacity": 25,
+        "enrolled": 14,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "MATH300-004": {
+        "section_id": "MATH300-004",
+        "instructor": "Dr. Maria Williams",
+        "days": "TTh",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "room": "Liberal Arts 190",
+        "capacity": 40,
+        "enrolled": 39,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "MATH300-005": {
+        "section_id": "MATH300-005",
+        "instructor": "Dr. Maria Patel",
+        "days": "TTh",
+        "start_time": "13:00",
+        "end_time": "14:15",
+        "room": "Fine Arts 421",
+        "capacity": 35,
+        "enrolled": 24,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "CHEM300": {
+    "course_id": "CHEM300",
+    "name": "Biochemistry",
+    "department": "Chemistry",
+    "credits": 3,
+    "prerequisites": [
+      "CHEM121"
+    ],
+    "sections": {
+      "CHEM300-001": {
+        "section_id": "CHEM300-001",
+        "instructor": "Dr. Yuki Jones",
+        "days": "MW",
+        "start_time": "12:00",
+        "end_time": "12:50",
+        "room": "Science 280",
+        "capacity": 50,
+        "enrolled": 37,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "CHEM300-002": {
+        "section_id": "CHEM300-002",
+        "instructor": "Dr. Robert Smith",
+        "days": "MWF",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Fine Arts 246",
+        "capacity": 25,
+        "enrolled": 12,
+        "available": true,
+        "tuition_per_credit": 200
+      },
+      "CHEM300-003": {
+        "section_id": "CHEM300-003",
+        "instructor": "Dr. Michael Patel",
+        "days": "TTh",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Science 330",
+        "capacity": 50,
+        "enrolled": 41,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "CHEM300-004": {
+        "section_id": "CHEM300-004",
+        "instructor": "Dr. William Williams",
+        "days": "TTh",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "room": "Science 330",
+        "capacity": 25,
+        "enrolled": 20,
+        "available": true,
+        "tuition_per_credit": 225
+      },
+      "CHEM300-005": {
+        "section_id": "CHEM300-005",
+        "instructor": "Dr. Chen Williams",
+        "days": "MWF",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "room": "Science 226",
+        "capacity": 40,
+        "enrolled": 39,
+        "available": true,
+        "tuition_per_credit": 200
+      }
+    }
+  },
+  "MATH420": {
+    "course_id": "MATH420",
+    "name": "Differential Equations",
+    "department": "Mathematics",
+    "credits": 4,
+    "prerequisites": [
+      "MATH100"
+    ],
+    "sections": {
+      "MATH420-001": {
+        "section_id": "MATH420-001",
+        "instructor": "Dr. David Chen",
+        "days": "MW",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "room": "Main Hall 496",
+        "capacity": 35,
+        "enrolled": 21,
+        "available": true,
+        "tuition_per_credit": 250
+      },
+      "MATH420-002": {
+        "section_id": "MATH420-002",
+        "instructor": "Dr. Lisa Johnson",
+        "days": "MW",
+        "start_time": "09:30",
+        "end_time": "10:45",
+        "room": "Fine Arts 148",
+        "capacity": 50,
+        "enrolled": 47,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "MATH420-003": {
+        "section_id": "MATH420-003",
+        "instructor": "Dr. Omar Wilson",
+        "days": "MW",
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "room": "Engineering 270",
+        "capacity": 25,
+        "enrolled": 14,
+        "available": true,
+        "tuition_per_credit": 175
+      },
+      "MATH420-004": {
+        "section_id": "MATH420-004",
+        "instructor": "Dr. James Lee",
+        "days": "MW",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "room": "Liberal Arts 258",
+        "capacity": 50,
+        "enrolled": 47,
+        "available": true,
+        "tuition_per_credit": 225
+      }
+    }
+  }
+}
