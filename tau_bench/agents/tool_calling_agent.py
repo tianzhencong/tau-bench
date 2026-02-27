@@ -61,6 +61,15 @@ class ToolCallingAgent(Agent):
             )
             next_message = res.choices[0].message.model_dump()
             total_cost += res._hidden_params.get("response_cost") or 0
+
+            # Preserve reasoning_content from thinking models (e.g. kimi-k2.5)
+            raw_msg = res.choices[0].message
+            reasoning = getattr(raw_msg, "reasoning_content", None)
+            if not reasoning and isinstance(next_message, dict):
+                reasoning = next_message.get("reasoning_content")
+            if reasoning:
+                next_message["reasoning_content"] = reasoning
+
             action = message_to_action(next_message)
             env_response = env.step(action)
             reward = env_response.reward
@@ -85,6 +94,7 @@ class ToolCallingAgent(Agent):
                         {"role": "user", "content": env_response.observation},
                     ]
                 )
+
             if env_response.done:
                 break
         return SolveResult(
