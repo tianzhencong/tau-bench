@@ -20,7 +20,7 @@ class MockCourseDomainEnv(Env):
     ):
         match task_split:
             case "test":
-                from tau_bench.envs.course.tasks import TASKS as tasks
+                from tau_bench.envs.course.tasks_v2 import TASKS as tasks
             case _:
                 raise ValueError(f"Unknown task split: {task_split}")
         super().__init__(
