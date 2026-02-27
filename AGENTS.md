@@ -30,6 +30,9 @@ Both domains (airline and retail) load static JSON data bundled in the package. 
 
 - **Airline**: 300 flights, 2000 reservations, 500 users, 50 test tasks, 14 tools
 - **Retail**: 50 products, 1000 orders, 500 users, 115 test tasks (test split), 16 tools
+- **Hotel**: hotel reservations, rooms, services, 17 tools
+- **Course**: student registrations, courses, departments, 16 tools
+- **Investment**: clients, brokerage/IRA/savings accounts, securities, holdings, orders, 18 tools
 
 ### Caveats
 
