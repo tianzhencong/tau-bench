@@ -1,7 +1,7 @@
 # Copyright Sierra
 
 import json
-import random
+import hashlib
 from typing import Any, Dict
 from tau_bench.envs.tool import Tool
 
@@ -28,8 +28,10 @@ class PlaceBuyOrder(Tool):
         current_price = security["current_price"]
         total_cost = round(quantity * current_price, 2)
 
-        holding_id = f"H{random.randint(100000, 999999)}"
-        order_id = f"ORD{random.randint(100000, 999999)}"
+        det_seed = f"{account_id}_{security_id}_{quantity}"
+        h = hashlib.md5(det_seed.encode()).hexdigest()
+        holding_id = f"H{h[:8].upper()}"
+        order_id = f"ORD{h[8:16].upper()}"
 
         account["cash_balance"] = round(account["cash_balance"] - total_cost, 2)
 

@@ -1,7 +1,7 @@
 # Copyright Sierra
 
 import json
-import random
+import hashlib
 from typing import Any, Dict
 from tau_bench.envs.tool import Tool
 
@@ -42,7 +42,9 @@ class PlaceSellOrder(Tool):
         if holding["quantity"] == 0:
             account["holdings"].pop(holding_index)
 
-        order_id = f"ORD{random.randint(100000, 999999)}"
+        det_seed = f"{account_id}_{holding_id}_{quantity}_sell"
+        h = hashlib.md5(det_seed.encode()).hexdigest()
+        order_id = f"ORD{h[:8].upper()}"
         order = {
             "order_id": order_id,
             "account_id": account_id,
