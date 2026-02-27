@@ -33,6 +33,7 @@ Both domains (airline and retail) load static JSON data bundled in the package. 
 - **Hotel**: hotel reservations, rooms, services, 17 tools
 - **Course**: student registrations, courses, departments, 16 tools
 - **Investment**: clients, brokerage/IRA/savings accounts, securities, holdings, orders, 18 tools
+- **Healthcare**: patients, procedures, specialists, appointments, insurance plans, 17 tools
 
 ### Caveats
 
