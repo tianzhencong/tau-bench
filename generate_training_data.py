@@ -30,7 +30,7 @@ def load_env_components(env_name: str):
     if env_name == "hotel":
         from tau_bench.envs.hotel.data import load_data
         from tau_bench.envs.hotel.tools import ALL_TOOLS
-        from tau_bench.envs.hotel.tasks import TASKS
+        from tau_bench.envs.hotel.tasks_v2 import TASKS
         from tau_bench.envs.hotel.wiki import WIKI
     elif env_name == "airline":
         from tau_bench.envs.airline.data import load_data

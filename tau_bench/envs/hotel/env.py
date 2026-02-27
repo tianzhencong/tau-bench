@@ -20,6 +20,8 @@ class MockHotelDomainEnv(Env):
     ):
         match task_split:
             case "test":
+                from tau_bench.envs.hotel.tasks_v2 import TASKS as tasks
+            case "seed":
                 from tau_bench.envs.hotel.tasks import TASKS as tasks
             case _:
                 raise ValueError(f"Unknown task split: {task_split}")
