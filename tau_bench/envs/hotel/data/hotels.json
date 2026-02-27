@@ -1,0 +1,1832 @@
+{
+  "hotel_001": {
+    "hotel_id": "hotel_001",
+    "name": "Harbor Hotel",
+    "city": "New York",
+    "star_rating": 5,
+    "address": "914 Cedar St",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 172,
+        "max_occupancy": 2,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 310,
+        "max_occupancy": 3,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 702,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1788,
+        "max_occupancy": 4,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_002": {
+    "hotel_id": "hotel_002",
+    "name": "Amber Tower",
+    "city": "Los Angeles",
+    "star_rating": 3,
+    "address": "204 Cedar Dr",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 58,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 143,
+        "max_occupancy": 3,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 286,
+        "max_occupancy": 4,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 368,
+        "max_occupancy": 4,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_003": {
+    "hotel_id": "hotel_003",
+    "name": "Park Palace",
+    "city": "Chicago",
+    "star_rating": 4,
+    "address": "285 Park Ave",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 115,
+        "max_occupancy": 2,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 151,
+        "max_occupancy": 3,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 486,
+        "max_occupancy": 4,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 932,
+        "max_occupancy": 4,
+        "available": 7,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_004": {
+    "hotel_id": "hotel_004",
+    "name": "Crystal Inn",
+    "city": "Houston",
+    "star_rating": 3,
+    "address": "45 Pine Rd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 89,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 168,
+        "max_occupancy": 3,
+        "available": 15,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 257,
+        "max_occupancy": 4,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 539,
+        "max_occupancy": 4,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_005": {
+    "hotel_id": "hotel_005",
+    "name": "Harbor Tower",
+    "city": "Phoenix",
+    "star_rating": 3,
+    "address": "678 Ocean Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 105,
+        "max_occupancy": 2,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 169,
+        "max_occupancy": 3,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 230,
+        "max_occupancy": 4,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 399,
+        "max_occupancy": 4,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_006": {
+    "hotel_id": "hotel_006",
+    "name": "Sunset Suites",
+    "city": "San Francisco",
+    "star_rating": 5,
+    "address": "380 Elm Ave",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 138,
+        "max_occupancy": 2,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 331,
+        "max_occupancy": 3,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 663,
+        "max_occupancy": 4,
+        "available": 15,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1309,
+        "max_occupancy": 4,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_007": {
+    "hotel_id": "hotel_007",
+    "name": "River Inn",
+    "city": "Seattle",
+    "star_rating": 4,
+    "address": "705 Cedar Ave",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 101,
+        "max_occupancy": 2,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 212,
+        "max_occupancy": 3,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 398,
+        "max_occupancy": 4,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 776,
+        "max_occupancy": 4,
+        "available": 12,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_008": {
+    "hotel_id": "hotel_008",
+    "name": "Crystal Hotel",
+    "city": "Miami",
+    "star_rating": 3,
+    "address": "898 Elm Ave",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 58,
+        "max_occupancy": 2,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 161,
+        "max_occupancy": 3,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 243,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 501,
+        "max_occupancy": 4,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_009": {
+    "hotel_id": "hotel_009",
+    "name": "Emerald Tower",
+    "city": "Boston",
+    "star_rating": 5,
+    "address": "270 Maple Dr",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 207,
+        "max_occupancy": 2,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 325,
+        "max_occupancy": 3,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 514,
+        "max_occupancy": 4,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1611,
+        "max_occupancy": 4,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_010": {
+    "hotel_id": "hotel_010",
+    "name": "Golden Suites",
+    "city": "Denver",
+    "star_rating": 3,
+    "address": "643 Park Dr",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 101,
+        "max_occupancy": 2,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 121,
+        "max_occupancy": 3,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 204,
+        "max_occupancy": 4,
+        "available": 15,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 428,
+        "max_occupancy": 4,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_011": {
+    "hotel_id": "hotel_011",
+    "name": "Ivory Inn",
+    "city": "San Diego",
+    "star_rating": 4,
+    "address": "739 Broadway Rd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 128,
+        "max_occupancy": 2,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 269,
+        "max_occupancy": 3,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 344,
+        "max_occupancy": 4,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 511,
+        "max_occupancy": 4,
+        "available": 12,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_012": {
+    "hotel_id": "hotel_012",
+    "name": "River Plaza",
+    "city": "Dallas",
+    "star_rating": 3,
+    "address": "781 Park Rd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 81,
+        "max_occupancy": 2,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 133,
+        "max_occupancy": 3,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 196,
+        "max_occupancy": 4,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 538,
+        "max_occupancy": 4,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_013": {
+    "hotel_id": "hotel_013",
+    "name": "Harbor Lodge",
+    "city": "Atlanta",
+    "star_rating": 5,
+    "address": "977 Cedar St",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 216,
+        "max_occupancy": 2,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 300,
+        "max_occupancy": 3,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 562,
+        "max_occupancy": 4,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 997,
+        "max_occupancy": 4,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_014": {
+    "hotel_id": "hotel_014",
+    "name": "Ivory Plaza",
+    "city": "Las Vegas",
+    "star_rating": 4,
+    "address": "247 Maple St",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 82,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 242,
+        "max_occupancy": 3,
+        "available": 15,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 486,
+        "max_occupancy": 4,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 745,
+        "max_occupancy": 4,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_015": {
+    "hotel_id": "hotel_015",
+    "name": "Sunset Palace",
+    "city": "Orlando",
+    "star_rating": 5,
+    "address": "272 Cedar Rd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 132,
+        "max_occupancy": 2,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 273,
+        "max_occupancy": 3,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 672,
+        "max_occupancy": 4,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1593,
+        "max_occupancy": 4,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_016": {
+    "hotel_id": "hotel_016",
+    "name": "Diamond Suites",
+    "city": "New York",
+    "star_rating": 4,
+    "address": "922 Cedar Dr",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 105,
+        "max_occupancy": 2,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 229,
+        "max_occupancy": 3,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 451,
+        "max_occupancy": 4,
+        "available": 12,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 882,
+        "max_occupancy": 4,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_017": {
+    "hotel_id": "hotel_017",
+    "name": "Harbor Suites",
+    "city": "Los Angeles",
+    "star_rating": 3,
+    "address": "8 Broadway St",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 61,
+        "max_occupancy": 2,
+        "available": 7,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 108,
+        "max_occupancy": 3,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 294,
+        "max_occupancy": 4,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 771,
+        "max_occupancy": 4,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_018": {
+    "hotel_id": "hotel_018",
+    "name": "Park Inn",
+    "city": "Chicago",
+    "star_rating": 3,
+    "address": "136 Maple Rd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 85,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 147,
+        "max_occupancy": 3,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 315,
+        "max_occupancy": 4,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 503,
+        "max_occupancy": 4,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_019": {
+    "hotel_id": "hotel_019",
+    "name": "Emerald Suites",
+    "city": "Houston",
+    "star_rating": 5,
+    "address": "363 Oak Dr",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 210,
+        "max_occupancy": 2,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 381,
+        "max_occupancy": 3,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 456,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1761,
+        "max_occupancy": 4,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_020": {
+    "hotel_id": "hotel_020",
+    "name": "Pearl Hotel",
+    "city": "Phoenix",
+    "star_rating": 5,
+    "address": "197 Ocean Rd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 138,
+        "max_occupancy": 2,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 379,
+        "max_occupancy": 3,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 549,
+        "max_occupancy": 4,
+        "available": 14,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 916,
+        "max_occupancy": 4,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_021": {
+    "hotel_id": "hotel_021",
+    "name": "Pearl Resort",
+    "city": "San Francisco",
+    "star_rating": 4,
+    "address": "52 Cedar St",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 103,
+        "max_occupancy": 2,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 268,
+        "max_occupancy": 3,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 299,
+        "max_occupancy": 4,
+        "available": 9,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1063,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_022": {
+    "hotel_id": "hotel_022",
+    "name": "Ocean Tower",
+    "city": "Seattle",
+    "star_rating": 4,
+    "address": "272 Pine Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 141,
+        "max_occupancy": 2,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 252,
+        "max_occupancy": 3,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 322,
+        "max_occupancy": 4,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 502,
+        "max_occupancy": 4,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_023": {
+    "hotel_id": "hotel_023",
+    "name": "Diamond Gardens",
+    "city": "Miami",
+    "star_rating": 5,
+    "address": "556 Main Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 213,
+        "max_occupancy": 2,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 297,
+        "max_occupancy": 3,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 502,
+        "max_occupancy": 4,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1639,
+        "max_occupancy": 4,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_024": {
+    "hotel_id": "hotel_024",
+    "name": "Royal Hotel",
+    "city": "Boston",
+    "star_rating": 4,
+    "address": "610 Broadway Ave",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 141,
+        "max_occupancy": 2,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 190,
+        "max_occupancy": 3,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 410,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 690,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_025": {
+    "hotel_id": "hotel_025",
+    "name": "Silver Inn",
+    "city": "Denver",
+    "star_rating": 4,
+    "address": "579 Cedar Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 111,
+        "max_occupancy": 2,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 160,
+        "max_occupancy": 3,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 300,
+        "max_occupancy": 4,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1173,
+        "max_occupancy": 4,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_026": {
+    "hotel_id": "hotel_026",
+    "name": "River Suites",
+    "city": "San Diego",
+    "star_rating": 5,
+    "address": "469 Elm St",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 180,
+        "max_occupancy": 2,
+        "available": 5,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 325,
+        "max_occupancy": 3,
+        "available": 8,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 469,
+        "max_occupancy": 4,
+        "available": 12,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1740,
+        "max_occupancy": 4,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_027": {
+    "hotel_id": "hotel_027",
+    "name": "Grand Palace",
+    "city": "Dallas",
+    "star_rating": 4,
+    "address": "901 Ocean Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 92,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 204,
+        "max_occupancy": 3,
+        "available": 10,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 347,
+        "max_occupancy": 4,
+        "available": 4,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 857,
+        "max_occupancy": 4,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_028": {
+    "hotel_id": "hotel_028",
+    "name": "Lake Resort",
+    "city": "Atlanta",
+    "star_rating": 4,
+    "address": "684 Cedar Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 149,
+        "max_occupancy": 2,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 227,
+        "max_occupancy": 3,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 486,
+        "max_occupancy": 4,
+        "available": 12,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 1041,
+        "max_occupancy": 4,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_029": {
+    "hotel_id": "hotel_029",
+    "name": "Harbor Resort",
+    "city": "Las Vegas",
+    "star_rating": 4,
+    "address": "352 Ocean Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 94,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 189,
+        "max_occupancy": 3,
+        "available": 6,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 352,
+        "max_occupancy": 4,
+        "available": 11,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 715,
+        "max_occupancy": 4,
+        "available": 13,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  },
+  "hotel_030": {
+    "hotel_id": "hotel_030",
+    "name": "Sapphire Palace",
+    "city": "Orlando",
+    "star_rating": 4,
+    "address": "790 Park Blvd",
+    "rooms": {
+      "standard": {
+        "nightly_rate": 86,
+        "max_occupancy": 2,
+        "available": 3,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning"
+        ]
+      },
+      "deluxe": {
+        "nightly_rate": 258,
+        "max_occupancy": 3,
+        "available": 15,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view"
+        ]
+      },
+      "suite": {
+        "nightly_rate": 350,
+        "max_occupancy": 4,
+        "available": 2,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "city_view",
+          "living_room",
+          "bathtub"
+        ]
+      },
+      "presidential_suite": {
+        "nightly_rate": 503,
+        "max_occupancy": 4,
+        "available": 7,
+        "amenities": [
+          "wifi",
+          "tv",
+          "air_conditioning",
+          "mini_bar",
+          "panoramic_view",
+          "living_room",
+          "bathtub",
+          "kitchen",
+          "butler_service"
+        ]
+      }
+    }
+  }
+}
