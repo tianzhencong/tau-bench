@@ -1,0 +1,7639 @@
+{
+  "S10000": {
+    "student_id": "S10000",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Thompson"
+    },
+    "email": "sofia.thompson72@university.edu",
+    "dob": "2000-11-23",
+    "major": "Sociology",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9531021",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1298"
+      },
+      {
+        "payment_id": "student_account_S10000",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_324597",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGQF5E8OS",
+      "REGAIH7WFR"
+    ]
+  },
+  "S10001": {
+    "student_id": "S10001",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Rodriguez"
+    },
+    "email": "joseph.rodriguez29@university.edu",
+    "dob": "2000-02-10",
+    "major": "Statistics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9833734",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6517"
+      },
+      {
+        "payment_id": "student_account_S10001",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGBGR8W2M"
+    ]
+  },
+  "S10002": {
+    "student_id": "S10002",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Wang"
+    },
+    "email": "barbara.wang67@university.edu",
+    "dob": "2000-12-15",
+    "major": "Sociology",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7111929",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8277"
+      },
+      {
+        "payment_id": "student_account_S10002",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGQVAYXAR",
+      "REG08TV4RE",
+      "REGRT28P6U",
+      "REG77Z4ES3",
+      "REGRPRDVVK",
+      "REG29AW4IO",
+      "REG9XXLB57"
+    ]
+  },
+  "S10003": {
+    "student_id": "S10003",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "Taylor"
+    },
+    "email": "joshua.taylor71@student.edu",
+    "dob": "2002-08-27",
+    "major": "Music",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8391997",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5616"
+      },
+      {
+        "payment_id": "student_account_S10003",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "PSYC120",
+      "HIST110",
+      "CS201",
+      "CS120",
+      "BIO201",
+      "PSYC220"
+    ],
+    "registrations": [
+      "REG0RA6WIX",
+      "REGNVCEQFG",
+      "REGDS03VNA",
+      "REGPSALDNJ"
+    ]
+  },
+  "S10004": {
+    "student_id": "S10004",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Miller"
+    },
+    "email": "kimberly.miller21@university.edu",
+    "dob": "2006-02-10",
+    "major": "English",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5576678",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9410"
+      },
+      {
+        "payment_id": "student_account_S10004",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGLC33H8G"
+    ]
+  },
+  "S10005": {
+    "student_id": "S10005",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Walker"
+    },
+    "email": "emma.walker57@university.edu",
+    "dob": "2003-01-14",
+    "major": "Philosophy",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9422281",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4862"
+      },
+      {
+        "payment_id": "student_account_S10005",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGAOY7RP0",
+      "REGMXD6LQG"
+    ]
+  },
+  "S10006": {
+    "student_id": "S10006",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Perez"
+    },
+    "email": "mary.perez77@student.edu",
+    "dob": "1999-12-21",
+    "major": "Biology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3308538",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5700"
+      },
+      {
+        "payment_id": "student_account_S10006",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "HIST321",
+      "ENGR201",
+      "POLS120",
+      "EDUC111",
+      "CS120",
+      "BIO110",
+      "PSYC300",
+      "BUS211",
+      "HIST110"
+    ],
+    "registrations": [
+      "REGTLVR7MG",
+      "REGYMMQ8Q6",
+      "REG71A57E8"
+    ]
+  },
+  "S10007": {
+    "student_id": "S10007",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Chen"
+    },
+    "email": "linda.chen78@university.edu",
+    "dob": "2002-04-10",
+    "major": "Mathematics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5000351",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8489"
+      },
+      {
+        "payment_id": "student_account_S10007",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_624108",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGSLAYM0W",
+      "REG2UGL6TB",
+      "REG68AU9DK",
+      "REGM21B07G",
+      "REGD4P7PP4"
+    ]
+  },
+  "S10008": {
+    "student_id": "S10008",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Wright"
+    },
+    "email": "raj.wright70@university.edu",
+    "dob": "2001-12-05",
+    "major": "Sociology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1026245",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4941"
+      },
+      {
+        "payment_id": "student_account_S10008",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_800674",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "BUS111",
+      "CS400",
+      "CHEM300",
+      "BUS211",
+      "EDUC111",
+      "BIO301"
+    ],
+    "registrations": [
+      "REGAR0ZJ7U",
+      "REGBA5MF36",
+      "REGOC1YFMH",
+      "REGPQ0HZYJ"
+    ]
+  },
+  "S10009": {
+    "student_id": "S10009",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Sanchez"
+    },
+    "email": "raj.sanchez52@university.edu",
+    "dob": "2003-05-24",
+    "major": "Music",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2133461",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4950"
+      },
+      {
+        "payment_id": "student_account_S10009",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGGI3QUPX",
+      "REGAWO778S",
+      "REG50N97CJ"
+    ]
+  },
+  "S10010": {
+    "student_id": "S10010",
+    "name": {
+      "first_name": "John",
+      "last_name": "White"
+    },
+    "email": "john.white75@student.edu",
+    "dob": "2006-06-27",
+    "major": "Political Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9028420",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3209"
+      },
+      {
+        "payment_id": "student_account_S10010",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "PSYC120",
+      "PHIL120",
+      "MATH420",
+      "CHEM300",
+      "HIST221",
+      "SOC111"
+    ],
+    "registrations": [
+      "REGRNR2KYB"
+    ]
+  },
+  "S10011": {
+    "student_id": "S10011",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Torres"
+    },
+    "email": "emma.torres76@student.edu",
+    "dob": "2005-05-02",
+    "major": "Business",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6989032",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6438"
+      },
+      {
+        "payment_id": "student_account_S10011",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_485896",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "ENG320",
+      "ECON200",
+      "MATH200",
+      "ART110",
+      "MATH300",
+      "CS300"
+    ],
+    "registrations": [
+      "REGQZRWJXL",
+      "REGCBEKGV1",
+      "REGSAVOCIR",
+      "REGL2L5B56"
+    ]
+  },
+  "S10012": {
+    "student_id": "S10012",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Garcia"
+    },
+    "email": "lucas.garcia15@campus.edu",
+    "dob": "2004-02-14",
+    "major": "Linguistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5928582",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2680"
+      },
+      {
+        "payment_id": "student_account_S10012",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_410000",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "PHIL201",
+      "ECON110",
+      "ART110",
+      "BUS301",
+      "PHYS221",
+      "CHEM211"
+    ],
+    "registrations": [
+      "REG1J5EWFW"
+    ]
+  },
+  "S10013": {
+    "student_id": "S10013",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "White"
+    },
+    "email": "liam.white28@campus.edu",
+    "dob": "2004-05-21",
+    "major": "Physics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7815076",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9406"
+      },
+      {
+        "payment_id": "student_account_S10013",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGIIOH6CV",
+      "REG8SXFI3U",
+      "REGBVN7NPR"
+    ]
+  },
+  "S10014": {
+    "student_id": "S10014",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Patel"
+    },
+    "email": "yuki.patel96@student.edu",
+    "dob": "2005-01-05",
+    "major": "Psychology",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7145971",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7272"
+      },
+      {
+        "payment_id": "student_account_S10014",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGTLT4Q9B",
+      "REGDLOGWLA",
+      "REG052U9AZ"
+    ]
+  },
+  "S10015": {
+    "student_id": "S10015",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Harris"
+    },
+    "email": "betty.harris43@campus.edu",
+    "dob": "2005-02-19",
+    "major": "Statistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7156398",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6150"
+      },
+      {
+        "payment_id": "student_account_S10015",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_218959",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "BUS211",
+      "PHYS101",
+      "CS120"
+    ],
+    "registrations": [
+      "REGH9VGKY5"
+    ]
+  },
+  "S10016": {
+    "student_id": "S10016",
+    "name": {
+      "first_name": "Steven",
+      "last_name": "Anderson"
+    },
+    "email": "steven.anderson80@campus.edu",
+    "dob": "2002-12-16",
+    "major": "Chemistry",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3277144",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8406"
+      },
+      {
+        "payment_id": "student_account_S10016",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "NURS101",
+      "HIST221",
+      "MUS220",
+      "PHYS221",
+      "ART221",
+      "MATH100"
+    ],
+    "registrations": []
+  },
+  "S10017": {
+    "student_id": "S10017",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Lee"
+    },
+    "email": "christopher.lee80@university.edu",
+    "dob": "2000-12-23",
+    "major": "Music",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9535505",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2988"
+      },
+      {
+        "payment_id": "student_account_S10017",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "CS300",
+      "BUS211",
+      "LING121",
+      "ENG111"
+    ],
+    "registrations": [
+      "REG0Y4IO9P",
+      "REG72QLGDV",
+      "REGO8I5JWK",
+      "REGSZRK6IL",
+      "REGLDT8BEM",
+      "REG9QDI3G1",
+      "REGFLTQ680"
+    ]
+  },
+  "S10018": {
+    "student_id": "S10018",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Garcia"
+    },
+    "email": "melissa.garcia17@university.edu",
+    "dob": "1999-05-13",
+    "major": "Statistics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7891998",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2208"
+      },
+      {
+        "payment_id": "student_account_S10018",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "NURS101",
+      "CS621",
+      "PHYS221",
+      "CS201",
+      "BUS211",
+      "POLS221",
+      "CHEM121",
+      "ECON200",
+      "CHEM211",
+      "PHIL201",
+      "CS400"
+    ],
+    "registrations": [
+      "REGZNA8NZX",
+      "REGE2XE0JD"
+    ]
+  },
+  "S10019": {
+    "student_id": "S10019",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Martinez"
+    },
+    "email": "ashley.martinez31@campus.edu",
+    "dob": "2002-03-06",
+    "major": "Psychology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6805303",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2292"
+      },
+      {
+        "payment_id": "student_account_S10019",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_677599",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "BUS111",
+      "POLS120",
+      "CS400",
+      "PSYC220",
+      "ECON110",
+      "CHEM121",
+      "ART110",
+      "PSYC300"
+    ],
+    "registrations": [
+      "REGMXIKVRE"
+    ]
+  },
+  "S10020": {
+    "student_id": "S10020",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Carter"
+    },
+    "email": "melissa.carter13@student.edu",
+    "dob": "2003-10-02",
+    "major": "Physics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1762722",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4453"
+      },
+      {
+        "payment_id": "student_account_S10020",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGDPDXUJJ",
+      "REGDAA1FWT"
+    ]
+  },
+  "S10021": {
+    "student_id": "S10021",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Nelson"
+    },
+    "email": "ava.nelson26@student.edu",
+    "dob": "2006-05-21",
+    "major": "Engineering",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5108369",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5873"
+      },
+      {
+        "payment_id": "student_account_S10021",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_162823",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "ENG111",
+      "BIO110",
+      "ENG320",
+      "HIST110",
+      "PSYC300",
+      "HIST221",
+      "ART110",
+      "PHYS221",
+      "PHYS300"
+    ],
+    "registrations": [
+      "REGRGB93WK",
+      "REG271W1WU",
+      "REGL5U7NTE",
+      "REGVPF8R1P",
+      "REG4EYQ1S4"
+    ]
+  },
+  "S10022": {
+    "student_id": "S10022",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Nguyen"
+    },
+    "email": "andrew.nguyen21@student.edu",
+    "dob": "1999-06-08",
+    "major": "Chemistry",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5487430",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5061"
+      },
+      {
+        "payment_id": "student_account_S10022",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_404309",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "HIST221",
+      "LING121",
+      "CHEM211",
+      "CHEM300",
+      "PSYC120",
+      "MATH420",
+      "MATH200",
+      "CS400",
+      "ENG111",
+      "MUS220",
+      "SOC111",
+      "HIST321",
+      "EDUC111"
+    ],
+    "registrations": [
+      "REGKVG019Y",
+      "REGHQRGREW",
+      "REGCOCO2ZT"
+    ]
+  },
+  "S10023": {
+    "student_id": "S10023",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Young"
+    },
+    "email": "andrew.young82@campus.edu",
+    "dob": "2001-04-19",
+    "major": "Mathematics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1847927",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9108"
+      },
+      {
+        "payment_id": "student_account_S10023",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_108574",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "CHEM211",
+      "CS300",
+      "PHYS300",
+      "CHEM300",
+      "PHIL120",
+      "MATH300",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGDNHQNJV"
+    ]
+  },
+  "S10024": {
+    "student_id": "S10024",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Harris"
+    },
+    "email": "richard.harris70@campus.edu",
+    "dob": "2006-05-03",
+    "major": "Statistics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8555692",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2946"
+      },
+      {
+        "payment_id": "student_account_S10024",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "ENG320",
+      "BUS211",
+      "CS300",
+      "PSYC300",
+      "PSYC120",
+      "HIST110",
+      "CS400",
+      "PHYS300",
+      "NURS101",
+      "PHIL120",
+      "POLS221",
+      "HIST321",
+      "CS201",
+      "MATH420"
+    ],
+    "registrations": [
+      "REGQ6DG8NK",
+      "REGNXNPSV8",
+      "REGG7JVDIK",
+      "REGU8NOZEM"
+    ]
+  },
+  "S10025": {
+    "student_id": "S10025",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Martinez"
+    },
+    "email": "michelle.martinez13@campus.edu",
+    "dob": "2006-03-11",
+    "major": "English",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7592683",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6511"
+      },
+      {
+        "payment_id": "student_account_S10025",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "EDUC111",
+      "CS300",
+      "ENG320",
+      "NURS101",
+      "PHYS101",
+      "ENG201",
+      "CHEM121",
+      "SOC111",
+      "POLS221"
+    ],
+    "registrations": [
+      "REGTM4VXJJ",
+      "REG90SPO3Z",
+      "REGK1DJRWE",
+      "REGZV9NOU3",
+      "REGCHRM3WP"
+    ]
+  },
+  "S10026": {
+    "student_id": "S10026",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Moore"
+    },
+    "email": "paul.moore27@campus.edu",
+    "dob": "2001-12-02",
+    "major": "English",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9795159",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3421"
+      },
+      {
+        "payment_id": "student_account_S10026",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_834549",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "HIST221",
+      "ENG201",
+      "PSYC300",
+      "CHEM300",
+      "ART110",
+      "BIO110",
+      "CHEM211",
+      "CS400",
+      "HIST321",
+      "CS520",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGFPY1AEL"
+    ]
+  },
+  "S10027": {
+    "student_id": "S10027",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Nguyen"
+    },
+    "email": "susan.nguyen71@student.edu",
+    "dob": "2003-11-16",
+    "major": "Art",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3905518",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9734"
+      },
+      {
+        "payment_id": "student_account_S10027",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "PSYC120",
+      "STAT111",
+      "MUS120",
+      "BUS211",
+      "SOC111",
+      "MATH521",
+      "ART221",
+      "ENGR100",
+      "BIO110",
+      "MATH200",
+      "HIST221"
+    ],
+    "registrations": [
+      "REGHZPQVJL",
+      "REGCPY8UDQ",
+      "REGKY8RYOZ",
+      "REGROB7I77"
+    ]
+  },
+  "S10028": {
+    "student_id": "S10028",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Patel"
+    },
+    "email": "kimberly.patel41@university.edu",
+    "dob": "2002-05-04",
+    "major": "Philosophy",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6790398",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5758"
+      },
+      {
+        "payment_id": "student_account_S10028",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_848831",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "CS120",
+      "MATH300",
+      "CS520",
+      "BIO110",
+      "PSYC120",
+      "BUS111",
+      "MUS120",
+      "BUS211",
+      "NURS101",
+      "CS201",
+      "STAT200",
+      "CHEM121",
+      "STAT111"
+    ],
+    "registrations": [
+      "REGOVTRPYX",
+      "REGMZ6146V",
+      "REGU47SOCZ",
+      "REGQIV929S"
+    ]
+  },
+  "S10029": {
+    "student_id": "S10029",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Scott"
+    },
+    "email": "wei.scott27@university.edu",
+    "dob": "2001-11-08",
+    "major": "Chemistry",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7934046",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8739"
+      },
+      {
+        "payment_id": "student_account_S10029",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG4MNTFVG",
+      "REGA8JX54P"
+    ]
+  },
+  "S10030": {
+    "student_id": "S10030",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Hernandez"
+    },
+    "email": "kimberly.hernandez73@university.edu",
+    "dob": "2004-11-16",
+    "major": "History",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5819172",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5676"
+      },
+      {
+        "payment_id": "student_account_S10030",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "BUS111",
+      "MATH300",
+      "CHEM211",
+      "PHIL120",
+      "ECON200",
+      "ENG201",
+      "ART221",
+      "CHEM300",
+      "PHYS300"
+    ],
+    "registrations": [
+      "REGVNRPJY9",
+      "REGP3HBRBJ",
+      "REG9ARYEAV"
+    ]
+  },
+  "S10031": {
+    "student_id": "S10031",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Roberts"
+    },
+    "email": "zara.roberts68@campus.edu",
+    "dob": "2002-01-01",
+    "major": "Nursing",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2800206",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5662"
+      },
+      {
+        "payment_id": "student_account_S10031",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS400",
+      "ENG111",
+      "MUS120",
+      "PSYC120",
+      "PHYS101",
+      "ENG320",
+      "ECON110"
+    ],
+    "registrations": [
+      "REG1JRJ5XF"
+    ]
+  },
+  "S10032": {
+    "student_id": "S10032",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Mitchell"
+    },
+    "email": "thomas.mitchell40@student.edu",
+    "dob": "2000-01-24",
+    "major": "Business",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4240708",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7643"
+      },
+      {
+        "payment_id": "student_account_S10032",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "STAT200",
+      "ECON200",
+      "CS201",
+      "CS520",
+      "HIST221",
+      "STAT111",
+      "ENGR201",
+      "CS120",
+      "BIO301"
+    ],
+    "registrations": [
+      "REGRTXUYUC",
+      "REGWCR8B97",
+      "REGGK38VHM",
+      "REG7WKR1TF",
+      "REGLW3JGEQ",
+      "REGT8YDR3U",
+      "REGQY2656A"
+    ]
+  },
+  "S10033": {
+    "student_id": "S10033",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Jackson"
+    },
+    "email": "hiroshi.jackson30@student.edu",
+    "dob": "2003-05-19",
+    "major": "Economics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7032283",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2017"
+      },
+      {
+        "payment_id": "student_account_S10033",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG5LL1D9S",
+      "REG3ZYT91Q",
+      "REGRLQMN44",
+      "REG2TNXHN5",
+      "REG9JJ0076"
+    ]
+  },
+  "S10034": {
+    "student_id": "S10034",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Wright"
+    },
+    "email": "yuki.wright77@student.edu",
+    "dob": "2002-12-04",
+    "major": "Music",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4705235",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3188"
+      },
+      {
+        "payment_id": "student_account_S10034",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_884056",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "BUS211",
+      "CS520",
+      "BUS111",
+      "MUS220",
+      "BIO110",
+      "STAT111",
+      "NURS101",
+      "HIST110",
+      "POLS120"
+    ],
+    "registrations": [
+      "REGJ1GNFIU"
+    ]
+  },
+  "S10035": {
+    "student_id": "S10035",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Mitchell"
+    },
+    "email": "ashley.mitchell66@university.edu",
+    "dob": "2003-02-19",
+    "major": "Mathematics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9480665",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9792"
+      },
+      {
+        "payment_id": "student_account_S10035",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_995993",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG4IHGJD3",
+      "REGYO2TLA2",
+      "REG2A2T34D",
+      "REGRED6M42",
+      "REG1JQBEXG",
+      "REGB4IBHIF"
+    ]
+  },
+  "S10036": {
+    "student_id": "S10036",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Anderson"
+    },
+    "email": "yuki.anderson64@student.edu",
+    "dob": "2005-02-17",
+    "major": "Mathematics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8607331",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9409"
+      },
+      {
+        "payment_id": "student_account_S10036",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "NURS101",
+      "SOC111",
+      "CHEM211",
+      "EDUC111",
+      "PHYS300",
+      "CS120",
+      "ENGR201",
+      "BIO110",
+      "CHEM121",
+      "MATH100",
+      "PHIL120"
+    ],
+    "registrations": [
+      "REG403NJBC",
+      "REG64SKTE0",
+      "REG2K2P3AJ"
+    ]
+  },
+  "S10037": {
+    "student_id": "S10037",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Jones"
+    },
+    "email": "omar.jones32@campus.edu",
+    "dob": "2006-01-03",
+    "major": "Mathematics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5816582",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3948"
+      },
+      {
+        "payment_id": "student_account_S10037",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "BUS301",
+      "BIO301",
+      "CHEM300",
+      "POLS120",
+      "NURS101",
+      "MUS220",
+      "BUS111",
+      "CS201",
+      "PSYC220",
+      "PHYS221",
+      "PHYS101"
+    ],
+    "registrations": [
+      "REGLZRK79U",
+      "REGPHH30GG"
+    ]
+  },
+  "S10038": {
+    "student_id": "S10038",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Scott"
+    },
+    "email": "emily.scott39@university.edu",
+    "dob": "2000-12-08",
+    "major": "Computer Science",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6005700",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9920"
+      },
+      {
+        "payment_id": "student_account_S10038",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG91F4X2B",
+      "REGRWSKP6R",
+      "REGRNJ6225",
+      "REGKQ5C903"
+    ]
+  },
+  "S10039": {
+    "student_id": "S10039",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "White"
+    },
+    "email": "michelle.white67@campus.edu",
+    "dob": "2000-05-07",
+    "major": "Mathematics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8033690",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4943"
+      },
+      {
+        "payment_id": "student_account_S10039",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_722795",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGWFTGGZ6",
+      "REG6GMDRDS",
+      "REGB71GHLU"
+    ]
+  },
+  "S10040": {
+    "student_id": "S10040",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Mitchell"
+    },
+    "email": "yuki.mitchell17@university.edu",
+    "dob": "1998-04-24",
+    "major": "Philosophy",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8364573",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9843"
+      },
+      {
+        "payment_id": "student_account_S10040",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGZWDZ09W",
+      "REGQ8STZQB",
+      "REG7P7O0OL",
+      "REGL8MWOB4",
+      "REGOF3138I"
+    ]
+  },
+  "S10041": {
+    "student_id": "S10041",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Martin"
+    },
+    "email": "andrew.martin73@university.edu",
+    "dob": "2001-12-19",
+    "major": "Nursing",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6379867",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5944"
+      },
+      {
+        "payment_id": "student_account_S10041",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "MUS120",
+      "BIO201",
+      "BUS211",
+      "CHEM121",
+      "ECON200",
+      "POLS221",
+      "NURS101",
+      "PHIL201",
+      "MATH300"
+    ],
+    "registrations": [
+      "REGBUVLDD9",
+      "REG8AV2OSG",
+      "REGGSF3YN7"
+    ]
+  },
+  "S10042": {
+    "student_id": "S10042",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Baker"
+    },
+    "email": "matthew.baker42@university.edu",
+    "dob": "2004-09-11",
+    "major": "Sociology",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3503456",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7167"
+      },
+      {
+        "payment_id": "student_account_S10042",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "MATH521",
+      "SOC111",
+      "ART221",
+      "PSYC300",
+      "ENG111",
+      "BIO201",
+      "BUS211",
+      "ENG201",
+      "MUS220",
+      "NURS101",
+      "CS621",
+      "CS201",
+      "BIO301",
+      "STAT111"
+    ],
+    "registrations": [
+      "REG341ONX0",
+      "REGSFR5HGQ",
+      "REGL88L12Q"
+    ]
+  },
+  "S10043": {
+    "student_id": "S10043",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Baker"
+    },
+    "email": "nancy.baker71@university.edu",
+    "dob": "1999-08-28",
+    "major": "Physics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9986473",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1844"
+      },
+      {
+        "payment_id": "student_account_S10043",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_734356",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "CHEM300",
+      "CHEM121",
+      "CHEM211",
+      "MUS220",
+      "BUS211",
+      "BIO110"
+    ],
+    "registrations": [
+      "REGHEYCE4Q",
+      "REG8KIXCCS"
+    ]
+  },
+  "S10044": {
+    "student_id": "S10044",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Thompson"
+    },
+    "email": "liam.thompson43@student.edu",
+    "dob": "2002-01-07",
+    "major": "Chemistry",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9034958",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4350"
+      },
+      {
+        "payment_id": "student_account_S10044",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "ENG111",
+      "BUS111",
+      "PSYC220",
+      "PHYS221",
+      "SOC111"
+    ],
+    "registrations": [
+      "REGMYFP9S8",
+      "REGQKBE0TO",
+      "REG4LN5RGS",
+      "REGALL2UNC"
+    ]
+  },
+  "S10045": {
+    "student_id": "S10045",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "King"
+    },
+    "email": "andrew.king73@campus.edu",
+    "dob": "2005-02-26",
+    "major": "Art",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4407913",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6126"
+      },
+      {
+        "payment_id": "student_account_S10045",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_332022",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "MATH420",
+      "CHEM211",
+      "ENG201",
+      "ENGR100",
+      "PSYC300",
+      "PSYC120",
+      "ENG320",
+      "MATH521",
+      "BIO301",
+      "LING121",
+      "STAT111"
+    ],
+    "registrations": [
+      "REGMTS1EGP",
+      "REGHP6WQFK",
+      "REGTIO1K7F"
+    ]
+  },
+  "S10046": {
+    "student_id": "S10046",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Rivera"
+    },
+    "email": "mei.rivera11@university.edu",
+    "dob": "2003-05-25",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8731427",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6770"
+      },
+      {
+        "payment_id": "student_account_S10046",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_673095",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "BIO201",
+      "CS621",
+      "PHIL120",
+      "MATH100",
+      "MUS220",
+      "MATH420",
+      "ENGR201",
+      "ENG201",
+      "CS201",
+      "POLS221",
+      "MATH521",
+      "CHEM211",
+      "PSYC300"
+    ],
+    "registrations": [
+      "REG7JYGSBO",
+      "REGG1YD5MY",
+      "REGT00IV1G"
+    ]
+  },
+  "S10047": {
+    "student_id": "S10047",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Young"
+    },
+    "email": "andrew.young42@student.edu",
+    "dob": "2003-01-20",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1263935",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9719"
+      },
+      {
+        "payment_id": "student_account_S10047",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_655134",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "ART110",
+      "NURS101",
+      "PHIL201",
+      "ECON200",
+      "STAT200",
+      "ART221",
+      "CS621",
+      "PSYC300",
+      "STAT111",
+      "PSYC120",
+      "HIST321",
+      "CHEM300"
+    ],
+    "registrations": [
+      "REG3X8MBGL"
+    ]
+  },
+  "S10048": {
+    "student_id": "S10048",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Patel"
+    },
+    "email": "sarah.patel92@student.edu",
+    "dob": "2004-02-12",
+    "major": "Political Science",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5080351",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5914"
+      },
+      {
+        "payment_id": "student_account_S10048",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "MATH420",
+      "BUS211",
+      "CS520",
+      "BIO201",
+      "POLS221",
+      "ENGR201",
+      "ECON110",
+      "POLS120",
+      "MATH200",
+      "PHIL201"
+    ],
+    "registrations": [
+      "REGKODYR5P",
+      "REGK2O7FHS",
+      "REGEUGWUBU",
+      "REG7GKL53Y",
+      "REGBADLYPG"
+    ]
+  },
+  "S10049": {
+    "student_id": "S10049",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Zhang"
+    },
+    "email": "kevin.zhang36@campus.edu",
+    "dob": "1999-09-02",
+    "major": "History",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8977571",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1762"
+      },
+      {
+        "payment_id": "student_account_S10049",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "MUS220",
+      "PHIL120",
+      "ECON200",
+      "HIST221",
+      "EDUC111"
+    ],
+    "registrations": [
+      "REGRR7MZAK",
+      "REGSDUHH03",
+      "REGP4CWCDT"
+    ]
+  },
+  "S10050": {
+    "student_id": "S10050",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Kim"
+    },
+    "email": "elizabeth.kim65@university.edu",
+    "dob": "2004-02-10",
+    "major": "Nursing",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5034453",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9856"
+      },
+      {
+        "payment_id": "student_account_S10050",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_875679",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "PHYS221",
+      "BIO201",
+      "STAT200"
+    ],
+    "registrations": [
+      "REG9P1EARP",
+      "REG6ZU1TOZ",
+      "REGUTOTHLQ",
+      "REGGWY7D78"
+    ]
+  },
+  "S10051": {
+    "student_id": "S10051",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Jones"
+    },
+    "email": "noah.jones59@student.edu",
+    "dob": "2003-10-25",
+    "major": "Art",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1497036",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8381"
+      },
+      {
+        "payment_id": "student_account_S10051",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_679902",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "MUS220",
+      "BIO301",
+      "POLS120",
+      "HIST321",
+      "ENGR100",
+      "STAT111",
+      "MATH100",
+      "CHEM211",
+      "MUS120",
+      "PSYC300",
+      "MATH300",
+      "ART221"
+    ],
+    "registrations": [
+      "REGZ906GNH",
+      "REGFFZ8Q4V",
+      "REG5L3XFUL",
+      "REGNKKUO4J"
+    ]
+  },
+  "S10052": {
+    "student_id": "S10052",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Miller"
+    },
+    "email": "betty.miller11@student.edu",
+    "dob": "1999-01-10",
+    "major": "Music",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5525929",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3170"
+      },
+      {
+        "payment_id": "student_account_S10052",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_570646",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "POLS120",
+      "PHYS221",
+      "BUS211",
+      "MATH420",
+      "HIST110",
+      "ART221",
+      "HIST221",
+      "BIO301"
+    ],
+    "registrations": [
+      "REGV283BDW",
+      "REGRLC0Y0B",
+      "REG8Y1HEND"
+    ]
+  },
+  "S10053": {
+    "student_id": "S10053",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Sanchez"
+    },
+    "email": "mark.sanchez19@student.edu",
+    "dob": "1999-12-18",
+    "major": "Nursing",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9742683",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7237"
+      },
+      {
+        "payment_id": "student_account_S10053",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_415759",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "PHIL201",
+      "MUS120",
+      "ENG201",
+      "SOC111",
+      "CS520"
+    ],
+    "registrations": [
+      "REGPVA5KW3",
+      "REGVZ9AAWE",
+      "REGYTK1ZWU"
+    ]
+  },
+  "S10054": {
+    "student_id": "S10054",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Taylor"
+    },
+    "email": "thomas.taylor27@student.edu",
+    "dob": "2005-10-20",
+    "major": "Political Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2794698",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5991"
+      },
+      {
+        "payment_id": "student_account_S10054",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "ENG320",
+      "BUS301",
+      "PHIL201",
+      "PSYC220",
+      "HIST110"
+    ],
+    "registrations": [
+      "REG5B4L6HF"
+    ]
+  },
+  "S10055": {
+    "student_id": "S10055",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Green"
+    },
+    "email": "daniel.green80@university.edu",
+    "dob": "2001-08-11",
+    "major": "Philosophy",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6354241",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9044"
+      },
+      {
+        "payment_id": "student_account_S10055",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_393916",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "PSYC120",
+      "CHEM121",
+      "BUS111",
+      "ECON200",
+      "NURS101"
+    ],
+    "registrations": [
+      "REG17UXHVD",
+      "REGBWU5JSL"
+    ]
+  },
+  "S10056": {
+    "student_id": "S10056",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Young"
+    },
+    "email": "chen.young14@student.edu",
+    "dob": "2001-08-26",
+    "major": "Physics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7864256",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3280"
+      },
+      {
+        "payment_id": "student_account_S10056",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_790658",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "BUS301",
+      "HIST110",
+      "CS520",
+      "CHEM121",
+      "PHYS300",
+      "BUS111",
+      "CS400",
+      "ENG201",
+      "ART110"
+    ],
+    "registrations": []
+  },
+  "S10057": {
+    "student_id": "S10057",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Singh"
+    },
+    "email": "omar.singh92@campus.edu",
+    "dob": "2006-10-21",
+    "major": "Chemistry",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5164624",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3725"
+      },
+      {
+        "payment_id": "student_account_S10057",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGSZJ4KJE",
+      "REGABTD5OA",
+      "REG7YYZ6R9",
+      "REGUA3AIPJ"
+    ]
+  },
+  "S10058": {
+    "student_id": "S10058",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Clark"
+    },
+    "email": "mei.clark60@student.edu",
+    "dob": "2003-07-04",
+    "major": "Chemistry",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5340909",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9366"
+      },
+      {
+        "payment_id": "student_account_S10058",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGFQ2BHAI",
+      "REG31AX985",
+      "REG0DRIMR2",
+      "REGM2Z682U"
+    ]
+  },
+  "S10059": {
+    "student_id": "S10059",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "Rivera"
+    },
+    "email": "priya.rivera54@student.edu",
+    "dob": "2006-03-12",
+    "major": "Engineering",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2754047",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7815"
+      },
+      {
+        "payment_id": "student_account_S10059",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_865618",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGK7MDWKZ",
+      "REG600X28P"
+    ]
+  },
+  "S10060": {
+    "student_id": "S10060",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Young"
+    },
+    "email": "nancy.young52@campus.edu",
+    "dob": "2001-09-16",
+    "major": "Engineering",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2637842",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8412"
+      },
+      {
+        "payment_id": "student_account_S10060",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_146853",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "STAT200",
+      "NURS101",
+      "ECON110",
+      "STAT111",
+      "CS621",
+      "ECON200",
+      "BUS211",
+      "MATH300"
+    ],
+    "registrations": []
+  },
+  "S10061": {
+    "student_id": "S10061",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Young"
+    },
+    "email": "donna.young83@university.edu",
+    "dob": "2001-07-21",
+    "major": "English",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8250013",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1478"
+      },
+      {
+        "payment_id": "student_account_S10061",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "ART221",
+      "BIO110",
+      "CHEM300",
+      "MUS120",
+      "MATH420",
+      "MATH100"
+    ],
+    "registrations": []
+  },
+  "S10062": {
+    "student_id": "S10062",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Torres"
+    },
+    "email": "lucas.torres48@campus.edu",
+    "dob": "2000-06-11",
+    "major": "Political Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2911847",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9019"
+      },
+      {
+        "payment_id": "student_account_S10062",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "PHYS221",
+      "MATH420",
+      "ENG111",
+      "HIST321",
+      "ECON200",
+      "NURS101"
+    ],
+    "registrations": [
+      "REGOQ59B9C",
+      "REG1RD1ZM4",
+      "REGSIWMZAP"
+    ]
+  },
+  "S10063": {
+    "student_id": "S10063",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Garcia"
+    },
+    "email": "amanda.garcia78@campus.edu",
+    "dob": "2000-06-04",
+    "major": "Business",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2962077",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7116"
+      },
+      {
+        "payment_id": "student_account_S10063",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "LING121",
+      "BIO301",
+      "PHIL201",
+      "ECON200",
+      "MATH200",
+      "POLS221"
+    ],
+    "registrations": [
+      "REGS5HRQAP",
+      "REGXH9A1G7"
+    ]
+  },
+  "S10064": {
+    "student_id": "S10064",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Baker"
+    },
+    "email": "mia.baker72@university.edu",
+    "dob": "2000-09-06",
+    "major": "Business",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3353785",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6154"
+      },
+      {
+        "payment_id": "student_account_S10064",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS201",
+      "PSYC120",
+      "BIO301",
+      "BUS211",
+      "CS400",
+      "PSYC220",
+      "MATH200",
+      "ENG201",
+      "NURS101",
+      "MUS220",
+      "BUS301"
+    ],
+    "registrations": [
+      "REG6978V0B",
+      "REGA8D7204"
+    ]
+  },
+  "S10065": {
+    "student_id": "S10065",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Hill"
+    },
+    "email": "jennifer.hill73@campus.edu",
+    "dob": "1998-04-10",
+    "major": "Economics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4772246",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3755"
+      },
+      {
+        "payment_id": "student_account_S10065",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": []
+  },
+  "S10066": {
+    "student_id": "S10066",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Davis"
+    },
+    "email": "andrew.davis40@university.edu",
+    "dob": "1999-05-25",
+    "major": "Linguistics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1698108",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9951"
+      },
+      {
+        "payment_id": "student_account_S10066",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "PHIL120",
+      "BUS301",
+      "CS120",
+      "PHYS221",
+      "POLS120",
+      "CHEM300",
+      "PHYS101"
+    ],
+    "registrations": [
+      "REGZ4QKE2G",
+      "REGIB3WYZX",
+      "REGGFOP8QZ",
+      "REGCOKZ5SY",
+      "REGO7KRGI4"
+    ]
+  },
+  "S10067": {
+    "student_id": "S10067",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Roberts"
+    },
+    "email": "lucas.roberts45@campus.edu",
+    "dob": "2003-12-20",
+    "major": "English",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3335975",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4390"
+      },
+      {
+        "payment_id": "student_account_S10067",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "HIST221",
+      "ART221",
+      "ENGR100",
+      "CHEM211",
+      "LING121",
+      "MUS120",
+      "CS400",
+      "STAT200",
+      "CS201",
+      "ENG201",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGC5KVQYW",
+      "REGBO7WP2D"
+    ]
+  },
+  "S10068": {
+    "student_id": "S10068",
+    "name": {
+      "first_name": "William",
+      "last_name": "Campbell"
+    },
+    "email": "william.campbell51@campus.edu",
+    "dob": "2000-04-05",
+    "major": "Psychology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7588425",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3329"
+      },
+      {
+        "payment_id": "student_account_S10068",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "POLS221",
+      "POLS120",
+      "PHYS300",
+      "CS400",
+      "MUS120",
+      "ART110",
+      "CS300",
+      "ENG111",
+      "MATH200"
+    ],
+    "registrations": [
+      "REGE545VYB"
+    ]
+  },
+  "S10069": {
+    "student_id": "S10069",
+    "name": {
+      "first_name": "James",
+      "last_name": "Chen"
+    },
+    "email": "james.chen97@university.edu",
+    "dob": "1999-12-15",
+    "major": "Physics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9966154",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4568"
+      },
+      {
+        "payment_id": "student_account_S10069",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "ENGR100",
+      "ENG320",
+      "BUS211",
+      "LING121",
+      "CS201",
+      "CHEM211",
+      "MATH200",
+      "CHEM300"
+    ],
+    "registrations": [
+      "REGEDTCXNM",
+      "REG58F1N2O"
+    ]
+  },
+  "S10070": {
+    "student_id": "S10070",
+    "name": {
+      "first_name": "John",
+      "last_name": "Miller"
+    },
+    "email": "john.miller42@university.edu",
+    "dob": "2005-01-04",
+    "major": "Political Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8659103",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8009"
+      },
+      {
+        "payment_id": "student_account_S10070",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "MUS120",
+      "POLS120",
+      "PSYC220",
+      "CS300"
+    ],
+    "registrations": [
+      "REG6QC6K8D",
+      "REGEPRS82G",
+      "REGGSS8K5I"
+    ]
+  },
+  "S10071": {
+    "student_id": "S10071",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Hall"
+    },
+    "email": "betty.hall39@student.edu",
+    "dob": "2000-01-13",
+    "major": "Psychology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8201300",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2559"
+      },
+      {
+        "payment_id": "student_account_S10071",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_181724",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "BUS301",
+      "ENGR201",
+      "CHEM300",
+      "ART110",
+      "ENG320",
+      "PHYS101",
+      "PHIL201",
+      "CS201",
+      "CS520",
+      "MATH100"
+    ],
+    "registrations": [
+      "REG0RCTI8F",
+      "REGMGOLOQC",
+      "REG18B850P",
+      "REGRJHRF34"
+    ]
+  },
+  "S10072": {
+    "student_id": "S10072",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Carter"
+    },
+    "email": "jennifer.carter21@university.edu",
+    "dob": "1999-02-11",
+    "major": "Business",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3300647",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3181"
+      },
+      {
+        "payment_id": "student_account_S10072",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_690653",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "CHEM211",
+      "BIO110",
+      "POLS221",
+      "PSYC300",
+      "ENG201",
+      "HIST321",
+      "NURS101",
+      "BUS301",
+      "CHEM300"
+    ],
+    "registrations": [
+      "REGY3ADDQH",
+      "REGKR2FVB6",
+      "REGYZHULIC"
+    ]
+  },
+  "S10073": {
+    "student_id": "S10073",
+    "name": {
+      "first_name": "William",
+      "last_name": "Kim"
+    },
+    "email": "william.kim40@student.edu",
+    "dob": "1999-10-24",
+    "major": "Music",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8203947",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3290"
+      },
+      {
+        "payment_id": "student_account_S10073",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_188341",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "MUS220",
+      "SOC111",
+      "BIO110",
+      "CS621",
+      "HIST110",
+      "CS400",
+      "PSYC120",
+      "PHYS300",
+      "ENGR100",
+      "BIO201",
+      "STAT111",
+      "MATH200",
+      "BIO301",
+      "PHYS101"
+    ],
+    "registrations": [
+      "REG1YPQPMQ"
+    ]
+  },
+  "S10074": {
+    "student_id": "S10074",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Green"
+    },
+    "email": "raj.green60@campus.edu",
+    "dob": "1999-09-01",
+    "major": "Art",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3214305",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7895"
+      },
+      {
+        "payment_id": "student_account_S10074",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "MATH100",
+      "EDUC111",
+      "CHEM121",
+      "MATH420",
+      "ENGR201",
+      "CS120",
+      "BIO110",
+      "PHIL120",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGYMBNW8B",
+      "REGSAJHJXQ",
+      "REGZ5JL6UF"
+    ]
+  },
+  "S10075": {
+    "student_id": "S10075",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Nelson"
+    },
+    "email": "christopher.nelson65@university.edu",
+    "dob": "2006-07-14",
+    "major": "Physics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3561552",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2369"
+      },
+      {
+        "payment_id": "student_account_S10075",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_313068",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "POLS221",
+      "CHEM300",
+      "PSYC220",
+      "NURS101",
+      "MATH300",
+      "MATH100",
+      "SOC111",
+      "PHIL201",
+      "STAT111",
+      "BIO201",
+      "ART221",
+      "POLS120"
+    ],
+    "registrations": [
+      "REG2QSQ0P8",
+      "REG5T82DDL",
+      "REGZTO7D83"
+    ]
+  },
+  "S10076": {
+    "student_id": "S10076",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Adams"
+    },
+    "email": "michelle.adams44@campus.edu",
+    "dob": "1998-05-22",
+    "major": "Chemistry",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1212482",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1185"
+      },
+      {
+        "payment_id": "student_account_S10076",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "CHEM211",
+      "CS120",
+      "ECON110",
+      "CS300",
+      "CS201"
+    ],
+    "registrations": [
+      "REGHW9C4HJ",
+      "REGJNVWRXG"
+    ]
+  },
+  "S10077": {
+    "student_id": "S10077",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Davis"
+    },
+    "email": "ava.davis15@university.edu",
+    "dob": "1998-06-26",
+    "major": "Economics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9788815",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5308"
+      },
+      {
+        "payment_id": "student_account_S10077",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "LING121",
+      "ECON110",
+      "CS300",
+      "CHEM300",
+      "CS120",
+      "STAT200",
+      "MATH420",
+      "PHYS101",
+      "MATH521",
+      "CS400",
+      "ENGR201"
+    ],
+    "registrations": []
+  },
+  "S10078": {
+    "student_id": "S10078",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Williams"
+    },
+    "email": "jessica.williams32@university.edu",
+    "dob": "2005-06-13",
+    "major": "English",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1593302",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4678"
+      },
+      {
+        "payment_id": "student_account_S10078",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_855276",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "CS300",
+      "PHYS101",
+      "CS400",
+      "NURS101",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGHGY8NNK",
+      "REGPO6J0M3"
+    ]
+  },
+  "S10079": {
+    "student_id": "S10079",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Scott"
+    },
+    "email": "lucas.scott62@university.edu",
+    "dob": "1998-07-03",
+    "major": "Business",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6212643",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2415"
+      },
+      {
+        "payment_id": "student_account_S10079",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_310418",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "ENG111",
+      "CS300",
+      "CHEM121",
+      "MATH200",
+      "PSYC120",
+      "BUS111",
+      "STAT111",
+      "PSYC300",
+      "ENGR201"
+    ],
+    "registrations": [
+      "REG4X7Y2IT",
+      "REGG7UELN0",
+      "REGDUB9RBD",
+      "REGNRM31SL"
+    ]
+  },
+  "S10080": {
+    "student_id": "S10080",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Torres"
+    },
+    "email": "joseph.torres72@university.edu",
+    "dob": "2003-11-27",
+    "major": "Art",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1024528",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6038"
+      },
+      {
+        "payment_id": "student_account_S10080",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_349736",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGRSBZB7T",
+      "REGD20J1OU",
+      "REGBNKFVDH",
+      "REGJ74NL03",
+      "REG2HOQ5E7"
+    ]
+  },
+  "S10081": {
+    "student_id": "S10081",
+    "name": {
+      "first_name": "Elizabeth",
+      "last_name": "Mitchell"
+    },
+    "email": "elizabeth.mitchell94@university.edu",
+    "dob": "2002-02-02",
+    "major": "Statistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7929943",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8511"
+      },
+      {
+        "payment_id": "student_account_S10081",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "LING121",
+      "BIO201",
+      "PHIL201"
+    ],
+    "registrations": [
+      "REGIVISS8J",
+      "REGOEFUKPV",
+      "REG1IO1ZM4",
+      "REG5QF0N85"
+    ]
+  },
+  "S10082": {
+    "student_id": "S10082",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Martin"
+    },
+    "email": "jessica.martin36@student.edu",
+    "dob": "2002-06-26",
+    "major": "Art",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6336123",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5455"
+      },
+      {
+        "payment_id": "student_account_S10082",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_312559",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "BUS301",
+      "ENG111",
+      "HIST221",
+      "ENG201",
+      "PHYS101",
+      "BUS111",
+      "PHYS221"
+    ],
+    "registrations": [
+      "REGY5SXAW7",
+      "REG1AZHZKN"
+    ]
+  },
+  "S10083": {
+    "student_id": "S10083",
+    "name": {
+      "first_name": "Karen",
+      "last_name": "Young"
+    },
+    "email": "karen.young67@campus.edu",
+    "dob": "2002-02-03",
+    "major": "Business",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1676621",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6370"
+      },
+      {
+        "payment_id": "student_account_S10083",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_360276",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "NURS101",
+      "SOC111",
+      "CS120",
+      "ECON200",
+      "EDUC111",
+      "PHYS300"
+    ],
+    "registrations": [
+      "REGG1VED32",
+      "REGXV6CKMA"
+    ]
+  },
+  "S10084": {
+    "student_id": "S10084",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Nguyen"
+    },
+    "email": "aisha.nguyen57@campus.edu",
+    "dob": "2001-02-15",
+    "major": "Biology",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3037647",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2010"
+      },
+      {
+        "payment_id": "student_account_S10084",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_963684",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": []
+  },
+  "S10085": {
+    "student_id": "S10085",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Baker"
+    },
+    "email": "raj.baker13@student.edu",
+    "dob": "1999-10-19",
+    "major": "Physics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1365746",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4239"
+      },
+      {
+        "payment_id": "student_account_S10085",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "PHIL120",
+      "ENG111",
+      "BIO201",
+      "ECON110",
+      "LING121",
+      "PHIL201",
+      "PHYS300",
+      "MATH200"
+    ],
+    "registrations": [
+      "REG61LFC1N"
+    ]
+  },
+  "S10086": {
+    "student_id": "S10086",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Robinson"
+    },
+    "email": "yuki.robinson21@student.edu",
+    "dob": "2000-06-07",
+    "major": "Economics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5695180",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3435"
+      },
+      {
+        "payment_id": "student_account_S10086",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "ENG201",
+      "BUS211",
+      "CS520",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGYVGDGFW"
+    ]
+  },
+  "S10087": {
+    "student_id": "S10087",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Rodriguez"
+    },
+    "email": "anthony.rodriguez50@campus.edu",
+    "dob": "2004-04-21",
+    "major": "Linguistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1327658",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6883"
+      },
+      {
+        "payment_id": "student_account_S10087",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS400",
+      "HIST221",
+      "BIO301",
+      "MUS120",
+      "ECON200",
+      "EDUC111"
+    ],
+    "registrations": []
+  },
+  "S10088": {
+    "student_id": "S10088",
+    "name": {
+      "first_name": "Joseph",
+      "last_name": "Johnson"
+    },
+    "email": "joseph.johnson82@university.edu",
+    "dob": "2002-01-26",
+    "major": "Statistics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6996728",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3615"
+      },
+      {
+        "payment_id": "student_account_S10088",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_352867",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "PHYS221",
+      "ECON200",
+      "MATH300",
+      "STAT111",
+      "CHEM121",
+      "HIST221",
+      "CHEM300",
+      "ART110",
+      "EDUC111",
+      "MUS220",
+      "LING121"
+    ],
+    "registrations": [
+      "REGQDWVCW5",
+      "REGRP8GUUC"
+    ]
+  },
+  "S10089": {
+    "student_id": "S10089",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Wilson"
+    },
+    "email": "kevin.wilson35@university.edu",
+    "dob": "2005-09-10",
+    "major": "Engineering",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1636925",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1920"
+      },
+      {
+        "payment_id": "student_account_S10089",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "ENGR201",
+      "ENG320",
+      "HIST321"
+    ],
+    "registrations": [
+      "REGXGC7JJY",
+      "REGZOCHBIR"
+    ]
+  },
+  "S10090": {
+    "student_id": "S10090",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Mitchell"
+    },
+    "email": "nancy.mitchell57@campus.edu",
+    "dob": "2000-06-02",
+    "major": "Biology",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3376537",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9622"
+      },
+      {
+        "payment_id": "student_account_S10090",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGZCZJJY4",
+      "REGQ0EI05N",
+      "REGPY9E576"
+    ]
+  },
+  "S10091": {
+    "student_id": "S10091",
+    "name": {
+      "first_name": "Wei",
+      "last_name": "Clark"
+    },
+    "email": "wei.clark32@campus.edu",
+    "dob": "1999-06-10",
+    "major": "Biology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3642476",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8982"
+      },
+      {
+        "payment_id": "student_account_S10091",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_689275",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "ECON200",
+      "BIO301",
+      "SOC111",
+      "ART110",
+      "ENGR100",
+      "CS201"
+    ],
+    "registrations": [
+      "REGB3YYM33",
+      "REGO2LNGIX",
+      "REGSUSFH70"
+    ]
+  },
+  "S10092": {
+    "student_id": "S10092",
+    "name": {
+      "first_name": "James",
+      "last_name": "Campbell"
+    },
+    "email": "james.campbell95@campus.edu",
+    "dob": "2004-10-02",
+    "major": "Education",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6338793",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2705"
+      },
+      {
+        "payment_id": "student_account_S10092",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_881549",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "POLS221",
+      "POLS120",
+      "ART221"
+    ],
+    "registrations": [
+      "REGGLL42JZ",
+      "REGUV1FKHN",
+      "REG3YF15Z0"
+    ]
+  },
+  "S10093": {
+    "student_id": "S10093",
+    "name": {
+      "first_name": "Chen",
+      "last_name": "Thompson"
+    },
+    "email": "chen.thompson62@student.edu",
+    "dob": "2005-01-09",
+    "major": "Psychology",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2137407",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5205"
+      },
+      {
+        "payment_id": "student_account_S10093",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "CHEM211",
+      "ENG201",
+      "ECON110"
+    ],
+    "registrations": [
+      "REG07GBASF",
+      "REGPZJE6XG"
+    ]
+  },
+  "S10094": {
+    "student_id": "S10094",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Sanchez"
+    },
+    "email": "ava.sanchez14@student.edu",
+    "dob": "2003-09-13",
+    "major": "Engineering",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4784650",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8393"
+      },
+      {
+        "payment_id": "student_account_S10094",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": []
+  },
+  "S10095": {
+    "student_id": "S10095",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Perez"
+    },
+    "email": "mary.perez62@campus.edu",
+    "dob": "2002-02-03",
+    "major": "English",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7299138",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2228"
+      },
+      {
+        "payment_id": "student_account_S10095",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_743453",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "HIST110",
+      "PHIL201",
+      "MATH420",
+      "BIO201",
+      "STAT200",
+      "ENG320",
+      "BIO110",
+      "PSYC120"
+    ],
+    "registrations": [
+      "REG2KODWH8",
+      "REGW6L01WC",
+      "REG66YA6BA"
+    ]
+  },
+  "S10096": {
+    "student_id": "S10096",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Carter"
+    },
+    "email": "kimberly.carter86@student.edu",
+    "dob": "2006-05-22",
+    "major": "Business",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4985398",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1813"
+      },
+      {
+        "payment_id": "student_account_S10096",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "CS300",
+      "ENGR201",
+      "PHIL201",
+      "POLS120",
+      "ENGR100",
+      "MUS220",
+      "POLS221"
+    ],
+    "registrations": [
+      "REGBUZPHD7"
+    ]
+  },
+  "S10097": {
+    "student_id": "S10097",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Miller"
+    },
+    "email": "richard.miller33@student.edu",
+    "dob": "1998-04-06",
+    "major": "Physics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8945197",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6052"
+      },
+      {
+        "payment_id": "student_account_S10097",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "BUS111",
+      "BIO301",
+      "ECON200",
+      "CS300",
+      "CHEM300",
+      "CHEM211"
+    ],
+    "registrations": [
+      "REGDQLOVYV",
+      "REG2BVPDCB",
+      "REG6ZCHHXA"
+    ]
+  },
+  "S10098": {
+    "student_id": "S10098",
+    "name": {
+      "first_name": "John",
+      "last_name": "Moore"
+    },
+    "email": "john.moore97@student.edu",
+    "dob": "2005-08-09",
+    "major": "Economics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2034137",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2584"
+      },
+      {
+        "payment_id": "student_account_S10098",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "BUS211",
+      "BIO201",
+      "BIO301",
+      "CS621",
+      "ENG201",
+      "BUS111"
+    ],
+    "registrations": [
+      "REGVSCYOZP"
+    ]
+  },
+  "S10099": {
+    "student_id": "S10099",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Taylor"
+    },
+    "email": "kevin.taylor43@student.edu",
+    "dob": "2005-05-03",
+    "major": "Mathematics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9423864",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2970"
+      },
+      {
+        "payment_id": "student_account_S10099",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_275284",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "PHIL201",
+      "POLS120",
+      "NURS101",
+      "MATH420",
+      "PSYC120",
+      "POLS221",
+      "PSYC300",
+      "HIST110"
+    ],
+    "registrations": [
+      "REGU9GGSOU",
+      "REG6Q5IK08"
+    ]
+  },
+  "S10100": {
+    "student_id": "S10100",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Carter"
+    },
+    "email": "mia.carter22@student.edu",
+    "dob": "1999-02-13",
+    "major": "Linguistics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6471499",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9514"
+      },
+      {
+        "payment_id": "student_account_S10100",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS621",
+      "ENG201",
+      "PHYS101",
+      "CHEM300",
+      "PSYC300",
+      "ART221",
+      "LING121",
+      "CHEM121",
+      "MUS220",
+      "STAT200",
+      "POLS221",
+      "NURS101"
+    ],
+    "registrations": [
+      "REGBDX7M42",
+      "REGDK6DRN4"
+    ]
+  },
+  "S10101": {
+    "student_id": "S10101",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Torres"
+    },
+    "email": "liam.torres45@student.edu",
+    "dob": "2003-07-09",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8936405",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3821"
+      },
+      {
+        "payment_id": "student_account_S10101",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "ENG320",
+      "ART110",
+      "STAT111",
+      "BIO201",
+      "CS520",
+      "MUS120",
+      "CS300",
+      "EDUC111",
+      "MATH420",
+      "SOC111",
+      "POLS221"
+    ],
+    "registrations": []
+  },
+  "S10102": {
+    "student_id": "S10102",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Campbell"
+    },
+    "email": "olivia.campbell82@university.edu",
+    "dob": "1999-04-05",
+    "major": "Political Science",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6383277",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7828"
+      },
+      {
+        "payment_id": "student_account_S10102",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_321659",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS300",
+      "BIO201",
+      "CS400",
+      "ECON110",
+      "MATH100",
+      "SOC111",
+      "MATH300",
+      "PHYS300",
+      "CS201",
+      "CS621"
+    ],
+    "registrations": []
+  },
+  "S10103": {
+    "student_id": "S10103",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Wilson"
+    },
+    "email": "barbara.wilson60@campus.edu",
+    "dob": "2001-01-08",
+    "major": "Political Science",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1848243",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4262"
+      },
+      {
+        "payment_id": "student_account_S10103",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_586768",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGJI1OAHN",
+      "REGAA2UAQE"
+    ]
+  },
+  "S10104": {
+    "student_id": "S10104",
+    "name": {
+      "first_name": "Zara",
+      "last_name": "Davis"
+    },
+    "email": "zara.davis96@university.edu",
+    "dob": "1998-04-12",
+    "major": "Education",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8484373",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8775"
+      },
+      {
+        "payment_id": "student_account_S10104",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_978343",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "BIO201",
+      "ECON110",
+      "LING121",
+      "BIO110",
+      "MATH521",
+      "PSYC220",
+      "ART110"
+    ],
+    "registrations": [
+      "REGRA4DV56",
+      "REGGBIVSCU"
+    ]
+  },
+  "S10105": {
+    "student_id": "S10105",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Baker"
+    },
+    "email": "sarah.baker92@student.edu",
+    "dob": "2004-09-01",
+    "major": "Engineering",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3219862",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1138"
+      },
+      {
+        "payment_id": "student_account_S10105",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_944193",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG014O46W"
+    ]
+  },
+  "S10106": {
+    "student_id": "S10106",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Sanchez"
+    },
+    "email": "donna.sanchez71@university.edu",
+    "dob": "2003-08-09",
+    "major": "Political Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6069153",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2676"
+      },
+      {
+        "payment_id": "student_account_S10106",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "HIST110",
+      "ENGR100",
+      "SOC111",
+      "NURS101",
+      "STAT200"
+    ],
+    "registrations": [
+      "REGPHGFT4M",
+      "REGMC3SKXL",
+      "REG549EWHO"
+    ]
+  },
+  "S10107": {
+    "student_id": "S10107",
+    "name": {
+      "first_name": "Nancy",
+      "last_name": "Jackson"
+    },
+    "email": "nancy.jackson14@campus.edu",
+    "dob": "2003-05-09",
+    "major": "History",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3515396",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1930"
+      },
+      {
+        "payment_id": "student_account_S10107",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "MATH200",
+      "ENGR100",
+      "CS120",
+      "ENG201",
+      "PHYS300",
+      "BIO301"
+    ],
+    "registrations": [
+      "REGA117NID",
+      "REGRSXKJKM",
+      "REGPHB8OOS",
+      "REGW5K0JJS"
+    ]
+  },
+  "S10108": {
+    "student_id": "S10108",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Hill"
+    },
+    "email": "fatima.hill81@university.edu",
+    "dob": "2001-06-24",
+    "major": "Linguistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8981512",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9311"
+      },
+      {
+        "payment_id": "student_account_S10108",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "CS520",
+      "CS201",
+      "MATH300",
+      "CS120"
+    ],
+    "registrations": [
+      "REG7DBFPMG",
+      "REG8KD9GNL",
+      "REGH861PQI",
+      "REG1F0FP8B",
+      "REG3N4BFIY"
+    ]
+  },
+  "S10109": {
+    "student_id": "S10109",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Thompson"
+    },
+    "email": "yuki.thompson70@university.edu",
+    "dob": "1999-04-12",
+    "major": "Business",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8054359",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7089"
+      },
+      {
+        "payment_id": "student_account_S10109",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "BIO201",
+      "POLS221",
+      "CHEM121",
+      "MATH300",
+      "HIST321",
+      "MATH100"
+    ],
+    "registrations": [
+      "REGY9YTJUQ",
+      "REGE5EGTYL",
+      "REGAV917RM",
+      "REGECHU3YC"
+    ]
+  },
+  "S10110": {
+    "student_id": "S10110",
+    "name": {
+      "first_name": "Andrew",
+      "last_name": "Davis"
+    },
+    "email": "andrew.davis10@student.edu",
+    "dob": "2004-09-10",
+    "major": "Mathematics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3529642",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4281"
+      },
+      {
+        "payment_id": "student_account_S10110",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "ART221",
+      "ECON200",
+      "POLS120",
+      "MATH200",
+      "ENG320",
+      "POLS221",
+      "CHEM300",
+      "HIST221",
+      "ART110",
+      "BIO201"
+    ],
+    "registrations": [
+      "REGCE77GZD"
+    ]
+  },
+  "S10111": {
+    "student_id": "S10111",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Anderson"
+    },
+    "email": "sarah.anderson51@campus.edu",
+    "dob": "2000-10-25",
+    "major": "Engineering",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2477088",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8105"
+      },
+      {
+        "payment_id": "student_account_S10111",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "PHIL120",
+      "BUS111",
+      "PSYC120",
+      "CHEM211",
+      "CS300",
+      "ENGR201"
+    ],
+    "registrations": [
+      "REGIFRCHYP",
+      "REG80Q7TW1",
+      "REGLHW4OQ0",
+      "REGOHKK7QG",
+      "REGA2O4M84"
+    ]
+  },
+  "S10112": {
+    "student_id": "S10112",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Johnson"
+    },
+    "email": "richard.johnson76@campus.edu",
+    "dob": "1998-11-24",
+    "major": "Psychology",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6777230",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3112"
+      },
+      {
+        "payment_id": "student_account_S10112",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_717265",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "PHIL120",
+      "SOC111",
+      "ENGR100",
+      "ENG111"
+    ],
+    "registrations": []
+  },
+  "S10113": {
+    "student_id": "S10113",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Thompson"
+    },
+    "email": "ashley.thompson14@student.edu",
+    "dob": "2004-11-05",
+    "major": "Engineering",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7027229",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3701"
+      },
+      {
+        "payment_id": "student_account_S10113",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_335217",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "CS400",
+      "ECON110",
+      "PHYS101",
+      "CS300",
+      "ART221",
+      "PSYC220"
+    ],
+    "registrations": [
+      "REG8HKE226",
+      "REGOXDTPWD",
+      "REGA195EQ4",
+      "REGWWN6MBY",
+      "REG25B7KXU"
+    ]
+  },
+  "S10114": {
+    "student_id": "S10114",
+    "name": {
+      "first_name": "Ava",
+      "last_name": "Nelson"
+    },
+    "email": "ava.nelson63@student.edu",
+    "dob": "2002-09-20",
+    "major": "Education",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1804641",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1323"
+      },
+      {
+        "payment_id": "student_account_S10114",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG04JSE17",
+      "REG3MVDZC7",
+      "REG81ZQUA1",
+      "REG63RVWOZ",
+      "REGR1V9NPU"
+    ]
+  },
+  "S10115": {
+    "student_id": "S10115",
+    "name": {
+      "first_name": "Anthony",
+      "last_name": "Davis"
+    },
+    "email": "anthony.davis89@university.edu",
+    "dob": "2006-05-16",
+    "major": "History",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1156104",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7895"
+      },
+      {
+        "payment_id": "student_account_S10115",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "ART110",
+      "CS201",
+      "ENG201",
+      "STAT200",
+      "CS400"
+    ],
+    "registrations": [
+      "REGD93EZEM",
+      "REGCX67XKW"
+    ]
+  },
+  "S10116": {
+    "student_id": "S10116",
+    "name": {
+      "first_name": "Christopher",
+      "last_name": "Davis"
+    },
+    "email": "christopher.davis21@university.edu",
+    "dob": "1999-08-07",
+    "major": "Economics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9776935",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6864"
+      },
+      {
+        "payment_id": "student_account_S10116",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_141319",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "CS520",
+      "ENG320",
+      "STAT111",
+      "ENGR201",
+      "CHEM211",
+      "MUS220"
+    ],
+    "registrations": [
+      "REGGV6TOLA",
+      "REG9AYFQUV",
+      "REGOCMVH0E",
+      "REGTV1DJJZ"
+    ]
+  },
+  "S10117": {
+    "student_id": "S10117",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Hill"
+    },
+    "email": "noah.hill32@university.edu",
+    "dob": "2005-03-03",
+    "major": "Chemistry",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5293157",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8483"
+      },
+      {
+        "payment_id": "student_account_S10117",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_152512",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGQE6RP9U",
+      "REGXXQ6MF5",
+      "REGDLWAGAW",
+      "REGZV3ZBXP"
+    ]
+  },
+  "S10118": {
+    "student_id": "S10118",
+    "name": {
+      "first_name": "Olivia",
+      "last_name": "Martin"
+    },
+    "email": "olivia.martin61@student.edu",
+    "dob": "2003-11-11",
+    "major": "Chemistry",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2593809",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1158"
+      },
+      {
+        "payment_id": "student_account_S10118",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "BUS301",
+      "HIST321",
+      "MUS120",
+      "CHEM211",
+      "POLS120",
+      "CS300",
+      "ENG320",
+      "ECON200",
+      "PHYS101",
+      "PHYS300"
+    ],
+    "registrations": [
+      "REG1TE48M2"
+    ]
+  },
+  "S10119": {
+    "student_id": "S10119",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Wang"
+    },
+    "email": "sarah.wang97@campus.edu",
+    "dob": "2004-12-28",
+    "major": "Sociology",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3798082",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3171"
+      },
+      {
+        "payment_id": "student_account_S10119",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "CS520",
+      "LING121",
+      "NURS101",
+      "BUS301",
+      "ECON200",
+      "HIST321",
+      "BIO301",
+      "PHYS221",
+      "CHEM211",
+      "EDUC111"
+    ],
+    "registrations": [
+      "REGLKW1XSR",
+      "REG4I5YMQT",
+      "REGYEJHDZX"
+    ]
+  },
+  "S10120": {
+    "student_id": "S10120",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Rodriguez"
+    },
+    "email": "ethan.rodriguez81@campus.edu",
+    "dob": "2005-08-04",
+    "major": "Political Science",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1771287",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5286"
+      },
+      {
+        "payment_id": "student_account_S10120",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_810859",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "CS621",
+      "ART110",
+      "CHEM300",
+      "HIST321",
+      "STAT200",
+      "PHIL201",
+      "MUS220",
+      "STAT111",
+      "CS520",
+      "PHYS221",
+      "BIO301",
+      "PSYC300"
+    ],
+    "registrations": [
+      "REG1L6314C"
+    ]
+  },
+  "S10121": {
+    "student_id": "S10121",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Smith"
+    },
+    "email": "patricia.smith73@campus.edu",
+    "dob": "2000-09-28",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3775016",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9055"
+      },
+      {
+        "payment_id": "student_account_S10121",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_391668",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "PHYS300",
+      "STAT111",
+      "POLS120",
+      "ENG111",
+      "BUS301",
+      "LING121",
+      "ART110",
+      "CHEM211",
+      "MATH200",
+      "MUS220",
+      "HIST221",
+      "PHYS101"
+    ],
+    "registrations": [
+      "REGOK01TNZ",
+      "REG3EH81A4"
+    ]
+  },
+  "S10122": {
+    "student_id": "S10122",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Johnson"
+    },
+    "email": "mei.johnson68@student.edu",
+    "dob": "1999-07-14",
+    "major": "Linguistics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1002847",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5990"
+      },
+      {
+        "payment_id": "student_account_S10122",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGPCIFLWD",
+      "REGCO39VCY"
+    ]
+  },
+  "S10123": {
+    "student_id": "S10123",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "Li"
+    },
+    "email": "betty.li27@campus.edu",
+    "dob": "1998-04-28",
+    "major": "Art",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8937865",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8414"
+      },
+      {
+        "payment_id": "student_account_S10123",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_790917",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "POLS221",
+      "ENGR100",
+      "BUS211",
+      "CS621",
+      "CS300",
+      "ART110",
+      "STAT200",
+      "PHIL120",
+      "ECON110",
+      "MATH200"
+    ],
+    "registrations": []
+  },
+  "S10124": {
+    "student_id": "S10124",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Carter"
+    },
+    "email": "aisha.carter96@campus.edu",
+    "dob": "2004-02-09",
+    "major": "History",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3025778",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4532"
+      },
+      {
+        "payment_id": "student_account_S10124",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CHEM300",
+      "ENG201",
+      "PHIL120",
+      "POLS221"
+    ],
+    "registrations": [
+      "REG7FYSKUF",
+      "REGK17M6J3"
+    ]
+  },
+  "S10125": {
+    "student_id": "S10125",
+    "name": {
+      "first_name": "Linda",
+      "last_name": "Chen"
+    },
+    "email": "linda.chen94@campus.edu",
+    "dob": "2005-08-22",
+    "major": "Engineering",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1072773",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8091"
+      },
+      {
+        "payment_id": "student_account_S10125",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CHEM211",
+      "CS201",
+      "STAT200",
+      "BIO301"
+    ],
+    "registrations": [
+      "REG1630POC"
+    ]
+  },
+  "S10126": {
+    "student_id": "S10126",
+    "name": {
+      "first_name": "Brian",
+      "last_name": "Perez"
+    },
+    "email": "brian.perez99@campus.edu",
+    "dob": "2006-07-14",
+    "major": "Economics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7675150",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5819"
+      },
+      {
+        "payment_id": "student_account_S10126",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "ART110",
+      "MATH300",
+      "CS400",
+      "SOC111"
+    ],
+    "registrations": [
+      "REGSRQLNZZ",
+      "REGL9E9ZR3",
+      "REG5ZOOH3Y",
+      "REGC8CLRKI"
+    ]
+  },
+  "S10127": {
+    "student_id": "S10127",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Perez"
+    },
+    "email": "liam.perez95@campus.edu",
+    "dob": "2006-11-07",
+    "major": "History",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5875114",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3173"
+      },
+      {
+        "payment_id": "student_account_S10127",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "PHYS221",
+      "BUS211",
+      "CS520",
+      "CHEM121",
+      "LING121"
+    ],
+    "registrations": [
+      "REGWHBEF46",
+      "REGQDZPJL9",
+      "REGU5X012G"
+    ]
+  },
+  "S10128": {
+    "student_id": "S10128",
+    "name": {
+      "first_name": "Mark",
+      "last_name": "Rivera"
+    },
+    "email": "mark.rivera38@campus.edu",
+    "dob": "2006-05-28",
+    "major": "Computer Science",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9769953",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1414"
+      },
+      {
+        "payment_id": "student_account_S10128",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_802812",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "ENGR100",
+      "NURS101",
+      "CS120",
+      "PSYC300",
+      "BIO201",
+      "CHEM300",
+      "BIO110",
+      "BUS111",
+      "PHIL120",
+      "PHYS221",
+      "BUS301",
+      "STAT200",
+      "BUS211"
+    ],
+    "registrations": [
+      "REG9C65FPY",
+      "REGOMEYL6S",
+      "REGXQJ7DPF",
+      "REGAM4BE52",
+      "REGOTIA41S"
+    ]
+  },
+  "S10129": {
+    "student_id": "S10129",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Nguyen"
+    },
+    "email": "mei.nguyen92@student.edu",
+    "dob": "2004-04-17",
+    "major": "Mathematics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7401894",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7825"
+      },
+      {
+        "payment_id": "student_account_S10129",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "CS120",
+      "PSYC120",
+      "HIST321",
+      "BUS301",
+      "MATH521",
+      "POLS221"
+    ],
+    "registrations": [
+      "REGE49ITE9",
+      "REGYFNGP41"
+    ]
+  },
+  "S10130": {
+    "student_id": "S10130",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Flores"
+    },
+    "email": "hiroshi.flores43@university.edu",
+    "dob": "2006-12-20",
+    "major": "History",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5935483",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3906"
+      },
+      {
+        "payment_id": "student_account_S10130",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_282237",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "PHIL201",
+      "MUS120",
+      "BUS211"
+    ],
+    "registrations": []
+  },
+  "S10131": {
+    "student_id": "S10131",
+    "name": {
+      "first_name": "David",
+      "last_name": "Flores"
+    },
+    "email": "david.flores79@campus.edu",
+    "dob": "2002-01-11",
+    "major": "Biology",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1670091",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6285"
+      },
+      {
+        "payment_id": "student_account_S10131",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "LING121",
+      "BUS211",
+      "PHYS221",
+      "MATH100",
+      "ART221",
+      "HIST221",
+      "CS621",
+      "MATH521",
+      "ECON200",
+      "NURS101",
+      "CHEM211",
+      "CS400",
+      "ECON110",
+      "ENG201"
+    ],
+    "registrations": [
+      "REGLPEFJAW",
+      "REGYGCMR8E"
+    ]
+  },
+  "S10132": {
+    "student_id": "S10132",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Garcia"
+    },
+    "email": "emily.garcia41@university.edu",
+    "dob": "2003-04-07",
+    "major": "Art",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7053183",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4579"
+      },
+      {
+        "payment_id": "student_account_S10132",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "PHYS221",
+      "BUS301",
+      "STAT111",
+      "PSYC220",
+      "HIST321",
+      "ART221"
+    ],
+    "registrations": [
+      "REG1T2EP76",
+      "REGC5RQNSV"
+    ]
+  },
+  "S10133": {
+    "student_id": "S10133",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Perez"
+    },
+    "email": "yuki.perez78@university.edu",
+    "dob": "2004-02-13",
+    "major": "Linguistics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5745083",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9468"
+      },
+      {
+        "payment_id": "student_account_S10133",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "ENGR100",
+      "PSYC220",
+      "PSYC120",
+      "HIST221",
+      "CS400",
+      "POLS120",
+      "STAT200",
+      "ECON110",
+      "BUS111"
+    ],
+    "registrations": [
+      "REGW6TM2O0",
+      "REGS1ZL7P7",
+      "REGJ84TC2Q"
+    ]
+  },
+  "S10134": {
+    "student_id": "S10134",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Jones"
+    },
+    "email": "raj.jones14@university.edu",
+    "dob": "2001-11-21",
+    "major": "Sociology",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2743602",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9810"
+      },
+      {
+        "payment_id": "student_account_S10134",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "ENG111",
+      "ART221",
+      "ENG320"
+    ],
+    "registrations": [
+      "REGMJYJCMR",
+      "REGJ8YI340"
+    ]
+  },
+  "S10135": {
+    "student_id": "S10135",
+    "name": {
+      "first_name": "Robert",
+      "last_name": "Brown"
+    },
+    "email": "robert.brown61@student.edu",
+    "dob": "2000-05-18",
+    "major": "Nursing",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4819259",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7678"
+      },
+      {
+        "payment_id": "student_account_S10135",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG0AEOORB",
+      "REGVF4S2NI"
+    ]
+  },
+  "S10136": {
+    "student_id": "S10136",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Johnson"
+    },
+    "email": "daniel.johnson23@student.edu",
+    "dob": "2004-11-04",
+    "major": "Education",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2060950",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2189"
+      },
+      {
+        "payment_id": "student_account_S10136",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG7MYOW8D",
+      "REGHZX9FQ9"
+    ]
+  },
+  "S10137": {
+    "student_id": "S10137",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Rivera"
+    },
+    "email": "sofia.rivera25@university.edu",
+    "dob": "2002-10-03",
+    "major": "Political Science",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7399057",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1504"
+      },
+      {
+        "payment_id": "student_account_S10137",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_330545",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "POLS221",
+      "PSYC300",
+      "SOC111",
+      "NURS101",
+      "PSYC220",
+      "CS300",
+      "ENGR201",
+      "BUS211",
+      "MUS220",
+      "CHEM300"
+    ],
+    "registrations": [
+      "REGNY2SVHO",
+      "REGC62G3AU",
+      "REG2LM1CBH",
+      "REGMWU28RL"
+    ]
+  },
+  "S10138": {
+    "student_id": "S10138",
+    "name": {
+      "first_name": "James",
+      "last_name": "Hill"
+    },
+    "email": "james.hill75@university.edu",
+    "dob": "2004-09-18",
+    "major": "Business",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4524102",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4469"
+      },
+      {
+        "payment_id": "student_account_S10138",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG5UESDRB"
+    ]
+  },
+  "S10139": {
+    "student_id": "S10139",
+    "name": {
+      "first_name": "David",
+      "last_name": "Lopez"
+    },
+    "email": "david.lopez26@campus.edu",
+    "dob": "2001-10-27",
+    "major": "History",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2923047",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1891"
+      },
+      {
+        "payment_id": "student_account_S10139",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "MATH100",
+      "CS120",
+      "STAT200",
+      "PSYC120",
+      "CHEM121",
+      "MATH200",
+      "ENG320",
+      "PHYS221"
+    ],
+    "registrations": [
+      "REG4DA7D0W",
+      "REGLUOAY12"
+    ]
+  },
+  "S10140": {
+    "student_id": "S10140",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Taylor"
+    },
+    "email": "mei.taylor49@campus.edu",
+    "dob": "1999-05-20",
+    "major": "History",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6331563",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8383"
+      },
+      {
+        "payment_id": "student_account_S10140",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGU4SE2KY",
+      "REG6FHRXJP",
+      "REG0FT1AFD"
+    ]
+  },
+  "S10141": {
+    "student_id": "S10141",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Martinez"
+    },
+    "email": "amanda.martinez80@university.edu",
+    "dob": "2003-06-14",
+    "major": "Computer Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6254872",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4629"
+      },
+      {
+        "payment_id": "student_account_S10141",
+        "type": "student_account",
+        "balance": 3000
+      },
+      {
+        "payment_id": "financial_aid_476948",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "BUS301",
+      "PHYS221",
+      "MATH420",
+      "SOC111",
+      "MATH200"
+    ],
+    "registrations": [
+      "REGDC08FC0"
+    ]
+  },
+  "S10142": {
+    "student_id": "S10142",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Baker"
+    },
+    "email": "barbara.baker37@university.edu",
+    "dob": "1999-05-28",
+    "major": "Linguistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4295580",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2252"
+      },
+      {
+        "payment_id": "student_account_S10142",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "PHYS300",
+      "MATH420",
+      "CHEM121"
+    ],
+    "registrations": [
+      "REG22RUW0U"
+    ]
+  },
+  "S10143": {
+    "student_id": "S10143",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Moore"
+    },
+    "email": "kimberly.moore40@campus.edu",
+    "dob": "2006-09-16",
+    "major": "Music",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7585029",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5767"
+      },
+      {
+        "payment_id": "student_account_S10143",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "CS400",
+      "ENGR201",
+      "MUS220"
+    ],
+    "registrations": [
+      "REGO1URTTQ",
+      "REG2F5FE6O"
+    ]
+  },
+  "S10144": {
+    "student_id": "S10144",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Hernandez"
+    },
+    "email": "yuki.hernandez36@campus.edu",
+    "dob": "2006-03-15",
+    "major": "English",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3452813",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6878"
+      },
+      {
+        "payment_id": "student_account_S10144",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_611329",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "MATH521",
+      "PHIL120",
+      "MUS220"
+    ],
+    "registrations": [
+      "REG3L16CR3",
+      "REGK1QQFVW",
+      "REGG7NFDIN",
+      "REGWVTMNYE"
+    ]
+  },
+  "S10145": {
+    "student_id": "S10145",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Patel"
+    },
+    "email": "mia.patel38@campus.edu",
+    "dob": "2003-07-16",
+    "major": "Mathematics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1669489",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2691"
+      },
+      {
+        "payment_id": "student_account_S10145",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "LING121",
+      "ECON200",
+      "BIO301",
+      "PSYC220",
+      "MATH300",
+      "CS300",
+      "CHEM121",
+      "CHEM211",
+      "MATH100",
+      "CS621",
+      "CS120",
+      "ART221"
+    ],
+    "registrations": [
+      "REGNZY47QU",
+      "REGH7VDO4S",
+      "REG79HQTYL"
+    ]
+  },
+  "S10146": {
+    "student_id": "S10146",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "White"
+    },
+    "email": "emily.white24@student.edu",
+    "dob": "2003-08-26",
+    "major": "Education",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1110690",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8207"
+      },
+      {
+        "payment_id": "student_account_S10146",
+        "type": "student_account",
+        "balance": 500
+      },
+      {
+        "payment_id": "financial_aid_639535",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "CS300",
+      "HIST110",
+      "ART221",
+      "PHYS101",
+      "MUS220",
+      "MATH521",
+      "ENG201",
+      "ENG320"
+    ],
+    "registrations": []
+  },
+  "S10147": {
+    "student_id": "S10147",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Allen"
+    },
+    "email": "yuki.allen17@university.edu",
+    "dob": "2005-04-19",
+    "major": "Sociology",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1376582",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1706"
+      },
+      {
+        "payment_id": "student_account_S10147",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "CS400",
+      "PHIL120",
+      "LING121",
+      "PSYC300"
+    ],
+    "registrations": [
+      "REGPQFHPVK"
+    ]
+  },
+  "S10148": {
+    "student_id": "S10148",
+    "name": {
+      "first_name": "Thomas",
+      "last_name": "Lopez"
+    },
+    "email": "thomas.lopez31@university.edu",
+    "dob": "2006-07-20",
+    "major": "Business",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2438621",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8359"
+      },
+      {
+        "payment_id": "student_account_S10148",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGAABMWUO"
+    ]
+  },
+  "S10149": {
+    "student_id": "S10149",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Lewis"
+    },
+    "email": "noah.lewis12@university.edu",
+    "dob": "2000-10-27",
+    "major": "Education",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9569884",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3747"
+      },
+      {
+        "payment_id": "student_account_S10149",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "CS201",
+      "STAT200"
+    ],
+    "registrations": [
+      "REG2ZYZSIL",
+      "REGGJCY4V8",
+      "REGPU3ET1O",
+      "REGN1S3YG8",
+      "REG2EV4JI4"
+    ]
+  },
+  "S10150": {
+    "student_id": "S10150",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Wright"
+    },
+    "email": "ashley.wright87@campus.edu",
+    "dob": "2004-03-20",
+    "major": "English",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8983760",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9706"
+      },
+      {
+        "payment_id": "student_account_S10150",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_791423",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG2K38P6F",
+      "REG6BKADEV",
+      "REG0RR1L9G"
+    ]
+  },
+  "S10151": {
+    "student_id": "S10151",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Smith"
+    },
+    "email": "emma.smith71@university.edu",
+    "dob": "2004-09-14",
+    "major": "Mathematics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9888846",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4759"
+      },
+      {
+        "payment_id": "student_account_S10151",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "MATH300",
+      "CHEM300",
+      "ART110",
+      "LING121",
+      "STAT200",
+      "PHIL201",
+      "CS201",
+      "CS120"
+    ],
+    "registrations": [
+      "REGYSAUUJ0"
+    ]
+  },
+  "S10152": {
+    "student_id": "S10152",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Zhang"
+    },
+    "email": "mia.zhang56@campus.edu",
+    "dob": "1999-05-20",
+    "major": "Economics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_4171246",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1116"
+      },
+      {
+        "payment_id": "student_account_S10152",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "HIST221",
+      "ENG201",
+      "CS300",
+      "STAT200",
+      "PSYC300",
+      "PHIL201",
+      "PSYC220",
+      "CHEM121",
+      "CS120",
+      "NURS101",
+      "BUS111",
+      "ART110",
+      "LING121"
+    ],
+    "registrations": [
+      "REGUDIZ1XE",
+      "REGAFS1IYM",
+      "REGCV4BKTC",
+      "REG4GASFQB"
+    ]
+  },
+  "S10153": {
+    "student_id": "S10153",
+    "name": {
+      "first_name": "Sarah",
+      "last_name": "Rivera"
+    },
+    "email": "sarah.rivera30@student.edu",
+    "dob": "2004-04-14",
+    "major": "English",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7211142",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5157"
+      },
+      {
+        "payment_id": "student_account_S10153",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "MUS220",
+      "PHYS101",
+      "MATH300",
+      "MATH521",
+      "BUS301",
+      "ART110",
+      "ECON110",
+      "STAT200",
+      "BIO110",
+      "CS400",
+      "PHYS300",
+      "ENG320",
+      "BUS211",
+      "BIO201"
+    ],
+    "registrations": []
+  },
+  "S10154": {
+    "student_id": "S10154",
+    "name": {
+      "first_name": "Raj",
+      "last_name": "Smith"
+    },
+    "email": "raj.smith34@university.edu",
+    "dob": "1999-03-16",
+    "major": "Physics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2075091",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4633"
+      },
+      {
+        "payment_id": "student_account_S10154",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_139589",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS621",
+      "ENGR100",
+      "ART221",
+      "HIST110",
+      "BIO201",
+      "ECON200",
+      "POLS221",
+      "MATH200",
+      "BUS301",
+      "ENGR201",
+      "PSYC120",
+      "MATH420",
+      "CHEM300"
+    ],
+    "registrations": [
+      "REGAEGRY58",
+      "REGLDQZ05E"
+    ]
+  },
+  "S10155": {
+    "student_id": "S10155",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Green"
+    },
+    "email": "sofia.green60@student.edu",
+    "dob": "2006-09-23",
+    "major": "Education",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3843451",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6893"
+      },
+      {
+        "payment_id": "student_account_S10155",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "MATH420",
+      "PHYS300",
+      "PHYS221",
+      "MUS220"
+    ],
+    "registrations": [
+      "REG9W0TE52",
+      "REGI9WM1SA"
+    ]
+  },
+  "S10156": {
+    "student_id": "S10156",
+    "name": {
+      "first_name": "Amanda",
+      "last_name": "Wilson"
+    },
+    "email": "amanda.wilson61@campus.edu",
+    "dob": "2006-01-24",
+    "major": "Physics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5773013",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6693"
+      },
+      {
+        "payment_id": "student_account_S10156",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_303974",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGF0992QC",
+      "REGKW7BZYI",
+      "REGLV8JGUZ",
+      "REGRBKN3DK"
+    ]
+  },
+  "S10157": {
+    "student_id": "S10157",
+    "name": {
+      "first_name": "James",
+      "last_name": "Moore"
+    },
+    "email": "james.moore42@campus.edu",
+    "dob": "2000-07-17",
+    "major": "Linguistics",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2214435",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6570"
+      },
+      {
+        "payment_id": "student_account_S10157",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGWIEB97P",
+      "REGB1ZPPEP",
+      "REGFRUK94I"
+    ]
+  },
+  "S10158": {
+    "student_id": "S10158",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Patel"
+    },
+    "email": "emma.patel62@student.edu",
+    "dob": "2002-12-15",
+    "major": "Nursing",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9113963",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6565"
+      },
+      {
+        "payment_id": "student_account_S10158",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CS120",
+      "MATH100",
+      "BIO301",
+      "POLS221",
+      "MATH521",
+      "NURS101",
+      "ART221",
+      "HIST221"
+    ],
+    "registrations": [
+      "REG225AA35"
+    ]
+  },
+  "S10159": {
+    "student_id": "S10159",
+    "name": {
+      "first_name": "Ashley",
+      "last_name": "Torres"
+    },
+    "email": "ashley.torres40@student.edu",
+    "dob": "1998-12-27",
+    "major": "Psychology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5819919",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7536"
+      },
+      {
+        "payment_id": "student_account_S10159",
+        "type": "student_account",
+        "balance": 2000
+      },
+      {
+        "payment_id": "financial_aid_287155",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "LING121",
+      "MUS120",
+      "ECON200",
+      "NURS101",
+      "PSYC120",
+      "MATH200",
+      "ART221",
+      "STAT111"
+    ],
+    "registrations": [
+      "REGL1QWEEH"
+    ]
+  },
+  "S10160": {
+    "student_id": "S10160",
+    "name": {
+      "first_name": "Susan",
+      "last_name": "Thomas"
+    },
+    "email": "susan.thomas60@university.edu",
+    "dob": "2001-04-27",
+    "major": "Biology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2789949",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2285"
+      },
+      {
+        "payment_id": "student_account_S10160",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "HIST321",
+      "HIST221",
+      "MATH200",
+      "LING121",
+      "MUS120",
+      "MATH300",
+      "ECON200",
+      "CS400",
+      "ART221"
+    ],
+    "registrations": [
+      "REGCVEN3V1",
+      "REG3ZGARFI",
+      "REG4X0BS3L"
+    ]
+  },
+  "S10161": {
+    "student_id": "S10161",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Hill"
+    },
+    "email": "hiroshi.hill88@student.edu",
+    "dob": "2000-01-17",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1546310",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7450"
+      },
+      {
+        "payment_id": "student_account_S10161",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "HIST221",
+      "ART110",
+      "ENGR201",
+      "MATH300",
+      "NURS101",
+      "BIO110",
+      "BIO301",
+      "CHEM121",
+      "STAT200",
+      "MATH420",
+      "CS300"
+    ],
+    "registrations": [
+      "REGFC1XX6C"
+    ]
+  },
+  "S10162": {
+    "student_id": "S10162",
+    "name": {
+      "first_name": "Barbara",
+      "last_name": "Nguyen"
+    },
+    "email": "barbara.nguyen40@campus.edu",
+    "dob": "2002-04-09",
+    "major": "Education",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6756203",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4013"
+      },
+      {
+        "payment_id": "student_account_S10162",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "PHYS300",
+      "MUS120",
+      "BUS301",
+      "ECON200",
+      "LING121",
+      "CS201",
+      "ART221",
+      "MATH521",
+      "STAT200",
+      "CHEM300"
+    ],
+    "registrations": []
+  },
+  "S10163": {
+    "student_id": "S10163",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Zhang"
+    },
+    "email": "donna.zhang22@campus.edu",
+    "dob": "2004-04-05",
+    "major": "Engineering",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1163448",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "7906"
+      },
+      {
+        "payment_id": "student_account_S10163",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_990649",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "CS120",
+      "BUS211",
+      "LING121",
+      "BIO201",
+      "PHYS300"
+    ],
+    "registrations": [
+      "REGVR0I2FK",
+      "REGER94TEV",
+      "REG41IO4KO"
+    ]
+  },
+  "S10164": {
+    "student_id": "S10164",
+    "name": {
+      "first_name": "David",
+      "last_name": "Brown"
+    },
+    "email": "david.brown42@student.edu",
+    "dob": "2001-05-16",
+    "major": "Political Science",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6614605",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6914"
+      },
+      {
+        "payment_id": "student_account_S10164",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGCP0TLZ1"
+    ]
+  },
+  "S10165": {
+    "student_id": "S10165",
+    "name": {
+      "first_name": "Mary",
+      "last_name": "Lewis"
+    },
+    "email": "mary.lewis31@campus.edu",
+    "dob": "1999-06-28",
+    "major": "Nursing",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3928275",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6818"
+      },
+      {
+        "payment_id": "student_account_S10165",
+        "type": "student_account",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "HIST321",
+      "ENGR100",
+      "ENG111",
+      "POLS221",
+      "PSYC300"
+    ],
+    "registrations": [
+      "REGG585I87",
+      "REGG00ZKOM",
+      "REGBZQVQG0",
+      "REGYJR39II"
+    ]
+  },
+  "S10166": {
+    "student_id": "S10166",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Thompson"
+    },
+    "email": "lucas.thompson94@student.edu",
+    "dob": "2004-11-20",
+    "major": "Physics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2327277",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "6629"
+      },
+      {
+        "payment_id": "student_account_S10166",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_784733",
+        "type": "financial_aid",
+        "balance": 4000
+      }
+    ],
+    "completed_courses": [
+      "PHYS300",
+      "MUS120",
+      "BUS301",
+      "CS300",
+      "CHEM121",
+      "CS621",
+      "MATH300",
+      "ENG201",
+      "ECON110",
+      "ECON200",
+      "EDUC111",
+      "CS201",
+      "STAT111"
+    ],
+    "registrations": [
+      "REGE5B99HE",
+      "REGJS96ALG"
+    ]
+  },
+  "S10167": {
+    "student_id": "S10167",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Campbell"
+    },
+    "email": "aisha.campbell90@university.edu",
+    "dob": "1999-04-06",
+    "major": "Chemistry",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2603125",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8752"
+      },
+      {
+        "payment_id": "student_account_S10167",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_516297",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "HIST321",
+      "PSYC300",
+      "POLS120",
+      "PSYC220",
+      "BIO301",
+      "SOC111",
+      "MATH521",
+      "STAT111",
+      "ENGR100",
+      "BUS301"
+    ],
+    "registrations": [
+      "REGL93ACZS",
+      "REG1KUBJJJ"
+    ]
+  },
+  "S10168": {
+    "student_id": "S10168",
+    "name": {
+      "first_name": "William",
+      "last_name": "Scott"
+    },
+    "email": "william.scott78@student.edu",
+    "dob": "2000-01-02",
+    "major": "Art",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8988550",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9856"
+      },
+      {
+        "payment_id": "student_account_S10168",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "HIST110",
+      "ENG111",
+      "POLS221",
+      "CHEM211",
+      "LING121",
+      "PHIL201",
+      "CS621",
+      "ART221",
+      "PSYC220"
+    ],
+    "registrations": [
+      "REGR02M77R",
+      "REGP8AK8S2",
+      "REGTC09ZGN",
+      "REGFXUQ4F2",
+      "REGR2BC9R4"
+    ]
+  },
+  "S10169": {
+    "student_id": "S10169",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "White"
+    },
+    "email": "mia.white76@university.edu",
+    "dob": "2005-09-08",
+    "major": "Political Science",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6165171",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7753"
+      },
+      {
+        "payment_id": "student_account_S10169",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_111068",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGG3APTM9"
+    ]
+  },
+  "S10170": {
+    "student_id": "S10170",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Martin"
+    },
+    "email": "matthew.martin38@student.edu",
+    "dob": "2005-09-01",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6026630",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8052"
+      },
+      {
+        "payment_id": "student_account_S10170",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "PSYC120",
+      "ENG201",
+      "BUS211",
+      "PHIL201",
+      "PHYS300",
+      "STAT111",
+      "ECON110",
+      "PSYC220",
+      "BIO301",
+      "MUS220"
+    ],
+    "registrations": [
+      "REGII4W6OZ",
+      "REG0224WK0",
+      "REG9B7LNKZ",
+      "REGD2ZU4NS"
+    ]
+  },
+  "S10171": {
+    "student_id": "S10171",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Robinson"
+    },
+    "email": "jennifer.robinson72@university.edu",
+    "dob": "2001-09-25",
+    "major": "Business",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9924543",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7765"
+      },
+      {
+        "payment_id": "student_account_S10171",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "PHYS101",
+      "POLS221",
+      "ENG111",
+      "HIST321",
+      "BUS301",
+      "MUS120",
+      "CHEM211"
+    ],
+    "registrations": [
+      "REG3FESYAX",
+      "REG5DIGXL9"
+    ]
+  },
+  "S10172": {
+    "student_id": "S10172",
+    "name": {
+      "first_name": "Daniel",
+      "last_name": "Johnson"
+    },
+    "email": "daniel.johnson11@university.edu",
+    "dob": "2000-01-18",
+    "major": "English",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_2715864",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "5410"
+      },
+      {
+        "payment_id": "student_account_S10172",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGNRL8XKG",
+      "REG2OFHBAW"
+    ]
+  },
+  "S10173": {
+    "student_id": "S10173",
+    "name": {
+      "first_name": "Jennifer",
+      "last_name": "Martinez"
+    },
+    "email": "jennifer.martinez33@university.edu",
+    "dob": "1998-08-07",
+    "major": "Sociology",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_6227389",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7084"
+      },
+      {
+        "payment_id": "student_account_S10173",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CHEM300",
+      "PSYC300",
+      "BIO201",
+      "MUS120",
+      "PHYS300",
+      "MATH100",
+      "BUS111",
+      "CS520"
+    ],
+    "registrations": [
+      "REGTOUHYLU",
+      "REGR2H2P39",
+      "REGVTKRRVW",
+      "REGO9X49TM",
+      "REG4S8PNNE",
+      "REGDQEWUHR"
+    ]
+  },
+  "S10174": {
+    "student_id": "S10174",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Wang"
+    },
+    "email": "ethan.wang14@university.edu",
+    "dob": "2002-07-27",
+    "major": "Chemistry",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5176895",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8257"
+      },
+      {
+        "payment_id": "student_account_S10174",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGJVRN8LP",
+      "REGBFA1U5M",
+      "REGKN3B8PF"
+    ]
+  },
+  "S10175": {
+    "student_id": "S10175",
+    "name": {
+      "first_name": "Michelle",
+      "last_name": "Roberts"
+    },
+    "email": "michelle.roberts91@student.edu",
+    "dob": "1999-09-22",
+    "major": "Engineering",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7528399",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "6293"
+      },
+      {
+        "payment_id": "student_account_S10175",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [
+      "PHYS101",
+      "CS120",
+      "CS520"
+    ],
+    "registrations": []
+  },
+  "S10176": {
+    "student_id": "S10176",
+    "name": {
+      "first_name": "Richard",
+      "last_name": "Harris"
+    },
+    "email": "richard.harris84@university.edu",
+    "dob": "1998-11-07",
+    "major": "Psychology",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8284023",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1246"
+      },
+      {
+        "payment_id": "student_account_S10176",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGR9211U6"
+    ]
+  },
+  "S10177": {
+    "student_id": "S10177",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Patel"
+    },
+    "email": "emily.patel39@student.edu",
+    "dob": "2001-01-02",
+    "major": "Education",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3600333",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "2466"
+      },
+      {
+        "payment_id": "student_account_S10177",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_195841",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "PHYS221",
+      "PSYC220",
+      "PSYC300",
+      "ART110",
+      "BUS111",
+      "STAT200",
+      "CS201",
+      "MATH200"
+    ],
+    "registrations": [
+      "REG2CTG08Z",
+      "REGHTFNSGP"
+    ]
+  },
+  "S10178": {
+    "student_id": "S10178",
+    "name": {
+      "first_name": "Kimberly",
+      "last_name": "Patel"
+    },
+    "email": "kimberly.patel33@campus.edu",
+    "dob": "2003-08-24",
+    "major": "Computer Science",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7337911",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3207"
+      },
+      {
+        "payment_id": "student_account_S10178",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "ENGR100",
+      "BUS111",
+      "ART110",
+      "MATH200",
+      "PSYC120",
+      "LING121"
+    ],
+    "registrations": [
+      "REG5X9EE34",
+      "REG4EX6U86",
+      "REG1A0774R",
+      "REG7ZQHT2X",
+      "REGZ72KXSJ",
+      "REG04AJMMU"
+    ]
+  },
+  "S10179": {
+    "student_id": "S10179",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Perez"
+    },
+    "email": "matthew.perez33@university.edu",
+    "dob": "2005-05-28",
+    "major": "Physics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9911007",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "8362"
+      },
+      {
+        "payment_id": "student_account_S10179",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "MATH420",
+      "POLS221",
+      "CS400",
+      "BIO301",
+      "CHEM211"
+    ],
+    "registrations": [
+      "REG0V60XNG",
+      "REG7G0L3RT",
+      "REGPW0GKEJ",
+      "REG3NUPUY0"
+    ]
+  },
+  "S10180": {
+    "student_id": "S10180",
+    "name": {
+      "first_name": "Melissa",
+      "last_name": "Zhang"
+    },
+    "email": "melissa.zhang26@university.edu",
+    "dob": "2003-10-08",
+    "major": "Physics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7501017",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "9586"
+      },
+      {
+        "payment_id": "student_account_S10180",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "HIST221",
+      "ENG201",
+      "PSYC220",
+      "MATH420",
+      "PHYS101",
+      "STAT200",
+      "CS621",
+      "MUS220",
+      "MATH100",
+      "PHIL120"
+    ],
+    "registrations": [
+      "REGCU9TD0V",
+      "REGIE9EDE1",
+      "REG07V882O"
+    ]
+  },
+  "S10181": {
+    "student_id": "S10181",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Williams"
+    },
+    "email": "liam.williams69@campus.edu",
+    "dob": "2001-02-16",
+    "major": "Chemistry",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1533803",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9026"
+      },
+      {
+        "payment_id": "student_account_S10181",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_331444",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "PSYC220",
+      "MATH200",
+      "POLS120"
+    ],
+    "registrations": [
+      "REG81DO6OU",
+      "REGGP15CA8",
+      "REGZXLRGNJ",
+      "REGZJNNS9P"
+    ]
+  },
+  "S10182": {
+    "student_id": "S10182",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Harris"
+    },
+    "email": "patricia.harris94@university.edu",
+    "dob": "2006-12-14",
+    "major": "Mathematics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5459646",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2153"
+      },
+      {
+        "payment_id": "student_account_S10182",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_326387",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "MATH521",
+      "BUS111",
+      "BIO301",
+      "PSYC120",
+      "CHEM211",
+      "CS621"
+    ],
+    "registrations": [
+      "REGYQAELYY",
+      "REG285TZV9",
+      "REG0ZR7FDF"
+    ]
+  },
+  "S10183": {
+    "student_id": "S10183",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Nelson"
+    },
+    "email": "kevin.nelson62@campus.edu",
+    "dob": "2000-09-24",
+    "major": "Chemistry",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7005628",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7997"
+      },
+      {
+        "payment_id": "student_account_S10183",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_289159",
+        "type": "financial_aid",
+        "balance": 8000
+      }
+    ],
+    "completed_courses": [
+      "MUS220",
+      "ECON110",
+      "BUS111",
+      "HIST110",
+      "BUS301",
+      "PHYS221",
+      "HIST221",
+      "BUS211",
+      "NURS101",
+      "CS300"
+    ],
+    "registrations": [
+      "REGCM0W3C1"
+    ]
+  },
+  "S10184": {
+    "student_id": "S10184",
+    "name": {
+      "first_name": "Donna",
+      "last_name": "Li"
+    },
+    "email": "donna.li27@student.edu",
+    "dob": "2003-10-08",
+    "major": "Philosophy",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5262908",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8412"
+      },
+      {
+        "payment_id": "student_account_S10184",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "HIST110",
+      "EDUC111",
+      "CS621"
+    ],
+    "registrations": []
+  },
+  "S10185": {
+    "student_id": "S10185",
+    "name": {
+      "first_name": "James",
+      "last_name": "Lee"
+    },
+    "email": "james.lee83@student.edu",
+    "dob": "2001-04-28",
+    "major": "Computer Science",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5629792",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2544"
+      },
+      {
+        "payment_id": "student_account_S10185",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "CS300",
+      "CHEM121",
+      "STAT111",
+      "MATH521",
+      "CS120",
+      "SOC111",
+      "POLS120"
+    ],
+    "registrations": []
+  },
+  "S10186": {
+    "student_id": "S10186",
+    "name": {
+      "first_name": "Kevin",
+      "last_name": "Anderson"
+    },
+    "email": "kevin.anderson15@student.edu",
+    "dob": "1999-12-11",
+    "major": "English",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9191918",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "5921"
+      },
+      {
+        "payment_id": "student_account_S10186",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [
+      "BIO201",
+      "ENG320",
+      "PHYS221",
+      "PHIL201",
+      "ENG201",
+      "PHYS101",
+      "MATH521",
+      "PSYC220",
+      "HIST110",
+      "ENGR201",
+      "BIO301",
+      "MATH420",
+      "SOC111",
+      "CS621"
+    ],
+    "registrations": [
+      "REGIWKESVR",
+      "REG590EMC2",
+      "REG7O4YC3S",
+      "REG2WDIZHW"
+    ]
+  },
+  "S10187": {
+    "student_id": "S10187",
+    "name": {
+      "first_name": "Joshua",
+      "last_name": "Hill"
+    },
+    "email": "joshua.hill16@campus.edu",
+    "dob": "2000-06-17",
+    "major": "Biology",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1847581",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8300"
+      },
+      {
+        "payment_id": "student_account_S10187",
+        "type": "student_account",
+        "balance": 0
+      },
+      {
+        "payment_id": "financial_aid_403859",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "POLS120",
+      "CS520",
+      "LING121",
+      "MATH300"
+    ],
+    "registrations": [
+      "REGX1S9XKA",
+      "REG2A3AH7U"
+    ]
+  },
+  "S10188": {
+    "student_id": "S10188",
+    "name": {
+      "first_name": "Emily",
+      "last_name": "Moore"
+    },
+    "email": "emily.moore62@student.edu",
+    "dob": "1999-07-17",
+    "major": "Biology",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3262755",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "4245"
+      },
+      {
+        "payment_id": "student_account_S10188",
+        "type": "student_account",
+        "balance": 5000
+      },
+      {
+        "payment_id": "financial_aid_699083",
+        "type": "financial_aid",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "MUS120",
+      "PHIL201",
+      "HIST221",
+      "NURS101",
+      "LING121",
+      "POLS120",
+      "PHYS101",
+      "MUS220"
+    ],
+    "registrations": [
+      "REGYKIS11D",
+      "REGEOHDK51"
+    ]
+  },
+  "S10189": {
+    "student_id": "S10189",
+    "name": {
+      "first_name": "Betty",
+      "last_name": "White"
+    },
+    "email": "betty.white39@university.edu",
+    "dob": "2001-06-12",
+    "major": "Business",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3839632",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "8245"
+      },
+      {
+        "payment_id": "student_account_S10189",
+        "type": "student_account",
+        "balance": 500
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REG911PJQ5",
+      "REGBKG8B35",
+      "REGQ08DNX8"
+    ]
+  },
+  "S10190": {
+    "student_id": "S10190",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Harris"
+    },
+    "email": "yuki.harris49@student.edu",
+    "dob": "2000-12-28",
+    "major": "Chemistry",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_1914996",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3419"
+      },
+      {
+        "payment_id": "student_account_S10190",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_827497",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGB45L6D1",
+      "REGDV1L303",
+      "REGIEMTMYJ"
+    ]
+  },
+  "S10191": {
+    "student_id": "S10191",
+    "name": {
+      "first_name": "Paul",
+      "last_name": "Johnson"
+    },
+    "email": "paul.johnson42@university.edu",
+    "dob": "2003-04-24",
+    "major": "History",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_9778944",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "9991"
+      },
+      {
+        "payment_id": "student_account_S10191",
+        "type": "student_account",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "CHEM121",
+      "MUS220",
+      "CS621",
+      "PHIL120"
+    ],
+    "registrations": [
+      "REG6TJ9XPF",
+      "REG0EHRUWA"
+    ]
+  },
+  "S10192": {
+    "student_id": "S10192",
+    "name": {
+      "first_name": "Patricia",
+      "last_name": "Martin"
+    },
+    "email": "patricia.martin22@student.edu",
+    "dob": "2001-12-20",
+    "major": "Mathematics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8800748",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "2091"
+      },
+      {
+        "payment_id": "student_account_S10192",
+        "type": "student_account",
+        "balance": 3000
+      }
+    ],
+    "completed_courses": [
+      "ENGR100",
+      "PSYC220",
+      "BIO301",
+      "MATH521",
+      "MATH300",
+      "CS400"
+    ],
+    "registrations": [
+      "REGB7NUGPJ",
+      "REGJMVRYDC",
+      "REGQLBUXDJ",
+      "REGTMAV676",
+      "REGIRJLYQZ"
+    ]
+  },
+  "S10193": {
+    "student_id": "S10193",
+    "name": {
+      "first_name": "Sandra",
+      "last_name": "Green"
+    },
+    "email": "sandra.green97@student.edu",
+    "dob": "2006-02-06",
+    "major": "Statistics",
+    "level": "sophomore",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8683734",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "1651"
+      },
+      {
+        "payment_id": "student_account_S10193",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "PHYS300",
+      "MATH300",
+      "ECON110",
+      "EDUC111",
+      "PHYS221"
+    ],
+    "registrations": [
+      "REG0E9KDTS",
+      "REGQI2CLP8",
+      "REGAWWJNN4"
+    ]
+  },
+  "S10194": {
+    "student_id": "S10194",
+    "name": {
+      "first_name": "Matthew",
+      "last_name": "Nelson"
+    },
+    "email": "matthew.nelson39@student.edu",
+    "dob": "2002-04-17",
+    "major": "Mathematics",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_5323142",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1482"
+      },
+      {
+        "payment_id": "student_account_S10194",
+        "type": "student_account",
+        "balance": 1500
+      },
+      {
+        "payment_id": "financial_aid_458388",
+        "type": "financial_aid",
+        "balance": 5000
+      }
+    ],
+    "completed_courses": [
+      "BIO301",
+      "CS621",
+      "NURS101",
+      "HIST321",
+      "POLS221",
+      "MATH300"
+    ],
+    "registrations": [
+      "REGLWN71EG",
+      "REG6EQV5Y2",
+      "REGLZTWXOL"
+    ]
+  },
+  "S10195": {
+    "student_id": "S10195",
+    "name": {
+      "first_name": "Jessica",
+      "last_name": "Hill"
+    },
+    "email": "jessica.hill33@student.edu",
+    "dob": "2000-07-10",
+    "major": "Political Science",
+    "level": "junior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_3210769",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3270"
+      },
+      {
+        "payment_id": "student_account_S10195",
+        "type": "student_account",
+        "balance": 1000
+      }
+    ],
+    "completed_courses": [
+      "PHIL201",
+      "PSYC300",
+      "PSYC220",
+      "LING121",
+      "ECON110",
+      "HIST221",
+      "MATH100",
+      "BUS211",
+      "BUS111",
+      "PHYS101"
+    ],
+    "registrations": [
+      "REGM42WSC3",
+      "REGGH5XW6T"
+    ]
+  },
+  "S10196": {
+    "student_id": "S10196",
+    "name": {
+      "first_name": "Noah",
+      "last_name": "Martinez"
+    },
+    "email": "noah.martinez87@student.edu",
+    "dob": "1998-06-14",
+    "major": "Business",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8432381",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "3489"
+      },
+      {
+        "payment_id": "student_account_S10196",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_293720",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "HIST321",
+      "MATH521",
+      "HIST110",
+      "CHEM300",
+      "CHEM211",
+      "NURS101",
+      "EDUC111",
+      "PHYS221",
+      "POLS120",
+      "CS520",
+      "CS201",
+      "CS400"
+    ],
+    "registrations": [
+      "REGHMLVHS2",
+      "REG71K4FPL",
+      "REGQ5DZ53X",
+      "REG5QBVNPY",
+      "REGTDKVUFF"
+    ]
+  },
+  "S10197": {
+    "student_id": "S10197",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Baker"
+    },
+    "email": "fatima.baker98@student.edu",
+    "dob": "2003-03-28",
+    "major": "Engineering",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_8949832",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "3683"
+      },
+      {
+        "payment_id": "student_account_S10197",
+        "type": "student_account",
+        "balance": 1000
+      },
+      {
+        "payment_id": "financial_aid_528436",
+        "type": "financial_aid",
+        "balance": 2000
+      }
+    ],
+    "completed_courses": [
+      "MATH300",
+      "MUS220",
+      "PSYC120",
+      "BIO110",
+      "MATH100",
+      "ECON200",
+      "BUS301",
+      "HIST321",
+      "MATH200"
+    ],
+    "registrations": [
+      "REGBOFLOAZ",
+      "REGAGDX5O3",
+      "REGVF8GUAS"
+    ]
+  },
+  "S10198": {
+    "student_id": "S10198",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "Young"
+    },
+    "email": "liam.young67@student.edu",
+    "dob": "2001-07-13",
+    "major": "Education",
+    "level": "freshman",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7381619",
+        "type": "credit_card",
+        "brand": "mastercard",
+        "last_four": "7457"
+      },
+      {
+        "payment_id": "student_account_S10198",
+        "type": "student_account",
+        "balance": 0
+      }
+    ],
+    "completed_courses": [],
+    "registrations": [
+      "REGNQBNXZU"
+    ]
+  },
+  "S10199": {
+    "student_id": "S10199",
+    "name": {
+      "first_name": "Emma",
+      "last_name": "Williams"
+    },
+    "email": "emma.williams74@university.edu",
+    "dob": "2001-09-18",
+    "major": "Mathematics",
+    "level": "senior",
+    "payment_methods": [
+      {
+        "payment_id": "credit_card_7499457",
+        "type": "credit_card",
+        "brand": "visa",
+        "last_four": "4110"
+      },
+      {
+        "payment_id": "student_account_S10199",
+        "type": "student_account",
+        "balance": 1500
+      }
+    ],
+    "completed_courses": [
+      "ECON110",
+      "PHIL201",
+      "ENGR100",
+      "HIST321",
+      "BIO201",
+      "ART110",
+      "CS621",
+      "PSYC300",
+      "ENG111",
+      "BUS301",
+      "POLS120"
+    ],
+    "registrations": []
+  }
+}
