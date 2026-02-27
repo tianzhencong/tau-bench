@@ -1,8 +1,23 @@
 # Copyright Sierra
 
 import json
+import time
 from litellm import completion
 from typing import List, Optional, Dict, Any
+
+
+def completion_with_retry(max_retries=5, **kwargs):
+    for attempt in range(max_retries):
+        try:
+            return completion(**kwargs)
+        except Exception as e:
+            if "rate" in str(e).lower() or "overloaded" in str(e).lower() or "429" in str(e):
+                wait = 2 ** attempt + 1
+                print(f"  [retry {attempt+1}/{max_retries}] Rate limited, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
+    return completion(**kwargs)
 
 from tau_bench.agents.base import Agent
 from tau_bench.envs.base import Env
@@ -37,7 +52,7 @@ class ToolCallingAgent(Agent):
             {"role": "user", "content": obs},
         ]
         for _ in range(max_num_steps):
-            res = completion(
+            res = completion_with_retry(
                 messages=messages,
                 model=self.model,
                 custom_llm_provider=self.provider,
@@ -45,7 +60,7 @@ class ToolCallingAgent(Agent):
                 temperature=self.temperature,
             )
             next_message = res.choices[0].message.model_dump()
-            total_cost += res._hidden_params["response_cost"]
+            total_cost += res._hidden_params.get("response_cost") or 0
             action = message_to_action(next_message)
             env_response = env.step(action)
             reward = env_response.reward

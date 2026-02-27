@@ -2,9 +2,24 @@
 
 import abc
 import enum
+import time
 from litellm import completion
 
 from typing import Optional, List, Dict, Any, Union
+
+
+def completion_with_retry(max_retries=5, **kwargs):
+    for attempt in range(max_retries):
+        try:
+            return completion(**kwargs)
+        except Exception as e:
+            if "rate" in str(e).lower() or "overloaded" in str(e).lower() or "429" in str(e):
+                wait = 2 ** attempt + 1
+                print(f"  [retry {attempt+1}/{max_retries}] Rate limited, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
+    return completion(**kwargs)
 
 
 class BaseUserSimulationEnv(abc.ABC):
@@ -44,12 +59,12 @@ class LLMUserSimulationEnv(BaseUserSimulationEnv):
         self.reset()
 
     def generate_next_message(self, messages: List[Dict[str, Any]]) -> str:
-        res = completion(
+        res = completion_with_retry(
             model=self.model, custom_llm_provider=self.provider, messages=messages
         )
         message = res.choices[0].message
         self.messages.append(message.model_dump())
-        self.total_cost = res._hidden_params["response_cost"]
+        self.total_cost = res._hidden_params.get("response_cost") or 0
         return message.content
 
     def build_system_prompt(self, instruction: Optional[str]) -> str:
@@ -115,12 +130,12 @@ User Response:
 <the user response (this will be parsed and sent to the agent)>"""
 
     def generate_next_message(self, messages: List[Dict[str, Any]]) -> str:
-        res = completion(
+        res = completion_with_retry(
             model=self.model, custom_llm_provider=self.provider, messages=messages
         )
         message = res.choices[0].message
         self.messages.append(message.model_dump())
-        self.total_cost = res._hidden_params["response_cost"]
+        self.total_cost = res._hidden_params.get("response_cost") or 0
         return self.parse_response(message.content)
 
     def reset(self, instruction: Optional[str] = None) -> str:
@@ -164,11 +179,11 @@ class VerifyUserSimulationEnv(LLMUserSimulationEnv):
         attempts = 0
         cur_message = None
         while attempts < self.max_attempts:
-            res = completion(
+            res = completion_with_retry(
                 model=self.model, custom_llm_provider=self.provider, messages=messages
             )
             cur_message = res.choices[0].message
-            self.total_cost = res._hidden_params["response_cost"]
+            self.total_cost = res._hidden_params.get("response_cost") or 0
             if verify(self.model, self.provider, cur_message, messages):
                 self.messages.append(cur_message.model_dump())
                 return cur_message.content
@@ -224,7 +239,7 @@ Your answer will be parsed, so do not include any other text than the classifica
 -----
 
 Classification:"""
-    res = completion(
+    res = completion_with_retry(
         model=model,
         custom_llm_provider=provider,
         messages=[{"role": "user", "content": prompt}],
@@ -258,7 +273,7 @@ Reflection:
 
 Response:
 <the response (this will be parsed and sent to the agent)>"""
-    res = completion(
+    res = completion_with_retry(
         model=model,
         custom_llm_provider=provider,
         messages=[{"role": "user", "content": prompt}],

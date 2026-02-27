@@ -27,7 +27,9 @@ def run(config: RunConfig) -> List[EnvRunResult]:
 
     random.seed(config.seed)
     time_str = datetime.now().strftime("%m%d%H%M%S")
-    ckpt_path = f"{config.log_dir}/{config.agent_strategy}-{config.model.split('/')[-1]}-{config.temperature}_range_{config.start_index}-{config.end_index}_user-{config.user_model}-{config.user_strategy}_{time_str}.json"
+    model_safe = config.model.replace("/", "_")
+    user_model_safe = config.user_model.replace("/", "_")
+    ckpt_path = f"{config.log_dir}/{config.agent_strategy}-{model_safe}-{config.temperature}_range_{config.start_index}-{config.end_index}_user-{user_model_safe}-{config.user_strategy}_{time_str}.json"
     if not os.path.exists(config.log_dir):
         os.makedirs(config.log_dir)
 
