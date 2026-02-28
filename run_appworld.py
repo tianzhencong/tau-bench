@@ -178,6 +178,19 @@ Important workflow:
             print(f"  Turn {turn+1}: 💬 Final response")
             break
     
+    # Evaluate before closing
+    evaluation = None
+    try:
+        result = world.evaluate()
+        evaluation = result.to_dict()
+        if evaluation['success']:
+            print(f"  ✅ Eval: {len(evaluation['passes'])}/{evaluation['num_tests']} passed")
+        else:
+            print(f"  ❌ Eval: {len(evaluation['passes'])}/{evaluation['num_tests']} passed, {len(evaluation['failures'])} failed")
+    except Exception as e:
+        print(f"  ⚠️ Eval error: {e}")
+        evaluation = {"success": False, "error": str(e)}
+    
     world.close()
     
     return {
@@ -187,6 +200,7 @@ Important workflow:
         "messages": messages,
         "tools": tools,
         "total_turns": turn + 1,
+        "evaluation": evaluation,
     }
 
 
