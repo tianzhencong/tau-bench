@@ -53,6 +53,16 @@ def get_env(
             user_provider=user_provider,
             task_index=task_index,
         )
+    elif env_name == "mcp_bench":
+        from tau_bench.envs.mcp_bench import MockMCPBenchEnv
+
+        return MockMCPBenchEnv(
+            user_strategy=user_strategy,
+            user_model=user_model,
+            task_split=task_split,
+            user_provider=user_provider,
+            task_index=task_index,
+        )
     elif env_name == "workflow":
         from tau_bench.envs.workflow import MockWorkflowDomainEnv
 

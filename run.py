@@ -11,7 +11,7 @@ def parse_args() -> RunConfig:
     parser = argparse.ArgumentParser()
     parser.add_argument("--num-trials", type=int, default=1)
     parser.add_argument(
-        "--env", type=str, choices=["retail", "airline", "course", "investment", "travel", "healthcare", "workflow"], default="retail"
+        "--env", type=str, choices=["retail", "airline", "course", "investment", "travel", "healthcare", "workflow", "mcp_bench"], default="retail"
     )
     parser.add_argument(
         "--model",
