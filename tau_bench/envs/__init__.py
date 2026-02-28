@@ -53,6 +53,16 @@ def get_env(
             user_provider=user_provider,
             task_index=task_index,
         )
+    elif env_name == "workflow":
+        from tau_bench.envs.workflow import MockWorkflowDomainEnv
+
+        return MockWorkflowDomainEnv(
+            user_strategy=user_strategy,
+            user_model=user_model,
+            task_split=task_split,
+            user_provider=user_provider,
+            task_index=task_index,
+        )
     elif env_name == "healthcare":
         from tau_bench.envs.healthcare import MockHealthcareDomainEnv
 

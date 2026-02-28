@@ -18,7 +18,7 @@ from tau_bench.envs.user import UserStrategy
 
 
 def run(config: RunConfig) -> List[EnvRunResult]:
-    assert config.env in ["retail", "airline", "course", "investment", "travel", "healthcare"], "Supported envs: retail, airline, course, investment, travel, healthcare"
+    assert config.env in ["retail", "airline", "course", "investment", "travel", "healthcare", "workflow"], "Supported envs: retail, airline, course, investment, travel, healthcare, workflow"
     assert config.model_provider in provider_list, "Invalid model provider"
     assert config.user_model_provider in provider_list, "Invalid user model provider"
     assert config.agent_strategy in ["tool-calling", "act", "react", "few-shot"], "Invalid agent strategy"
