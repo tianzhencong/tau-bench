@@ -34,6 +34,7 @@ Both domains (airline and retail) load static JSON data bundled in the package. 
 - **Course**: student registrations, courses, departments, 16 tools
 - **Investment**: clients, brokerage/IRA/savings accounts, securities, holdings, orders, 18 tools
 - **Healthcare**: patients, procedures, specialists, appointments, insurance plans, 17 tools
+- **Workflow**: employees, projects, sales, HR, files, calendar, messages — 20 tools with data flow dependencies (query → aggregate/filter → report → send)
 
 ### Caveats
 
