@@ -120,7 +120,11 @@ Important workflow:
 2. Use supervisor__show_account_passwords to get login credentials for apps
 3. Login to required apps using their login API (e.g., venmo__login, spotify__login)
 4. Use the access_token from login for subsequent API calls in that app
-5. Complete the task step by step"""
+5. Complete the task step by step
+6. IMPORTANT: When the task is done, you MUST call supervisor__complete_task to mark it complete.
+   - For action tasks (placing orders, sending money, etc.): call supervisor__complete_task(answer=null, status="success")
+   - For question tasks (asking "what is...?"): call supervisor__complete_task(answer="your answer here", status="success")
+   - Never end without calling supervisor__complete_task."""
 
     messages = [
         {"role": "system", "content": system_msg},
