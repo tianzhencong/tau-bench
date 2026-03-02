@@ -39,17 +39,33 @@ def _load_tools():
 
 def _keyword_match(query: str, tools: List[Dict]) -> List[Dict]:
     query_lower = query.lower()
-    query_words = set(re.findall(r'[a-z]+', query_lower))
+    # Split on word boundaries including hyphens and underscores
+    query_words = set(re.findall(r'[a-z0-9]+', query_lower))
     
     scored = []
     for t in tools:
         text = f"{t['server_display']} {t['tool_name']} {t['tool_description']} {t['category']}".lower()
-        text_words = set(re.findall(r'[a-z]+', text))
-        overlap = len(query_words & text_words)
-        if overlap > 0:
-            scored.append((overlap, t))
+        text_words = set(re.findall(r'[a-z0-9]+', text))
+        
+        # Exact tool_name match gets highest priority
+        if query_lower.replace('-', '_') == t['tool_name'].lower().replace('-', '_'):
+            scored.append((1000, t))
+        elif query_lower in t['tool_name'].lower() or t['tool_name'].lower() in query_lower:
+            scored.append((500, t))
+        else:
+            overlap = len(query_words & text_words)
+            if overlap > 0:
+                scored.append((overlap, t))
     
     scored.sort(key=lambda x: -x[0])
+    # Always return at least something (best partial matches)
+    if not scored:
+        # Fallback: return tools with any character overlap
+        for t in tools:
+            if any(w in t['tool_name'].lower() for w in query_words if len(w) > 2):
+                scored.append((1, t))
+        scored.sort(key=lambda x: -x[0])
+    
     return [s[1] for s in scored[:5]]
 
 
@@ -67,9 +83,9 @@ class Route(Tool):
             results.append({
                 "server_name": m["server_name"],
                 "tool_name": m["tool_name"],
-                "tool_description": m["tool_description"][:200],
-                "category": m["category"],
-                "input_schema": m["input_schema"],
+                "tool_description": (m.get("tool_description") or "")[:200],
+                "category": m.get("category", ""),
+                "input_schema": m.get("input_schema", {}),
             })
         
         return json.dumps({"success": True, "matched_tools": results})

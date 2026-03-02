@@ -1,5 +1,5 @@
 # Copyright Sierra
-# Mock execute_tool: returns plausible fake data based on tool type
+# Improved execute_tool: returns diverse, parameterized mock data
 
 import json
 import hashlib
@@ -7,154 +7,170 @@ from typing import Any, Dict
 from tau_bench.envs.tool import Tool
 
 
+def _hash_seed(server_name: str, tool_name: str, params: Dict) -> int:
+    """Generate a deterministic seed from inputs for varied but reproducible responses."""
+    seed_str = f"{server_name}_{tool_name}_{json.dumps(params, sort_keys=True)}"
+    return int(hashlib.md5(seed_str.encode()).hexdigest()[:8], 16)
+
+
 def _generate_mock_response(server_name: str, tool_name: str, params: Dict) -> Dict:
-    """Generate a plausible mock response based on the tool name and parameters."""
+    """Generate parameterized mock data that varies based on inputs."""
     
+    seed = _hash_seed(server_name, tool_name, params)
     name_lower = tool_name.lower()
-    server_lower = server_name.lower()
+    
+    # Use seed to generate varied numbers
+    price = round(50 + (seed % 500) + (seed % 100) / 100, 2)
+    count = 3 + seed % 8
+    rating = round(3.0 + (seed % 20) / 10, 1)
     
     # File operations
-    if any(w in name_lower for w in ["write_file", "save", "create_document", "create_presentation"]):
-        path = params.get("path", params.get("filename", "/root/output/result"))
-        return {"success": True, "message": f"File created successfully at {path}", "size_bytes": 2048}
+    if any(w in name_lower for w in ["write_file", "save", "create_document", "create_presentation", "save_presentation"]):
+        path = params.get("path", params.get("filename", f"/root/output/result_{seed % 1000}"))
+        return {"success": True, "message": f"File created at {path}", "size_bytes": 1024 + seed % 5000}
     
     if any(w in name_lower for w in ["read_file", "read_multiple", "open_document"]):
-        path = params.get("path", "unknown")
-        return {"success": True, "content": f"[Content of {path}] This is a sample document content with relevant information about the requested topic.", "size_bytes": 1024}
+        path = params.get("path", "file")
+        return {"success": True, "content": f"Document content from {path}. Contains {count} sections with detailed information about the topic.", "size_bytes": 512 + seed % 3000}
     
-    if any(w in name_lower for w in ["convert_to_pdf", "save_presentation", "export"]):
-        return {"success": True, "message": "Document converted successfully", "output_path": params.get("path", "/root/output/converted.pdf")}
+    if any(w in name_lower for w in ["convert_to_pdf", "export"]):
+        return {"success": True, "output_path": params.get("path", f"/root/output/converted_{seed%100}.pdf")}
     
     if any(w in name_lower for w in ["add_paragraph", "add_slide", "add_picture"]):
-        return {"success": True, "message": "Content added successfully"}
+        return {"success": True, "message": "Content added successfully", "element_id": seed % 100}
     
-    # Search/fetch operations
-    if any(w in name_lower for w in ["search", "query", "find", "get_news", "trending", "rank"]):
+    # Search/fetch - return varied results
+    if any(w in name_lower for w in ["search", "query", "find", "get_news", "trending", "rank", "get_stories"]):
         query = params.get("query", params.get("keyword", params.get("q", "topic")))
-        return {
-            "results": [
-                {"title": f"Result 1 about {query}", "description": f"Detailed information about {query} from authoritative sources.", "url": f"https://example.com/{query.replace(' ', '-')}/1", "relevance": 0.95},
-                {"title": f"Result 2 about {query}", "description": f"Additional data and analysis related to {query}.", "url": f"https://example.com/{query.replace(' ', '-')}/2", "relevance": 0.87},
-                {"title": f"Result 3 about {query}", "description": f"Recent updates and trends about {query}.", "url": f"https://example.com/{query.replace(' ', '-')}/3", "relevance": 0.82},
-                {"title": f"Result 4 about {query}", "description": f"Expert analysis on {query}.", "url": f"https://example.com/{query.replace(' ', '-')}/4", "relevance": 0.78},
-                {"title": f"Result 5 about {query}", "description": f"Comprehensive overview of {query}.", "url": f"https://example.com/{query.replace(' ', '-')}/5", "relevance": 0.71},
-            ],
-            "total_count": 5,
-        }
+        results = []
+        for j in range(count):
+            item_seed = seed + j * 7
+            results.append({
+                "title": f"{'Top' if j==0 else 'Notable'} result about {query} #{j+1}",
+                "description": f"{'Comprehensive' if j%2==0 else 'In-depth'} coverage of {query} with {10+item_seed%90} references.",
+                "url": f"https://source{j+1}.example.com/{query.replace(' ', '-')[:30]}",
+                "date": f"2024-{11-j%3:02d}-{15-j:02d}",
+                "relevance": round(0.95 - j * 0.05, 2),
+            })
+        return {"results": results, "total_count": count + seed % 20}
     
-    # Stock/finance operations
-    if any(w in name_lower for w in ["stock", "price", "market", "financial", "income", "cashflow", "ohlcv"]):
-        symbol = params.get("symbol", params.get("ticker", "AAPL"))
+    # Stock/finance - varied per symbol
+    if any(w in name_lower for w in ["stock", "price", "market", "financial", "income", "cashflow", "ohlcv", "fundamental", "ticker"]):
+        symbol = params.get("symbol", params.get("ticker", params.get("code", "UNKNOWN")))
+        sym_seed = int(hashlib.md5(symbol.encode()).hexdigest()[:8], 16)
+        base_price = 20 + (sym_seed % 980)
+        change = round(-5 + (sym_seed % 100) / 10, 2)
         return {
             "symbol": symbol,
-            "current_price": 185.50,
-            "change_percent": 1.25,
-            "volume": 52340000,
-            "market_cap": "2.85T",
-            "pe_ratio": 30.2,
-            "high_52w": 199.62,
-            "low_52w": 164.08,
+            "name": f"{symbol} Corp",
+            "current_price": base_price,
+            "change_percent": change,
+            "volume": 1000000 + sym_seed % 50000000,
+            "market_cap": f"{base_price * (10 + sym_seed % 90) / 10:.1f}B",
+            "pe_ratio": round(10 + sym_seed % 40 + (sym_seed % 10) / 10, 1),
+            "high_52w": round(base_price * 1.3, 2),
+            "low_52w": round(base_price * 0.7, 2),
             "data": [
-                {"date": "2024-11-14", "open": 183.20, "high": 186.10, "low": 182.50, "close": 185.50, "volume": 52340000},
-                {"date": "2024-11-13", "open": 181.50, "high": 184.00, "low": 180.90, "close": 183.20, "volume": 48120000},
-                {"date": "2024-11-12", "open": 182.80, "high": 183.50, "low": 180.20, "close": 181.50, "volume": 45670000},
+                {"date": f"2024-11-{15-d}", "open": round(base_price*(1-0.01*d), 2), "close": round(base_price*(1+0.005*d), 2), "volume": 1000000+d*100000}
+                for d in range(min(5, int(params.get("days", 5))))
             ],
         }
     
-    # Weather operations
+    # Weather - varied by city
     if any(w in name_lower for w in ["weather", "forecast", "temperature"]):
-        city = params.get("city", params.get("location", "Beijing"))
+        city = params.get("city", params.get("location", "Unknown"))
+        city_seed = int(hashlib.md5(city.encode()).hexdigest()[:8], 16)
+        base_temp = 5 + city_seed % 30
+        conditions = ["Sunny", "Partly Cloudy", "Cloudy", "Light Rain", "Clear", "Overcast"]
         return {
             "location": city,
-            "current": {"temperature": 22, "condition": "Partly Cloudy", "humidity": 55, "wind_speed": 12},
+            "current": {"temperature": base_temp, "condition": conditions[city_seed % len(conditions)], "humidity": 30 + city_seed % 50, "wind_speed": 5 + city_seed % 20},
             "forecast": [
-                {"date": "2024-11-16", "high": 24, "low": 15, "condition": "Sunny", "rain_chance": 10},
-                {"date": "2024-11-17", "high": 21, "low": 13, "condition": "Cloudy", "rain_chance": 30},
-                {"date": "2024-11-18", "high": 19, "low": 11, "condition": "Light Rain", "rain_chance": 65},
+                {"date": f"2024-11-{16+d}", "high": base_temp + 3 - d, "low": base_temp - 5 + d, "condition": conditions[(city_seed + d) % len(conditions)], "rain_chance": (city_seed * d) % 80}
+                for d in range(3)
             ],
         }
     
-    # Map/geocoding operations
+    # Map/geocoding - varied by address
     if any(w in name_lower for w in ["geocode", "coordinate", "location", "address"]):
-        addr = params.get("address", params.get("query", "Beijing"))
+        addr = params.get("address", params.get("query", params.get("name", "Unknown")))
         h = hashlib.md5(addr.encode()).hexdigest()
-        lat = 39.9 + int(h[:4], 16) / 65536 * 2
-        lng = 116.4 + int(h[4:8], 16) / 65536 * 2
-        return {"address": addr, "latitude": round(lat, 6), "longitude": round(lng, 6), "formatted_address": f"{addr}, China"}
+        lat = round(30 + int(h[:4], 16) / 6553.6, 6)
+        lng = round(100 + int(h[4:8], 16) / 3276.8, 6)
+        return {"address": addr, "latitude": lat, "longitude": lng, "formatted_address": f"{addr}, detailed location"}
     
-    if any(w in name_lower for w in ["direction", "route", "distance", "navigate"]):
-        return {
-            "origin": params.get("origin", "Point A"),
-            "destination": params.get("destination", "Point B"),
-            "distance_km": 45.2,
-            "duration_minutes": 52,
-            "steps": [
-                {"instruction": "Head north on Main St", "distance_km": 2.1},
-                {"instruction": "Turn right onto Highway 101", "distance_km": 35.0},
-                {"instruction": "Take exit 24B", "distance_km": 5.1},
-                {"instruction": "Arrive at destination", "distance_km": 3.0},
-            ],
-        }
+    if any(w in name_lower for w in ["direction", "route", "distance"]):
+        origin = params.get("origin", "A")
+        dest = params.get("destination", "B")
+        dist_seed = _hash_seed("", "", {"o": origin, "d": dest})
+        dist = round(10 + dist_seed % 500, 1)
+        return {"origin": origin, "destination": dest, "distance_km": dist, "duration_minutes": int(dist * 1.2), "steps": [{"instruction": f"Drive toward {dest}", "distance_km": dist}]}
     
-    if any(w in name_lower for w in ["nearby", "places", "parking", "charging", "restaurant"]):
-        return {
-            "results": [
-                {"name": "Place A", "address": "123 Main St", "distance_km": 0.5, "rating": 4.5, "type": "restaurant"},
-                {"name": "Place B", "address": "456 Oak Ave", "distance_km": 1.2, "rating": 4.2, "type": "cafe"},
-                {"name": "Place C", "address": "789 Park Rd", "distance_km": 2.0, "rating": 4.8, "type": "attraction"},
-            ],
-        }
+    if any(w in name_lower for w in ["nearby", "places", "parking", "charging", "restaurant", "meeting"]):
+        results = []
+        for j in range(count):
+            results.append({"name": f"Location #{seed+j}", "address": f"{100+j*10} Main St", "distance_km": round(0.3 + j * 0.5, 1), "rating": round(3.5 + (seed+j)%15/10, 1)})
+        return {"results": results}
     
     # Chart/visualization
     if any(w in name_lower for w in ["chart", "plot", "graph", "word_cloud", "visualization"]):
-        return {"success": True, "image_url": "https://mock-chart.example.com/chart.png", "message": "Chart generated successfully"}
+        return {"success": True, "image_url": f"https://charts.example.com/{seed%10000}.png", "width": 800, "height": 600}
     
-    # Browser/web operations
+    # Browser
     if any(w in name_lower for w in ["navigate", "screenshot", "click", "fill", "playwright", "puppeteer"]):
         url = params.get("url", "https://example.com")
-        return {"success": True, "url": url, "title": "Page Title", "status": 200, "content_preview": "This page contains relevant information..."}
+        return {"success": True, "url": url, "title": f"Page at {url[:40]}", "status": 200}
     
-    # Code/development operations
-    if any(w in name_lower for w in ["component", "library", "docs", "npm", "package", "resolve"]):
-        return {
-            "name": params.get("name", params.get("libraryName", "react")),
-            "version": "18.2.0",
-            "description": "A popular library for building user interfaces",
-            "documentation": "## Quick Start\n\nInstall: `npm install react`\n\n```jsx\nimport React from 'react';\n```",
-            "dependencies": 3,
-            "weekly_downloads": 25000000,
-        }
+    # Code/docs
+    if any(w in name_lower for w in ["component", "library", "docs", "npm", "package", "resolve", "get_library"]):
+        name = params.get("name", params.get("libraryName", params.get("package", "lib")))
+        return {"name": name, "version": f"{1+seed%5}.{seed%10}.{seed%20}", "description": f"A library for {name}", "documentation": f"# {name}\n\nInstall: `npm install {name}`\n\n## Usage\n```\nimport {name}\n```"}
     
-    # Audio analysis
-    if any(w in name_lower for w in ["audio", "beat", "mfcc", "chroma", "load"]):
-        return {"success": True, "data": [[0.1, 0.2, 0.3], [0.4, 0.5, 0.6]], "sample_rate": 22050, "duration_seconds": 3.5}
+    # Audio
+    if any(w in name_lower for w in ["audio", "beat", "mfcc", "chroma", "load", "music"]):
+        return {"success": True, "data": [[round(0.1*j + seed%10/100, 3) for j in range(5)] for _ in range(3)], "sample_rate": 22050, "duration_seconds": round(2 + seed % 30, 1)}
     
     # Wikipedia
     if any(w in name_lower for w in ["wikipedia", "wiki"]):
-        query = params.get("query", params.get("search_query", "topic"))
-        return {"title": query, "summary": f"{query} is a notable subject with significant historical and cultural importance. It was established in the early modern period and has since grown to become one of the most recognized entities in its field.", "url": f"https://en.wikipedia.org/wiki/{query}"}
+        q = params.get("query", params.get("search_query", "topic"))
+        return {"title": q, "summary": f"{q} is a significant subject. It was established in {1900+seed%124} and has since become influential in its field with {10+seed%90} notable achievements.", "url": f"https://en.wikipedia.org/wiki/{q}"}
+    
+    # Train/transport
+    if any(w in name_lower for w in ["train", "ticket", "station", "flight"]):
+        return {"results": [
+            {"id": f"T{seed+j}", "departure": f"{8+j}:00", "arrival": f"{12+j}:30", "duration": f"{4+j%2}h{30-j*10}m", "price": 200 + seed%500 + j*50, "available": (seed+j)%3 != 0}
+            for j in range(count)
+        ]}
     
     # Calculate
     if any(w in name_lower for w in ["calculate", "compute", "math"]):
-        return {"result": 42.0, "expression": params.get("expression", "N/A")}
+        expr = params.get("expression", "0")
+        try:
+            allowed = set("0123456789+-*/.() ")
+            if all(c in allowed for c in expr):
+                return {"result": eval(expr), "expression": expr}
+        except:
+            pass
+        return {"result": seed % 1000, "expression": expr}
     
-    # Email/notification
+    # Email/message
     if any(w in name_lower for w in ["email", "send", "notify", "message"]):
-        return {"success": True, "message": "Sent successfully", "recipient": params.get("to", "user@example.com")}
+        return {"success": True, "message_id": f"MSG{seed%100000}", "status": "sent"}
     
-    # Process/command execution
+    # Process/command
     if any(w in name_lower for w in ["process", "command", "execute", "start_process", "run"]):
-        cmd = params.get("command", "echo hello")
-        return {"success": True, "stdout": f"Command output for: {cmd}\n[mock output]", "exit_code": 0, "pid": 12345}
+        cmd = params.get("command", "echo ok")
+        return {"success": True, "stdout": f"[output of: {cmd[:50]}]", "exit_code": 0}
     
-    # Default fallback
-    return {
-        "success": True,
-        "server": server_name,
-        "tool": tool_name,
-        "message": f"Tool {tool_name} executed successfully with provided parameters.",
-        "data": {"summary": "Operation completed. Results are available."},
-    }
+    # Airbnb/booking
+    if any(w in name_lower for w in ["listing", "airbnb", "hotel", "booking"]):
+        return {"results": [
+            {"id": f"L{seed+j}", "name": f"{'Cozy' if j%2==0 else 'Luxury'} Place #{seed+j}", "price_per_night": 80+seed%200+j*30, "rating": round(3.5+(seed+j)%15/10, 1), "reviews": 10+seed%200}
+            for j in range(count)
+        ]}
+    
+    # Default
+    return {"success": True, "tool": tool_name, "server": server_name, "data": {"info": f"Result from {tool_name} with {len(params)} parameters", "items_count": count}}
 
 
 class ExecuteTool(Tool):
@@ -171,7 +187,6 @@ class ExecuteTool(Tool):
         data["_tool_usage"].append({
             "server_name": server_name,
             "tool_name": tool_name,
-            "params_keys": list(params.keys()),
         })
         
         return json.dumps(response)
