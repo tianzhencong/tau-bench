@@ -261,7 +261,13 @@ class ExecuteTool(Tool):
         if params is None:
             params = {}
         
-        response = _generate_mock_response(server_name, tool_name, params)
+        # Try per-tool templates first (higher quality)
+        from tau_bench.envs.mcp_bench.tools.mock_templates import get_mock_response
+        response = get_mock_response(server_name, tool_name, params)
+        
+        # Fall back to generic params-based detection for unmapped tools
+        if response.get("tool") == tool_name and "success" in response:
+            response = _generate_mock_response(server_name, tool_name, params)
         
         # Track tool usage for evaluation
         if "_tool_usage" not in data:
