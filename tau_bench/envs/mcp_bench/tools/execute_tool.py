@@ -14,15 +14,97 @@ def _hash_seed(server_name: str, tool_name: str, params: Dict) -> int:
 
 
 def _generate_mock_response(server_name: str, tool_name: str, params: Dict) -> Dict:
-    """Generate parameterized mock data that varies based on inputs."""
+    """Generate parameterized mock data that varies based on inputs.
+    
+    Priority: params-based detection > specific tool name > generic name pattern
+    """
     
     seed = _hash_seed(server_name, tool_name, params)
     name_lower = tool_name.lower()
+    param_keys = set(k.lower() for k in params.keys())
     
     # Use seed to generate varied numbers
     price = round(50 + (seed % 500) + (seed % 100) / 100, 2)
     count = 3 + seed % 8
     rating = round(3.0 + (seed % 20) / 10, 1)
+    
+    # === PARAMS-BASED DETECTION (highest priority) ===
+    has_coords = bool(param_keys & {"latitude", "longitude", "lat", "lng", "from_latitude", "from_longitude"})
+    has_symbol = bool(param_keys & {"symbol", "ticker", "code", "stock_code"})
+    
+    # Geo tools with coordinates → return location-specific data
+    if has_coords and any(w in name_lower for w in ["charging", "ev_", "electric"]):
+        lat = params.get("latitude", params.get("lat", 39.9))
+        lng = params.get("longitude", params.get("lng", 116.4))
+        stations = []
+        for j in range(count):
+            s_seed = seed + j * 13
+            stations.append({
+                "station_id": f"CS{s_seed % 100000}",
+                "name": f"{'国网' if j%3==0 else '特来电' if j%3==1 else '星星充电'} {['朝阳','海淀','西城','东城','丰台'][j%5]}充电站",
+                "latitude": round(lat + (s_seed % 100 - 50) / 1000, 6),
+                "longitude": round(lng + (s_seed % 80 - 40) / 1000, 6),
+                "distance_km": round(0.5 + j * 15 + s_seed % 10, 1),
+                "connectors": {"CCS2": 2 + s_seed%4, "GB/T": 4 + s_seed%6, "Type2": s_seed%3},
+                "available_now": (s_seed % 3) != 0,
+                "power_kw": [60, 120, 150, 250][s_seed % 4],
+                "price_per_kwh": round(1.2 + s_seed % 8 / 10, 2),
+            })
+        return {"stations": stations, "total_found": count + seed%10, "search_radius_km": params.get("radius", 50)}
+    
+    if has_coords and any(w in name_lower for w in ["parking", "park"]):
+        lat = params.get("latitude", params.get("lat", 39.9))
+        lng = params.get("longitude", params.get("lng", 116.4))
+        lots = []
+        for j in range(count):
+            s_seed = seed + j * 11
+            lots.append({
+                "lot_id": f"PK{s_seed%10000}",
+                "name": f"{'地下' if j%2==0 else '地面'}停车场 #{s_seed%100}",
+                "latitude": round(lat + (s_seed%60-30)/1000, 6),
+                "longitude": round(lng + (s_seed%60-30)/1000, 6),
+                "distance_km": round(0.2 + j * 0.8, 1),
+                "total_spaces": 50 + s_seed%200,
+                "available_spaces": 5 + s_seed%40,
+                "price_per_hour": round(5 + s_seed%15, 1),
+                "type": ["surface", "underground", "multi-storey"][s_seed%3],
+            })
+        return {"parking_facilities": lots, "total_found": count}
+    
+    if has_coords and any(w in name_lower for w in ["nearby", "places", "poi", "restaurant", "meeting", "interest"]):
+        lat = params.get("latitude", params.get("lat", 39.9))
+        lng = params.get("longitude", params.get("lng", 116.4))
+        places = []
+        categories = ["restaurant", "cafe", "museum", "park", "shopping", "entertainment", "hotel"]
+        for j in range(count):
+            s_seed = seed + j * 9
+            places.append({
+                "place_id": f"PL{s_seed%100000}",
+                "name": f"{'好评' if s_seed%2==0 else '热门'}{categories[s_seed%len(categories)]} #{s_seed%100}",
+                "category": categories[s_seed%len(categories)],
+                "latitude": round(lat + (s_seed%80-40)/1000, 6),
+                "longitude": round(lng + (s_seed%80-40)/1000, 6),
+                "distance_km": round(0.1 + j * 0.6, 1),
+                "rating": round(3.5 + s_seed%15/10, 1),
+                "price_level": s_seed%4 + 1,
+                "opening_hours": f"{'08' if s_seed%3==0 else '09' if s_seed%3==1 else '10'}:00-22:00",
+            })
+        return {"places": places, "total_found": count + seed%15}
+    
+    if has_coords and any(w in name_lower for w in ["reverse_geocode", "reverse"]):
+        lat = params.get("latitude", params.get("lat", 39.9))
+        lng = params.get("longitude", params.get("lng", 116.4))
+        return {"address": f"{int(lat*100)%100}号 {'长安街' if seed%3==0 else '建国路' if seed%3==1 else '中关村大街'}", "city": "Beijing", "district": ["朝阳区","海淀区","西城区"][seed%3], "latitude": lat, "longitude": lng}
+    
+    if has_coords and any(w in name_lower for w in ["elevation", "altitude"]):
+        return {"elevation_meters": 40 + seed % 500, "latitude": params.get("latitude", 0), "longitude": params.get("longitude", 0)}
+    
+    if has_coords and any(w in name_lower for w in ["suggest_meeting", "meeting_point", "midpoint"]):
+        lats = [v for k, v in params.items() if 'lat' in k.lower() and isinstance(v, (int, float))]
+        lngs = [v for k, v in params.items() if 'lng' in k.lower() or 'lon' in k.lower() and isinstance(v, (int, float))]
+        avg_lat = sum(lats)/len(lats) if lats else 39.9
+        avg_lng = sum(lngs)/len(lngs) if lngs else 116.4
+        return {"meeting_point": {"latitude": round(avg_lat, 6), "longitude": round(avg_lng, 6), "address": f"建议碰面地点: {seed%100}号广场", "city": "Beijing"}}
     
     # File operations
     if any(w in name_lower for w in ["write_file", "save", "create_document", "create_presentation", "save_presentation"]):
