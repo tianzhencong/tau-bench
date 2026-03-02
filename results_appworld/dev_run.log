@@ -1,0 +1,1337 @@
+Running 57 tasks with model=KaLM-DeepSeek-V3.2, concurrency=4
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 285, in run_task_safe
+    result = run_task(tid, model, data_dir, max_turns)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 224, in run_task
+    msg_dict = call_model(messages, tools, model)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 82, in call_model
+    return _ieval_completion(messages, tools, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 49, in _ieval_completion
+    resp = requests.post(f"{_IEVAL_BASE_URL}/chat/completions",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 285, in run_task_safe
+    result = run_task(tid, model, data_dir, max_turns)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 224, in run_task
+    msg_dict = call_model(messages, tools, model)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 82, in call_model
+    return _ieval_completion(messages, tools, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 49, in _ieval_completion
+    resp = requests.post(f"{_IEVAL_BASE_URL}/chat/completions",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+[1/57] Task: 50e1ac9_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_song_library
+  Turn 5: 🔧 spotify__show_album_library
+  Turn 6: 🔧 spotify__show_playlist_library
+  Turn 7: 🔧 spotify__search_songs
+  Turn 8: 🔧 spotify__search_songs
+  Turn 9: 🔧 spotify__show_song
+  Turn 10: 🔧 spotify__show_song
+  Turn 11: 🔧 spotify__show_song
+  Turn 12: 🔧 spotify__show_song
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 🔧 spotify__show_song
+  Turn 17: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 50e1ac9_1 — 35 msgs, 16 tool calls
+
+[7/57] Task: 530b157_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__search_contacts
+  Turn 6: 🔧 phone__show_contact_relationships
+  Turn 7: 🔧 phone__search_contacts
+  Turn 8: 🔧 phone__show_text_message_window
+  Turn 9: 🔧 phone__search_text_messages
+  Turn 10: 🔧 phone__get_current_date_and_time
+  Turn 11: 🔧 phone__search_text_messages
+  Turn 12: 🔧 phone__show_text_message_window
+  Turn 13: 🔧 phone__search_text_messages
+  Turn 14: 🔧 phone__search_text_messages
+  Turn 15: 🔧 venmo__show_venmo_balance
+  Turn 16: 🔧 venmo__create_transaction
+  Turn 17: 🔧 phone__send_text_message
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 💬 Final response
+  ✅ eval: 10/10 tests passed
+  [✅] 530b157_1 — 39 msgs, 18 tool calls
+
+[13/57] Task: b119b1f_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_current_song
+  Turn 5: 🔧 spotify__previous_song
+  Turn 6: 🔧 spotify__show_current_song
+  Turn 7: 🔧 spotify__search_songs
+  Turn 8: 🔧 spotify__show_song_queue
+  Turn 9: 🔧 spotify__previous_song
+  Turn 10: 🔧 spotify__show_current_song
+  Turn 11: 🔧 spotify__previous_song
+  Turn 12: 🔧 spotify__show_current_song
+  Turn 13: 🔧 spotify__previous_song
+  Turn 14: 🔧 spotify__show_current_song
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] b119b1f_1 — 33 msgs, 15 tool calls
+
+[15/57] Task: b119b1f_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_current_song
+  Turn 5: 🔧 spotify__previous_song
+  Turn 6: 🔧 spotify__show_current_song
+  Turn 7: 🔧 spotify__previous_song
+  Turn 8: 🔧 spotify__show_current_song
+  Turn 9: 🔧 spotify__previous_song
+  Turn 10: 🔧 spotify__show_current_song
+  Turn 11: 🔧 spotify__previous_song
+  Turn 12: 🔧 spotify__show_current_song
+  Turn 13: 🔧 supervisor__complete_task
+  Turn 14: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] b119b1f_3 — 29 msgs, 13 tool calls
+
+[18/57] Task: d4e9306_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_active_task
+  Turn 2: 🔧 supervisor__show_profile
+  Turn 3: 🔧 supervisor__show_account_passwords
+  Turn 4: 🔧 spotify__login
+  Turn 5: 🔧 spotify__show_liked_songs
+  Turn 6: 🔧 spotify__show_liked_albums
+  Turn 7: 🔧 spotify__show_liked_songs
+  Turn 8: 🔧 spotify__show_liked_albums
+  Turn 9: 🔧 spotify__follow_artist
+  Turn 10: 🔧 spotify__follow_artist
+  Turn 11: 🔧 spotify__follow_artist
+  Turn 12: 🔧 spotify__follow_artist
+  Turn 13: 🔧 spotify__follow_artist
+  Turn 14: 🔧 spotify__follow_artist
+  Turn 15: 🔧 spotify__follow_artist
+  Turn 16: 🔧 spotify__follow_artist
+  Turn 17: 🔧 spotify__follow_artist
+  Turn 18: 🔧 spotify__follow_artist
+  Turn 19: 🔧 spotify__follow_artist
+  Turn 20: 🔧 spotify__follow_artist
+  ❌ eval: 2/6 tests passed
+  [❌] d4e9306_3 — 42 msgs, 20 tool calls
+
+[23/57] Task: 37a8675_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__search_contacts
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 venmo__show_venmo_balance
+  Turn 8: 🔧 venmo__show_payment_cards
+  Turn 9: 🔧 venmo__add_to_venmo_balance
+  Turn 10: 🔧 venmo__add_to_venmo_balance
+  Turn 11: 🔧 venmo__show_payment_card
+  Turn 12: 🔧 supervisor__show_payment_cards
+  Turn 13: 🔧 venmo__create_transaction
+  Turn 14: 🔧 phone__get_current_date_and_time
+  Turn 15: 🔧 venmo__add_to_venmo_balance
+  Turn 16: 🔧 venmo__add_to_venmo_balance
+  Turn 17: 🔧 supervisor__complete_task
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 🔧 venmo__show_profile
+  Turn 20: 🔧 supervisor__complete_task
+  ❌ eval: 1/6 tests passed
+  [❌] 37a8675_2 — 42 msgs, 20 tool calls
+
+[28/57] Task: df61dc5_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__get_current_date_and_time
+  Turn 5: 🔧 venmo__search_friends
+  Turn 6: 🔧 phone__login
+  Turn 7: 🔧 phone__show_contact_relationships
+  Turn 8: 🔧 phone__search_contacts
+  Turn 9: 🔧 venmo__show_transactions
+  Turn 10: 🔧 venmo__like_transaction
+  Turn 11: 🔧 venmo__show_transactions
+  Turn 12: 🔧 venmo__show_transactions
+  Turn 13: 🔧 venmo__login
+  Turn 14: 🔧 venmo__show_transactions
+  Turn 15: 🔧 venmo__show_account
+  Turn 16: 🔧 venmo__show_transactions
+  Turn 17: 🔧 supervisor__complete_task
+  Turn 18: 💬 Final response
+  ❌ eval: 6/7 tests passed
+  [❌] df61dc5_1 — 37 msgs, 17 tool calls
+
+[31/57] Task: 383cbac_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_social_feed
+  Turn 5: 🔧 venmo__show_social_feed
+  Turn 6: 🔧 supervisor__complete_task
+  Turn 7: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 383cbac_1 — 15 msgs, 6 tool calls
+
+[34/57] Task: 23cf851_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__get_current_date_and_time
+  Turn 5: 🔧 venmo__show_transactions
+  Turn 6: 🔧 venmo__show_transactions
+  Turn 7: 🔧 supervisor__complete_task
+  Turn 8: 🔧 venmo__logout
+  Turn 9: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 23cf851_1 — 19 msgs, 8 tool calls
+
+[36/57] Task: 23cf851_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__get_current_date_and_time
+  Turn 6: 🔧 venmo__show_transactions
+  Turn 7: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 23cf851_3 — 15 msgs, 6 tool calls
+
+[38/57] Task: 57c3486_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_following_artists
+  Turn 5: 🔧 spotify__show_following_artists
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__like_song
+  Turn 8: 🔧 spotify__like_song
+  Turn 9: 🔧 spotify__like_song
+  Turn 10: 🔧 spotify__like_song
+  Turn 11: 🔧 spotify__like_song
+  Turn 12: 🔧 spotify__like_song
+  Turn 13: 🔧 spotify__like_song
+  Turn 14: 🔧 spotify__like_song
+  Turn 15: 🔧 spotify__like_song
+  Turn 16: 🔧 spotify__like_song
+  Turn 17: 🔧 spotify__like_song
+  Turn 18: 🔧 spotify__like_song
+  Turn 19: 🔧 spotify__like_song
+  Turn 20: 🔧 spotify__search_songs
+  ❌ eval: 3/5 tests passed
+  [❌] 57c3486_2 — 42 msgs, 20 tool calls
+
+[43/57] Task: 6bdbc26_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_active_task
+  Turn 2: 🔧 supervisor__show_profile
+  Turn 3: 🔧 supervisor__show_account_passwords
+  Turn 4: 🔧 spotify__login
+  Turn 5: 🔧 spotify__show_current_song
+  Turn 6: 🔧 spotify__show_artist
+  Turn 7: 🔧 supervisor__complete_task
+
+[2/57] Task: 50e1ac9_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_genres
+  Turn 5: 🔧 spotify__show_song_library
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__show_album_library
+  Turn 8: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 50e1ac9_2 — 17 msgs, 7 tool calls
+
+[5/57] Task: fac291d_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_song_library
+  Turn 5: 🔧 spotify__show_song_library
+  Turn 6: 🔧 spotify__show_album_library
+  Turn 7: 🔧 spotify__show_album_library
+  Turn 8: 🔧 spotify__show_album
+  Turn 9: 🔧 spotify__show_album
+  Turn 10: 🔧 spotify__show_album
+  Turn 11: 🔧 spotify__show_album
+  Turn 12: 🔧 spotify__show_album
+  Turn 13: 🔧 spotify__show_album
+  Turn 14: 🔧 spotify__show_playlist_library
+  Turn 15: 🔧 spotify__show_playlist
+  Turn 16: 🔧 spotify__show_playlist
+  Turn 17: 🔧 spotify__show_playlist
+  Turn 18: 🔧 spotify__show_playlist
+  Turn 19: 🔧 spotify__show_playlist
+  Turn 20: 🔧 spotify__show_playlist
+  ❌ eval: 1/2 tests passed
+  [❌] fac291d_2 — 42 msgs, 20 tool calls
+
+[9/57] Task: 530b157_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__search_text_messages
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 phone__show_text_message_window
+  Turn 8: 🔧 venmo__create_transaction
+  Turn 9: 🔧 phone__send_text_message
+  Turn 10: 🔧 supervisor__complete_task
+  Turn 11: 💬 Final response
+  ✅ eval: 10/10 tests passed
+  [✅] 530b157_3 — 23 msgs, 10 tool calls
+
+[11/57] Task: 4ec8de5_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__get_current_date_and_time
+  Turn 6: 🔧 spotify__show_song_library
+  Turn 7: 🔧 spotify__show_song_privates
+  Turn 8: 🔧 spotify__show_song
+  Turn 9: 🔧 spotify__show_album_library
+  Turn 10: 🔧 spotify__show_song_library
+  Turn 11: 🔧 spotify__show_album_library
+  Turn 12: 🔧 spotify__show_album
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 spotify__show_song
+  Turn 15: 🔧 spotify__show_song
+  Turn 16: 🔧 spotify__show_song
+  Turn 17: 🔧 spotify__show_song
+  Turn 18: 🔧 spotify__show_song
+  Turn 19: 🔧 spotify__show_song
+  Turn 20: 🔧 spotify__show_song
+  ❌ eval: 1/2 tests passed
+  [❌] 4ec8de5_2 — 42 msgs, 20 tool calls
+
+[16/57] Task: d4e9306_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_liked_songs
+  Turn 5: 🔧 spotify__follow_artist
+  Turn 6: 🔧 spotify__follow_artist
+  Turn 7: 🔧 spotify__follow_artist
+  Turn 8: 🔧 spotify__follow_artist
+  Turn 9: 🔧 spotify__follow_artist
+  Turn 10: 🔧 spotify__follow_artist
+  Turn 11: 🔧 spotify__follow_artist
+  Turn 12: 🔧 spotify__follow_artist
+  Turn 13: 🔧 spotify__follow_artist
+  Turn 14: 🔧 spotify__follow_artist
+  Turn 15: 🔧 spotify__follow_artist
+  Turn 16: 🔧 spotify__follow_artist
+  Turn 17: 🔧 spotify__follow_artist
+  Turn 18: 🔧 spotify__show_liked_songs
+  Turn 19: 🔧 spotify__show_liked_albums
+  Turn 20: 🔧 spotify__follow_artist
+  ❌ eval: 2/6 tests passed
+  [❌] d4e9306_1 — 42 msgs, 20 tool calls
+
+[20/57] Task: 0d8a4ee_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 phone__login
+  Turn 4: 🔧 phone__show_contact_relationships
+  Turn 5: 🔧 phone__search_contacts
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 phone__send_text_message
+  Turn 8: 🔧 phone__send_text_message
+  Turn 9: 🔧 phone__send_text_message
+  Turn 10: 🔧 phone__send_text_message
+  Turn 11: 🔧 phone__send_text_message
+  Turn 12: 🔧 supervisor__complete_task
+  Turn 13: 💬 Final response
+  ❌ eval: 4/5 tests passed
+  [❌] 0d8a4ee_2 — 27 msgs, 12 tool calls
+
+[24/57] Task: 37a8675_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__search_contacts
+  Turn 6: 🔧 venmo__search_users
+  Turn 7: 🔧 phone__show_account
+  Turn 8: 🔧 api_docs__show_api_doc
+  Turn 9: 🔧 phone__show_contact_relationships
+  Turn 10: 🔧 phone__search_contacts
+  Turn 11: 🔧 api_docs__search_api_docs
+  Turn 12: 🔧 venmo__show_venmo_balance
+  Turn 13: 🔧 venmo__show_payment_cards
+  Turn 14: 🔧 api_docs__search_api_docs
+  Turn 15: 🔧 venmo__create_transaction
+  Turn 16: 🔧 api_docs__search_api_docs
+  Turn 17: 🔧 venmo__search_friends
+  Turn 18: 🔧 supervisor__show_addresses
+  Turn 19: 🔧 venmo__show_profile
+  Turn 20: 🔧 phone__search_text_messages
+  ❌ eval: 0/6 tests passed
+  [❌] 37a8675_3 — 42 msgs, 20 tool calls
+
+[27/57] Task: 3ab5b8b_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_liked_albums
+  Turn 5: 🔧 spotify__show_album_library
+  Turn 6: 🔧 spotify__show_liked_albums
+  Turn 7: 🔧 spotify__show_album_library
+  Turn 8: 🔧 spotify__show_album
+  Turn 9: 🔧 spotify__download_song
+  Turn 10: 🔧 spotify__download_song
+  Turn 11: 🔧 spotify__download_song
+  Turn 12: 🔧 spotify__download_song
+  Turn 13: 🔧 spotify__download_song
+  Turn 14: 🔧 spotify__download_song
+  Turn 15: 🔧 spotify__download_song
+  Turn 16: 🔧 spotify__show_liked_songs
+  Turn 17: 🔧 spotify__show_liked_songs
+  Turn 18: 🔧 spotify__download_song
+  Turn 19: 🔧 spotify__download_song
+  Turn 20: 🔧 spotify__download_song
+  ❌ eval: 3/6 tests passed
+  [❌] 3ab5b8b_3 — 42 msgs, 20 tool calls
+
+[32/57] Task: 383cbac_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_social_feed
+  Turn 5: 🔧 venmo__show_transactions
+  Turn 6: 🔧 venmo__show_transactions
+  Turn 7: 🔧 venmo__show_transactions
+  Turn 8: 🔧 venmo__show_transactions
+  Turn 9: 🔧 venmo__show_transaction
+  Turn 10: 🔧 venmo__search_friends
+  Turn 11: 🔧 venmo__show_transactions
+  Turn 12: 🔧 venmo__show_profile
+  Turn 13: 🔧 venmo__show_transactions
+  Turn 14: 🔧 venmo__show_transactions
+  Turn 15: 🔧 venmo__show_account
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 383cbac_2 — 35 msgs, 16 tool calls
+
+[39/57] Task: 57c3486_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_following_artists
+  Turn 5: 💬 Final response
+  ❌ eval: 1/5 tests passed
+  [❌] 57c3486_3 — 11 msgs, 4 tool calls
+
+[41/57] Task: 68ee2c9_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 file_system__login
+  Turn 4: 🔧 file_system__show_directory
+  Turn 5: 🔧 file_system__show_account
+  Turn 6: 🔧 file_system__login
+  Turn 7: 🔧 file_system__show_directory
+  Turn 8: 🔧 file_system__directory_exists
+  Turn 9: 🔧 file_system__show_directory
+  Turn 10: 🔧 file_system__login
+  Turn 11: 🔧 file_system__show_directory
+  Turn 12: 🔧 file_system__show_file
+  Turn 13: 🔧 phone__login
+  Turn 14: 🔧 phone__get_current_date_and_time
+  Turn 15: 🔧 api_docs__search_api_docs
+  Turn 16: 🔧 file_system__move_file
+  Turn 17: 🔧 file_system__directory_exists
+  Turn 18: 🔧 file_system__move_file
+  Turn 19: 🔧 file_system__show_file
+  Turn 20: 🔧 file_system__move_file
+  ❌ eval: 2/5 tests passed
+  [❌] 68ee2c9_2 — 42 msgs, 20 tool calls
+
+[47/57] Task: 6171bbc_2
+  Tools: 457 APIs
+
+[4/57] Task: fac291d_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_song_library
+  Turn 5: 🔧 spotify__show_song_library
+  Turn 6: 🔧 spotify__show_album_library
+  Turn 7: 🔧 spotify__show_playlist_library
+  Turn 8: 🔧 spotify__show_album_library
+  Turn 9: 🔧 spotify__show_playlist_library
+  Turn 10: 🔧 spotify__show_playlist_library
+  Turn 11: 🔧 spotify__show_album
+  Turn 12: 🔧 spotify__show_album
+  Turn 13: 🔧 spotify__show_album
+  Turn 14: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] fac291d_1 — 29 msgs, 13 tool calls
+
+[8/57] Task: 530b157_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__search_text_messages
+  Turn 6: 🔧 venmo__search_users
+  Turn 7: 🔧 venmo__create_transaction
+  Turn 8: 🔧 phone__send_text_message
+  Turn 9: 🔧 supervisor__complete_task
+  Turn 10: 💬 Final response
+  ✅ eval: 10/10 tests passed
+  [✅] 530b157_2 — 21 msgs, 9 tool calls
+
+[10/57] Task: 4ec8de5_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 phone__get_current_date_and_time
+  Turn 5: 🔧 spotify__show_song_library
+  Turn 6: 🔧 spotify__show_song_library
+  Turn 7: 🔧 spotify__show_song_library
+  Turn 8: 🔧 spotify__show_album_library
+  Turn 9: 🔧 spotify__show_song
+  Turn 10: 🔧 spotify__show_song_library
+  Turn 11: 🔧 spotify__show_album_library
+  Turn 12: 🔧 spotify__show_song
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 spotify__show_song
+  Turn 15: 🔧 spotify__show_song
+  Turn 16: 🔧 spotify__show_song
+  Turn 17: 🔧 spotify__show_song
+  Turn 18: 🔧 spotify__show_song
+  Turn 19: 🔧 spotify__show_song
+  Turn 20: 🔧 spotify__show_song
+  ❌ eval: 1/2 tests passed
+  [❌] 4ec8de5_1 — 42 msgs, 20 tool calls
+
+[14/57] Task: b119b1f_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_current_song
+  Turn 5: 🔧 spotify__next_song
+  Turn 6: 🔧 spotify__show_current_song
+  Turn 7: 🔧 spotify__show_song_queue
+  Turn 8: 🔧 spotify__next_song
+  Turn 9: 🔧 spotify__show_current_song
+  Turn 10: 🔧 spotify__next_song
+  Turn 11: 🔧 spotify__show_current_song
+  Turn 12: 🔧 spotify__next_song
+  Turn 13: 🔧 spotify__show_current_song
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] b119b1f_2 — 31 msgs, 14 tool calls
+
+[19/57] Task: 0d8a4ee_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 phone__login
+  Turn 4: 🔧 phone__show_contact_relationships
+  Turn 5: 🔧 phone__search_contacts
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 phone__send_text_message
+  Turn 8: 🔧 phone__send_text_message
+  Turn 9: 🔧 phone__send_text_message
+  Turn 10: 🔧 phone__send_text_message
+  Turn 11: 🔧 supervisor__complete_task
+  Turn 12: 💬 Final response
+  ❌ eval: 4/5 tests passed
+  [❌] 0d8a4ee_1 — 25 msgs, 11 tool calls
+
+[22/57] Task: 37a8675_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__search_users
+  Turn 5: 🔧 phone__login
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 venmo__show_venmo_balance
+  Turn 8: 🔧 venmo__show_payment_cards
+  Turn 9: 🔧 venmo__create_transaction
+  Turn 10: 🔧 venmo__create_transaction
+  Turn 11: 🔧 venmo__add_to_venmo_balance
+  Turn 12: 🔧 venmo__show_venmo_balance
+  Turn 13: 🔧 venmo__create_transaction
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ❌ eval: 5/6 tests passed
+  [❌] 37a8675_1 — 31 msgs, 14 tool calls
+
+[25/57] Task: 3ab5b8b_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_liked_playlists
+  Turn 5: 🔧 spotify__show_playlist
+  Turn 6: 🔧 spotify__download_song
+  Turn 7: 🔧 spotify__show_liked_playlists
+  Turn 8: 🔧 spotify__login
+  Turn 9: 🔧 spotify__show_liked_playlists
+  Turn 10: 🔧 spotify__download_song
+  Turn 11: 🔧 spotify__download_song
+  Turn 12: 🔧 spotify__download_song
+  Turn 13: 🔧 spotify__download_song
+  Turn 14: 🔧 spotify__download_song
+  Turn 15: 🔧 spotify__download_song
+  Turn 16: 🔧 spotify__download_song
+  Turn 17: 🔧 spotify__download_song
+  Turn 18: 🔧 spotify__download_song
+  Turn 19: 🔧 spotify__download_song
+  Turn 20: 🔧 spotify__download_song
+  ❌ eval: 2/6 tests passed
+  [❌] 3ab5b8b_1 — 42 msgs, 20 tool calls
+
+[30/57] Task: df61dc5_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 phone__login
+  Turn 5: 🔧 phone__show_contact_relationships
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 phone__get_current_date_and_time
+  Turn 8: 🔧 venmo__show_transactions
+  Turn 9: 🔧 venmo__like_transaction
+  Turn 10: 🔧 venmo__like_transaction
+  Turn 11: 🔧 venmo__like_transaction
+  Turn 12: 🔧 venmo__like_transaction
+  Turn 13: 🔧 venmo__like_transaction
+  Turn 14: 🔧 venmo__like_transaction
+  Turn 15: 🔧 venmo__show_transactions
+  Turn 16: 🔧 venmo__like_transaction
+  Turn 17: 🔧 venmo__like_transaction
+  Turn 18: 🔧 venmo__like_transaction
+  Turn 19: 🔧 venmo__like_transaction
+  Turn 20: 🔧 venmo__like_transaction
+  ❌ eval: 5/7 tests passed
+  [❌] df61dc5_3 — 42 msgs, 20 tool calls
+
+[35/57] Task: 23cf851_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_transactions
+  Turn 5: 🔧 phone__get_current_date_and_time
+  Turn 6: 🔧 venmo__show_transactions
+  [ERR] 23cf851_2: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+[37/57] Task: 57c3486_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_following_artists
+  Turn 5: 🔧 spotify__search_songs
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__like_song
+  Turn 8: 🔧 spotify__like_song
+  Turn 9: 🔧 spotify__like_song
+  Turn 10: 🔧 spotify__like_song
+  Turn 11: 🔧 spotify__like_song
+  Turn 12: 🔧 spotify__like_song
+  Turn 13: 🔧 spotify__like_song
+  Turn 14: 🔧 spotify__like_song
+  Turn 15: 🔧 spotify__like_song
+  Turn 16: 🔧 spotify__like_song
+  Turn 17: 🔧 spotify__like_song
+  Turn 18: 🔧 spotify__like_song
+  Turn 19: 🔧 spotify__like_song
+  Turn 20: 🔧 spotify__like_song
+  ❌ eval: 3/5 tests passed
+  [❌] 57c3486_1 — 42 msgs, 20 tool calls
+
+[42/57] Task: 68ee2c9_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 file_system__login
+  Turn 4: 🔧 file_system__show_directory
+  Turn 5: 🔧 file_system__show_directory
+  Turn 6: 🔧 file_system__show_file
+  Turn 7: 🔧 phone__get_current_date_and_time
+  Turn 8: 🔧 file_system__directory_exists
+  Turn 9: 🔧 file_system__move_file
+  Turn 10: 🔧 file_system__move_file
+  Turn 11: 🔧 file_system__show_file
+  Turn 12: 🔧 file_system__show_directory
+  Turn 13: 🔧 file_system__show_file
+  Turn 14: 🔧 file_system__move_file
+  Turn 15: 🔧 api_docs__search_api_docs
+  Turn 16: 🔧 file_system__show_file
+  Turn 17: 🔧 file_system__move_file
+  Turn 18: 🔧 file_system__show_file
+  Turn 19: 🔧 supervisor__show_active_task
+  Turn 20: 🔧 file_system__show_file
+  ❌ eval: 2/5 tests passed
+  [❌] 68ee2c9_3 — 42 msgs, 20 tool calls
+
+[49/57] Task: 6c2c621_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+
+[3/57] Task: 50e1ac9_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_genres
+  Turn 5: 🔧 spotify__show_song_library
+  Turn 6: 🔧 spotify__show_album_library
+  Turn 7: 🔧 spotify__show_playlist_library
+  Turn 8: 🔧 spotify__show_song_privates
+  Turn 9: 🔧 spotify__show_song
+  Turn 10: 🔧 spotify__search_songs
+  Turn 11: 🔧 spotify__show_song
+  Turn 12: 🔧 spotify__show_song
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 spotify__show_album
+  Turn 15: 🔧 spotify__show_song
+  Turn 16: 🔧 spotify__show_playlist
+  Turn 17: 🔧 spotify__show_song_privates
+  Turn 18: 🔧 spotify__show_song_privates
+  Turn 19: 🔧 spotify__show_playlist
+  Turn 20: 🔧 spotify__show_song
+  ❌ eval: 1/2 tests passed
+  [❌] 50e1ac9_3 — 42 msgs, 20 tool calls
+
+[6/57] Task: fac291d_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_song_library
+  Turn 5: 🔧 spotify__show_song_library
+  Turn 6: 🔧 spotify__show_album_library
+  Turn 7: 🔧 spotify__show_album_library
+  Turn 8: 🔧 spotify__show_playlist_library
+  Turn 9: 🔧 spotify__show_playlist_library
+  Turn 10: 🔧 spotify__show_album_library
+  Turn 11: 🔧 spotify__show_album_library
+  [ERR] fac291d_3: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+[12/57] Task: 4ec8de5_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_song_library
+  Turn 5: 🔧 spotify__show_album_library
+  Turn 6: 🔧 spotify__show_song
+  Turn 7: 🔧 spotify__show_song_library
+  Turn 8: 🔧 spotify__show_album_library
+  Turn 9: 🔧 spotify__show_album
+  Turn 10: 🔧 spotify__show_album
+  Turn 11: 🔧 spotify__show_song_privates
+  Turn 12: 🔧 spotify__show_song
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 spotify__show_song
+  Turn 15: 🔧 spotify__show_song
+  Turn 16: 🔧 spotify__show_song
+  Turn 17: 🔧 spotify__show_song
+  Turn 18: 🔧 spotify__show_song
+  Turn 19: 🔧 spotify__show_song
+  Turn 20: 🔧 spotify__show_song
+  ❌ eval: 1/2 tests passed
+  [❌] 4ec8de5_3 — 42 msgs, 20 tool calls
+
+[17/57] Task: d4e9306_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_liked_songs
+  Turn 5: 🔧 spotify__show_liked_songs
+  Turn 6: 🔧 spotify__show_liked_albums
+  Turn 7: 🔧 spotify__follow_artist
+  Turn 8: 🔧 spotify__follow_artist
+  Turn 9: 🔧 spotify__follow_artist
+  Turn 10: 🔧 spotify__follow_artist
+  Turn 11: 🔧 spotify__follow_artist
+  Turn 12: 🔧 spotify__follow_artist
+  Turn 13: 🔧 spotify__follow_artist
+  Turn 14: 🔧 spotify__follow_artist
+  Turn 15: 🔧 spotify__follow_artist
+  Turn 16: 🔧 spotify__follow_artist
+  Turn 17: 🔧 spotify__follow_artist
+  Turn 18: 🔧 spotify__follow_artist
+  Turn 19: 🔧 spotify__follow_artist
+  Turn 20: 🔧 spotify__follow_artist
+  ❌ eval: 2/6 tests passed
+  [❌] d4e9306_2 — 42 msgs, 20 tool calls
+
+[21/57] Task: 0d8a4ee_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 phone__login
+  Turn 4: 🔧 phone__show_contact_relationships
+  Turn 5: 🔧 phone__search_contacts
+  Turn 6: 🔧 phone__search_contacts
+  Turn 7: 🔧 phone__send_text_message
+  Turn 8: 🔧 phone__send_text_message
+  Turn 9: 🔧 phone__send_text_message
+  Turn 10: 🔧 phone__send_text_message
+  Turn 11: 🔧 phone__send_text_message
+  Turn 12: 🔧 phone__send_text_message
+  Turn 13: 🔧 phone__send_text_message
+  Turn 14: 🔧 phone__send_text_message
+  Turn 15: 🔧 phone__send_text_message
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ❌ eval: 4/5 tests passed
+  [❌] 0d8a4ee_3 — 35 msgs, 16 tool calls
+
+[26/57] Task: 3ab5b8b_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_liked_songs
+  Turn 5: 🔧 spotify__show_liked_songs
+  Turn 6: 🔧 spotify__show_liked_songs
+  Turn 7: 🔧 spotify__download_song
+  Turn 8: 🔧 spotify__download_song
+  Turn 9: 🔧 spotify__download_song
+  Turn 10: 🔧 spotify__download_song
+  Turn 11: 🔧 spotify__download_song
+  Turn 12: 🔧 spotify__download_song
+  Turn 13: 🔧 spotify__download_song
+  Turn 14: 🔧 spotify__download_song
+  Turn 15: 🔧 spotify__download_song
+  Turn 16: 🔧 spotify__download_song
+  Turn 17: 🔧 spotify__download_song
+  Turn 18: 🔧 spotify__download_song
+  Turn 19: 🔧 spotify__download_song
+  Turn 20: 🔧 spotify__download_song
+  ❌ eval: 3/6 tests passed
+  [❌] 3ab5b8b_2 — 42 msgs, 20 tool calls
+
+[29/57] Task: df61dc5_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__search_friends
+  Turn 5: 🔧 venmo__search_friends
+  Turn 6: 🔧 venmo__show_transactions
+  Turn 7: 🔧 phone__login
+  Turn 8: 🔧 phone__get_current_date_and_time
+  Turn 9: 🔧 venmo__show_transactions
+  Turn 10: 🔧 venmo__like_transaction
+  Turn 11: 🔧 venmo__like_transaction
+  Turn 12: 🔧 venmo__like_transaction
+  Turn 13: 🔧 venmo__like_transaction
+  Turn 14: 🔧 venmo__like_transaction
+  Turn 15: 🔧 venmo__show_transactions
+  Turn 16: 🔧 venmo__like_transaction
+  Turn 17: 🔧 venmo__like_transaction
+  Turn 18: 🔧 venmo__like_transaction
+  Turn 19: 🔧 venmo__like_transaction
+  Turn 20: 🔧 venmo__like_transaction
+  ❌ eval: 5/7 tests passed
+  [❌] df61dc5_2 — 42 msgs, 20 tool calls
+
+[33/57] Task: 383cbac_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_social_feed
+  Turn 5: 🔧 venmo__show_transactions
+  Turn 6: 🔧 venmo__show_transactions
+  Turn 7: 🔧 venmo__show_transactions
+  Turn 8: 🔧 venmo__show_transactions
+  Turn 9: 🔧 venmo__show_social_feed
+  Turn 10: 🔧 phone__get_current_date_and_time
+  Turn 11: 🔧 venmo__show_transactions
+  Turn 12: 🔧 venmo__show_transactions
+  Turn 13: 🔧 venmo__show_social_feed
+  Turn 14: 🔧 venmo__show_social_feed
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 383cbac_3 — 33 msgs, 15 tool calls
+
+[40/57] Task: 68ee2c9_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 file_system__login
+  Turn 4: 🔧 file_system__show_directory
+  Turn 5: 🔧 file_system__show_directory
+  Turn 6: 🔧 file_system__show_file
+  Turn 7: 🔧 phone__login
+  Turn 8: 🔧 phone__get_current_date_and_time
+  Turn 9: 🔧 file_system__move_file
+  Turn 10: 🔧 file_system__directory_exists
+  Turn 11: 🔧 file_system__move_file
+  Turn 12: 🔧 file_system__show_file
+  Turn 13: 🔧 file_system__move_file
+  Turn 14: 🔧 file_system__move_file
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ❌ eval: 3/5 tests passed
+  [❌] 68ee2c9_1 — 33 msgs, 15 tool calls
+
+[44/57] Task: 6bdbc26_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_current_song
+  Turn 5: 🔧 spotify__show_artist
+  Turn 6: 🔧 supervisor__complete_task
+  Turn 7: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 6bdbc26_2 — 15 msgs, 6 tool calls
+
+[46/57] Task: 6171bbc_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_album_library
+  Turn 5: 🔧 spotify__show_album_library
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__search_songs
+  Turn 8: 🔧 spotify__search_songs
+  Turn 9: 🔧 spotify__search_songs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_playlist_library
+  Turn 5: 🔧 spotify__show_song_privates
+  Turn 6: 🔧 spotify__show_song
+  Turn 7: 🔧 spotify__show_song
+  Turn 8: 🔧 spotify__show_song
+  Turn 9: 🔧 spotify__show_song
+  Turn 10: 🔧 spotify__show_song
+  Turn 11: 🔧 spotify__show_song
+  Turn 12: 🔧 spotify__show_song
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 spotify__show_song
+  Turn 15: 🔧 spotify__show_song
+  Turn 16: 🔧 spotify__show_song
+  Turn 17: 🔧 spotify__show_song
+  Turn 18: 🔧 spotify__show_song
+  Turn 19: 🔧 spotify__show_song
+  Turn 20: 🔧 spotify__show_song
+  ❌ eval: 1/7 tests passed
+  [❌] 6171bbc_2 — 42 msgs, 20 tool calls
+
+[51/57] Task: 6c2c621_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 simple_note__login
+  Turn 4: 🔧 file_system__login
+  Turn 5: 🔧 simple_note__search_notes
+  Turn 6: 🔧 simple_note__search_notes
+  Turn 7: 🔧 simple_note__search_notes
+  Turn 8: 🔧 file_system__create_directory
+  Turn 9: 🔧 simple_note__show_note
+  Turn 10: 🔧 simple_note__show_note
+  Turn 11: 🔧 file_system__create_file
+  Turn 12: 🔧 simple_note__show_note
+  Turn 13: 🔧 file_system__create_file
+  Turn 14: 🔧 file_system__login
+  Turn 15: 🔧 file_system__create_file
+  Turn 16: 🔧 simple_note__show_note
+  Turn 17: 🔧 file_system__create_file
+  Turn 18: 🔧 simple_note__search_notes
+  Turn 19: 🔧 file_system__login
+  Turn 20: 🔧 simple_note__show_note
+  ❌ eval: 4/8 tests passed
+  [❌] 6c2c621_3 — 42 msgs, 20 tool calls
+  Turn 10: 🔧 spotify__search_songs
+  Turn 11: 🔧 spotify__search_songs
+  Turn 12: 🔧 spotify__search_songs
+  Turn 13: 🔧 spotify__search_songs
+  Turn 14: 🔧 spotify__create_playlist
+  Turn 15: 🔧 spotify__add_song_to_playlist
+  Turn 16: 🔧 spotify__add_song_to_playlist
+  Turn 17: 🔧 spotify__add_song_to_playlist
+  Turn 18: 🔧 spotify__add_song_to_playlist
+  Turn 19: 🔧 spotify__add_song_to_playlist
+  Turn 20: 🔧 spotify__add_song_to_playlist
+  ❌ eval: 5/7 tests passed
+  [❌] 6171bbc_1 — 42 msgs, 20 tool calls
+
+[50/57] Task: 6c2c621_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 simple_note__login
+  Turn 4: 🔧 file_system__login
+  Turn 5: 🔧 simple_note__search_notes
+  Turn 6: 🔧 simple_note__search_notes
+  Turn 7: 🔧 simple_note__search_notes
+  Turn 8: 🔧 simple_note__show_note
+  Turn 9: 🔧 file_system__create_directory
+  Turn 10: 🔧 file_system__create_file
+  Turn 11: 🔧 simple_note__show_note
+  Turn 12: 🔧 file_system__create_file
+  Turn 13: 🔧 simple_note__show_note
+  Turn 14: 🔧 file_system__create_file
+  Turn 15: 🔧 simple_note__show_note
+  Turn 16: 🔧 file_system__create_file
+  Turn 17: 🔧 simple_note__show_note
+  Turn 18: 🔧 file_system__create_file
+  Turn 19: 🔧 simple_note__show_note
+  Turn 20: 🔧 file_system__create_file
+  ❌ eval: 4/8 tests passed
+  [❌] 6c2c621_2 — 42 msgs, 20 tool calls
+
+[55/57] Task: 4fab96f_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_sent_payment_requests
+  Turn 5: 🔧 phone__login
+  Turn 6: 🔧 phone__get_current_date_and_time
+  Turn 7: 🔧 venmo__remind_payment_request
+  Turn 8: 🔧 venmo__remind_payment_request
+  Turn 9: 🔧 venmo__remind_payment_request
+  Turn 10: 🔧 venmo__remind_payment_request
+  Turn 11: 🔧 venmo__remind_payment_request
+  Turn 12: 🔧 venmo__remind_payment_request
+  Turn 13: 🔧 venmo__remind_payment_request
+  Turn 14: 🔧 venmo__remind_payment_request
+  Turn 15: 🔧 venmo__remind_payment_request
+  Turn 16: 🔧 venmo__remind_payment_request
+  Turn 17: 🔧 venmo__remind_payment_request
+  Turn 18: 🔧 venmo__remind_payment_request
+  Turn 19: 🔧 venmo__remind_payment_request
+  Turn 20: 🔧 venmo__remind_payment_request
+  ❌ eval: 2/8 tests passed
+  [❌] 4fab96f_1 — 42 msgs, 20 tool calls
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 simple_note__login
+  Turn 4: 🔧 file_system__login
+  Turn 5: 🔧 simple_note__search_notes
+  Turn 6: 🔧 file_system__create_directory
+  Turn 7: 🔧 file_system__create_directory
+  Turn 8: 🔧 simple_note__search_notes
+  Turn 9: 🔧 simple_note__search_notes
+  Turn 10: 🔧 simple_note__show_note
+  Turn 11: 🔧 file_system__create_file
+  Turn 12: 🔧 file_system__show_directory
+  Turn 13: 🔧 file_system__login
+  Turn 14: 🔧 file_system__create_file
+  Turn 15: 🔧 file_system__create_directory
+  Turn 16: 🔧 file_system__create_file
+  Turn 17: 🔧 simple_note__show_note
+  Turn 18: 🔧 file_system__create_file
+  Turn 19: 🔧 file_system__login
+  Turn 20: 🔧 file_system__create_file
+  ❌ eval: 3/8 tests passed
+  [❌] 6c2c621_1 — 42 msgs, 20 tool calls
+
+[54/57] Task: 396c5a2_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__search_artists
+  Turn 5: 🔧 spotify__search_songs
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__add_to_queue
+  Turn 8: 🔧 supervisor__complete_task
+  Turn 9: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 396c5a2_3 — 19 msgs, 8 tool calls
+
+[56/57] Task: 4fab96f_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_sent_payment_requests
+  Turn 5: 🔧 phone__login
+  Turn 6: 🔧 phone__get_current_date_and_time
+  Turn 7: 🔧 venmo__show_sent_payment_requests
+  Turn 8: 🔧 venmo__remind_payment_request
+  Turn 9: 🔧 venmo__remind_payment_request
+  Turn 10: 🔧 venmo__remind_payment_request
+  Turn 11: 🔧 venmo__remind_payment_request
+  Turn 12: 🔧 venmo__remind_payment_request
+  Turn 13: 🔧 venmo__remind_payment_request
+  Turn 14: 🔧 venmo__remind_payment_request
+  Turn 15: 🔧 venmo__remind_payment_request
+  Turn 16: 🔧 venmo__remind_payment_request
+  Turn 17: 🔧 venmo__remind_payment_request
+  Turn 18: 🔧 venmo__remind_payment_request
+  Turn 19: 🔧 venmo__remind_payment_request
+  Turn 20: 🔧 venmo__remind_payment_request
+  ❌ eval: 2/8 tests passed
+  [❌] 4fab96f_2 — 42 msgs, 20 tool calls
+  Turn 8: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 6bdbc26_1 — 17 msgs, 7 tool calls
+
+[45/57] Task: 6bdbc26_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_current_song
+  Turn 5: 🔧 spotify__show_artist
+  Turn 6: 🔧 supervisor__complete_task
+  Turn 7: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 6bdbc26_3 — 15 msgs, 6 tool calls
+
+[48/57] Task: 6171bbc_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__show_playlist_library
+  Turn 5: 🔧 spotify__show_playlist
+  Turn 6: 🔧 spotify__show_song_library
+  Turn 7: 🔧 spotify__show_song_privates
+  Turn 8: 🔧 spotify__search_songs
+  Turn 9: 🔧 spotify__show_song
+  Turn 10: 🔧 spotify__show_song
+  Turn 11: 🔧 spotify__show_song
+  Turn 12: 🔧 spotify__show_song
+  Turn 13: 🔧 spotify__show_song
+  Turn 14: 🔧 spotify__show_playlist
+  Turn 15: 🔧 spotify__show_song
+  Turn 16: 🔧 spotify__show_song
+  Turn 17: 🔧 spotify__show_song
+  Turn 18: 🔧 spotify__show_song
+  Turn 19: 🔧 spotify__show_song
+  Turn 20: 🔧 spotify__show_song
+  ❌ eval: 1/7 tests passed
+  [❌] 6171bbc_3 — 42 msgs, 20 tool calls
+
+[52/57] Task: 396c5a2_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__search_artists
+  Turn 5: 🔧 spotify__search_songs
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__add_to_queue
+  Turn 8: 🔧 spotify__show_song_queue
+  Turn 9: 🔧 supervisor__complete_task
+  Turn 10: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 396c5a2_1 — 21 msgs, 9 tool calls
+
+[53/57] Task: 396c5a2_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 spotify__login
+  Turn 4: 🔧 spotify__search_artists
+  Turn 5: 🔧 spotify__search_songs
+  Turn 6: 🔧 spotify__search_songs
+  Turn 7: 🔧 spotify__search_songs
+  Turn 8: 🔧 spotify__add_to_queue
+  Turn 9: 🔧 supervisor__complete_task
+  Turn 10: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 396c5a2_2 — 21 msgs, 9 tool calls
+
+[57/57] Task: 4fab96f_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 venmo__login
+  Turn 4: 🔧 venmo__show_sent_payment_requests
+  Turn 5: 🔧 phone__get_current_date_and_time
+  Turn 6: 🔧 phone__login
+  Turn 7: 🔧 phone__show_contact_relationships
+  Turn 8: 🔧 phone__search_contacts
+  Turn 9: 🔧 venmo__show_sent_payment_requests
+  Turn 10: 🔧 venmo__show_sent_payment_requests
+  Turn 11: 🔧 venmo__show_sent_payment_requests
+  Turn 12: 🔧 venmo__show_sent_payment_requests
+  Turn 13: 🔧 api_docs__show_api_doc
+  Turn 14: 🔧 api_docs__search_api_docs
+  Turn 15: 🔧 venmo__show_sent_payment_requests
+  Turn 16: 🔧 venmo__show_sent_payment_requests
+  Turn 17: 🔧 venmo__remind_payment_request
+  Turn 18: 🔧 venmo__remind_payment_request
+  Turn 19: 🔧 venmo__remind_payment_request
+  Turn 20: 🔧 venmo__remind_payment_request
+  ❌ eval: 3/8 tests passed
+  [❌] 4fab96f_3 — 42 msgs, 20 tool calls
+
+Done! 9/57 tasks passed evaluation
+Results in results_appworld/appworld_KaLM-DeepSeek-V3.2_dev.jsonl

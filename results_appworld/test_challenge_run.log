@@ -1,0 +1,1988 @@
+nohup: ignoring input
+Running 417 tasks with model=KaLM-DeepSeek-V3.2, concurrency=4
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 285, in run_task_safe
+    result = run_task(tid, model, data_dir, max_turns)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 224, in run_task
+    msg_dict = call_model(messages, tools, model)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 82, in call_model
+    return _ieval_completion(messages, tools, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 49, in _ieval_completion
+    resp = requests.post(f"{_IEVAL_BASE_URL}/chat/completions",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 285, in run_task_safe
+    result = run_task(tid, model, data_dir, max_turns)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 224, in run_task
+    msg_dict = call_model(messages, tools, model)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 82, in call_model
+    return _ieval_completion(messages, tools, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/run_appworld.py", line 49, in _ieval_completion
+    resp = requests.post(f"{_IEVAL_BASE_URL}/chat/completions",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhencontian/tau-data-construct-cursor/tau-bench/appworld_env/lib64/python3.11/site-packages/requests/adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+[3/417] Task: 5238afc_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_payment_cards
+  Turn 6: 🔧 amazon__show_addresses
+  Turn 7: 🔧 amazon__clear_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__show_cart
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ✅ eval: 7/7 tests passed
+  [✅] 5238afc_3 — 35 msgs, 16 tool calls
+
+[7/417] Task: 9bf2c8a_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 api_docs__show_api_doc
+  Turn 6: 🔧 api_docs__show_api_descriptions
+  Turn 7: 🔧 amazon__show_cart
+  Turn 8: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 9: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 10: 🔧 amazon__show_cart
+  Turn 11: 🔧 supervisor__complete_task
+  Turn 12: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 9bf2c8a_1 — 25 msgs, 11 tool calls
+
+[9/417] Task: 9bf2c8a_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 api_docs__search_api_docs
+  Turn 6: 🔧 api_docs__show_api_doc
+  Turn 7: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 8: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 9: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 10: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 11: 🔧 amazon__show_cart
+  Turn 12: 🔧 amazon__show_wish_list
+  Turn 13: 🔧 supervisor__complete_task
+  Turn 14: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 9bf2c8a_3 — 29 msgs, 13 tool calls
+
+[13/417] Task: 6474048_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_product_types
+  Turn 5: 🔧 api_docs__show_api_descriptions
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__show_seller
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__show_payment_cards
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__add_payment_card
+  Turn 14: 🔧 amazon__add_payment_card
+  Turn 15: 🔧 amazon__add_payment_card
+  Turn 16: 🔧 amazon__show_payment_card
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 💬 Final response
+  ❌ eval: 6/8 tests passed
+  [❌] 6474048_1 — 39 msgs, 18 tool calls
+
+[18/417] Task: 9871968_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__clear_cart
+  Turn 6: 🔧 amazon__show_addresses
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__show_payment_cards
+  Turn 16: 🔧 amazon__place_order
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 amazon__show_order
+  Turn 19: 🔧 amazon__delete_product_from_wish_list
+  Turn 20: 🔧 amazon__delete_product_from_wish_list
+  ❌ eval: 6/7 tests passed
+  [❌] 9871968_3 — 42 msgs, 20 tool calls
+
+[23/417] Task: 383a053_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 amazon__show_seller
+  Turn 7: 🔧 amazon__show_seller
+  Turn 8: 🔧 amazon__show_seller
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__clear_cart
+  Turn 16: 🔧 amazon__add_product_to_cart
+  Turn 17: 🔧 amazon__add_product_to_cart
+  Turn 18: 🔧 amazon__add_product_to_cart
+  Turn 19: 🔧 amazon__add_product_to_cart
+  Turn 20: 🔧 amazon__show_cart
+  ❌ eval: 1/9 tests passed
+  [❌] 383a053_2 — 42 msgs, 20 tool calls
+
+[27/417] Task: 7b97e6d_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  [ERR] 7b97e6d_3: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+[31/417] Task: 23d431c_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_order
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 api_docs__show_api_doc
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__search_products
+  Turn 13: 🔧 amazon__search_products
+  Turn 14: 🔧 amazon__search_products
+  Turn 15: 🔧 amazon__search_products
+  Turn 16: 🔧 amazon__show_orders
+  Turn 17: 🔧 amazon__show_product
+  Turn 18: 🔧 amazon__show_product
+  Turn 19: 🔧 amazon__show_product
+  Turn 20: 🔧 amazon__show_product
+  ❌ eval: 1/8 tests passed
+  [❌] 23d431c_1 — 42 msgs, 20 tool calls
+
+[35/417] Task: 690d51b_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 phone__login
+  Turn 7: 🔧 phone__search_contacts
+  Turn 8: 🔧 phone__search_contacts
+  Turn 9: 🔧 amazon__add_address
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__show_payment_cards
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__show_order
+  Turn 16: 🔧 amazon__clear_cart
+  Turn 17: 🔧 amazon__add_product_to_cart
+  Turn 18: 🔧 amazon__show_cart
+  Turn 19: 🔧 amazon__place_order
+  Turn 20: 🔧 supervisor__complete_task
+  ❌ eval: 7/8 tests passed
+  [❌] 690d51b_2 — 42 msgs, 20 tool calls
+
+[39/417] Task: d9987f6_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 amazon__show_cart
+  Turn 7: 🔧 amazon__clear_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__place_order
+  Turn 11: 🔧 amazon__place_order
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__show_cart
+  Turn 14: 🔧 amazon__add_payment_card
+  Turn 15: 🔧 amazon__search_products
+  Turn 16: 🔧 amazon__add_payment_card
+  Turn 17: 🔧 phone__login
+  Turn 18: 🔧 phone__get_current_date_and_time
+  Turn 19: 🔧 amazon__search_products
+  Turn 20: 🔧 amazon__add_payment_card
+  ❌ eval: 2/9 tests passed
+  [❌] d9987f6_3 — 42 msgs, 20 tool calls
+
+[43/417] Task: 245cb43_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+
+[2/417] Task: 5238afc_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 supervisor__show_payment_cards
+  Turn 6: 🔧 supervisor__show_addresses
+  Turn 7: 🔧 amazon__show_payment_cards
+  Turn 8: 🔧 amazon__show_addresses
+  Turn 9: 🔧 amazon__clear_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__show_cart
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ❌ eval: 5/7 tests passed
+  [❌] 5238afc_2 — 31 msgs, 14 tool calls
+
+[6/417] Task: 0d22252_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__clear_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__show_payment_cards
+  Turn 12: 🔧 amazon__show_addresses
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ❌ eval: 6/8 tests passed
+  [❌] 0d22252_3 — 33 msgs, 15 tool calls
+
+[10/417] Task: b3bdcc1_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_seller
+  Turn 6: 🔧 amazon__show_seller
+  Turn 7: 🔧 amazon__search_sellers
+  Turn 8: 🔧 amazon__show_payment_cards
+  Turn 9: 🔧 amazon__show_addresses
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__place_order
+  Turn 12: 🔧 supervisor__complete_task
+  Turn 13: 💬 Final response
+  ❌ eval: 8/9 tests passed
+  [❌] b3bdcc1_1 — 27 msgs, 12 tool calls
+
+[14/417] Task: 6474048_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__search_product_types
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__show_seller
+  Turn 8: 🔧 amazon__show_payment_cards
+  Turn 9: 🔧 amazon__show_addresses
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__show_cart
+  Turn 12: 🔧 amazon__delete_product_from_cart
+  Turn 13: 🔧 amazon__show_cart
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 6474048_2 — 35 msgs, 16 tool calls
+
+[17/417] Task: 9871968_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 amazon__clear_cart
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__show_payment_cards
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__show_cart
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 amazon__place_order
+  Turn 19: 🔧 supervisor__complete_task
+  Turn 20: 💬 Final response
+  ❌ eval: 6/7 tests passed
+  [❌] 9871968_2 — 41 msgs, 19 tool calls
+
+[21/417] Task: 07bb666_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 12: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 13: 🔧 amazon__show_cart
+  Turn 14: 🔧 amazon__show_wish_list
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ❌ eval: 2/6 tests passed
+  [❌] 07bb666_3 — 33 msgs, 15 tool calls
+
+[25/417] Task: 7b97e6d_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  [ERR] 7b97e6d_1: HTTPConnectionPool(host='ieval.woa.com', port=80): Read timed out. (read timeout=600)
+
+[28/417] Task: 9aae7da_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 amazon__show_wish_list
+  Turn 7: 🔧 amazon__show_wish_list
+  Turn 8: 🔧 supervisor__complete_task
+  Turn 9: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 9aae7da_1 — 19 msgs, 8 tool calls
+
+[32/417] Task: 23d431c_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_order
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_order
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__search_products
+  Turn 14: 🔧 amazon__show_payment_cards
+  Turn 15: 🔧 amazon__show_addresses
+  Turn 16: 🔧 amazon__show_cart
+  Turn 17: 🔧 amazon__clear_cart
+  Turn 18: 🔧 amazon__add_product_to_cart
+  Turn 19: 🔧 amazon__place_order
+  Turn 20: 🔧 amazon__place_order
+  ❌ eval: 7/8 tests passed
+  [❌] 23d431c_2 — 42 msgs, 20 tool calls
+
+[36/417] Task: 690d51b_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_cart
+  Turn 6: 🔧 amazon__clear_cart
+  Turn 7: 🔧 amazon__login
+  Turn 8: 🔧 amazon__clear_cart
+  Turn 9: 🔧 amazon__show_account
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__login
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__login
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__login
+  Turn 16: 🔧 amazon__add_product_to_cart
+  Turn 17: 🔧 amazon__show_addresses
+  Turn 18: 🔧 supervisor__show_addresses
+  Turn 19: 🔧 amazon__show_product
+  Turn 20: 🔧 amazon__add_product_to_cart
+  ❌ eval: 1/8 tests passed
+  [❌] 690d51b_3 — 42 msgs, 20 tool calls
+
+[40/417] Task: b0934aa_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_cart
+  Turn 6: 🔧 amazon__clear_cart
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 amazon__show_addresses
+  Turn 9: 🔧 supervisor__show_addresses
+  Turn 10: 🔧 amazon__add_address
+  Turn 11: 🔧 amazon__show_payment_cards
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 supervisor__show_payment_cards
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__show_cart
+  Turn 16: 🔧 amazon__add_payment_card
+  Turn 17: 🔧 amazon__add_payment_card
+  Turn 18: 🔧 amazon__update_payment_card
+  Turn 19: 🔧 amazon__update_payment_card
+  Turn 20: 🔧 amazon__place_order
+  ❌ eval: 2/11 tests passed
+  [❌] b0934aa_1 — 42 msgs, 20 tool calls
+
+[44/417] Task: 245cb43_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+
+[1/417] Task: 5238afc_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_payment_cards
+  Turn 6: 🔧 amazon__show_addresses
+  Turn 7: 🔧 amazon__delete_product_from_cart
+  Turn 8: 🔧 amazon__delete_product_from_cart
+  Turn 9: 🔧 amazon__delete_product_from_cart
+  Turn 10: 🔧 amazon__delete_product_from_cart
+  Turn 11: 🔧 amazon__delete_product_from_cart
+  Turn 12: 🔧 amazon__delete_product_from_cart
+  Turn 13: 🔧 amazon__delete_product_from_cart
+  Turn 14: 🔧 amazon__delete_product_from_cart
+  Turn 15: 🔧 amazon__delete_product_from_cart
+  Turn 16: 🔧 amazon__show_cart
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 amazon__update_payment_card
+  Turn 19: 🔧 amazon__place_order
+  Turn 20: 🔧 supervisor__complete_task
+  ✅ eval: 7/7 tests passed
+  [✅] 5238afc_1 — 42 msgs, 20 tool calls
+
+[8/417] Task: 9bf2c8a_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 7: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 8: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 9: 🔧 amazon__show_wish_list
+  Turn 10: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 11: 🔧 amazon__show_cart
+  Turn 12: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 13: 🔧 amazon__show_cart
+  Turn 14: 🔧 amazon__show_wish_list
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ❌ eval: 3/6 tests passed
+  [❌] 9bf2c8a_2 — 33 msgs, 15 tool calls
+
+[12/417] Task: b3bdcc1_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_product_types
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__search_sellers
+  Turn 7: 🔧 amazon__show_seller
+  Turn 8: 🔧 amazon__show_seller
+  Turn 9: 🔧 amazon__show_seller
+  Turn 10: 🔧 amazon__show_payment_cards
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__clear_cart
+  Turn 14: 🔧 amazon__add_product_to_cart
+  Turn 15: 🔧 amazon__show_cart
+  Turn 16: 🔧 amazon__place_order
+  Turn 17: 🔧 api_docs__show_api_doc
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 💬 Final response
+  ✅ eval: 9/9 tests passed
+  [✅] b3bdcc1_3 — 39 msgs, 18 tool calls
+
+[16/417] Task: 9871968_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__clear_cart
+  Turn 6: 🔧 amazon__add_product_to_cart
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__show_addresses
+  Turn 11: 🔧 amazon__show_payment_cards
+  Turn 12: 🔧 amazon__show_cart
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ❌ eval: 4/7 tests passed
+  [❌] 9871968_1 — 35 msgs, 16 tool calls
+
+[20/417] Task: 07bb666_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 api_docs__search_api_docs
+  Turn 7: 🔧 api_docs__show_api_doc
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 16: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 17: 🔧 amazon__show_cart
+  Turn 18: 🔧 amazon__show_product
+  Turn 19: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 20: 🔧 amazon__show_cart
+  ❌ eval: 1/6 tests passed
+  [❌] 07bb666_2 — 42 msgs, 20 tool calls
+
+[24/417] Task: 383a053_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_seller
+  Turn 6: 🔧 amazon__show_seller
+  Turn 7: 🔧 amazon__clear_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__show_payment_cards
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ✅ eval: 9/9 tests passed
+  [✅] 383a053_3 — 33 msgs, 15 tool calls
+
+[29/417] Task: 9aae7da_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 9aae7da_2 — 9 msgs, 3 tool calls
+
+[30/417] Task: 9aae7da_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 supervisor__complete_task
+  Turn 7: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 9aae7da_3 — 15 msgs, 6 tool calls
+
+[33/417] Task: 23d431c_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__search_products
+  Turn 16: 🔧 amazon__search_products
+  Turn 17: 🔧 amazon__show_payment_cards
+  Turn 18: 🔧 amazon__show_addresses
+  Turn 19: 🔧 amazon__show_cart
+  Turn 20: 🔧 amazon__clear_cart
+  ❌ eval: 1/8 tests passed
+  [❌] 23d431c_3 — 42 msgs, 20 tool calls
+
+[37/417] Task: d9987f6_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_addresses
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__show_payment_cards
+  Turn 7: 🔧 amazon__clear_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__login
+  Turn 10: 🔧 amazon__clear_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__show_cart
+  Turn 16: 🔧 amazon__search_products
+  Turn 17: 🔧 amazon__add_payment_card
+  Turn 18: 🔧 amazon__search_products
+  Turn 19: 🔧 api_docs__search_api_docs
+  Turn 20: 🔧 amazon__add_payment_card
+  ❌ eval: 2/9 tests passed
+  [❌] d9987f6_1 — 42 msgs, 20 tool calls
+
+[41/417] Task: b0934aa_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__add_product_to_cart
+  Turn 6: 🔧 amazon__show_addresses
+  Turn 7: 🔧 amazon__show_cart
+  Turn 8: 🔧 amazon__clear_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__show_cart
+  Turn 11: 🔧 amazon__add_address
+  Turn 12: 🔧 amazon__show_payment_cards
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__add_payment_card
+  Turn 17: 🔧 amazon__show_account
+
+[4/417] Task: 0d22252_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__clear_cart
+  Turn 6: 🔧 amazon__add_product_to_cart
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 supervisor__show_addresses
+  Turn 9: 🔧 supervisor__show_payment_cards
+  Turn 10: 🔧 amazon__show_payment_cards
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 0d22252_1 — 31 msgs, 14 tool calls
+
+[5/417] Task: 0d22252_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_cart
+  Turn 6: 🔧 amazon__clear_cart
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__show_payment_cards
+  Turn 13: 🔧 amazon__show_addresses
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 0d22252_2 — 35 msgs, 16 tool calls
+
+[11/417] Task: b3bdcc1_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product_feature_choices
+  Turn 6: 🔧 amazon__show_seller
+  Turn 7: 🔧 amazon__show_seller
+  Turn 8: 🔧 amazon__show_seller
+  Turn 9: 🔧 amazon__show_seller
+  Turn 10: 🔧 amazon__show_seller
+  Turn 11: 🔧 amazon__show_seller
+  Turn 12: 🔧 amazon__show_seller
+  Turn 13: 🔧 amazon__search_products
+  Turn 14: 🔧 amazon__show_payment_cards
+  Turn 15: 🔧 amazon__show_addresses
+  Turn 16: 🔧 amazon__add_product_to_cart
+  Turn 17: 🔧 amazon__show_cart
+  Turn 18: 🔧 amazon__place_order
+  Turn 19: 🔧 supervisor__complete_task
+  Turn 20: 💬 Final response
+  ✅ eval: 9/9 tests passed
+  [✅] b3bdcc1_2 — 41 msgs, 19 tool calls
+
+[15/417] Task: 6474048_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_seller
+  Turn 6: 🔧 amazon__add_product_to_cart
+  Turn 7: 🔧 amazon__show_payment_cards
+  Turn 8: 🔧 amazon__show_addresses
+  Turn 9: 🔧 amazon__place_order
+  Turn 10: 🔧 amazon__place_order
+  Turn 11: 🔧 supervisor__complete_task
+  Turn 12: 💬 Final response
+  ❌ eval: 7/8 tests passed
+  [❌] 6474048_3 — 25 msgs, 11 tool calls
+
+[19/417] Task: 07bb666_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__show_cart
+  Turn 16: 🔧 amazon__show_product
+  Turn 17: 🔧 amazon__show_product
+  Turn 18: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 19: 🔧 amazon__show_product
+  Turn 20: 🔧 amazon__move_product_from_cart_to_wish_list
+  ❌ eval: 5/6 tests passed
+  [❌] 07bb666_1 — 42 msgs, 20 tool calls
+
+[22/417] Task: 383a053_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 supervisor__show_addresses
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__show_cart
+  Turn 7: 🔧 amazon__show_seller
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__show_cart
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__show_payment_cards
+  Turn 13: 🔧 amazon__login
+  Turn 14: 🔧 amazon__show_payment_cards
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__show_cart
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 💬 Final response
+  ✅ eval: 9/9 tests passed
+  [✅] 383a053_1 — 39 msgs, 18 tool calls
+
+[26/417] Task: 7b97e6d_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 amazon__show_cart
+  Turn 7: 🔧 amazon__clear_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__add_product_to_cart
+  Turn 15: 🔧 amazon__show_cart
+  Turn 16: 🔧 amazon__delete_product_from_cart
+  Turn 17: 🔧 amazon__show_cart
+  Turn 18: 🔧 amazon__show_payment_cards
+  Turn 19: 🔧 amazon__show_addresses
+  Turn 20: 🔧 amazon__place_order
+  ❌ eval: 1/8 tests passed
+  [❌] 7b97e6d_2 — 42 msgs, 20 tool calls
+
+[34/417] Task: 690d51b_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 supervisor__show_addresses
+  Turn 7: 🔧 amazon__add_address
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__place_order
+  Turn 11: 🔧 amazon__place_order
+  Turn 12: 🔧 amazon__show_order
+  Turn 13: 🔧 supervisor__complete_task
+  Turn 14: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 690d51b_1 — 29 msgs, 13 tool calls
+
+[38/417] Task: d9987f6_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__place_order
+  Turn 11: 🔧 amazon__place_order
+  Turn 12: 🔧 amazon__show_cart
+  Turn 13: 🔧 amazon__clear_cart
+  Turn 14: 🔧 amazon__add_product_to_cart
+  Turn 15: 🔧 amazon__show_cart
+  Turn 16: 🔧 amazon__place_order
+  Turn 17: 🔧 amazon__search_products
+  Turn 18: 🔧 amazon__search_product_types
+  Turn 19: 🔧 amazon__add_payment_card
+  Turn 20: 🔧 amazon__show_payment_card
+  ❌ eval: 2/9 tests passed
+  [❌] d9987f6_2 — 42 msgs, 20 tool calls
+
+[42/417] Task: b0934aa_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_addresses
+  Turn 6: 🔧 amazon__show_cart
+  Turn 7: 🔧 amazon__clear_cart
+  Turn 8: 🔧 amazon__add_product_to_cart
+  Turn 9: 🔧 supervisor__show_addresses
+  Turn 10: 🔧 amazon__show_payment_cards
+  Turn 11: 🔧 amazon__add_address
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__add_payment_card
+  Turn 14: 🔧 supervisor__show_payment_cards
+  Turn 15: 🔧 amazon__add_payment_card
+  Turn 16: 🔧 api_docs__show_api_doc
+  Turn 17: 🔧 amazon__update_payment_card
+  Turn 18: 🔧 amazon__update_payment_card
+  Turn 19: 🔧 amazon__place_order
+  Turn 20: 🔧 amazon__show_payment_card
+  ❌ eval: 2/11 tests passed
+  [❌] b0934aa_3 — 42 msgs, 20 tool calls
+
+[47/417] Task: a8f302f_2
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__show_product
+  Turn 16: 🔧 amazon__show_cart
+  Turn 17: 🔧 amazon__show_product
+  Turn 18: 🔧 amazon__clear_cart
+  Turn 19: 🔧 amazon__add_product_to_cart
+  Turn 20: 🔧 amazon__show_payment_cards
+  ❌ eval: 1/8 tests passed
+  [❌] 245cb43_2 — 42 msgs, 20 tool calls
+
+[48/417] Task: a8f302f_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__show_product
+  Turn 16: 🔧 amazon__show_product
+  Turn 17: 🔧 amazon__show_product
+  Turn 18: 🔧 amazon__show_product
+  Turn 19: 🔧 amazon__show_product
+  Turn 20: 🔧 amazon__show_product
+  ❌ eval: 1/9 tests passed
+  [❌] a8f302f_3 — 42 msgs, 20 tool calls
+
+[53/417] Task: 3650990_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_returns
+  Turn 6: 🔧 amazon__show_returns
+  Turn 7: 🔧 amazon__show_returns
+  Turn 8: 🔧 amazon__show_returns
+  Turn 9: 🔧 amazon__show_returns
+  Turn 10: 🔧 amazon__show_orders
+  Turn 11: 🔧 amazon__show_returns
+  Turn 12: 🔧 amazon__show_returns
+  Turn 13: 🔧 supervisor__complete_task
+  Turn 14: 💬 Final response
+  ✅ eval: 2/2 tests passed
+  [✅] 3650990_2 — 29 msgs, 13 tool calls
+
+[58/417] Task: 4815c06_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__show_payment_cards
+  Turn 9: 🔧 amazon__show_addresses
+  Turn 10: 🔧 amazon__clear_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__clear_cart
+  Turn 17: 🔧 amazon__add_product_to_cart
+  Turn 18: 🔧 amazon__add_product_to_cart
+  Turn 19: 🔧 amazon__add_product_to_cart
+  Turn 20: 🔧 amazon__add_product_to_cart
+  ❌ eval: 7/9 tests passed
+  [❌] 4815c06_1 — 42 msgs, 20 tool calls
+
+[62/417] Task: 4242c97_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_payment_cards
+  Turn 9: 🔧 amazon__show_addresses
+  Turn 10: 🔧 amazon__clear_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__show_cart
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 4242c97_2 — 31 msgs, 14 tool calls
+
+[65/417] Task: ec437da_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__show_cart
+  Turn 8: 🔧 amazon__clear_cart
+  Turn 9: 🔧 amazon__add_product_to_cart
+  Turn 10: 🔧 amazon__show_cart
+  Turn 11: 🔧 amazon__add_gift_wrapping_to_product
+  Turn 12: 🔧 amazon__show_cart
+  Turn 13: 🔧 amazon__show_payment_cards
+  Turn 14: 🔧 amazon__show_addresses
+  Turn 15: 🔧 amazon__search_products
+  Turn 16: 🔧 amazon__place_order
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 💬 Final response
+  ✅ eval: 9/9 tests passed
+  [✅] ec437da_2 — 39 msgs, 18 tool calls
+
+[69/417] Task: 77bcb81_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 7: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 8: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 9: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 10: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 11: 🔧 amazon__show_cart
+  Turn 12: 🔧 amazon__show_addresses
+  Turn 13: 🔧 amazon__show_payment_cards
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__remove_promo_code_from_cart
+  Turn 16: 🔧 amazon__place_order
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 supervisor__complete_task
+  Turn 19: 💬 Final response
+  ✅ eval: 7/7 tests passed
+  [✅] 77bcb81_3 — 39 msgs, 18 tool calls
+
+[75/417] Task: 7434096_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_orders
+  Turn 6: 🔧 amazon__show_order
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_order
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_return_deliverers
+  Turn 12: 🔧 amazon__initiate_return
+  Turn 13: 🔧 amazon__initiate_return
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 7434096_3 — 31 msgs, 14 tool calls
+
+[80/417] Task: 7d26579_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product_reviews
+  Turn 6: 🔧 amazon__show_product_questions
+  Turn 7: 🔧 amazon__show_product_question_answers
+  Turn 8: 🔧 supervisor__complete_task
+  Turn 9: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 7d26579_2 — 19 msgs, 8 tool calls
+
+[84/417] Task: cdf61bd_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_orders
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product_reviews
+  Turn 9: 🔧 amazon__update_product_review
+  Turn 10: 🔧 supervisor__complete_task
+  Turn 11: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] cdf61bd_3 — 23 msgs, 10 tool calls
+
+[86/417] Task: 9b2dc64_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_order
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_addresses
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 amazon__clear_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__show_payment_cards
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ✅ eval: 10/10 tests passed
+  [✅] 9b2dc64_2 — 31 msgs, 14 tool calls
+
+[90/417] Task: 953b296_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_order
+  Turn 7: 🔧 amazon__show_order
+  Turn 10: 🔧 amazon__show_cart
+  Turn 11: 🔧 amazon__show_payment_cards
+  Turn 12: 🔧 amazon__show_addresses
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 supervisor__complete_task
+  Turn 17: 💬 Final response
+  ❌ eval: 6/8 tests passed
+  [❌] 245cb43_1 — 35 msgs, 16 tool calls
+
+[46/417] Task: a8f302f_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_payment_cards
+  Turn 7: 🔧 amazon__show_addresses
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__show_product
+  Turn 16: 🔧 amazon__show_product
+  Turn 17: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 18: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 19: 🔧 amazon__move_product_from_cart_to_wish_list
+  Turn 20: 🔧 amazon__move_product_from_cart_to_wish_list
+  ❌ eval: 2/9 tests passed
+  [❌] a8f302f_1 — 42 msgs, 20 tool calls
+
+[51/417] Task: 1c4bd27_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_return_deliverers
+  Turn 6: 🔧 amazon__initiate_return
+  Turn 7: 🔧 amazon__initiate_return
+  Turn 8: 🔧 amazon__initiate_return
+  Turn 9: 🔧 amazon__initiate_return
+  Turn 10: 🔧 amazon__initiate_return
+  Turn 11: 🔧 amazon__initiate_return
+  Turn 12: 🔧 amazon__initiate_return
+  Turn 13: 🔧 supervisor__complete_task
+  Turn 14: 💬 Final response
+  ✅ eval: 4/4 tests passed
+  [✅] 1c4bd27_3 — 29 msgs, 13 tool calls
+
+[57/417] Task: 258796c_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product_reviews
+  Turn 7: 🔧 amazon__show_product_reviews
+  Turn 8: 🔧 amazon__show_product_questions
+  Turn 9: 🔧 amazon__show_product_question_answers
+  Turn 10: 🔧 amazon__show_product_question_answers
+  Turn 11: 🔧 amazon__show_product_question_answers
+  Turn 12: 🔧 amazon__show_product_question_answers
+  Turn 13: 🔧 supervisor__complete_task
+  Turn 14: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 258796c_3 — 29 msgs, 13 tool calls
+
+[60/417] Task: 4815c06_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__show_addresses
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__clear_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__clear_cart
+  Turn 17: 🔧 amazon__add_product_to_cart
+  Turn 18: 🔧 amazon__add_product_to_cart
+  Turn 19: 🔧 amazon__add_product_to_cart
+  Turn 20: 🔧 amazon__add_product_to_cart
+  ❌ eval: 7/9 tests passed
+  [❌] 4815c06_3 — 42 msgs, 20 tool calls
+
+[64/417] Task: ec437da_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__add_product_to_cart
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 amazon__add_gift_wrapping_to_product
+  Turn 10: 🔧 amazon__show_payment_cards
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__place_order
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ❌ eval: 6/9 tests passed
+  [❌] ec437da_1 — 31 msgs, 14 tool calls
+
+[68/417] Task: 77bcb81_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 amazon__show_addresses
+  Turn 7: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 8: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 9: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 10: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 11: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 12: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 13: 🔧 amazon__show_cart
+  Turn 14: 🔧 amazon__show_payment_cards
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__remove_promo_code_from_cart
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 amazon__place_order
+  Turn 19: 🔧 supervisor__complete_task
+  Turn 20: 💬 Final response
+  ✅ eval: 7/7 tests passed
+  [✅] 77bcb81_2 — 41 msgs, 19 tool calls
+
+[74/417] Task: 7434096_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_orders
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_order
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_return_deliverers
+  Turn 12: 🔧 amazon__initiate_return
+  Turn 13: 🔧 amazon__initiate_return
+  Turn 14: 🔧 amazon__initiate_return
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 7434096_2 — 33 msgs, 15 tool calls
+
+[79/417] Task: 7d26579_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 7d26579_1 — 9 msgs, 3 tool calls
+
+[81/417] Task: 7d26579_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product_reviews
+  Turn 7: 🔧 amazon__show_product_reviews
+  Turn 8: 🔧 amazon__show_product_questions
+  Turn 9: 🔧 amazon__show_product_question_answers
+  Turn 10: 🔧 supervisor__complete_task
+  Turn 11: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 7d26579_3 — 23 msgs, 10 tool calls
+
+[85/417] Task: 9b2dc64_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_account
+  Turn 6: 🔧 amazon__login
+  Turn 7: 🔧 amazon__show_account
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 gmail__login
+  Turn 10: 🔧 gmail__show_inbox_threads
+  Turn 11: 🔧 gmail__show_thread
+  Turn 12: 🔧 gmail__show_inbox_threads
+  Turn 13: 🔧 gmail__show_thread
+  Turn 14: 🔧 file_system__login
+  Turn 15: 🔧 gmail__download_attachment
+  Turn 16: 🔧 gmail__login
+  Turn 17: 🔧 gmail__download_attachment
+  Turn 18: 🔧 file_system__login
+  Turn 19: 🔧 gmail__show_email
+  Turn 20: 🔧 gmail__download_attachment
+  ❌ eval: 1/10 tests passed
+  [❌] 9b2dc64_1 — 42 msgs, 20 tool calls
+
+[89/417] Task: 953b296_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product_reviews
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product
+  Turn 15: 🔧 amazon__show_product
+  Turn 16: 🔧 amazon__show_product
+  Turn 17: 🔧 amazon__show_product
+  Turn 18: 🔧 amazon__show_product
+  Turn 19: 🔧 amazon__show_product
+  Turn 20: 🔧 amazon__show_product
+  ❌ eval: 1/9 tests passed
+  [❌] a8f302f_2 — 42 msgs, 20 tool calls
+
+[50/417] Task: 1c4bd27_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_return_deliverers
+  Turn 6: 🔧 amazon__initiate_return
+  Turn 7: 🔧 amazon__initiate_return
+  Turn 8: 🔧 amazon__initiate_return
+  Turn 9: 🔧 amazon__initiate_return
+  Turn 10: 🔧 amazon__initiate_return
+  Turn 11: 🔧 amazon__initiate_return
+  Turn 12: 🔧 supervisor__complete_task
+  Turn 13: 💬 Final response
+  ✅ eval: 4/4 tests passed
+  [✅] 1c4bd27_2 — 27 msgs, 12 tool calls
+
+[54/417] Task: 3650990_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_returns
+  Turn 5: 🔧 supervisor__complete_task
+  Turn 6: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 3650990_3 — 13 msgs, 5 tool calls
+
+[56/417] Task: 258796c_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product_reviews
+  Turn 7: 🔧 api_docs__show_api_doc
+  Turn 8: 🔧 amazon__show_product_questions
+  Turn 9: 🔧 api_docs__show_api_doc
+  Turn 10: 🔧 amazon__show_product_question_answers
+  Turn 11: 🔧 api_docs__show_api_descriptions
+  Turn 12: 🔧 api_docs__show_api_doc
+  Turn 13: 🔧 amazon__show_product_reviews
+  Turn 14: 🔧 amazon__show_product_questions
+  Turn 15: 🔧 amazon__show_product_question_answers
+  Turn 16: 🔧 amazon__show_product_question_answers
+  Turn 17: 🔧 amazon__show_product_question_answers
+  Turn 18: 🔧 amazon__show_product_question_answers
+  Turn 19: 🔧 supervisor__complete_task
+  Turn 20: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 258796c_2 — 41 msgs, 19 tool calls
+
+[61/417] Task: 4242c97_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__show_product_feature_choices
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__search_products
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_product
+  Turn 12: 🔧 amazon__show_payment_cards
+  Turn 13: 🔧 amazon__show_addresses
+  Turn 14: 🔧 amazon__clear_cart
+  Turn 15: 🔧 amazon__add_product_to_cart
+  Turn 16: 🔧 amazon__place_order
+  Turn 17: 🔧 amazon__show_cart
+  Turn 18: 🔧 amazon__place_order
+  Turn 19: 🔧 supervisor__complete_task
+  Turn 20: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 4242c97_1 — 41 msgs, 19 tool calls
+
+[67/417] Task: 77bcb81_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__show_wish_list
+  Turn 6: 🔧 api_docs__show_api_doc
+  Turn 7: 🔧 api_docs__search_api_docs
+  Turn 8: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 9: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 10: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 11: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 12: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 13: 🔧 amazon__move_product_from_wish_list_to_cart
+  Turn 14: 🔧 amazon__show_cart
+  Turn 15: 🔧 amazon__show_addresses
+  Turn 16: 🔧 amazon__show_payment_cards
+  Turn 17: 🔧 amazon__place_order
+  Turn 18: 🔧 amazon__remove_promo_code_from_cart
+  Turn 19: 🔧 amazon__place_order
+  Turn 20: 🔧 amazon__place_order
+  ❌ eval: 6/7 tests passed
+  [❌] 77bcb81_1 — 42 msgs, 20 tool calls
+
+[70/417] Task: 81be677_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 supervisor__complete_task
+  Turn 6: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 81be677_1 — 13 msgs, 5 tool calls
+
+[72/417] Task: 81be677_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 phone__login
+  Turn 6: 🔧 phone__get_current_date_and_time
+  Turn 7: 🔧 amazon__show_order
+  Turn 8: 🔧 supervisor__complete_task
+  Turn 9: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 81be677_3 — 19 msgs, 8 tool calls
+
+[76/417] Task: 6588a51_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_order
+  Turn 6: 🔧 amazon__write_product_question
+  Turn 7: 🔧 supervisor__complete_task
+  Turn 8: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 6588a51_1 — 17 msgs, 7 tool calls
+
+[77/417] Task: 6588a51_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__write_product_question
+  Turn 7: 🔧 supervisor__complete_task
+  Turn 8: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 6588a51_2 — 17 msgs, 7 tool calls
+
+[82/417] Task: cdf61bd_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__show_order
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_order
+  Turn 9: 🔧 amazon__show_product
+  Turn 10: 🔧 amazon__search_products
+  Turn 11: 🔧 amazon__search_products
+  Turn 12: 🔧 amazon__show_product_reviews
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__show_product_reviews
+  Turn 15: 🔧 amazon__show_product
+  Turn 16: 🔧 amazon__show_product
+  Turn 17: 🔧 amazon__search_products
+  Turn 18: 🔧 amazon__show_product
+  Turn 19: 🔧 amazon__show_product_reviews
+  Turn 20: 🔧 amazon__show_product
+  ❌ eval: 0/8 tests passed
+  [❌] cdf61bd_1 — 42 msgs, 20 tool calls
+
+[87/417] Task: 9b2dc64_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_order
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_addresses
+  Turn 8: 🔧 amazon__clear_cart
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__show_cart
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 supervisor__complete_task
+  Turn 15: 💬 Final response
+  ✅ eval: 10/10 tests passed
+  [✅] 9b2dc64_3 — 31 msgs, 14 tool calls
+
+[91/417] Task: eb5ad85_1
+  Tools: 457 APIs
+  Turn 1: 🔧 phone__get_current_date_and_time
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 supervisor__show_profile
+  Turn 4: 🔧 amazon__login
+  Turn 5: 🔧 amazon__show_orders
+  Turn 18: 🔧 amazon__add_payment_card
+  Turn 19: 🔧 venmo__login
+  Turn 20: 🔧 venmo__show_payment_cards
+  ❌ eval: 2/11 tests passed
+  [❌] b0934aa_2 — 42 msgs, 20 tool calls
+
+[45/417] Task: 245cb43_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_wish_list
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__show_addresses
+  Turn 11: 🔧 amazon__clear_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 245cb43_3 — 33 msgs, 15 tool calls
+
+[49/417] Task: 1c4bd27_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_orders
+  Turn 6: 🔧 amazon__show_return_deliverers
+  Turn 7: 🔧 amazon__initiate_return
+  Turn 8: 🔧 amazon__initiate_return
+  Turn 9: 🔧 amazon__initiate_return
+  Turn 10: 🔧 amazon__initiate_return
+  Turn 11: 🔧 supervisor__complete_task
+  Turn 12: 💬 Final response
+  ✅ eval: 4/4 tests passed
+  [✅] 1c4bd27_1 — 25 msgs, 11 tool calls
+
+[52/417] Task: 3650990_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 phone__get_current_date_and_time
+  Turn 5: 🔧 amazon__show_returns
+  Turn 6: 🔧 amazon__show_returns
+  Turn 7: 🔧 supervisor__complete_task
+  Turn 8: 💬 Final response
+  ✅ eval: 2/2 tests passed
+  [✅] 3650990_1 — 17 msgs, 7 tool calls
+
+[55/417] Task: 258796c_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product_reviews
+  Turn 6: 🔧 amazon__show_product_questions
+  Turn 7: 🔧 amazon__show_product_question_answers
+  Turn 8: 🔧 amazon__show_product_questions
+  Turn 9: 🔧 supervisor__complete_task
+  Turn 10: 💬 Final response
+  ❌ eval: 1/2 tests passed
+  [❌] 258796c_1 — 21 msgs, 9 tool calls
+
+[59/417] Task: 4815c06_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_cart
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__search_products
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__show_addresses
+  Turn 9: 🔧 amazon__show_payment_cards
+  Turn 10: 🔧 amazon__clear_cart
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__add_product_to_cart
+  Turn 13: 🔧 amazon__add_product_to_cart
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 amazon__place_order
+  Turn 16: 🔧 amazon__clear_cart
+  Turn 17: 🔧 amazon__add_product_to_cart
+  Turn 18: 🔧 amazon__add_product_to_cart
+  Turn 19: 🔧 amazon__add_product_to_cart
+  Turn 20: 🔧 amazon__add_product_to_cart
+  ❌ eval: 7/9 tests passed
+  [❌] 4815c06_2 — 42 msgs, 20 tool calls
+
+[63/417] Task: 4242c97_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__show_product
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 amazon__clear_cart
+  Turn 10: 🔧 amazon__add_product_to_cart
+  Turn 11: 🔧 amazon__show_payment_cards
+  Turn 12: 🔧 amazon__show_addresses
+  Turn 13: 🔧 amazon__place_order
+  Turn 14: 🔧 amazon__place_order
+  Turn 15: 🔧 supervisor__complete_task
+  Turn 16: 💬 Final response
+  ✅ eval: 8/8 tests passed
+  [✅] 4242c97_3 — 33 msgs, 15 tool calls
+
+[66/417] Task: ec437da_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__search_products
+  Turn 5: 🔧 amazon__add_product_to_cart
+  Turn 6: 🔧 amazon__show_cart
+  Turn 7: 🔧 amazon__add_gift_wrapping_to_product
+  Turn 8: 🔧 amazon__show_cart
+  Turn 9: 🔧 amazon__search_products
+  Turn 10: 🔧 amazon__remove_gift_wrapping_from_product
+  Turn 11: 🔧 amazon__add_product_to_cart
+  Turn 12: 🔧 amazon__show_cart
+  Turn 13: 🔧 amazon__show_payment_cards
+  Turn 14: 🔧 amazon__show_addresses
+  Turn 15: 🔧 amazon__clear_cart
+  Turn 16: 🔧 amazon__add_product_to_cart
+  Turn 17: 🔧 amazon__add_product_to_cart
+  Turn 18: 🔧 amazon__place_order
+  Turn 19: 🔧 amazon__place_order
+  Turn 20: 🔧 supervisor__complete_task
+  ✅ eval: 9/9 tests passed
+  [✅] ec437da_3 — 42 msgs, 20 tool calls
+
+[71/417] Task: 81be677_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_order
+  Turn 6: 🔧 supervisor__complete_task
+  Turn 7: 💬 Final response
+  ✅ eval: 2/2 tests passed
+  [✅] 81be677_2 — 15 msgs, 6 tool calls
+
+[73/417] Task: 7434096_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__search_products
+  Turn 6: 🔧 amazon__show_orders
+  Turn 7: 🔧 amazon__show_order
+  Turn 8: 🔧 amazon__show_product
+  Turn 9: 🔧 amazon__show_return_deliverers
+  Turn 10: 🔧 amazon__show_product
+  Turn 11: 🔧 amazon__show_order
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product
+  Turn 14: 🔧 amazon__initiate_return
+  Turn 15: 🔧 amazon__initiate_return
+  Turn 16: 🔧 amazon__show_orders
+  Turn 17: 🔧 supervisor__complete_task
+  Turn 18: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 7434096_1 — 37 msgs, 17 tool calls
+
+[78/417] Task: 6588a51_3
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_orders
+  Turn 6: 🔧 amazon__write_product_question
+  Turn 7: 🔧 supervisor__complete_task
+  Turn 8: 💬 Final response
+  ✅ eval: 6/6 tests passed
+  [✅] 6588a51_3 — 17 msgs, 7 tool calls
+
+[83/417] Task: cdf61bd_2
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_product
+  Turn 6: 🔧 amazon__show_product_reviews
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__search_products
+  Turn 9: 🔧 amazon__show_product_reviews
+  Turn 10: 🔧 api_docs__show_api_doc
+  Turn 11: 🔧 amazon__show_product_reviews
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product_reviews
+  Turn 14: 🔧 api_docs__search_api_docs
+  Turn 15: 🔧 amazon__search_products
+  Turn 16: 🔧 amazon__show_product_reviews
+  Turn 17: 🔧 amazon__show_product_reviews
+  Turn 18: 🔧 api_docs__show_api_doc
+  Turn 19: 🔧 amazon__update_product_review
+  Turn 20: 🔧 supervisor__complete_task
+  ❌ eval: 6/8 tests passed
+  [❌] cdf61bd_2 — 42 msgs, 20 tool calls
+
+[88/417] Task: 953b296_1
+  Tools: 457 APIs
+  Turn 1: 🔧 supervisor__show_profile
+  Turn 2: 🔧 supervisor__show_account_passwords
+  Turn 3: 🔧 amazon__login
+  Turn 4: 🔧 amazon__show_orders
+  Turn 5: 🔧 amazon__show_orders
+  Turn 6: 🔧 amazon__show_product
+  Turn 7: 🔧 amazon__search_products
+  Turn 8: 🔧 amazon__show_product_reviews
+  Turn 9: 🔧 amazon__show_product_reviews
+  Turn 10: 🔧 amazon__show_payment_cards
+  Turn 11: 🔧 amazon__show_addresses
+  Turn 12: 🔧 amazon__show_product
+  Turn 13: 🔧 amazon__show_product_reviews
+  Turn 14: 🔧 amazon__search_products
